@@ -1,0 +1,150 @@
+[0.126s] Invoking command in '/home/cityu/autoware/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_v2x_msgs -- -j16 -l16
+[0.474s] [  1%] Built target tier4_v2x_msgs__cpp
+[0.474s] [ 12%] Built target tier4_v2x_msgs__rosidl_generator_c
+[0.475s] [ 23%] Built target tier4_v2x_msgs__rosidl_typesupport_cpp
+[0.475s] [ 34%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp
+[0.475s] [ 46%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_cpp
+[0.475s] [ 57%] Built target tier4_v2x_msgs__rosidl_typesupport_c
+[0.475s] [ 68%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c
+[0.475s] [ 79%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c
+[0.475s] [ 79%] Built target tier4_v2x_msgs
+[0.476s] [ 80%] Built target tier4_v2x_msgs__py
+[0.523s] [ 90%] Built target tier4_v2x_msgs__python
+[0.553s] [ 93%] Built target tier4_v2x_msgs__rosidl_typesupport_c__pyext
+[0.559s] [ 96%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c__pyext
+[0.576s] [100%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.633s] Invoked command in '/home/cityu/autoware/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_v2x_msgs -- -j16 -l16
+[0.940s] Invoking command in '/home/cityu/autoware/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_v2x_msgs
+[0.966s] -- Install configuration: "Release"
+[0.966s] -- Execute custom install script
+[0.966s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_v2x_msgs
+[0.966s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__functions.h
+[0.966s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.h
+[0.966s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support.h
+[0.966s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__functions.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__functions.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__struct.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__type_support.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__functions.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__functions.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/infrastructure_command.h
+[0.967s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/infrastructure_command_array.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/key_value.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/virtual_traffic_light_state.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.sh
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.dsv
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_c.h
+[0.968s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_c.h
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_c.so
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.984s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_c.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_c.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_c.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_c.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__builder.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__traits.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__builder.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__traits.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__builder.hpp
+[0.985s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__struct.hpp
+[0.986s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__traits.hpp
+[0.986s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__builder.hpp
+[0.986s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.hpp
+[0.986s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__traits.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__builder.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__traits.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/infrastructure_command.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/infrastructure_command_array.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/key_value.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/virtual_traffic_light_state.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_cpp.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_cpp.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[0.987s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_cpp.hpp
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_cpp.hpp
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.sh
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.dsv
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/__init__.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/__init__.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/_infrastructure_command.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/_infrastructure_command_array.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/_key_value.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array.py
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__python.so
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.idl
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.idl
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.idl
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.idl
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.idl
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.msg
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.msg
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.msg
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.msg
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.msg
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_v2x_msgs
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_v2x_msgs
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.sh
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.dsv
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.sh
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.dsv
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.bash
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.sh
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.zsh
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.dsv
+[1.009s] -- Symlinking: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.dsv
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/packages/tier4_v2x_msgs
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig.cmake
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig-version.cmake
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.xml
+[1.022s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_c.so
+[1.022s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_c.so
+[1.022s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_c.so
+[1.022s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_cpp.so
+[1.023s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_cpp.so
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_generator_cExport.cmake
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_generator_cExport-release.cmake
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport.cmake
+[1.036s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport-release.cmake
+[1.037s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_generator_cppExport.cmake
+[1.037s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.037s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.037s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport.cmake
+[1.037s] -- Up-to-date: /home/cityu/autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.229s] Invoked command in '/home/cityu/autoware/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_v2x_msgs

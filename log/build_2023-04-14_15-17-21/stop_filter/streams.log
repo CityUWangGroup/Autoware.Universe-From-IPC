@@ -1,0 +1,27 @@
+[0.265s] Invoking command in '/home/cityu/autoware/build/stop_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/stop_filter -- -j16 -l16
+[0.320s] [100%] Built target stop_filter
+[0.504s] Invoked command in '/home/cityu/autoware/build/stop_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/stop_filter -- -j16 -l16
+[0.672s] Invoking command in '/home/cityu/autoware/build/stop_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/stop_filter
+[0.719s] -- Install configuration: "Release"
+[0.719s] -- Execute custom install script
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/include/stop_filter/stop_filter.hpp
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/lib/stop_filter/stop_filter
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/launch/stop_filter.launch.xml
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/package_run_dependencies/stop_filter
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/parent_prefix_path/stop_filter
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/ament_prefix_path.sh
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/ament_prefix_path.dsv
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/path.sh
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/path.dsv
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.bash
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.sh
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.zsh
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.dsv
+[0.720s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/package.dsv
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/packages/stop_filter
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/stop_filterConfig.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/stop_filterConfig-version.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/stop_filter/share/stop_filter/package.xml
+[0.889s] Invoked command in '/home/cityu/autoware/build/stop_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/stop_filter

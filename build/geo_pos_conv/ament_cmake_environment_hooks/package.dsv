@@ -1,0 +1,4 @@
+source;share/geo_pos_conv/local_setup.bash
+source;share/geo_pos_conv/local_setup.dsv
+source;share/geo_pos_conv/local_setup.sh
+source;share/geo_pos_conv/local_setup.zsh

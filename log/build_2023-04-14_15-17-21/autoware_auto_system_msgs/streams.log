@@ -1,0 +1,187 @@
+[0.111s] Invoking command in '/home/cityu/autoware/build/autoware_auto_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_system_msgs -- -j16 -l16
+[0.272s] [  1%] Built target autoware_auto_system_msgs__cpp
+[0.272s] [ 12%] Built target autoware_auto_system_msgs__rosidl_generator_c
+[0.272s] [ 24%] Built target autoware_auto_system_msgs__rosidl_typesupport_cpp
+[0.272s] [ 35%] Built target autoware_auto_system_msgs__rosidl_typesupport_fastrtps_cpp
+[0.272s] [ 47%] Built target autoware_auto_system_msgs__rosidl_typesupport_introspection_cpp
+[0.272s] [ 58%] Built target autoware_auto_system_msgs__rosidl_typesupport_introspection_c
+[0.273s] [ 70%] Built target autoware_auto_system_msgs__rosidl_typesupport_c
+[0.322s] [ 81%] Built target autoware_auto_system_msgs__rosidl_typesupport_fastrtps_c
+[0.408s] [ 81%] Built target autoware_auto_system_msgs
+[0.450s] [ 82%] Built target autoware_auto_system_msgs__py
+[0.507s] [ 93%] Built target autoware_auto_system_msgs__python
+[0.549s] [ 95%] Built target autoware_auto_system_msgs__rosidl_typesupport_c__pyext
+[0.554s] [ 97%] Built target autoware_auto_system_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.554s] [100%] Built target autoware_auto_system_msgs__rosidl_typesupport_introspection_c__pyext
+[0.594s] Invoked command in '/home/cityu/autoware/build/autoware_auto_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_system_msgs -- -j16 -l16
+[0.865s] Invoking command in '/home/cityu/autoware/build/autoware_auto_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_system_msgs
+[0.974s] -- Install configuration: "Release"
+[0.974s] -- Execute custom install script
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_auto_system_msgs
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/autoware_state.h
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/control_diagnostic.h
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__functions.h
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__struct.h
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__type_support.h
+[0.974s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__functions.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__struct.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__type_support.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__functions.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__struct.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__type_support.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__functions.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__struct.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__type_support.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__functions.h
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__struct.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__type_support.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__functions.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__struct.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__type_support.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__functions.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__struct.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__type_support.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__functions.h
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__struct.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__type_support.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/diagnostic_header.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/driving_capability.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/emergency_state.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/float32_multi_array_diagnostic.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/hazard_status.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/hazard_status_stamped.h
+[1.000s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/library_path.sh
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/library_path.dsv
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_fastrtps_c.so
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__rosidl_typesupport_fastrtps_cpp.hpp
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__rosidl_typesupport_fastrtps_cpp.hpp
+[1.002s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__rosidl_typesupport_fastrtps_cpp.hpp
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__rosidl_typesupport_fastrtps_cpp.hpp
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_c.h
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__rosidl_typesupport_introspection_c.h
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__rosidl_typesupport_introspection_c.h
+[1.003s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__rosidl_typesupport_introspection_c.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__rosidl_typesupport_introspection_c.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__rosidl_typesupport_introspection_c.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_c.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_c.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/autoware_state.hpp
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/control_diagnostic.hpp
+[1.004s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__builder.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__struct.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__traits.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__builder.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__struct.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__traits.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__builder.hpp
+[1.005s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__struct.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__traits.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__builder.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__struct.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__traits.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__builder.hpp
+[1.006s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__struct.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__traits.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__builder.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__struct.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__traits.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__builder.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__struct.hpp
+[1.007s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__traits.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__builder.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__struct.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__traits.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/diagnostic_header.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/driving_capability.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/emergency_state.hpp
+[1.008s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/float32_multi_array_diagnostic.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/hazard_status.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/hazard_status_stamped.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_cpp.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/control_diagnostic__rosidl_typesupport_introspection_cpp.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/diagnostic_header__rosidl_typesupport_introspection_cpp.hpp
+[1.009s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/driving_capability__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/emergency_state__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/float32_multi_array_diagnostic__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/include/autoware_auto_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/pythonpath.sh
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/pythonpath.dsv
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/__init__.py
+[1.010s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/__init__.py
+[1.011s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_autoware_state.py
+[1.011s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_control_diagnostic.py
+[1.011s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_diagnostic_header.py
+[1.011s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_driving_capability.py
+[1.011s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_emergency_state.py
+[1.012s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_float32_multi_array_diagnostic.py
+[1.012s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_hazard_status.py
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/msg/_hazard_status_stamped.py
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/autoware_auto_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/autoware_auto_system_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages/autoware_auto_system_msgs/autoware_auto_system_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__python.so
+[1.018s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/AutowareState.idl
+[1.019s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/ControlDiagnostic.idl
+[1.019s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/DiagnosticHeader.idl
+[1.019s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/DrivingCapability.idl
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/EmergencyState.idl
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/Float32MultiArrayDiagnostic.idl
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/HazardStatus.idl
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/msg/HazardStatusStamped.idl
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_auto_system_msgs
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_auto_system_msgs
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/ament_prefix_path.sh
+[1.020s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/ament_prefix_path.dsv
+[1.021s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/path.sh
+[1.021s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/environment/path.dsv
+[1.021s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/local_setup.bash
+[1.021s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/local_setup.sh
+[1.021s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/local_setup.zsh
+[1.022s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/local_setup.dsv
+[1.022s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/package.dsv
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/ament_index/resource_index/packages/autoware_auto_system_msgs
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/rosidl_cmake-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.024s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.024s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgsConfig.cmake
+[1.024s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgsConfig-version.cmake
+[1.024s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/package.xml
+[1.024s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_generator_c.so
+[1.024s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_introspection_c.so
+[1.024s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_c.so
+[1.024s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_introspection_cpp.so
+[1.024s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/lib/libautoware_auto_system_msgs__rosidl_typesupport_cpp.so
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_generator_cExport.cmake
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_generator_cExport-release.cmake
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_cExport.cmake
+[1.094s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_cExport-release.cmake
+[1.095s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_generator_cppExport.cmake
+[1.095s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.095s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.095s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_cppExport.cmake
+[1.095s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_system_msgs/share/autoware_auto_system_msgs/cmake/autoware_auto_system_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.203s] Invoked command in '/home/cityu/autoware/build/autoware_auto_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_system_msgs

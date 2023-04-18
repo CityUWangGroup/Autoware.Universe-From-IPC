@@ -1,0 +1,6 @@
+Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp
+Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp

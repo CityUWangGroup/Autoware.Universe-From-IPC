@@ -1,0 +1,6 @@
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:msg/GridMapInfo.idl
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:msg/GridMap.idl
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:srv/SetGridMap.idl
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:srv/GetGridMap.idl
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:srv/GetGridMapInfo.idl
+/home/cityu/autoware/build/grid_map_msgs/rosidl_adapter/grid_map_msgs:srv/ProcessFile.idl

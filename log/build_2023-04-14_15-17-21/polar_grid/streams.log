@@ -1,0 +1,34 @@
+[0.208s] Invoking command in '/home/cityu/autoware/build/polar_grid': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/polar_grid -- -j16 -l16
+[0.260s] [ 25%] [34m[1mAutomatic MOC for target polar_grid[0m
+[0.270s] [ 25%] Built target polar_grid_autogen
+[0.304s] [100%] Built target polar_grid
+[0.531s] Invoked command in '/home/cityu/autoware/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/polar_grid -- -j16 -l16
+[0.748s] Invoking command in '/home/cityu/autoware/build/polar_grid': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/polar_grid
+[0.804s] -- Install configuration: "Release"
+[0.804s] -- Execute custom install script
+[0.804s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid//libpolar_grid.so
+[0.804s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[0.804s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/library_path.sh
+[0.805s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/library_path.dsv
+[0.805s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/lib/libpolar_grid.so
+[0.805s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/icons/classes/PolarGridDisplay.png
+[0.805s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/package_run_dependencies/polar_grid
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/parent_prefix_path/polar_grid
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/ament_prefix_path.sh
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/ament_prefix_path.dsv
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/path.sh
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/path.dsv
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.bash
+[0.806s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.sh
+[0.807s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.zsh
+[0.807s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.dsv
+[0.807s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/package.dsv
+[0.807s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/packages/polar_grid
+[0.807s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/rviz_common__pluginlib__plugin/polar_grid
+[0.808s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.810s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.811s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/polar_gridConfig.cmake
+[0.811s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/polar_gridConfig-version.cmake
+[0.811s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/package.xml
+[0.882s] Invoked command in '/home/cityu/autoware/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/polar_grid

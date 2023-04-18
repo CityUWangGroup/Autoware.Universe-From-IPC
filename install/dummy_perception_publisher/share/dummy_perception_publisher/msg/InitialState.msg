@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/msg/InitialState.msg

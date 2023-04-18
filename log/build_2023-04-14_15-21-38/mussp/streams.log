@@ -1,0 +1,48 @@
+[0.036s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+[0.913s] -- Found OpenMP_C: -fopenmp  
+[0.914s] -- Found OpenMP_CXX: -fopenmp  
+[0.914s] -- Found OpenMP: TRUE   
+[0.914s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.914s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.914s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.914s] -- Configuring done
+[0.914s] -- Generating done
+[0.914s] -- Build files have been written to: /home/cityu/autoware/build/mussp
+[0.915s] CMake Warning:
+[0.915s]   Manually-specified variables were not used by the project:
+[0.915s] 
+[0.915s]     DOWNLOAD_ARTIFACTS
+[0.915s] 
+[0.915s] 
+[0.962s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+[0.964s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+[2.148s] [100%] Built target mussp
+[2.156s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+[2.203s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp
+[3.417s] -- Install configuration: "Release"
+[3.418s] -- Execute custom install script
+[3.418s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/include/mussp/Graph.h
+[3.418s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/include/mussp/Node.h
+[3.418s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/include/mussp/Sink.h
+[3.418s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/include/mussp/mussp.h
+[3.418s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.sh
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.dsv
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/lib/libmussp.so
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/package_run_dependencies/mussp
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/parent_prefix_path/mussp
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.sh
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.dsv
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/path.sh
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/environment/path.dsv
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/local_setup.bash
+[3.419s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/local_setup.sh
+[3.420s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/local_setup.zsh
+[3.420s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/local_setup.dsv
+[3.420s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/package.dsv
+[3.420s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/packages/mussp
+[3.420s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.421s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_libraries-extras.cmake
+[3.421s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig.cmake
+[3.421s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig-version.cmake
+[3.421s] -- Up-to-date symlink: /home/cityu/autoware/install/mussp/share/mussp/package.xml
+[3.527s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp

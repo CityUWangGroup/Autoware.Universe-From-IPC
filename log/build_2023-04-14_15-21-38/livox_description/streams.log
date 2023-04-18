@@ -1,0 +1,36 @@
+[0.141s] Invoking command in '/home/cityu/autoware/build/livox_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/livox_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/livox_description
+[0.160s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.454s] -- Configuring done
+[0.458s] -- Generating done
+[0.460s] CMake Warning:
+[0.460s]   Manually-specified variables were not used by the project:
+[0.460s] 
+[0.460s]     DOWNLOAD_ARTIFACTS
+[0.460s] 
+[0.460s] 
+[0.460s] -- Build files have been written to: /home/cityu/autoware/build/livox_description
+[0.470s] Invoked command in '/home/cityu/autoware/build/livox_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/livox_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/livox_description
+[0.485s] Invoking command in '/home/cityu/autoware/build/livox_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_description -- -j16 -l16
+[0.943s] Invoked command in '/home/cityu/autoware/build/livox_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_description -- -j16 -l16
+[1.081s] Invoking command in '/home/cityu/autoware/build/livox_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_description
+[1.142s] -- Install configuration: "Release"
+[1.146s] -- Execute custom install script
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/urdf/livox_horizon.xacro
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/ament_index/resource_index/package_run_dependencies/livox_description
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/ament_index/resource_index/parent_prefix_path/livox_description
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/environment/ament_prefix_path.sh
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/environment/ament_prefix_path.dsv
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/environment/path.sh
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/environment/path.dsv
+[1.147s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/local_setup.bash
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/local_setup.sh
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/local_setup.zsh
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/local_setup.dsv
+[1.148s] -- Symlinking: /home/cityu/autoware/install/livox_description/share/livox_description/package.dsv
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/ament_index/resource_index/packages/livox_description
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/cmake/livox_descriptionConfig.cmake
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/cmake/livox_descriptionConfig-version.cmake
+[1.148s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_description/share/livox_description/package.xml
+[1.170s] Invoked command in '/home/cityu/autoware/build/livox_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_description

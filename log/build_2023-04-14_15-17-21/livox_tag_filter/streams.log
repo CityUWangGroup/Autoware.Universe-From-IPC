@@ -1,0 +1,33 @@
+[0.227s] Invoking command in '/home/cityu/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_tag_filter -- -j16 -l16
+[0.284s] [ 50%] Built target livox_tag_filter_node
+[0.295s] [100%] Built target livox_tag_filter
+[0.434s] Invoked command in '/home/cityu/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_tag_filter -- -j16 -l16
+[0.613s] Invoking command in '/home/cityu/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_tag_filter
+[0.626s] -- Install configuration: "Release"
+[0.626s] -- Execute custom install script
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/lib/livox_tag_filter/livox_tag_filter_node
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/include/livox_tag_filter/livox_tag_filter_node.hpp
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.sh
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.dsv
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/lib/liblivox_tag_filter.so
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/launch/livox_tag_filter.launch.xml
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/package_run_dependencies/livox_tag_filter
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/parent_prefix_path/livox_tag_filter
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.sh
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.sh
+[0.627s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.dsv
+[0.627s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.bash
+[0.627s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.sh
+[0.627s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.zsh
+[0.627s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.dsv
+[0.627s] -- Symlinking: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/package.dsv
+[0.632s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/packages/livox_tag_filter
+[0.632s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/rclcpp_components/livox_tag_filter
+[0.632s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.633s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.633s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[0.633s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig.cmake
+[0.633s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig-version.cmake
+[0.633s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/package.xml
+[0.829s] Invoked command in '/home/cityu/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_tag_filter

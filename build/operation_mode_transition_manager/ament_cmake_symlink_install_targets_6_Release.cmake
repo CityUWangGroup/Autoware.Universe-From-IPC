@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/operation_mode_transition_manager/rosidl_generator_py/operation_mode_transition_manager/liboperation_mode_transition_manager__python.so" "TARGETS" "operation_mode_transition_manager__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

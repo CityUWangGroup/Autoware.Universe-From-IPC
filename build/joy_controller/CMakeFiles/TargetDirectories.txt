@@ -1,0 +1,11 @@
+/home/cityu/autoware/build/joy_controller/CMakeFiles/install/strip.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/edit_cache.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/test.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/install/local.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/joy_controller.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/joy_controller_node.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/install.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/list_install_components.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/rebuild_cache.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/joy_controller_uninstall.dir
+/home/cityu/autoware/build/joy_controller/CMakeFiles/uninstall.dir

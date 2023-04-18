@@ -1,0 +1,362 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tier4_perception_msgs
+[35m[1mScanning dependencies of target tier4_perception_msgs__cpp[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target tier4_perception_msgs__cpp
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_generator_c[0m
+[  3%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/detected_object_with_feature__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/state__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/shape__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/semantic__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/predicted_path__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/feature__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/dynamic_object_array__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/dynamic_object__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_perception_msgs/msg/detail/detected_objects_with_feature__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libtier4_perception_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target tier4_perception_msgs__rosidl_generator_c
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/detected_object_with_feature__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/state__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/shape__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/semantic__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/predicted_path__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/feature__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/dynamic_object_array__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/dynamic_object__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_perception_msgs/msg/detail/detected_objects_with_feature__type_support.cpp.o[0m
+[ 24%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 24%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_cpp
+[ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_c[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/detected_objects_with_feature__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/detected_object_with_feature__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/state__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/shape__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/semantic__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/predicted_path__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/feature__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_introspection_c[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/dynamic_object_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_perception_msgs/msg/dynamic_object__type_support.cpp.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/detected_object_with_feature__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/detected_objects_with_feature__type_support.c.o[0m
+[ 38%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_c.so[0m
+[ 40%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/state__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/shape__type_support.c.o[0m
+[ 41%] Built target tier4_perception_msgs__rosidl_typesupport_c
+[ 42%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 43%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/predicted_path__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/semantic__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/feature__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/dynamic_object_array__type_support.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_perception_msgs/msg/detail/dynamic_object__type_support.c.o[0m
+[ 48%] [32m[1mLinking C shared library libtier4_perception_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 48%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_c
+[ 49%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/detected_object_with_feature__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/detected_objects_with_feature__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/state__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/shape__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/detected_object_with_feature__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/detected_objects_with_feature__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/semantic__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/predicted_path__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/feature__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/dynamic_object_array__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/shape__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_perception_msgs/msg/dynamic_object__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/semantic__type_support.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_cpp.so[0m
+[ 65%] Built target tier4_perception_msgs__rosidl_typesupport_cpp
+[ 66%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/predicted_path__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/feature__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/dynamic_object_array__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_perception_msgs/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/detected_object_with_feature__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/detected_objects_with_feature__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/dynamic_object__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/shape__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/semantic__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/predicted_path__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/feature__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_perception_msgs/msg/detail/dynamic_object_array__type_support_c.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target tier4_perception_msgs[0m
+[ 82%] Built target tier4_perception_msgs
+[35m[1mScanning dependencies of target tier4_perception_msgs__py[0m
+[ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 83%] Built target tier4_perception_msgs__py
+[35m[1mScanning dependencies of target tier4_perception_msgs__python[0m
+[ 84%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_detected_object_with_feature_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_state_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_shape_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_semantic_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_predicted_path_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_feature_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_dynamic_object_array_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_dynamic_object_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__python.dir/rosidl_generator_py/tier4_perception_msgs/msg/_detected_objects_with_feature_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/libtier4_perception_msgs__python.so[0m
+[ 93%] Built target tier4_perception_msgs__python
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_perception_msgs/_tier4_perception_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target tier4_perception_msgs__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 96%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_perception_msgs/_tier4_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target tier4_perception_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/tier4_perception_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_perception_msgs/_tier4_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_perception_msgs
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__functions.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__struct.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__type_support.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_object_with_feature.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_objects_with_feature.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object_array.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/feature.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/predicted_path.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/semantic.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/shape.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/state.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_object_with_feature.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_objects_with_feature.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object_array.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/feature.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/predicted_path.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/semantic.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/shape.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/state.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/pythonpath.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/__init__.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/__init__.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_detected_object_with_feature.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_detected_objects_with_feature.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_dynamic_object.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_dynamic_object_array.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_feature.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_predicted_path.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_semantic.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_shape.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_state.py
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__python.so
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DetectedObjectWithFeature.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DetectedObjectsWithFeature.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DynamicObject.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DynamicObjectArray.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Feature.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/PredictedPath.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Semantic.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Shape.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/State.idl
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DetectedObjectWithFeature.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DetectedObjectsWithFeature.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DynamicObject.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DynamicObjectArray.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Feature.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/PredictedPath.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Semantic.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Shape.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/State.msg
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_perception_msgs
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_perception_msgs
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/package.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/packages/tier4_perception_msgs
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgsConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgsConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/package.xml
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/__init__.py'...
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cppExport-release.cmake

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/operation_mode_transition_manager/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

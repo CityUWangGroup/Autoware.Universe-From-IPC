@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="tvm_utility.cppcheck"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.022"
+  skipped="0"
+>
+  <testcase
+    name="data/models/yolo_v2_tiny/inference_engine_tvm_config.hpp"
+    classname="tvm_utility.cppcheck"/>
+  <testcase
+    name="include/tvm_utility/pipeline.hpp"
+    classname="tvm_utility.cppcheck"/>
+  <testcase
+    name="test/yolo_v2_tiny/main.cpp"
+    classname="tvm_utility.cppcheck"/>
+  <system-out>Checked files:
+* data/models/yolo_v2_tiny/inference_engine_tvm_config.hpp
+* include/tvm_utility/pipeline.hpp
+* test/yolo_v2_tiny/main.cpp</system-out>
+</testsuite>

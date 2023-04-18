@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_generator_cpp/autoware_planning_msgs/msg/lanelet_segment.hpp

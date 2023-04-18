@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_generator_c/autoware_planning_msgs/msg/detail/pose_with_uuid__type_support.h

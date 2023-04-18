@@ -1,0 +1,7 @@
+{
+  "package_name": "tier4_simulation_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_simulation_msgs:msg/FaultInjectionEvent.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_simulation_msgs:msg/SimulationEvents.msg"
+  ]
+}

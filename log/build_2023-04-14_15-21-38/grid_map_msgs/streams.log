@@ -1,0 +1,206 @@
+[0.047s] Invoking command in '/home/cityu/autoware/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_msgs
+[0.566s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.566s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.567s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.567s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.647s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.682s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.082s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.741s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.742s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.785s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.786s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.786s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.885s] -- Configuring done
+[1.996s] -- Generating done
+[2.002s] CMake Warning:
+[2.002s]   Manually-specified variables were not used by the project:
+[2.002s] 
+[2.002s]     DOWNLOAD_ARTIFACTS
+[2.003s] 
+[2.003s] 
+[2.003s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_msgs
+[2.037s] Invoked command in '/home/cityu/autoware/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_msgs
+[2.038s] Invoking command in '/home/cityu/autoware/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_msgs -- -j16 -l16
+[2.945s] [  1%] Built target grid_map_msgs__cpp
+[2.945s] [ 12%] Built target grid_map_msgs__rosidl_generator_c
+[2.945s] [ 23%] Built target grid_map_msgs__rosidl_typesupport_introspection_cpp
+[2.945s] [ 35%] Built target grid_map_msgs__rosidl_typesupport_c
+[2.945s] [ 46%] Built target grid_map_msgs__rosidl_typesupport_introspection_c
+[2.945s] [ 57%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_cpp
+[2.945s] [ 69%] Built target grid_map_msgs__rosidl_typesupport_cpp
+[2.945s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c
+[2.946s] [ 80%] Built target grid_map_msgs
+[2.946s] [ 81%] Built target grid_map_msgs__py
+[2.946s] [ 91%] Built target grid_map_msgs__python
+[2.946s] [ 94%] Built target grid_map_msgs__rosidl_typesupport_introspection_c__pyext
+[2.946s] [ 97%] Built target grid_map_msgs__rosidl_typesupport_c__pyext
+[2.946s] [100%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.972s] Invoked command in '/home/cityu/autoware/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_msgs -- -j16 -l16
+[3.125s] Invoking command in '/home/cityu/autoware/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_msgs
+[3.678s] -- Install configuration: "Release"
+[3.684s] -- Execute custom install script
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/ament_index/resource_index/rosidl_interfaces/grid_map_msgs
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__functions.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__struct.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__type_support.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__functions.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__struct.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__type_support.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/grid_map.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/grid_map_info.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.685s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__functions.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__struct.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__type_support.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__functions.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__struct.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__type_support.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__functions.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__struct.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__type_support.h
+[3.686s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__functions.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__struct.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__type_support.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/get_grid_map.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/get_grid_map_info.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/process_file.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/set_grid_map.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.sh
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.dsv
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_c.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.687s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_c.h
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_c.h
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_c.h
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_c.h
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.688s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_cpp.hpp
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_c.h
+[3.689s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__builder.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__struct.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__traits.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__builder.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__struct.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__traits.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/grid_map.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/grid_map_info.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__builder.hpp
+[3.690s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__struct.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__traits.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__builder.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__struct.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__traits.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__builder.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__struct.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__traits.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__builder.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__struct.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__traits.hpp
+[3.691s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/get_grid_map.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/get_grid_map_info.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/process_file.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/set_grid_map.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/include/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.sh
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.dsv
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/__init__.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/msg/__init__.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/msg/_grid_map.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/msg/_grid_map_info.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/srv/__init__.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/srv/_get_grid_map.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/srv/_get_grid_map_info.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/srv/_process_file.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/srv/_set_grid_map.py
+[3.693s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__python.so
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.idl
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.idl
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.idl
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.idl
+[3.694s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.idl
+[3.699s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.idl
+[3.699s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.msg
+[3.699s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.srv
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Request.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Response.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.srv
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Request.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Response.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.srv
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Request.msg
+[3.700s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Response.msg
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.srv
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Request.msg
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Response.msg
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/ament_index/resource_index/package_run_dependencies/grid_map_msgs
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/ament_index/resource_index/parent_prefix_path/grid_map_msgs
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.sh
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.dsv
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/path.sh
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/environment/path.dsv
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/local_setup.bash
+[3.701s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/local_setup.sh
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/local_setup.zsh
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/local_setup.dsv
+[3.702s] -- Symlinking: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/package.dsv
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/ament_index/resource_index/packages/grid_map_msgs
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake-extras.cmake
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.702s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.703s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.703s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig.cmake
+[3.703s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig-version.cmake
+[3.703s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/package.xml
+[3.703s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so
+[3.703s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so
+[3.703s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so
+[3.703s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so
+[3.703s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so
+[3.767s] Compiling '/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages/grid_map_msgs/__init__.py'...
+[3.770s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_generator_cExport.cmake
+[3.770s] -- Installing: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_generator_cExport-release.cmake
+[3.770s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.770s] -- Installing: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[3.770s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport.cmake
+[3.770s] -- Installing: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport-release.cmake
+[3.771s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_generator_cppExport.cmake
+[3.771s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.771s] -- Installing: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.771s] -- Up-to-date: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport.cmake
+[3.771s] -- Installing: /home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[3.798s] Invoked command in '/home/cityu/autoware/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_msgs

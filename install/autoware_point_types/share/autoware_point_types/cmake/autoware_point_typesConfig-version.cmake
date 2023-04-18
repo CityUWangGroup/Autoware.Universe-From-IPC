@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_point_types/ament_cmake_core/autoware_point_typesConfig-version.cmake

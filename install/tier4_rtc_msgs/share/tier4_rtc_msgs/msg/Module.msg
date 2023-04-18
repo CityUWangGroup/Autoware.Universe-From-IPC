@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs/msg/Module.msg

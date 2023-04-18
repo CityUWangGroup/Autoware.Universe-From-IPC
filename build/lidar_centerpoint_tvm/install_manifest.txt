@@ -1,0 +1,8 @@
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_encoder/deploy_graph.json
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_encoder/deploy_lib.so
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_encoder/deploy_param.params
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_encoder/inference_engine_tvm_config.hpp
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_backbone/deploy_graph.json
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_backbone/deploy_lib.so
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_backbone/deploy_param.params
+/home/cityu/autoware/install/lidar_centerpoint_tvm/share/lidar_centerpoint_tvm/models//centerpoint_backbone/inference_engine_tvm_config.hpp

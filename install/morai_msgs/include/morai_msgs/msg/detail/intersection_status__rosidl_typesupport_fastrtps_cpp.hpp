@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_typesupport_fastrtps_cpp/morai_msgs/msg/detail/intersection_status__rosidl_typesupport_fastrtps_cpp.hpp

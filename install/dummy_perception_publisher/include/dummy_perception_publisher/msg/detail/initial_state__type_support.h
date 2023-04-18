@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/dummy_perception_publisher/rosidl_generator_c/dummy_perception_publisher/msg/detail/initial_state__type_support.h

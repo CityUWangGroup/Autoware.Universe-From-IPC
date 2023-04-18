@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/sensor_kit/sample_sensor_kit_launch/common_sensor_launch/launch/velodyne_node_container.launch.py

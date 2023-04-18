@@ -1,0 +1,87 @@
+[0.044s] Invoking command in '/home/cityu/autoware/build/vehicle_info_util': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/vehicle/vehicle_info_util -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/vehicle_info_util
+[1.960s] -- The C compiler identification is GNU 9.4.0
+[1.960s] -- The CXX compiler identification is GNU 9.4.0
+[1.960s] -- Check for working C compiler: /usr/bin/cc
+[1.960s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.960s] -- Detecting C compiler ABI info
+[1.960s] -- Detecting C compiler ABI info - done
+[1.960s] -- Detecting C compile features
+[1.960s] -- Detecting C compile features - done
+[1.961s] -- Check for working CXX compiler: /usr/bin/c++
+[1.961s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.961s] -- Detecting CXX compiler ABI info
+[1.961s] -- Detecting CXX compiler ABI info - done
+[1.961s] -- Detecting CXX compile features
+[1.961s] -- Detecting CXX compile features - done
+[1.961s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.961s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.961s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.961s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.961s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.962s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.962s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.962s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.962s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.962s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.962s] -- Looking for pthread.h
+[1.962s] -- Looking for pthread.h - found
+[1.962s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.049s] -- Looking for pthread_create in pthreads
+[2.156s] -- Looking for pthread_create in pthreads - not found
+[2.157s] -- Looking for pthread_create in pthread
+[2.254s] -- Looking for pthread_create in pthread - found
+[2.256s] -- Found Threads: TRUE  
+[2.538s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.569s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.570s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/vehicle/vehicle_info_util/include
+[2.570s] -- Configured cppcheck exclude dirs and/or files: 
+[2.571s] -- Added test 'lint_cmake' to check CMake code style
+[2.572s] -- Added test 'xmllint' to check XML markup files
+[2.580s] -- Configuring done
+[2.595s] -- Generating done
+[2.599s] -- Build files have been written to: /home/cityu/autoware/build/vehicle_info_util
+[2.628s] Invoked command in '/home/cityu/autoware/build/vehicle_info_util' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/vehicle/vehicle_info_util -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/vehicle_info_util
+[2.629s] Invoking command in '/home/cityu/autoware/build/vehicle_info_util': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/vehicle_info_util -- -j16 -l16
+[21.003s] [35m[1mScanning dependencies of target vehicle_info_util[0m
+[21.003s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_info_util.dir/src/vehicle_info_util.cpp.o[0m
+[21.004s] [100%] [32m[1mLinking CXX shared library libvehicle_info_util.so[0m
+[21.004s] [100%] Built target vehicle_info_util
+[21.040s] Invoked command in '/home/cityu/autoware/build/vehicle_info_util' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/vehicle_info_util -- -j16 -l16
+[21.088s] Invoking command in '/home/cityu/autoware/build/vehicle_info_util': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/vehicle_info_util
+[27.335s] -- Install configuration: "Release"
+[27.335s] -- Execute custom install script
+[27.335s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/include/vehicle_info_util/vehicle_info.hpp
+[27.336s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/include/vehicle_info_util/vehicle_info_util.hpp
+[27.336s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/library_path.sh
+[27.336s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/library_path.dsv
+[27.336s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/lib/libvehicle_info_util.so
+[27.336s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/config/polygon_remover.yaml
+[27.337s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/config/vehicle_info.param.yaml
+[27.338s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/config/vehicle_mirror.param.yaml
+[27.340s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/launch/sample.launch.py
+[27.340s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/launch/vehicle_info.launch.py
+[27.341s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/ament_index/resource_index/package_run_dependencies/vehicle_info_util
+[27.342s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/ament_index/resource_index/parent_prefix_path/vehicle_info_util
+[27.343s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/ament_prefix_path.sh
+[27.343s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/ament_prefix_path.dsv
+[27.343s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/path.sh
+[27.343s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/environment/path.dsv
+[27.348s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/local_setup.bash
+[27.349s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/local_setup.sh
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/local_setup.zsh
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/local_setup.dsv
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/package.dsv
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/ament_index/resource_index/packages/vehicle_info_util
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/cmake/ament_cmake_export_libraries-extras.cmake
+[27.350s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/cmake/vehicle_info_utilConfig.cmake
+[27.351s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/cmake/vehicle_info_utilConfig-version.cmake
+[27.351s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/share/vehicle_info_util/package.xml
+[27.351s] -- Symlinking: /home/cityu/autoware/install/vehicle_info_util/lib/vehicle_info_util/min_turning_radius_calculator.py
+[27.431s] Invoked command in '/home/cityu/autoware/build/vehicle_info_util' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/vehicle_info_util

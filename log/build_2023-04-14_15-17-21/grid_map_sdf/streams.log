@@ -1,0 +1,39 @@
+[0.239s] Invoking command in '/home/cityu/autoware/build/grid_map_sdf': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_sdf -- -j16 -l16
+[0.285s] [ 22%] Built target gtest
+[0.285s] [ 44%] Built target gtest_main
+[0.294s] [ 66%] Built target grid_map_sdf
+[0.314s] [100%] Built target grid_map_sdf-test
+[0.456s] Invoked command in '/home/cityu/autoware/build/grid_map_sdf' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_sdf -- -j16 -l16
+[0.632s] Invoking command in '/home/cityu/autoware/build/grid_map_sdf': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_sdf
+[0.647s] -- Install configuration: "Release"
+[0.647s] -- Execute custom install script
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/lib/libgrid_map_sdf.a
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.sh
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.dsv
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/ament_index/resource_index/package_run_dependencies/grid_map_sdf
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/ament_index/resource_index/parent_prefix_path/grid_map_sdf
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.sh
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.dsv
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/path.sh
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/environment/path.dsv
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/local_setup.bash
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/local_setup.sh
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/local_setup.zsh
+[0.648s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/local_setup.dsv
+[0.648s] -- Symlinking: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/package.dsv
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/ament_index/resource_index/packages/grid_map_sdf
+[0.654s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.654s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_libraries-extras.cmake
+[0.654s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig.cmake
+[0.654s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig-version.cmake
+[0.654s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_sdf/share/grid_map_sdf/package.xml
+[0.654s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/pnmfile.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/dt.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imutil.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/misc.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/image.hpp
+[0.655s] -- Up-to-date: /home/cityu/autoware/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imconv.hpp
+[0.839s] Invoked command in '/home/cityu/autoware/build/grid_map_sdf' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_sdf

@@ -1,0 +1,258 @@
+[0.098s] Invoking command in '/home/cityu/autoware/build/autoware_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_msgs/autoware_control_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_control_msgs
+[5.813s] -- The C compiler identification is GNU 9.4.0
+[5.813s] -- The CXX compiler identification is GNU 9.4.0
+[5.814s] -- Check for working C compiler: /usr/bin/cc
+[5.814s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.815s] -- Detecting C compiler ABI info
+[5.815s] -- Detecting C compiler ABI info - done
+[5.820s] -- Detecting C compile features
+[5.821s] -- Detecting C compile features - done
+[5.821s] -- Check for working CXX compiler: /usr/bin/c++
+[5.821s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.821s] -- Detecting CXX compiler ABI info
+[5.821s] -- Detecting CXX compiler ABI info - done
+[5.821s] -- Detecting CXX compile features
+[5.821s] -- Detecting CXX compile features - done
+[5.821s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.822s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.822s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.822s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.822s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.822s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.822s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.822s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[5.823s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[5.823s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[5.823s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[5.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.823s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.823s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[5.823s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.823s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.823s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.824s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.824s] -- Found PythonExtra: .so  
+[5.824s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[5.824s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[5.824s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.824s] -- Added test 'lint_cmake' to check CMake code style
+[5.824s] -- Added test 'xmllint' to check XML markup files
+[5.824s] -- Configuring done
+[5.824s] -- Generating done
+[5.824s] -- Build files have been written to: /home/cityu/autoware/build/autoware_control_msgs
+[5.847s] Invoked command in '/home/cityu/autoware/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_msgs/autoware_control_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_control_msgs
+[5.849s] Invoking command in '/home/cityu/autoware/build/autoware_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_control_msgs -- -j16 -l16
+[7.455s] [35m[1mScanning dependencies of target autoware_control_msgs__cpp[0m
+[7.461s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.461s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.697s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_generator_c[0m
+[7.751s] [  5%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/control__functions.c.o[0m
+[7.777s] [  5%] Built target autoware_control_msgs__cpp
+[7.791s] [  7%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/control_horizon__functions.c.o[0m
+[7.840s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.944s] [ 10%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/longitudinal__functions.c.o[0m
+[8.198s] [ 12%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/lateral__functions.c.o[0m
+[8.529s] [ 14%] [32m[1mLinking C shared library libautoware_control_msgs__rosidl_generator_c.so[0m
+[8.649s] [ 14%] Built target autoware_control_msgs__rosidl_generator_c
+[9.315s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[9.405s] [ 16%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/control__type_support.cpp.o[0m
+[10.235s] [ 18%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/longitudinal__type_support.cpp.o[0m
+[11.075s] [ 20%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/lateral__type_support.cpp.o[0m
+[11.706s] [ 21%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/control_horizon__type_support.cpp.o[0m
+[12.399s] [ 23%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.658s] [ 23%] Built target autoware_control_msgs__rosidl_typesupport_introspection_cpp
+[12.720s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.300s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_c[0m
+[14.361s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/control__type_support.cpp.o[0m
+[14.493s] [ 29%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/longitudinal__type_support.cpp.o[0m
+[14.629s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/lateral__type_support.cpp.o[0m
+[14.703s] [ 32%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/control_horizon__type_support.cpp.o[0m
+[14.823s] [ 34%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_c.so[0m
+[15.021s] [ 34%] Built target autoware_control_msgs__rosidl_typesupport_c
+[15.078s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.209s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_c[0m
+[16.232s] [ 38%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control__type_support.c.o[0m
+[16.318s] [ 40%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/longitudinal__type_support.c.o[0m
+[16.377s] [ 41%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/lateral__type_support.c.o[0m
+[16.439s] [ 43%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control_horizon__type_support.c.o[0m
+[16.520s] [ 45%] [32m[1mLinking C shared library libautoware_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.569s] [ 45%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c
+[16.587s] [ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.607s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_cpp[0m
+[17.630s] [ 49%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/control__type_support.cpp.o[0m
+[18.154s] [ 50%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/longitudinal__type_support.cpp.o[0m
+[18.711s] [ 52%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/lateral__type_support.cpp.o[0m
+[19.135s] [ 54%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/control_horizon__type_support.cpp.o[0m
+[19.559s] [ 56%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_cpp.so[0m
+[19.628s] [ 56%] Built target autoware_control_msgs__rosidl_typesupport_cpp
+[19.646s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.725s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[20.752s] [ 60%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[21.475s] [ 61%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/longitudinal__type_support.cpp.o[0m
+[22.259s] [ 63%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/lateral__type_support.cpp.o[0m
+[23.057s] [ 65%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/control_horizon__type_support.cpp.o[0m
+[23.966s] [ 67%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.249s] [ 67%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_cpp
+[24.278s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.352s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[25.384s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[26.015s] [ 72%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/longitudinal__type_support_c.cpp.o[0m
+[26.631s] [ 74%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/lateral__type_support_c.cpp.o[0m
+[27.264s] [ 76%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/control_horizon__type_support_c.cpp.o[0m
+[27.860s] [ 78%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.050s] [ 78%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c
+[28.065s] [35m[1mScanning dependencies of target autoware_control_msgs[0m
+[28.083s] [ 78%] Built target autoware_control_msgs
+[28.098s] [35m[1mScanning dependencies of target autoware_control_msgs__py[0m
+[28.115s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.255s] [ 80%] Built target autoware_control_msgs__py
+[30.289s] [35m[1mScanning dependencies of target autoware_control_msgs__python[0m
+[30.329s] [ 81%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_control_s.c.o[0m
+[30.536s] [ 83%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_longitudinal_s.c.o[0m
+[30.702s] [ 85%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_lateral_s.c.o[0m
+[30.915s] [ 87%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_control_horizon_s.c.o[0m
+[31.089s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/libautoware_control_msgs__python.so[0m
+[31.132s] [ 89%] Built target autoware_control_msgs__python
+[31.146s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[31.174s] [ 90%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.409s] [ 92%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[31.525s] [ 92%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[31.541s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[31.572s] [ 94%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.810s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[31.871s] [ 96%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c__pyext
+[31.897s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_c__pyext[0m
+[31.919s] [ 98%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[32.093s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[32.149s] [100%] Built target autoware_control_msgs__rosidl_typesupport_c__pyext
+[32.182s] Invoked command in '/home/cityu/autoware/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_control_msgs -- -j16 -l16
+[32.336s] Invoking command in '/home/cityu/autoware/build/autoware_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_control_msgs
+[47.093s] -- Install configuration: "Release"
+[47.100s] -- Execute custom install script
+[47.100s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_control_msgs
+[47.100s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/control.h
+[47.100s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/control_horizon.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__functions.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__struct.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__type_support.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__functions.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__struct.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__type_support.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__functions.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__struct.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__type_support.h
+[47.101s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__functions.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__struct.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__type_support.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/lateral.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/longitudinal.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[47.102s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/library_path.sh
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/library_path.dsv
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_fastrtps_c.h
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_fastrtps_c.h
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_fastrtps_c.h
+[47.103s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.104s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_c.so
+[47.104s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[47.104s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_fastrtps_cpp.hpp
+[47.104s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_fastrtps_cpp.hpp
+[47.105s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_fastrtps_cpp.hpp
+[47.105s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_introspection_c.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_introspection_c.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_introspection_c.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/control.hpp
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/control_horizon.hpp
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__builder.hpp
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__struct.hpp
+[47.106s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__traits.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__builder.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__struct.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__traits.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__builder.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__struct.hpp
+[47.107s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__traits.hpp
+[47.116s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__builder.hpp
+[47.117s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__struct.hpp
+[47.117s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__traits.hpp
+[47.117s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/lateral.hpp
+[47.117s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/longitudinal.hpp
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_introspection_cpp.hpp
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_introspection_cpp.hpp
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_introspection_cpp.hpp
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/pythonpath.sh
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/pythonpath.dsv
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/__init__.py
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/__init__.py
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control.py
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control_horizon.py
+[47.118s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_lateral.py
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_longitudinal.py
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__python.so
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Control.idl
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/ControlHorizon.idl
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Lateral.idl
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Longitudinal.idl
+[47.119s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Control.msg
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/ControlHorizon.msg
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Lateral.msg
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/msg/Longitudinal.msg
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_control_msgs
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_control_msgs
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/ament_prefix_path.sh
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/ament_prefix_path.dsv
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/path.sh
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/environment/path.dsv
+[47.120s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.bash
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.sh
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.zsh
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.dsv
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/package.dsv
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/ament_index/resource_index/packages/autoware_control_msgs
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake-extras.cmake
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.121s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.122s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.122s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgsConfig.cmake
+[47.122s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgsConfig-version.cmake
+[47.122s] -- Symlinking: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/package.xml
+[47.122s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_generator_c.so
+[47.122s] -- Set runtime path of "/home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_generator_c.so" to ""
+[47.122s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_c.so
+[47.122s] -- Set runtime path of "/home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[47.122s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_c.so
+[47.122s] -- Set runtime path of "/home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_c.so" to ""
+[47.122s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so
+[47.123s] -- Set runtime path of "/home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_cpp.so
+[47.123s] -- Set runtime path of "/home/cityu/autoware/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_cpp.so" to ""
+[47.123s] Compiling '/home/cityu/autoware/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/__init__.py'...
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cExport.cmake
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cExport-release.cmake
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[47.123s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cExport.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cExport-release.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cppExport.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cppExport.cmake
+[47.124s] -- Installing: /home/cityu/autoware/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cppExport-release.cmake
+[47.129s] Invoked command in '/home/cityu/autoware/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_control_msgs

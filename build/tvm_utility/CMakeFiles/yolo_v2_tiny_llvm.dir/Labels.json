@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/CMakeFiles/yolo_v2_tiny_llvm"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/CMakeFiles/yolo_v2_tiny_llvm.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/CMakeFiles/yolo_v2_tiny_llvm-complete.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-install.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-mkdir.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-download.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-update.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-patch.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-configure.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/yolo_v2_tiny_llvm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"yolo_v2_tiny_llvm"
+		],
+		"name" : "yolo_v2_tiny_llvm"
+	}
+}

@@ -1,0 +1,4 @@
+/home/cityu/autoware/build/control_performance_analysis/rosidl_adapter/control_performance_analysis:msg/Error.idl
+/home/cityu/autoware/build/control_performance_analysis/rosidl_adapter/control_performance_analysis:msg/ErrorStamped.idl
+/home/cityu/autoware/build/control_performance_analysis/rosidl_adapter/control_performance_analysis:msg/DrivingMonitorStamped.idl
+/home/cityu/autoware/build/control_performance_analysis/rosidl_adapter/control_performance_analysis:msg/FloatStamped.idl

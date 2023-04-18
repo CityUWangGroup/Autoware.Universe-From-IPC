@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/dummy_diag_publisher/libdummy_diag_publisher.so" "TARGETS" "dummy_diag_publisher" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_localization_msgs/rosidl_generator_c/autoware_localization_msgs/msg/rosidl_generator_c__visibility_control.h

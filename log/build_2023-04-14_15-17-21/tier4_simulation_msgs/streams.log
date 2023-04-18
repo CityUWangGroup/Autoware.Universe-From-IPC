@@ -1,0 +1,105 @@
+[0.183s] Invoking command in '/home/cityu/autoware/build/tier4_simulation_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_simulation_msgs -- -j16 -l16
+[0.270s] [  2%] Built target tier4_simulation_msgs__cpp
+[0.270s] [ 12%] Built target tier4_simulation_msgs__rosidl_generator_c
+[0.271s] [ 23%] Built target tier4_simulation_msgs__rosidl_typesupport_cpp
+[0.271s] [ 33%] Built target tier4_simulation_msgs__rosidl_typesupport_fastrtps_cpp
+[0.272s] [ 43%] Built target tier4_simulation_msgs__rosidl_typesupport_introspection_cpp
+[0.272s] [ 53%] Built target tier4_simulation_msgs__rosidl_typesupport_introspection_c
+[0.272s] [ 64%] Built target tier4_simulation_msgs__rosidl_typesupport_c
+[0.274s] [ 74%] Built target tier4_simulation_msgs__rosidl_typesupport_fastrtps_c
+[0.274s] [ 74%] Built target tier4_simulation_msgs
+[0.280s] [ 76%] Built target tier4_simulation_msgs__py
+[0.305s] [ 84%] Built target tier4_simulation_msgs__python
+[0.358s] [ 94%] Built target tier4_simulation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.359s] [ 94%] Built target tier4_simulation_msgs__rosidl_typesupport_c__pyext
+[0.359s] [100%] Built target tier4_simulation_msgs__rosidl_typesupport_introspection_c__pyext
+[0.594s] Invoked command in '/home/cityu/autoware/build/tier4_simulation_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_simulation_msgs -- -j16 -l16
+[0.985s] Invoking command in '/home/cityu/autoware/build/tier4_simulation_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_simulation_msgs
+[1.060s] -- Install configuration: "Release"
+[1.060s] -- Execute custom install script
+[1.060s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_simulation_msgs
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__functions.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__struct.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__type_support.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__functions.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__struct.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__type_support.h
+[1.061s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/fault_injection_event.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/simulation_events.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/library_path.sh
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/library_path.dsv
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__rosidl_typesupport_fastrtps_c.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__rosidl_typesupport_fastrtps_c.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_fastrtps_c.so
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__rosidl_typesupport_fastrtps_cpp.hpp
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__rosidl_typesupport_fastrtps_cpp.hpp
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.062s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__rosidl_typesupport_introspection_c.h
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__rosidl_typesupport_introspection_c.h
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__builder.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__struct.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__traits.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__builder.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__struct.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__traits.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/fault_injection_event.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/simulation_events.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/fault_injection_event__rosidl_typesupport_introspection_cpp.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/include/tier4_simulation_msgs/msg/detail/simulation_events__rosidl_typesupport_introspection_cpp.hpp
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/pythonpath.sh
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/pythonpath.dsv
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/__init__.py
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/msg/__init__.py
+[1.063s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/msg/_fault_injection_event.py
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/msg/_simulation_events.py
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/tier4_simulation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/tier4_simulation_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/python3.8/site-packages/tier4_simulation_msgs/tier4_simulation_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__python.so
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/msg/FaultInjectionEvent.idl
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/msg/SimulationEvents.idl
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/msg/FaultInjectionEvent.msg
+[1.064s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/msg/SimulationEvents.msg
+[1.067s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_simulation_msgs
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_simulation_msgs
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/path.sh
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/environment/path.dsv
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/local_setup.bash
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/local_setup.sh
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/local_setup.zsh
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/local_setup.dsv
+[1.068s] -- Symlinking: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/package.dsv
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/ament_index/resource_index/packages/tier4_simulation_msgs
+[1.068s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/rosidl_cmake-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgsConfig.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgsConfig-version.cmake
+[1.069s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/package.xml
+[1.069s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_generator_c.so
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_introspection_c.so
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_c.so
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_introspection_cpp.so
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/lib/libtier4_simulation_msgs__rosidl_typesupport_cpp.so
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_generator_cExport.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_generator_cExport-release.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_cExport.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_cExport-release.cmake
+[1.070s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_generator_cppExport.cmake
+[1.071s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.071s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.071s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_cppExport.cmake
+[1.071s] -- Up-to-date: /home/cityu/autoware/install/tier4_simulation_msgs/share/tier4_simulation_msgs/cmake/tier4_simulation_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.212s] Invoked command in '/home/cityu/autoware/build/tier4_simulation_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_simulation_msgs

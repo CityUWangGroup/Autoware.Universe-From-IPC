@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/velodyne_pointcloud/ament_cmake_core/velodyne_pointcloudConfig-version.cmake

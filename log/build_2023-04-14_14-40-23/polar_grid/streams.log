@@ -1,0 +1,122 @@
+[0.172s] Invoking command in '/home/cityu/autoware/build/polar_grid': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/polar_grid -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/polar_grid
+[9.991s] -- The C compiler identification is GNU 9.4.0
+[9.992s] -- The CXX compiler identification is GNU 9.4.0
+[9.992s] -- Check for working C compiler: /usr/bin/cc
+[9.992s] -- Check for working C compiler: /usr/bin/cc -- works
+[9.992s] -- Detecting C compiler ABI info
+[9.993s] -- Detecting C compiler ABI info - done
+[9.993s] -- Detecting C compile features
+[9.993s] -- Detecting C compile features - done
+[9.994s] -- Check for working CXX compiler: /usr/bin/c++
+[9.995s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[10.000s] -- Detecting CXX compiler ABI info
+[10.001s] -- Detecting CXX compiler ABI info - done
+[10.001s] -- Detecting CXX compile features
+[10.001s] -- Detecting CXX compile features - done
+[10.002s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[10.002s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[10.003s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[10.003s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.009s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.010s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[10.011s] -- Found OGRE
+[10.011s] --   static     : OFF
+[10.011s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[10.012s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[10.012s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[10.013s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[10.013s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[10.013s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[10.014s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[10.014s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[10.015s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[10.015s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[10.015s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[10.016s] -- Could not find freeimage library
+[10.016s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[10.016s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[10.016s] -- Found X11: /usr/include   
+[10.017s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[10.017s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[10.022s] -- Looking for gethostbyname
+[10.022s] -- Looking for gethostbyname - found
+[10.022s] -- Looking for connect
+[10.022s] -- Looking for connect - found
+[10.023s] -- Looking for remove
+[10.023s] -- Looking for remove - found
+[10.023s] -- Looking for shmat
+[10.023s] -- Looking for shmat - found
+[10.023s] -- Looking for IceConnectionNumber in ICE
+[10.023s] -- Looking for IceConnectionNumber in ICE - found
+[10.023s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[10.023s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.024s] -- library: libassimp.so.5
+[10.024s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[10.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.024s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[10.024s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.025s] -- Found FastRTPS: /opt/ros/galactic/include  
+[10.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.026s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[10.027s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[10.032s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[10.032s] -- Looking for pthread.h
+[10.032s] -- Looking for pthread.h - found
+[10.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.033s] -- Looking for pthread_create in pthreads
+[10.033s] -- Looking for pthread_create in pthreads - not found
+[10.033s] -- Looking for pthread_create in pthread
+[10.033s] -- Looking for pthread_create in pthread - found
+[10.033s] -- Found Threads: TRUE  
+[10.033s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.033s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[10.033s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.033s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.034s] -- Configured cppcheck include dirs: 
+[10.034s] -- Configured cppcheck exclude dirs and/or files: 
+[10.034s] -- Added test 'lint_cmake' to check CMake code style
+[10.034s] -- Added test 'xmllint' to check XML markup files
+[10.034s] -- Configuring done
+[10.034s] -- Generating done
+[10.034s] -- Build files have been written to: /home/cityu/autoware/build/polar_grid
+[10.076s] Invoked command in '/home/cityu/autoware/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/polar_grid -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/polar_grid
+[10.077s] Invoking command in '/home/cityu/autoware/build/polar_grid': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/polar_grid -- -j16 -l16
+[10.155s] [35m[1mScanning dependencies of target polar_grid_autogen[0m
+[10.156s] [ 25%] [34m[1mAutomatic MOC for target polar_grid[0m
+[10.604s] [ 25%] Built target polar_grid_autogen
+[10.627s] [35m[1mScanning dependencies of target polar_grid[0m
+[10.758s] [ 50%] [32mBuilding CXX object CMakeFiles/polar_grid.dir/polar_grid_autogen/mocs_compilation.cpp.o[0m
+[19.417s] [ 75%] [32mBuilding CXX object CMakeFiles/polar_grid.dir/src/polar_grid_display.cpp.o[0m
+[28.538s] [100%] [32m[1mLinking CXX shared library libpolar_grid.so[0m
+[33.122s] [100%] Built target polar_grid
+[33.149s] Invoked command in '/home/cityu/autoware/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/polar_grid -- -j16 -l16
+[33.195s] Invoking command in '/home/cityu/autoware/build/polar_grid': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/polar_grid
+[38.620s] -- Install configuration: "Release"
+[38.624s] -- Execute custom install script
+[38.625s] -- Symlinking: /home/cityu/autoware/install/polar_grid//libpolar_grid.so
+[38.625s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[38.625s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/library_path.sh
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/library_path.dsv
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/lib/libpolar_grid.so
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/icons/classes/PolarGridDisplay.png
+[38.626s] -- Up-to-date symlink: /home/cityu/autoware/install/polar_grid/share/polar_grid/plugins/plugin_description.xml
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/package_run_dependencies/polar_grid
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/parent_prefix_path/polar_grid
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/ament_prefix_path.sh
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/ament_prefix_path.dsv
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/path.sh
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/environment/path.dsv
+[38.626s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.bash
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.sh
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.zsh
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/local_setup.dsv
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/package.dsv
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/packages/polar_grid
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/ament_index/resource_index/rviz_common__pluginlib__plugin/polar_grid
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/polar_gridConfig.cmake
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/cmake/polar_gridConfig-version.cmake
+[38.627s] -- Symlinking: /home/cityu/autoware/install/polar_grid/share/polar_grid/package.xml
+[38.730s] Invoked command in '/home/cityu/autoware/build/polar_grid' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/polar_grid

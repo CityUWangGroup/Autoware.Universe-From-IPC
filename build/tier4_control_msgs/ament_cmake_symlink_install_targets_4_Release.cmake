@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/tier4_control_msgs/rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "tier4_control_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/tier4_control_msgs")

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/tier4_vehicle_msgs/rosidl_generator_c/tier4_vehicle_msgs/msg/vehicle_emergency_stamped.h

@@ -1,0 +1,9 @@
+from tier4_perception_msgs.msg._detected_object_with_feature import DetectedObjectWithFeature  # noqa: F401
+from tier4_perception_msgs.msg._detected_objects_with_feature import DetectedObjectsWithFeature  # noqa: F401
+from tier4_perception_msgs.msg._dynamic_object import DynamicObject  # noqa: F401
+from tier4_perception_msgs.msg._dynamic_object_array import DynamicObjectArray  # noqa: F401
+from tier4_perception_msgs.msg._feature import Feature  # noqa: F401
+from tier4_perception_msgs.msg._predicted_path import PredictedPath  # noqa: F401
+from tier4_perception_msgs.msg._semantic import Semantic  # noqa: F401
+from tier4_perception_msgs.msg._shape import Shape  # noqa: F401
+from tier4_perception_msgs.msg._state import State  # noqa: F401

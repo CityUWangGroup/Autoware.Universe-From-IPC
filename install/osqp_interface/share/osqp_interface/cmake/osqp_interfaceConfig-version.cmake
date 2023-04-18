@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/osqp_interface/ament_cmake_core/osqp_interfaceConfig-version.cmake

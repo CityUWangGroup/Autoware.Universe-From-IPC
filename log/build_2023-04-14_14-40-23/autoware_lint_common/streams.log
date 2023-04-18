@@ -1,0 +1,33 @@
+[0.139s] Invoking command in '/home/cityu/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_lint_common
+[0.195s] -- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.222s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.310s] -- Found ament_cmake_export_dependencies: 1.1.6 (/opt/ros/galactic/share/ament_cmake_export_dependencies/cmake)
+[0.313s] -- Found ament_cmake_test: 1.1.6 (/opt/ros/galactic/share/ament_cmake_test/cmake)
+[0.455s] -- Configuring done
+[0.456s] -- Generating done
+[0.457s] -- Build files have been written to: /home/cityu/autoware/build/autoware_lint_common
+[0.462s] Invoked command in '/home/cityu/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_lint_common
+[0.463s] Invoking command in '/home/cityu/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_lint_common -- -j16 -l16
+[2.930s] Invoked command in '/home/cityu/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_lint_common -- -j16 -l16
+[3.053s] Invoking command in '/home/cityu/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_lint_common
+[3.771s] -- Install configuration: "Release"
+[3.771s] -- Execute custom install script
+[3.771s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/package_run_dependencies/autoware_lint_common
+[3.771s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/parent_prefix_path/autoware_lint_common
+[3.771s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.sh
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.dsv
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.sh
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.dsv
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.bash
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.sh
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.zsh
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.dsv
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.dsv
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/packages/autoware_lint_common
+[3.772s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.773s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig.cmake
+[3.773s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig-version.cmake
+[3.773s] -- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.xml
+[3.802s] Invoked command in '/home/cityu/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_lint_common

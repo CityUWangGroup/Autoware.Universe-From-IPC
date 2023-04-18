@@ -1,0 +1,87 @@
+[0.129s] Invoking command in '/home/cityu/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/rtc_replayer
+[17.649s] -- The C compiler identification is GNU 9.4.0
+[17.649s] -- The CXX compiler identification is GNU 9.4.0
+[17.649s] -- Check for working C compiler: /usr/bin/cc
+[17.649s] -- Check for working C compiler: /usr/bin/cc -- works
+[17.649s] -- Detecting C compiler ABI info
+[17.649s] -- Detecting C compiler ABI info - done
+[17.649s] -- Detecting C compile features
+[17.649s] -- Detecting C compile features - done
+[17.649s] -- Check for working CXX compiler: /usr/bin/c++
+[17.649s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[17.649s] -- Detecting CXX compiler ABI info
+[17.650s] -- Detecting CXX compiler ABI info - done
+[17.650s] -- Detecting CXX compile features
+[17.650s] -- Detecting CXX compile features - done
+[17.650s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[17.650s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[17.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[17.650s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.650s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.650s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[17.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[17.651s] -- Found FastRTPS: /opt/ros/galactic/include  
+[17.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.651s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[17.651s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[17.651s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[17.651s] -- Looking for pthread.h
+[17.651s] -- Looking for pthread.h - found
+[17.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.651s] -- Looking for pthread_create in pthreads
+[17.652s] -- Looking for pthread_create in pthreads - not found
+[17.652s] -- Looking for pthread_create in pthread
+[17.652s] -- Looking for pthread_create in pthread - found
+[17.652s] -- Found Threads: TRUE  
+[17.652s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[17.652s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.652s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/rtc_replayer/include
+[17.652s] -- Configured cppcheck exclude dirs and/or files: 
+[17.652s] -- Added test 'lint_cmake' to check CMake code style
+[17.652s] -- Added test 'xmllint' to check XML markup files
+[17.653s] -- Configuring done
+[17.653s] -- Generating done
+[17.653s] -- Build files have been written to: /home/cityu/autoware/build/rtc_replayer
+[17.707s] Invoked command in '/home/cityu/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/rtc_replayer
+[17.709s] Invoking command in '/home/cityu/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/rtc_replayer -- -j16 -l16
+[17.838s] [35m[1mScanning dependencies of target rtc_replayer_node[0m
+[17.839s] [ 25%] [32mBuilding CXX object CMakeFiles/rtc_replayer_node.dir/rclcpp_components/node_main_rtc_replayer_node.cpp.o[0m
+[24.073s] [ 50%] [32m[1mLinking CXX executable rtc_replayer_node[0m
+[24.326s] [ 50%] Built target rtc_replayer_node
+[24.341s] [35m[1mScanning dependencies of target rtc_replayer[0m
+[24.397s] [ 75%] [32mBuilding CXX object CMakeFiles/rtc_replayer.dir/src/rtc_replayer_node.cpp.o[0m
+[45.016s] [100%] [32m[1mLinking CXX shared library librtc_replayer.so[0m
+[45.287s] [100%] Built target rtc_replayer
+[45.321s] Invoked command in '/home/cityu/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/rtc_replayer -- -j16 -l16
+[45.386s] Invoking command in '/home/cityu/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/rtc_replayer
+[45.858s] -- Install configuration: "Release"
+[45.859s] -- Execute custom install script
+[45.859s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/lib/rtc_replayer/rtc_replayer_node
+[45.859s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/include/rtc_replayer/rtc_replayer_node.hpp
+[45.859s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/library_path.sh
+[45.859s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/library_path.dsv
+[45.859s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/lib/librtc_replayer.so
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/launch/rtc_replayer.launch.xml
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/ament_index/resource_index/package_run_dependencies/rtc_replayer
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/ament_index/resource_index/parent_prefix_path/rtc_replayer
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.sh
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.dsv
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/path.sh
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/environment/path.dsv
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.bash
+[45.860s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.sh
+[45.861s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.zsh
+[45.861s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.dsv
+[45.861s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/package.dsv
+[45.861s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/ament_index/resource_index/packages/rtc_replayer
+[45.862s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/ament_index/resource_index/rclcpp_components/rtc_replayer
+[45.862s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.871s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.880s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_libraries-extras.cmake
+[45.899s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig.cmake
+[45.920s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig-version.cmake
+[45.939s] -- Symlinking: /home/cityu/autoware/install/rtc_replayer/share/rtc_replayer/package.xml
+[46.096s] Invoked command in '/home/cityu/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/rtc_replayer

@@ -1,0 +1,46 @@
+[0.299s] Invoking command in '/home/cityu/autoware/build/pandar_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/pandar_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pandar_description
+[2.561s] -- The C compiler identification is GNU 9.4.0
+[2.561s] -- The CXX compiler identification is GNU 9.4.0
+[2.561s] -- Check for working C compiler: /usr/bin/cc
+[2.561s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.561s] -- Detecting C compiler ABI info
+[2.561s] -- Detecting C compiler ABI info - done
+[2.561s] -- Detecting C compile features
+[2.561s] -- Detecting C compile features - done
+[2.562s] -- Check for working CXX compiler: /usr/bin/c++
+[2.562s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.562s] -- Detecting CXX compiler ABI info
+[2.562s] -- Detecting CXX compiler ABI info - done
+[2.562s] -- Detecting CXX compile features
+[2.562s] -- Detecting CXX compile features - done
+[2.563s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[2.563s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.563s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.596s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.784s] -- Configuring done
+[2.788s] -- Generating done
+[2.789s] -- Build files have been written to: /home/cityu/autoware/build/pandar_description
+[2.829s] Invoked command in '/home/cityu/autoware/build/pandar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/pandar_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pandar_description
+[2.832s] Invoking command in '/home/cityu/autoware/build/pandar_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/pandar_description -- -j16 -l16
+[9.920s] Invoked command in '/home/cityu/autoware/build/pandar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/pandar_description -- -j16 -l16
+[10.064s] Invoking command in '/home/cityu/autoware/build/pandar_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/pandar_description
+[14.718s] -- Install configuration: "Release"
+[14.718s] -- Execute custom install script
+[14.718s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/urdf/pandar_40p.xacro
+[14.718s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/urdf/pandar_qt.xacro
+[14.718s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/ament_index/resource_index/package_run_dependencies/pandar_description
+[14.718s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/ament_index/resource_index/parent_prefix_path/pandar_description
+[14.718s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/environment/ament_prefix_path.sh
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/environment/ament_prefix_path.dsv
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/environment/path.sh
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/environment/path.dsv
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/local_setup.bash
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/local_setup.sh
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/local_setup.zsh
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/local_setup.dsv
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/package.dsv
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/ament_index/resource_index/packages/pandar_description
+[14.719s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/cmake/pandar_descriptionConfig.cmake
+[14.720s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/cmake/pandar_descriptionConfig-version.cmake
+[14.720s] -- Symlinking: /home/cityu/autoware/install/pandar_description/share/pandar_description/package.xml
+[14.856s] Invoked command in '/home/cityu/autoware/build/pandar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/pandar_description

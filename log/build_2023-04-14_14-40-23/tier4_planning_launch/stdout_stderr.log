@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tier4_planning_launch
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/mission_planning/mission_planning.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/planning.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/planning_diagnostics/planning_error_monitor.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/behavior_planning.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/behavior_planning.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/compare_map.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/vector_map_inside_area_filter.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/motion_planning/motion_planning.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/lane_driving/motion_planning/motion_planning.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/parking.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/parking.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/launch/scenario_planning/scenario_planning.launch.xml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/common.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/motion_velocity_smoother/Analytical.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/motion_velocity_smoother/JerkFiltered.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/motion_velocity_smoother/L2.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/motion_velocity_smoother/Linf.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/motion_velocity_smoother/motion_velocity_smoother.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/common/nearest_search.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/avoidance/avoidance.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/drivable_area_expansion.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_change/lane_change.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_following/lane_following.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/pull_out/pull_out.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/pull_over/pull_over.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/side_shift/side_shift.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/behavior_velocity_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/blind_spot.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/crosswalk.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/detection_area.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/intersection.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/no_stopping_area.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/occlusion_spot.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/run_out.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/stop_line.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/traffic_light.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/virtual_traffic_light.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/lane_change_planner/lane_change_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/behavior_planning/rtc_auto_mode_manager/rtc_auto_mode_manager.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner/obstacle_avoidance_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/obstacle_cruise_planner/obstacle_cruise_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/adaptive_cruise_control.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/obstacle_stop_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/obstacle_velocity_limiter/obstacle_velocity_limiter.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/lane_driving/motion_planning/surround_obstacle_checker/surround_obstacle_checker.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/config/scenario_planning/parking/freespace_planner/freespace_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/ament_index/resource_index/package_run_dependencies/tier4_planning_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/ament_index/resource_index/parent_prefix_path/tier4_planning_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/package.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/ament_index/resource_index/packages/tier4_planning_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/cmake/tier4_planning_launchConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/cmake/tier4_planning_launchConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_planning_launch/share/tier4_planning_launch/package.xml

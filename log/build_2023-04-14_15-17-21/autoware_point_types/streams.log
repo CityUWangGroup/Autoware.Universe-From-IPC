@@ -1,0 +1,27 @@
+[0.335s] Invoking command in '/home/cityu/autoware/build/autoware_point_types': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_point_types -- -j16 -l16
+[0.393s] [ 33%] Built target gtest_main
+[0.393s] [ 66%] Built target gtest
+[0.410s] [100%] Built target test_autoware_point_types
+[0.547s] Invoked command in '/home/cityu/autoware/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_point_types -- -j16 -l16
+[0.717s] Invoking command in '/home/cityu/autoware/build/autoware_point_types': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_point_types
+[0.779s] -- Install configuration: "Release"
+[0.779s] -- Execute custom install script
+[0.779s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/include/autoware_point_types/types.hpp
+[0.779s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/package_run_dependencies/autoware_point_types
+[0.779s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/parent_prefix_path/autoware_point_types
+[0.779s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.sh
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.dsv
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/path.sh
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/path.dsv
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.bash
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.sh
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.zsh
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.dsv
+[0.780s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/package.dsv
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/packages/autoware_point_types
+[0.780s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.781s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.789s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig.cmake
+[0.790s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig-version.cmake
+[0.790s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/package.xml
+[0.883s] Invoked command in '/home/cityu/autoware/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_point_types

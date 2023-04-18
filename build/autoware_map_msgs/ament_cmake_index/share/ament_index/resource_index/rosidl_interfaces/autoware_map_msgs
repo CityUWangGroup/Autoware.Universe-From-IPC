@@ -1,0 +1,14 @@
+msg/AreaInfo.idl
+msg/AreaInfo.msg
+msg/LaneletMapBin.idl
+msg/LaneletMapBin.msg
+msg/PointCloudMapCellWithID.idl
+msg/PointCloudMapCellWithID.msg
+srv/GetDifferentialPointCloudMap.idl
+srv/GetDifferentialPointCloudMap.srv
+srv/GetDifferentialPointCloudMap_Request.msg
+srv/GetDifferentialPointCloudMap_Response.msg
+srv/GetPartialPointCloudMap.idl
+srv/GetPartialPointCloudMap.srv
+srv/GetPartialPointCloudMap_Request.msg
+srv/GetPartialPointCloudMap_Response.msg

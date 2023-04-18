@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/traffic_light_classifier/liblibutils.so" "/home/cityu/autoware/build/traffic_light_classifier/libtraffic_light_classifier_nodelet.so" "TARGETS" "libutils" "traffic_light_classifier_nodelet" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

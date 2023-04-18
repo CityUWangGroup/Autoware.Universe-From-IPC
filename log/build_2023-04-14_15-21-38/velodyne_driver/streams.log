@@ -1,0 +1,59 @@
+[0.021s] Invoking command in '/home/cityu/autoware/build/velodyne_driver': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_driver -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_driver
+[1.161s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.163s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.164s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.827s] -- Configuring done
+[1.879s] CMake Warning:
+[1.879s]   Manually-specified variables were not used by the project:
+[1.879s] 
+[1.879s]     DOWNLOAD_ARTIFACTS
+[1.879s] 
+[1.879s] 
+[1.879s] -- Generating done
+[1.879s] -- Build files have been written to: /home/cityu/autoware/build/velodyne_driver
+[1.908s] Invoked command in '/home/cityu/autoware/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_driver -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_driver
+[1.910s] Invoking command in '/home/cityu/autoware/build/velodyne_driver': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_driver -- -j16 -l16
+[3.099s] [ 28%] Built target velodyne_driver_node
+[3.099s] [ 42%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[3.100s] [ 57%] Built target velodyne_input
+[3.100s] [ 71%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[3.100s] [100%] Built target velodyne_driver
+[3.226s] Invoked command in '/home/cityu/autoware/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_driver -- -j16 -l16
+[3.467s] Invoking command in '/home/cityu/autoware/build/velodyne_driver': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_driver
+[3.527s] -- Install configuration: "Release"
+[3.527s] -- Execute custom install script
+[3.527s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/lib/libvelodyne_input.so
+[3.528s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[3.531s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/input.h
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/ring_sequence.h
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/library_path.sh
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/library_path.dsv
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/lib/libvelodyne_driver.so
+[3.532s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/launch/nodelet_manager.launch.xml
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[3.533s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[3.534s] -- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/package.dsv
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[3.534s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[3.535s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/package.xml
+[3.581s] Invoked command in '/home/cityu/autoware/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_driver

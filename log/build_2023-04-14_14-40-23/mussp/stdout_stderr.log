@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/mussp
+[35m[1mScanning dependencies of target mussp[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Graph.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/mussp.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Sink.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmussp.so[0m
+[100%] Built target mussp
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Graph.h
+-- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Node.h
+-- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Sink.h
+-- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/mussp.h
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/mussp/lib/libmussp.so
+-- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/package_run_dependencies/mussp
+-- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/parent_prefix_path/mussp
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/package.dsv
+-- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/packages/mussp
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/package.xml

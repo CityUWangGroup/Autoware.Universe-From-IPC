@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_cmake/srv/MoraiVehicleSpecSrv_Request.msg

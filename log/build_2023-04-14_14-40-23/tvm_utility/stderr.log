@@ -1,0 +1,12 @@
+CMake Warning at tvm_utility-extras.cmake:58 (message):
+  Skipped download for yolo_v2_tiny (enable by setting DOWNLOAD_ARTIFACTS)
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (get_neural_network)
+
+
+CMake Warning at CMakeLists.txt:90 (message):
+  No model is generated for
+  /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/test/yolo_v2_tiny,
+  skipping test
+
+

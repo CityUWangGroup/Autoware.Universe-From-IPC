@@ -1,0 +1,33 @@
+[0.248s] Invoking command in '/home/cityu/autoware/build/fake_test_node': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/fake_test_node -- -j16 -l16
+[0.347s] [ 50%] Built target gtest
+[0.348s] [ 50%] Built target gtest_main
+[0.348s] [ 75%] Built target fake_test_node
+[0.348s] [100%] Built target test_fake_test_node
+[0.392s] Invoked command in '/home/cityu/autoware/build/fake_test_node' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/fake_test_node -- -j16 -l16
+[0.673s] Invoking command in '/home/cityu/autoware/build/fake_test_node': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/fake_test_node
+[0.693s] -- Install configuration: "Release"
+[0.693s] -- Execute custom install script
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/include/fake_test_node/fake_test_node.hpp
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/include/fake_test_node/visibility_control.hpp
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/library_path.sh
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/library_path.dsv
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/lib/libfake_test_node.so
+[0.693s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/ament_index/resource_index/package_run_dependencies/fake_test_node
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/ament_index/resource_index/parent_prefix_path/fake_test_node
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/ament_prefix_path.sh
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/ament_prefix_path.dsv
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/path.sh
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/environment/path.dsv
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/local_setup.bash
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/local_setup.sh
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/local_setup.zsh
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/local_setup.dsv
+[0.694s] -- Symlinking: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/package.dsv
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/ament_index/resource_index/packages/fake_test_node
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.694s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.695s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/cmake/ament_cmake_export_libraries-extras.cmake
+[0.695s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/cmake/fake_test_nodeConfig.cmake
+[0.695s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/cmake/fake_test_nodeConfig-version.cmake
+[0.695s] -- Up-to-date symlink: /home/cityu/autoware/install/fake_test_node/share/fake_test_node/package.xml
+[0.857s] Invoked command in '/home/cityu/autoware/build/fake_test_node' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/fake_test_node

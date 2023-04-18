@@ -1,0 +1,24 @@
+[0.191s] Invoking command in '/home/cityu/autoware/build/individual_params': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/individual_params -- -j16 -l16
+[0.322s] Invoked command in '/home/cityu/autoware/build/individual_params' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/individual_params -- -j16 -l16
+[0.592s] Invoking command in '/home/cityu/autoware/build/individual_params': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/individual_params
+[0.622s] -- Install configuration: "Release"
+[0.622s] -- Execute custom install script
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/imu_corrector.param.yaml
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/sensor_kit_calibration.yaml
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/sensors_calibration.yaml
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/ament_index/resource_index/package_run_dependencies/individual_params
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/ament_index/resource_index/parent_prefix_path/individual_params
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/environment/ament_prefix_path.sh
+[0.622s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/environment/ament_prefix_path.dsv
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/environment/path.sh
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/environment/path.dsv
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/local_setup.bash
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/local_setup.sh
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/local_setup.zsh
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/local_setup.dsv
+[0.623s] -- Symlinking: /home/cityu/autoware/install/individual_params/share/individual_params/package.dsv
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/ament_index/resource_index/packages/individual_params
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/cmake/individual_paramsConfig.cmake
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/cmake/individual_paramsConfig-version.cmake
+[0.623s] -- Up-to-date symlink: /home/cityu/autoware/install/individual_params/share/individual_params/package.xml
+[0.739s] Invoked command in '/home/cityu/autoware/build/individual_params' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/individual_params

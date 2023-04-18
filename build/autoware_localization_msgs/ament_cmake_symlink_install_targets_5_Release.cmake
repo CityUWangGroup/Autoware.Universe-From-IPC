@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/autoware_localization_msgs/rosidl_generator_py/autoware_localization_msgs/libautoware_localization_msgs__python.so" "TARGETS" "autoware_localization_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

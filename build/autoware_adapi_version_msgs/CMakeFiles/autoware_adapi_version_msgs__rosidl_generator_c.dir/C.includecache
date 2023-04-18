@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cityu/autoware/build/autoware_adapi_version_msgs/rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/interface_version__functions.c
+autoware_adapi_version_msgs/srv/detail/interface_version__functions.h
+/home/cityu/autoware/build/autoware_adapi_version_msgs/rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/autoware_adapi_version_msgs/srv/detail/interface_version__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/autoware_adapi_version_msgs/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/interface_version__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/rosidl_runtime_c/visibility_control.h
+autoware_adapi_version_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/autoware_adapi_version_msgs/msg/rosidl_generator_c__visibility_control.h
+autoware_adapi_version_msgs/srv/detail/interface_version__struct.h
+rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/autoware_adapi_version_msgs/srv/detail/interface_version__struct.h
+
+rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/interface_version__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

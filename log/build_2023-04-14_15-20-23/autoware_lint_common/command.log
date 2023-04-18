@@ -1,0 +1,4 @@
+Invoking command in '/home/cityu/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_lint_common -- -j16 -l16
+Invoked command in '/home/cityu/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_lint_common -- -j16 -l16
+Invoking command in '/home/cityu/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_lint_common
+Invoked command in '/home/cityu/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_lint_common

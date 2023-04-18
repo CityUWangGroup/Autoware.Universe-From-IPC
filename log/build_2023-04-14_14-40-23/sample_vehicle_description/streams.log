@@ -1,0 +1,50 @@
+[0.119s] Invoking command in '/home/cityu/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/sample_vehicle_description
+[22.910s] -- The C compiler identification is GNU 9.4.0
+[22.913s] -- The CXX compiler identification is GNU 9.4.0
+[22.914s] -- Check for working C compiler: /usr/bin/cc
+[22.915s] -- Check for working C compiler: /usr/bin/cc -- works
+[22.916s] -- Detecting C compiler ABI info
+[22.917s] -- Detecting C compiler ABI info - done
+[22.917s] -- Detecting C compile features
+[22.917s] -- Detecting C compile features - done
+[22.918s] -- Check for working CXX compiler: /usr/bin/c++
+[22.918s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[22.918s] -- Detecting CXX compiler ABI info
+[22.918s] -- Detecting CXX compiler ABI info - done
+[22.918s] -- Detecting CXX compile features
+[22.918s] -- Detecting CXX compile features - done
+[22.918s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[22.918s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[22.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.918s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.920s] -- Configuring done
+[22.920s] -- Generating done
+[22.920s] -- Build files have been written to: /home/cityu/autoware/build/sample_vehicle_description
+[23.026s] Invoked command in '/home/cityu/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/sample_vehicle_description
+[23.038s] Invoking command in '/home/cityu/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/sample_vehicle_description -- -j16 -l16
+[29.769s] Invoked command in '/home/cityu/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/sample_vehicle_description -- -j16 -l16
+[30.107s] Invoking command in '/home/cityu/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/sample_vehicle_description
+[44.718s] -- Install configuration: "Release"
+[44.718s] -- Execute custom install script
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/mesh/lexus.dae
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/mesh/lexus.jpg
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/urdf/vehicle.xacro
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/config/mirror.param.yaml
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/config/simulator_model.param.yaml
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/config/vehicle_info.param.yaml
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/ament_index/resource_index/package_run_dependencies/sample_vehicle_description
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/ament_index/resource_index/parent_prefix_path/sample_vehicle_description
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/environment/ament_prefix_path.sh
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/environment/ament_prefix_path.dsv
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/environment/path.sh
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/environment/path.dsv
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.bash
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.sh
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.zsh
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/local_setup.dsv
+[44.719s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/package.dsv
+[44.720s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/ament_index/resource_index/packages/sample_vehicle_description
+[44.720s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/cmake/sample_vehicle_descriptionConfig.cmake
+[44.720s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/cmake/sample_vehicle_descriptionConfig-version.cmake
+[44.720s] -- Symlinking: /home/cityu/autoware/install/sample_vehicle_description/share/sample_vehicle_description/package.xml
+[44.749s] Invoked command in '/home/cityu/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/sample_vehicle_description

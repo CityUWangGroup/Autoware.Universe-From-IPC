@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_backbone_llvm"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_backbone_llvm.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_backbone_llvm-complete.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-install.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-mkdir.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-download.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-update.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-patch.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-configure.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_backbone_llvm-prefix/src/centerpoint_backbone_llvm-stamp/centerpoint_backbone_llvm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"centerpoint_backbone_llvm"
+		],
+		"name" : "centerpoint_backbone_llvm"
+	}
+}

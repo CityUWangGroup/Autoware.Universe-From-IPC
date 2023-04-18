@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/static_centerline_optimizer/ament_cmake_core/static_centerline_optimizerConfig-version.cmake

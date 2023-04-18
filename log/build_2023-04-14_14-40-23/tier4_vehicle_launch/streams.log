@@ -1,0 +1,51 @@
+[0.051s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/launch/tier4_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_vehicle_launch
+[7.099s] -- The C compiler identification is GNU 9.4.0
+[7.099s] -- The CXX compiler identification is GNU 9.4.0
+[7.100s] -- Check for working C compiler: /usr/bin/cc
+[7.100s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.100s] -- Detecting C compiler ABI info
+[7.100s] -- Detecting C compiler ABI info - done
+[7.100s] -- Detecting C compile features
+[7.100s] -- Detecting C compile features - done
+[7.100s] -- Check for working CXX compiler: /usr/bin/c++
+[7.100s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.100s] -- Detecting CXX compiler ABI info
+[7.101s] -- Detecting CXX compiler ABI info - done
+[7.101s] -- Detecting CXX compile features
+[7.101s] -- Detecting CXX compile features - done
+[7.101s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[7.101s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[7.101s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.101s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.102s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.102s] -- Added test 'lint_cmake' to check CMake code style
+[7.102s] -- Added test 'xmllint' to check XML markup files
+[7.102s] -- Configuring done
+[7.102s] -- Generating done
+[7.102s] -- Build files have been written to: /home/cityu/autoware/build/tier4_vehicle_launch
+[7.162s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/launch/tier4_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_vehicle_launch
+[7.164s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_launch -- -j16 -l16
+[10.300s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_launch -- -j16 -l16
+[10.452s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_launch
+[14.234s] -- Install configuration: "Release"
+[14.234s] -- Execute custom install script
+[14.234s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/launch/vehicle.launch.xml
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/urdf/vehicle.xacro
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/tier4_vehicle_launch
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/tier4_vehicle_launch
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.sh
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.dsv
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.sh
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.dsv
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.bash
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.sh
+[14.235s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.zsh
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.dsv
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.dsv
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/packages/tier4_vehicle_launch
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig.cmake
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig-version.cmake
+[14.236s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.xml
+[14.293s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_launch

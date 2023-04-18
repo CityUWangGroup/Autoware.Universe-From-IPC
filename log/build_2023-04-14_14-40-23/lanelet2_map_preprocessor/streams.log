@@ -1,0 +1,202 @@
+[0.121s] Invoking command in '/home/cityu/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lanelet2_map_preprocessor
+[9.765s] -- The C compiler identification is GNU 9.4.0
+[9.765s] -- The CXX compiler identification is GNU 9.4.0
+[9.765s] -- Check for working C compiler: /usr/bin/cc
+[9.765s] -- Check for working C compiler: /usr/bin/cc -- works
+[9.766s] -- Detecting C compiler ABI info
+[9.766s] -- Detecting C compiler ABI info - done
+[9.766s] -- Detecting C compile features
+[9.766s] -- Detecting C compile features - done
+[9.766s] -- Check for working CXX compiler: /usr/bin/c++
+[9.766s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[9.766s] -- Detecting CXX compiler ABI info
+[9.766s] -- Detecting CXX compiler ABI info - done
+[9.766s] -- Detecting CXX compile features
+[9.767s] -- Detecting CXX compile features - done
+[9.767s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[9.767s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[9.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.767s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.767s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[9.767s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.768s] -- Found FastRTPS: /opt/ros/galactic/include  
+[9.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.770s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[9.770s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[9.770s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.770s] -- Looking for pthread.h
+[9.770s] -- Looking for pthread.h - found
+[9.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.771s] -- Looking for pthread_create in pthreads
+[9.771s] -- Looking for pthread_create in pthreads - not found
+[9.771s] -- Looking for pthread_create in pthread
+[9.771s] -- Looking for pthread_create in pthread - found
+[9.771s] -- Found Threads: TRUE  
+[9.772s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+[9.772s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[9.772s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[9.772s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[9.772s] -- Found OpenMP: TRUE (found version "4.5")  
+[9.772s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[9.772s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[9.773s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[9.773s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[9.773s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.773s] -- Checking for module 'eigen3'
+[9.773s] --   Found eigen3, version 3.3.7
+[9.773s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.773s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[9.773s] -- Checking for module 'flann'
+[9.774s] --   Found flann, version 1.9.1
+[9.774s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[9.774s] -- The imported target "vtkParseOGLExt" references the file
+[9.774s]    "/usr/bin/vtkParseOGLExt-7.1"
+[9.774s] but this file does not exist.  Possible reasons include:
+[9.774s] * The file was deleted, renamed, or moved to another location.
+[9.774s] * An install or uninstall procedure did not complete successfully.
+[9.774s] * The installation package was faulty and contained
+[9.774s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[9.774s] but not all the files it references.
+[9.775s] 
+[9.775s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[9.775s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[9.775s] but this file does not exist.  Possible reasons include:
+[9.775s] * The file was deleted, renamed, or moved to another location.
+[9.775s] * An install or uninstall procedure did not complete successfully.
+[9.775s] * The installation package was faulty and contained
+[9.775s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[9.775s] but not all the files it references.
+[9.776s] 
+[9.776s] -- The imported target "vtk" references the file
+[9.776s]    "/usr/bin/vtk"
+[9.776s] but this file does not exist.  Possible reasons include:
+[9.776s] * The file was deleted, renamed, or moved to another location.
+[9.776s] * An install or uninstall procedure did not complete successfully.
+[9.776s] * The installation package was faulty and contained
+[9.777s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[9.777s] but not all the files it references.
+[9.777s] 
+[9.777s] -- The imported target "pvtk" references the file
+[9.777s]    "/usr/bin/pvtk"
+[9.777s] but this file does not exist.  Possible reasons include:
+[9.777s] * The file was deleted, renamed, or moved to another location.
+[9.777s] * An install or uninstall procedure did not complete successfully.
+[9.777s] * The installation package was faulty and contained
+[9.778s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[9.778s] but not all the files it references.
+[9.778s] 
+[9.778s] -- Checking for module 'libusb-1.0'
+[9.778s] --   No package 'libusb-1.0' found
+[9.778s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[9.778s] -- OpenNI disabled because libusb-1.0 not found.
+[9.778s] -- Checking for module 'libusb-1.0'
+[9.778s] --   No package 'libusb-1.0' found
+[9.778s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[9.778s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[9.779s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[9.779s] -- Checking for module 'libusb-1.0'
+[9.779s] --   No package 'libusb-1.0' found
+[9.779s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[9.779s] -- OpenNI disabled because libusb-1.0 not found.
+[9.779s] -- Checking for module 'libusb-1.0'
+[9.779s] --   No package 'libusb-1.0' found
+[9.779s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[9.779s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[9.779s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[9.779s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[9.779s] -- Checking for module 'libusb-1.0'
+[9.780s] --   No package 'libusb-1.0' found
+[9.780s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[9.780s] -- OpenNI disabled because libusb-1.0 not found.
+[9.780s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.780s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.780s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.780s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.780s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.787s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.787s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[9.787s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[9.788s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.788s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.788s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.788s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.788s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.788s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.788s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.788s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.789s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.789s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.789s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.789s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.789s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[9.789s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[9.789s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.789s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.789s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[14.261s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.264s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.267s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor/include
+[14.267s] -- Configured cppcheck exclude dirs and/or files: 
+[14.268s] -- Added test 'lint_cmake' to check CMake code style
+[14.269s] -- Added test 'xmllint' to check XML markup files
+[14.279s] -- Configuring done
+[14.903s] -- Generating done
+[14.909s] -- Build files have been written to: /home/cityu/autoware/build/lanelet2_map_preprocessor
+[14.995s] Invoked command in '/home/cityu/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lanelet2_map_preprocessor
+[14.995s] Invoking command in '/home/cityu/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lanelet2_map_preprocessor -- -j16 -l16
+[38.242s] [35m[1mScanning dependencies of target fix_z_value_by_pcd[0m
+[38.242s] [  8%] [32mBuilding CXX object CMakeFiles/fix_z_value_by_pcd.dir/src/fix_z_value_by_pcd.cpp.o[0m
+[38.242s] [ 16%] [32m[1mLinking CXX executable fix_z_value_by_pcd[0m
+[46.237s] [ 16%] Built target fix_z_value_by_pcd
+[46.304s] [35m[1mScanning dependencies of target merge_close_lines[0m
+[46.511s] [ 25%] [32mBuilding CXX object CMakeFiles/merge_close_lines.dir/src/merge_close_lines.cpp.o[0m
+[65.297s] [ 33%] [32m[1mLinking CXX executable merge_close_lines[0m
+[66.469s] [ 33%] Built target merge_close_lines
+[66.482s] [35m[1mScanning dependencies of target fix_lane_change_tags[0m
+[66.554s] [ 41%] [32mBuilding CXX object CMakeFiles/fix_lane_change_tags.dir/src/fix_lane_change_tags.cpp.o[0m
+[84.201s] [ 50%] [32m[1mLinking CXX executable fix_lane_change_tags[0m
+[87.039s] [ 50%] Built target fix_lane_change_tags
+[87.126s] [35m[1mScanning dependencies of target merge_close_points[0m
+[87.270s] [ 58%] [32mBuilding CXX object CMakeFiles/merge_close_points.dir/src/merge_close_points.cpp.o[0m
+[114.234s] [ 66%] [32m[1mLinking CXX executable merge_close_points[0m
+[116.791s] [ 66%] Built target merge_close_points
+[116.883s] [35m[1mScanning dependencies of target transform_maps[0m
+[117.174s] [ 75%] [32mBuilding CXX object CMakeFiles/transform_maps.dir/src/transform_maps.cpp.o[0m
+[140.797s] [ 83%] [32m[1mLinking CXX executable transform_maps[0m
+[142.311s] [ 83%] Built target transform_maps
+[142.326s] [35m[1mScanning dependencies of target remove_unreferenced_geometry[0m
+[142.398s] [ 91%] [32mBuilding CXX object CMakeFiles/remove_unreferenced_geometry.dir/src/remove_unreferenced_geometry.cpp.o[0m
+[154.016s] [100%] [32m[1mLinking CXX executable remove_unreferenced_geometry[0m
+[155.108s] [100%] Built target remove_unreferenced_geometry
+[155.186s] Invoked command in '/home/cityu/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lanelet2_map_preprocessor -- -j16 -l16
+[155.291s] Invoking command in '/home/cityu/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lanelet2_map_preprocessor
+[156.759s] -- Install configuration: "Release"
+[156.773s] -- Execute custom install script
+[156.774s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/fix_z_value_by_pcd
+[156.774s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/transform_maps
+[156.774s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/merge_close_lines
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/merge_close_points
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/remove_unreferenced_geometry
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/fix_lane_change_tags
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/launch/fix_z_value_by_pcd.launch.xml
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/launch/transform_maps.launch.xml
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/package_run_dependencies/lanelet2_map_preprocessor
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/parent_prefix_path/lanelet2_map_preprocessor
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/ament_prefix_path.sh
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/ament_prefix_path.dsv
+[156.775s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/path.sh
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/path.dsv
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.bash
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.sh
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.zsh
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.dsv
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/package.dsv
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/packages/lanelet2_map_preprocessor
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/ament_cmake_export_dependencies-extras.cmake
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/lanelet2_map_preprocessorConfig.cmake
+[156.776s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/lanelet2_map_preprocessorConfig-version.cmake
+[156.777s] -- Symlinking: /home/cityu/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/package.xml
+[156.794s] Invoked command in '/home/cityu/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lanelet2_map_preprocessor

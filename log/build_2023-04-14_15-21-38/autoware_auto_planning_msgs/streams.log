@@ -1,0 +1,325 @@
+[0.048s] Invoking command in '/home/cityu/autoware/build/autoware_auto_planning_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/core/external/autoware_auto_msgs/autoware_auto_planning_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_auto_planning_msgs
+[1.388s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.388s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.388s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.388s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.455s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[1.457s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[1.459s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[1.461s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.311s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.334s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.334s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.334s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.483s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[2.494s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[2.507s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.510s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.510s] -- Added test 'lint_cmake' to check CMake code style
+[2.510s] -- Added test 'xmllint' to check XML markup files
+[2.513s] -- Configuring done
+[2.689s] -- Generating done
+[2.694s] CMake Warning:
+[2.695s]   Manually-specified variables were not used by the project:
+[2.695s] 
+[2.695s]     DOWNLOAD_ARTIFACTS
+[2.695s] 
+[2.695s] 
+[2.695s] -- Build files have been written to: /home/cityu/autoware/build/autoware_auto_planning_msgs
+[2.824s] Invoked command in '/home/cityu/autoware/build/autoware_auto_planning_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/core/external/autoware_auto_msgs/autoware_auto_planning_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_auto_planning_msgs
+[2.826s] Invoking command in '/home/cityu/autoware/build/autoware_auto_planning_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_planning_msgs -- -j16 -l16
+[3.255s] [  0%] Built target autoware_auto_planning_msgs__cpp
+[3.257s] [  1%] [32m[1mLinking C shared library libautoware_auto_planning_msgs__rosidl_generator_c.so[0m
+[3.257s] [ 12%] Built target autoware_auto_planning_msgs__rosidl_generator_c
+[3.257s] [ 13%] [32m[1mLinking CXX shared library libautoware_auto_planning_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.338s] [ 24%] Built target autoware_auto_planning_msgs__rosidl_typesupport_introspection_cpp
+[3.424s] [ 25%] [32m[1mLinking CXX shared library libautoware_auto_planning_msgs__rosidl_typesupport_c.so[0m
+[3.507s] [ 36%] Built target autoware_auto_planning_msgs__rosidl_typesupport_c
+[3.565s] [ 37%] [32m[1mLinking C shared library libautoware_auto_planning_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.627s] [ 48%] Built target autoware_auto_planning_msgs__rosidl_typesupport_introspection_c
+[3.670s] [ 49%] [32m[1mLinking CXX shared library libautoware_auto_planning_msgs__rosidl_typesupport_cpp.so[0m
+[3.748s] [ 60%] Built target autoware_auto_planning_msgs__rosidl_typesupport_cpp
+[3.807s] [ 60%] [32m[1mLinking CXX shared library libautoware_auto_planning_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.984s] [ 72%] Built target autoware_auto_planning_msgs__rosidl_typesupport_fastrtps_cpp
+[4.047s] [ 73%] [32m[1mLinking CXX shared library libautoware_auto_planning_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.240s] [ 84%] Built target autoware_auto_planning_msgs__rosidl_typesupport_fastrtps_c
+[4.269s] [ 84%] Built target autoware_auto_planning_msgs
+[4.306s] [ 85%] Built target autoware_auto_planning_msgs__py
+[4.374s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_planning_msgs/libautoware_auto_planning_msgs__python.so[0m
+[4.463s] [ 96%] Built target autoware_auto_planning_msgs__python
+[4.516s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.603s] [ 97%] Built target autoware_auto_planning_msgs__rosidl_typesupport_c__pyext
+[4.633s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.718s] [ 99%] Built target autoware_auto_planning_msgs__rosidl_typesupport_introspection_c__pyext
+[4.768s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.916s] [100%] Built target autoware_auto_planning_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.942s] Invoked command in '/home/cityu/autoware/build/autoware_auto_planning_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_planning_msgs -- -j16 -l16
+[5.243s] Invoking command in '/home/cityu/autoware/build/autoware_auto_planning_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_planning_msgs
+[6.196s] -- Install configuration: "Release"
+[6.197s] -- Execute custom install script
+[6.197s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_auto_planning_msgs
+[6.197s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__functions.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__struct.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__type_support.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__functions.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__struct.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__type_support.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__functions.h
+[6.198s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__struct.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__type_support.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__functions.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__struct.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__type_support.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/plan_trajectory.h
+[6.199s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/planner_costmap.h
+[6.201s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/record_trajectory.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/replay_trajectory.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__functions.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__struct.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__type_support.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__functions.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__struct.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__type_support.h
+[6.202s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__functions.h
+[6.203s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__struct.h
+[6.203s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__type_support.h
+[6.203s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__functions.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__struct.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__type_support.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__functions.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__struct.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__type_support.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__functions.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__struct.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__type_support.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__functions.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__struct.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__type_support.h
+[6.204s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__functions.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__struct.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__type_support.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__functions.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__struct.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__type_support.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/had_map_route.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/order_movement.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_point.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_point_with_lane_id.h
+[6.205s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_with_lane_id.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/route.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/trajectory.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/trajectory_point.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__functions.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__struct.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__type_support.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/modify_trajectory.h
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/library_path.sh
+[6.206s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/library_path.dsv
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__rosidl_typesupport_fastrtps_c.h
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_fastrtps_c.so
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__rosidl_typesupport_fastrtps_cpp.hpp
+[6.208s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.209s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__rosidl_typesupport_introspection_c.h
+[6.210s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__rosidl_typesupport_introspection_c.h
+[6.210s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__rosidl_typesupport_introspection_c.h
+[6.210s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__rosidl_typesupport_introspection_c.h
+[6.210s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__rosidl_typesupport_introspection_c.h
+[6.211s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__rosidl_typesupport_introspection_c.h
+[6.211s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[6.211s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[6.211s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__rosidl_typesupport_introspection_c.h
+[6.212s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__rosidl_typesupport_introspection_c.h
+[6.212s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__rosidl_typesupport_introspection_c.h
+[6.212s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[6.219s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
+[6.219s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.219s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__rosidl_typesupport_introspection_c.h
+[6.220s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__builder.hpp
+[6.220s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__struct.hpp
+[6.237s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__traits.hpp
+[6.237s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__builder.hpp
+[6.237s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__struct.hpp
+[6.237s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__traits.hpp
+[6.237s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__builder.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__struct.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__traits.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__builder.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__struct.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__traits.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/plan_trajectory.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/planner_costmap.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/record_trajectory.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/replay_trajectory.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__builder.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__struct.hpp
+[6.238s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__traits.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__builder.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__struct.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__traits.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__builder.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__struct.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__traits.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__builder.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__struct.hpp
+[6.239s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__traits.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__builder.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__struct.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__traits.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__builder.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__struct.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__traits.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__builder.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__struct.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__traits.hpp
+[6.240s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__builder.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__struct.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__traits.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__builder.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__struct.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__traits.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/had_map_route.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/order_movement.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_point.hpp
+[6.241s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_point_with_lane_id.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/path_with_lane_id.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/route.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/trajectory.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/trajectory_point.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__builder.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__struct.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__traits.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/modify_trajectory.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/plan_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/planner_costmap__rosidl_typesupport_introspection_cpp.hpp
+[6.242s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/record_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/action/detail/replay_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/had_map_route__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/order_movement__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_point_with_lane_id__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/path_with_lane_id__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/route__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/include/autoware_auto_planning_msgs/srv/detail/modify_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.243s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/pythonpath.sh
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/pythonpath.dsv
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/__init__.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/action/__init__.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/action/_plan_trajectory.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/action/_planner_costmap.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/action/_record_trajectory.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/action/_replay_trajectory.py
+[6.244s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/__init__.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_had_map_route.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_order_movement.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_path.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_path_point.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_path_point_with_lane_id.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_path_with_lane_id.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_route.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_trajectory.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/msg/_trajectory_point.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/srv/__init__.py
+[6.245s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/srv/_modify_trajectory.py
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/autoware_auto_planning_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__python.so
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/action/PlannerCostmap.idl
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/action/PlanTrajectory.idl
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/action/RecordTrajectory.idl
+[6.246s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/action/ReplayTrajectory.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/HADMapRoute.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/OrderMovement.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/Route.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/Trajectory.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/TrajectoryPoint.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/Path.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/PathPoint.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/PathWithLaneId.idl
+[6.247s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/msg/PathPointWithLaneId.idl
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/srv/ModifyTrajectory.idl
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_auto_planning_msgs
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_auto_planning_msgs
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/ament_prefix_path.sh
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/ament_prefix_path.dsv
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/path.sh
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/environment/path.dsv
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/local_setup.bash
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/local_setup.sh
+[6.248s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/local_setup.zsh
+[6.249s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/local_setup.dsv
+[6.249s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/package.dsv
+[6.249s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/ament_index/resource_index/packages/autoware_auto_planning_msgs
+[6.249s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/rosidl_cmake-extras.cmake
+[6.249s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.249s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.250s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.250s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.250s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.251s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.251s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgsConfig.cmake
+[6.252s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgsConfig-version.cmake
+[6.252s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/package.xml
+[6.252s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_generator_c.so
+[6.252s] -- Set runtime path of "/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_generator_c.so" to ""
+[6.252s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_introspection_c.so
+[6.252s] -- Set runtime path of "/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.253s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_c.so
+[6.254s] -- Set runtime path of "/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_c.so" to ""
+[6.259s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_introspection_cpp.so
+[6.259s] -- Set runtime path of "/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.260s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_cpp.so
+[6.260s] -- Set runtime path of "/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/libautoware_auto_planning_msgs__rosidl_typesupport_cpp.so" to ""
+[6.311s] Compiling '/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages/autoware_auto_planning_msgs/__init__.py'...
+[6.331s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_generator_cExport.cmake
+[6.331s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_generator_cExport-release.cmake
+[6.331s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.331s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[6.331s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_cExport.cmake
+[6.332s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_cExport-release.cmake
+[6.332s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_generator_cppExport.cmake
+[6.332s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.332s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.333s] -- Up-to-date: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_cppExport.cmake
+[6.333s] -- Installing: /home/cityu/autoware/install/autoware_auto_planning_msgs/share/autoware_auto_planning_msgs/cmake/autoware_auto_planning_msgs__rosidl_typesupport_cppExport-release.cmake
+[6.348s] Invoked command in '/home/cityu/autoware/build/autoware_auto_planning_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_planning_msgs

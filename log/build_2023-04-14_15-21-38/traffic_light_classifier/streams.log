@@ -1,0 +1,76 @@
+[0.178s] Invoking command in '/home/cityu/autoware/build/traffic_light_classifier': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/traffic_light_classifier -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/traffic_light_classifier
+[0.239s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.239s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.264s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.550s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.562s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.584s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.040s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.057s] -- Checking and downloading traffic_light_classifier_mobilenetv2.onnx
+[2.057s] -- start traffic_light_classifier_mobilenetv2.onnx
+[2.057s] -- found traffic_light_classifier_mobilenetv2.onnx
+[2.073s] -- same traffic_light_classifier_mobilenetv2.onnx
+[2.073s] -- File already exists.
+[2.073s] -- Download completed successfully!
+[2.073s] -- Checking and downloading lamp_labels.txt
+[2.073s] -- start lamp_labels.txt
+[2.074s] -- found lamp_labels.txt
+[2.074s] -- same lamp_labels.txt
+[2.074s] -- File already exists.
+[2.074s] -- Download completed successfully!
+[2.570s] -- Configuring done
+[2.683s] -- Generating done
+[2.684s] CMake Warning:
+[2.684s]   Manually-specified variables were not used by the project:
+[2.684s] 
+[2.684s]     DOWNLOAD_ARTIFACTS
+[2.687s] 
+[2.688s] 
+[2.688s] -- Build files have been written to: /home/cityu/autoware/build/traffic_light_classifier
+[2.764s] Invoked command in '/home/cityu/autoware/build/traffic_light_classifier' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/traffic_light_classifier -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/traffic_light_classifier
+[2.770s] Invoking command in '/home/cityu/autoware/build/traffic_light_classifier': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/traffic_light_classifier -- -j16 -l16
+[3.312s] [ 25%] Built target traffic_light_classifier_node
+[3.313s] [ 37%] [32m[1mLinking CXX shared library liblibutils.so[0m
+[3.316s] [ 50%] Built target libutils
+[3.316s] [ 62%] [32m[1mLinking CXX shared library libtraffic_light_classifier_nodelet.so[0m
+[3.630s] [100%] Built target traffic_light_classifier_nodelet
+[3.645s] Invoked command in '/home/cityu/autoware/build/traffic_light_classifier' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/traffic_light_classifier -- -j16 -l16
+[3.818s] Invoking command in '/home/cityu/autoware/build/traffic_light_classifier': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/traffic_light_classifier
+[3.991s] -- Install configuration: "Release"
+[4.000s] -- Execute custom install script
+[4.000s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/lib/traffic_light_classifier/traffic_light_classifier_node
+[4.000s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/include/traffic_light_classifier/classifier_interface.hpp
+[4.000s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/include/traffic_light_classifier/cnn_classifier.hpp
+[4.000s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/include/traffic_light_classifier/color_classifier.hpp
+[4.001s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/include/traffic_light_classifier/nodelet.hpp
+[4.001s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/library_path.sh
+[4.001s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/library_path.dsv
+[4.001s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/lib/liblibutils.so
+[4.001s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/lib/libtraffic_light_classifier_nodelet.so
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/data/lamp_labels.txt
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/data/traffic_light_classifier_mobilenetv2.onnx
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/launch/traffic_light_classifier.launch.xml
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/ament_index/resource_index/package_run_dependencies/traffic_light_classifier
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/ament_index/resource_index/parent_prefix_path/traffic_light_classifier
+[4.002s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/ament_prefix_path.sh
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/ament_prefix_path.dsv
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/path.sh
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/environment/path.dsv
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/local_setup.bash
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/local_setup.sh
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/local_setup.zsh
+[4.003s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/local_setup.dsv
+[4.004s] -- Symlinking: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/package.dsv
+[4.004s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/ament_index/resource_index/packages/traffic_light_classifier
+[4.004s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/ament_index/resource_index/rclcpp_components/traffic_light_classifier
+[4.004s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.004s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.010s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/cmake/ament_cmake_export_libraries-extras.cmake
+[4.010s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/cmake/traffic_light_classifierConfig.cmake
+[4.011s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/cmake/traffic_light_classifierConfig-version.cmake
+[4.011s] -- Up-to-date symlink: /home/cityu/autoware/install/traffic_light_classifier/share/traffic_light_classifier/package.xml
+[4.065s] Invoked command in '/home/cityu/autoware/build/traffic_light_classifier' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/traffic_light_classifier

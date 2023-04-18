@@ -1,0 +1,60 @@
+[0.262s] Invoking command in '/home/cityu/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_monitor
+[0.288s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.288s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.372s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.785s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.787s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.819s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.011s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.048s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.049s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.050s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/system/velodyne_monitor/include
+[1.050s] -- Configured cppcheck exclude dirs and/or files: 
+[1.050s] -- Added test 'lint_cmake' to check CMake code style
+[1.051s] -- Added test 'xmllint' to check XML markup files
+[1.055s] -- Configuring done
+[1.069s] -- Generating done
+[1.071s] CMake Warning:
+[1.071s]   Manually-specified variables were not used by the project:
+[1.071s] 
+[1.071s]     DOWNLOAD_ARTIFACTS
+[1.071s] 
+[1.071s] 
+[1.071s] -- Build files have been written to: /home/cityu/autoware/build/velodyne_monitor
+[1.088s] Invoked command in '/home/cityu/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_monitor
+[1.089s] Invoking command in '/home/cityu/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_monitor -- -j16 -l16
+[1.943s] [100%] Built target velodyne_monitor
+[1.960s] Invoked command in '/home/cityu/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_monitor -- -j16 -l16
+[2.046s] Invoking command in '/home/cityu/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_monitor
+[2.298s] -- Install configuration: "Release"
+[2.299s] -- Execute custom install script
+[2.299s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/include/velodyne_monitor/velodyne_monitor.hpp
+[2.299s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/lib/velodyne_monitor/velodyne_monitor
+[2.299s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/launch/velodyne_monitor.launch.xml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/config/HDL-32E.param.yaml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLP-16.param.yaml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLP-32C.param.yaml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLS-128.param.yaml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/config/Velarray_M1600.param.yaml
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/ament_index/resource_index/package_run_dependencies/velodyne_monitor
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/ament_index/resource_index/parent_prefix_path/velodyne_monitor
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.sh
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.dsv
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/environment/path.sh
+[2.300s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/environment/path.dsv
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.bash
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.sh
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.zsh
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.dsv
+[2.301s] -- Symlinking: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/package.dsv
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/ament_index/resource_index/packages/velodyne_monitor
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.301s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig.cmake
+[2.302s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig-version.cmake
+[2.302s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_monitor/share/velodyne_monitor/package.xml
+[2.377s] Invoked command in '/home/cityu/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_monitor

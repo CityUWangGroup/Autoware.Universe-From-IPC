@@ -1,0 +1,35 @@
+[0.198s] Invoking command in '/home/cityu/autoware/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/topic_state_monitor -- -j16 -l16
+[0.256s] [ 60%] Built target topic_state_monitor
+[0.260s] [100%] Built target topic_state_monitor_node
+[0.389s] Invoked command in '/home/cityu/autoware/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/topic_state_monitor -- -j16 -l16
+[0.580s] Invoking command in '/home/cityu/autoware/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/topic_state_monitor
+[0.592s] -- Install configuration: "Release"
+[0.595s] -- Execute custom install script
+[0.595s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor.hpp
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor_core.hpp
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.sh
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.dsv
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/lib/libtopic_state_monitor.so
+[0.605s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor.launch.xml
+[0.605s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor_tf.launch.xml
+[0.606s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/package_run_dependencies/topic_state_monitor
+[0.606s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/parent_prefix_path/topic_state_monitor
+[0.606s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/path.sh
+[0.607s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/path.dsv
+[0.608s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.bash
+[0.608s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.sh
+[0.608s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.zsh
+[0.608s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.dsv
+[0.608s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/package.dsv
+[0.612s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/packages/topic_state_monitor
+[0.612s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/rclcpp_components/topic_state_monitor
+[0.612s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.612s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.613s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.613s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig.cmake
+[0.613s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig-version.cmake
+[0.617s] -- Up-to-date symlink: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/package.xml
+[0.839s] Invoked command in '/home/cityu/autoware/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/topic_state_monitor

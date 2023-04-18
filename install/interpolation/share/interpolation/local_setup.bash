@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/interpolation/ament_cmake_environment_hooks/local_setup.bash

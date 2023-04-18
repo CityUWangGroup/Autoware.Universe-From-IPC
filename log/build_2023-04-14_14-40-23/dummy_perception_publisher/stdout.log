@@ -1,0 +1,274 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;FLANN::FLANN  
+-- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include;$<BUILD_INTERFACE:/home/cityu/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/dummy_perception_publisher
+[35m[1mScanning dependencies of target signed_distance_function[0m
+[  1%] [32mBuilding CXX object CMakeFiles/signed_distance_function.dir/src/signed_distance_function.cpp.o[0m
+[  3%] [32m[1mLinking CXX shared library libsigned_distance_function.so[0m
+[  3%] Built target signed_distance_function
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_generator_c[0m
+[  7%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/initial_state__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/object__functions.c.o[0m
+[ 11%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_generator_c.so[0m
+[ 11%] Built target dummy_perception_publisher__rosidl_generator_c
+[35m[1mScanning dependencies of target empty_objects_publisher[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/empty_objects_publisher.dir/src/empty_objects_publisher.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable empty_objects_publisher[0m
+[ 15%] Built target empty_objects_publisher
+[ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_introspection_c[0m
+[ 22%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/object__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/initial_state__type_support.c.o[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_c[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[ 28%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_typesupport_introspection_c.so[0m
+[ 30%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_c.so[0m
+[ 30%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target dummy_perception_publisher__cpp[0m
+[ 32%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 32%] Built target dummy_perception_publisher__rosidl_typesupport_c
+[35m[1mScanning dependencies of target gtest[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] Built target dummy_perception_publisher__cpp
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 37%] Built target gtest_main
+[ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_introspection_cpp[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/initial_state__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/object__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so[0m
+[ 45%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_cpp
+[ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 47%] Built target gtest
+[ 49%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/initial_state__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 54%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp
+[35m[1mScanning dependencies of target signed_distance_function-test[0m
+[ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/signed_distance_function-test.dir/test/src/test_signed_distance_function.cpp.o[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_cpp[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_fastrtps_c[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/initial_state__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/object__type_support_c.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_cpp.so[0m
+[ 69%] Built target dummy_perception_publisher__rosidl_typesupport_cpp
+[ 71%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target dummy_perception_publisher[0m
+[ 71%] Built target dummy_perception_publisher
+[35m[1mScanning dependencies of target dummy_perception_publisher__py[0m
+[35m[1mScanning dependencies of target dummy_perception_publisher_node[0m
+[ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/main.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/pointcloud_creator.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/node.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable signed_distance_function-test[0m
+[ 81%] Built target dummy_perception_publisher__py
+[35m[1mScanning dependencies of target dummy_perception_publisher__python[0m
+[ 81%] Built target signed_distance_function-test
+[ 83%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__python.dir/rosidl_generator_py/dummy_perception_publisher/msg/_initial_state_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__python.dir/rosidl_generator_py/dummy_perception_publisher/msg/_object_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/libdummy_perception_publisher__python.so[0m
+[ 86%] Built target dummy_perception_publisher__python
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 88%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 90%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] Built target dummy_perception_publisher__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext[0m
+[ 96%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 98%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext
+[100%] [32m[1mLinking CXX executable dummy_perception_publisher_node[0m
+[100%] Built target dummy_perception_publisher_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/rosidl_interfaces/dummy_perception_publisher
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__functions.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__struct.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__type_support.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__functions.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__struct.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__type_support.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/initial_state.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/object.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/initial_state.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/object.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.sh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/__init__.py
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/msg/__init__.py
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/msg/_initial_state.py
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/msg/_object.py
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__python.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.idl
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.idl
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.msg
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.msg
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/node.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/signed_distance_function.hpp
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/libsigned_distance_function.so
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/dummy_perception_publisher/dummy_perception_publisher_node
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/lib/dummy_perception_publisher/empty_objects_publisher
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/launch/dummy_perception_publisher.launch.xml
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_perception_publisher
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_perception_publisher
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/package.dsv
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/packages/dummy_perception_publisher
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/package.xml
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so
+-- Set runtime path of "/home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so" to ""
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so
+-- Set runtime path of "/home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so" to ""
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/cityu/autoware/install/dummy_perception_publisher/lib/python3.8/site-packages/dummy_perception_publisher/__init__.py'...
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_generator_cExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_generator_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_generator_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport-release.cmake

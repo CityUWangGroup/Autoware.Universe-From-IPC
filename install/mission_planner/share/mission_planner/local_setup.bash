@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/mission_planner/ament_cmake_environment_hooks/local_setup.bash

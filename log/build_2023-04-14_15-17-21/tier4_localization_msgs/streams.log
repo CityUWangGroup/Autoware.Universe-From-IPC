@@ -1,0 +1,92 @@
+[0.109s] Invoking command in '/home/cityu/autoware/build/tier4_localization_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_localization_msgs -- -j16 -l16
+[0.478s] [  3%] Built target tier4_localization_msgs__cpp
+[0.478s] [ 12%] Built target tier4_localization_msgs__rosidl_generator_c
+[0.478s] [ 22%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_cpp
+[0.478s] [ 32%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_cpp
+[0.478s] [ 41%] Built target tier4_localization_msgs__rosidl_typesupport_c
+[0.478s] [ 54%] Built target tier4_localization_msgs__rosidl_typesupport_cpp
+[0.478s] [ 61%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_c
+[0.479s] [ 70%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_c
+[0.479s] [ 70%] Built target tier4_localization_msgs
+[0.479s] [ 74%] Built target tier4_localization_msgs__py
+[0.504s] [ 80%] Built target tier4_localization_msgs__python
+[0.538s] [ 87%] Built target tier4_localization_msgs__rosidl_typesupport_c__pyext
+[0.538s] [ 93%] Built target tier4_localization_msgs__rosidl_typesupport_introspection_c__pyext
+[0.549s] [100%] Built target tier4_localization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.632s] Invoked command in '/home/cityu/autoware/build/tier4_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_localization_msgs -- -j16 -l16
+[0.787s] Invoking command in '/home/cityu/autoware/build/tier4_localization_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_localization_msgs
+[0.896s] -- Install configuration: "Release"
+[0.896s] -- Execute custom install script
+[0.896s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_localization_msgs
+[0.897s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.897s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__functions.h
+[0.898s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__struct.h
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__type_support.h
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/pose_with_covariance_stamped.h
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/library_path.sh
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/library_path.dsv
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.900s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[0.901s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_fastrtps_c.so
+[0.901s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.901s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.903s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.904s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.904s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[0.904s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__builder.hpp
+[0.904s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__struct.hpp
+[0.904s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__traits.hpp
+[0.905s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/pose_with_covariance_stamped.hpp
+[0.907s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/include/tier4_localization_msgs/srv/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/pythonpath.sh
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/pythonpath.dsv
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/__init__.py
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/srv/__init__.py
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/srv/_pose_with_covariance_stamped.py
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.908s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages/tier4_localization_msgs/tier4_localization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__python.so
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped.idl
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped.srv
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped_Request.msg
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/srv/PoseWithCovarianceStamped_Response.msg
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_localization_msgs
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_localization_msgs
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/ament_prefix_path.sh
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/ament_prefix_path.dsv
+[0.909s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/path.sh
+[0.910s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/environment/path.dsv
+[0.910s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.bash
+[0.910s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.sh
+[0.910s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.zsh
+[0.911s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/local_setup.dsv
+[0.911s] -- Symlinking: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/package.dsv
+[0.911s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/ament_index/resource_index/packages/tier4_localization_msgs
+[0.912s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake-extras.cmake
+[0.912s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.912s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.914s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgsConfig.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgsConfig-version.cmake
+[0.915s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/package.xml
+[0.915s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_generator_c.so
+[0.915s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_introspection_c.so
+[0.915s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_c.so
+[0.915s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_introspection_cpp.so
+[0.915s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/lib/libtier4_localization_msgs__rosidl_typesupport_cpp.so
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_generator_cExport.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_generator_cExport-release.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cExport.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cExport-release.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_generator_cppExport.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.916s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cppExport.cmake
+[0.917s] -- Up-to-date: /home/cityu/autoware/install/tier4_localization_msgs/share/tier4_localization_msgs/cmake/tier4_localization_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.047s] Invoked command in '/home/cityu/autoware/build/tier4_localization_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_localization_msgs

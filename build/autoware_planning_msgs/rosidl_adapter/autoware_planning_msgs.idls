@@ -1,0 +1,5 @@
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletPrimitive.idl
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletRoute.idl
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletSegment.idl
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PoseWithUuid.idl
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:srv/SetRoute.idl

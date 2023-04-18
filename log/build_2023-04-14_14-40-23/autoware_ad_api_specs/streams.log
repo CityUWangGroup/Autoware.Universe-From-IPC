@@ -1,0 +1,59 @@
+[0.122s] Invoking command in '/home/cityu/autoware/build/autoware_ad_api_specs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_ad_api_specs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_ad_api_specs
+[3.178s] -- The C compiler identification is GNU 9.4.0
+[3.178s] -- The CXX compiler identification is GNU 9.4.0
+[3.178s] -- Check for working C compiler: /usr/bin/cc
+[3.178s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.178s] -- Detecting C compiler ABI info
+[3.178s] -- Detecting C compiler ABI info - done
+[3.178s] -- Detecting C compile features
+[3.178s] -- Detecting C compile features - done
+[3.179s] -- Check for working CXX compiler: /usr/bin/c++
+[3.179s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.179s] -- Detecting CXX compiler ABI info
+[3.179s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Detecting CXX compile features
+[3.179s] -- Detecting CXX compile features - done
+[3.179s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.179s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.179s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.180s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.180s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.180s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.180s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.180s] -- Configured cppcheck include dirs: 
+[3.180s] -- Configured cppcheck exclude dirs and/or files: 
+[3.180s] -- Added test 'lint_cmake' to check CMake code style
+[3.180s] -- Added test 'xmllint' to check XML markup files
+[3.180s] -- Configuring done
+[3.181s] -- Generating done
+[3.181s] -- Build files have been written to: /home/cityu/autoware/build/autoware_ad_api_specs
+[3.237s] Invoked command in '/home/cityu/autoware/build/autoware_ad_api_specs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_ad_api_specs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_ad_api_specs
+[3.239s] Invoking command in '/home/cityu/autoware/build/autoware_ad_api_specs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_ad_api_specs -- -j16 -l16
+[21.283s] Invoked command in '/home/cityu/autoware/build/autoware_ad_api_specs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_ad_api_specs -- -j16 -l16
+[21.509s] Invoking command in '/home/cityu/autoware/build/autoware_ad_api_specs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_ad_api_specs
+[31.360s] -- Install configuration: "Release"
+[31.361s] -- Execute custom install script
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/fail_safe.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/interface.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/localization.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/motion.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/operation_mode.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/routing.hpp
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/package_run_dependencies/autoware_ad_api_specs
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/parent_prefix_path/autoware_ad_api_specs
+[31.361s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/ament_prefix_path.sh
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/ament_prefix_path.dsv
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/path.sh
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/path.dsv
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.bash
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.sh
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.zsh
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.dsv
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/package.dsv
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/packages/autoware_ad_api_specs
+[31.362s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.363s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/autoware_ad_api_specsConfig.cmake
+[31.363s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/autoware_ad_api_specsConfig-version.cmake
+[31.363s] -- Symlinking: /home/cityu/autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/package.xml
+[31.419s] Invoked command in '/home/cityu/autoware/build/autoware_ad_api_specs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_ad_api_specs

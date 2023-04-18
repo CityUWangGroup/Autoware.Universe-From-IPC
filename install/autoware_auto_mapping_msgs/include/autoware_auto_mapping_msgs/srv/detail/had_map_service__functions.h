@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_auto_mapping_msgs/rosidl_generator_c/autoware_auto_mapping_msgs/srv/detail/had_map_service__functions.h

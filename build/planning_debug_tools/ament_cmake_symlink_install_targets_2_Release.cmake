@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/planning_debug_tools/rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "planning_debug_tools__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/planning_debug_tools")

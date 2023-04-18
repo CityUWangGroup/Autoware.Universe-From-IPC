@@ -1,0 +1,258 @@
+[0.061s] Invoking command in '/home/cityu/autoware/build/tier4_perception_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_perception_msgs
+[0.746s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.746s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.747s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.747s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.747s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.499s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.201s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.201s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.285s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.285s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.390s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.391s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.391s] -- Added test 'lint_cmake' to check CMake code style
+[2.391s] -- Added test 'xmllint' to check XML markup files
+[2.393s] -- Configuring done
+[2.526s] -- Generating done
+[2.526s] CMake Warning:
+[2.526s]   Manually-specified variables were not used by the project:
+[2.527s] 
+[2.527s]     DOWNLOAD_ARTIFACTS
+[2.527s] 
+[2.527s] 
+[2.527s] -- Build files have been written to: /home/cityu/autoware/build/tier4_perception_msgs
+[2.683s] Invoked command in '/home/cityu/autoware/build/tier4_perception_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_perception_msgs
+[2.684s] Invoking command in '/home/cityu/autoware/build/tier4_perception_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_perception_msgs -- -j16 -l16
+[2.816s] [  1%] Built target tier4_perception_msgs__cpp
+[2.816s] [  2%] [32m[1mLinking C shared library libtier4_perception_msgs__rosidl_generator_c.so[0m
+[2.850s] [ 12%] Built target tier4_perception_msgs__rosidl_generator_c
+[2.895s] [ 13%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.072s] [ 24%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_cpp
+[3.118s] [ 25%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_c.so[0m
+[3.183s] [ 35%] Built target tier4_perception_msgs__rosidl_typesupport_c
+[3.228s] [ 36%] [32m[1mLinking C shared library libtier4_perception_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.285s] [ 47%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_c
+[3.329s] [ 48%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_cpp.so[0m
+[3.373s] [ 58%] Built target tier4_perception_msgs__rosidl_typesupport_cpp
+[3.411s] [ 60%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.532s] [ 70%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[3.578s] [ 71%] [32m[1mLinking CXX shared library libtier4_perception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.701s] [ 82%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_c
+[3.731s] [ 82%] Built target tier4_perception_msgs
+[3.761s] [ 83%] Built target tier4_perception_msgs__py
+[3.816s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/libtier4_perception_msgs__python.so[0m
+[3.892s] [ 93%] Built target tier4_perception_msgs__python
+[3.934s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.995s] [ 95%] Built target tier4_perception_msgs__rosidl_typesupport_c__pyext
+[4.052s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.169s] [ 97%] Built target tier4_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.201s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.249s] [100%] Built target tier4_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[4.272s] Invoked command in '/home/cityu/autoware/build/tier4_perception_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_perception_msgs -- -j16 -l16
+[4.520s] Invoking command in '/home/cityu/autoware/build/tier4_perception_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_perception_msgs
+[4.945s] -- Install configuration: "Release"
+[4.945s] -- Execute custom install script
+[4.945s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_perception_msgs
+[4.945s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__functions.h
+[4.945s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__struct.h
+[4.945s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__type_support.h
+[4.945s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__functions.h
+[4.946s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__struct.h
+[4.946s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__type_support.h
+[4.946s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__functions.h
+[4.946s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__struct.h
+[4.946s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__type_support.h
+[4.947s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__functions.h
+[4.947s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__struct.h
+[4.947s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__type_support.h
+[4.953s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__functions.h
+[4.953s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__struct.h
+[4.953s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__type_support.h
+[4.953s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__functions.h
+[4.953s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__struct.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__type_support.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__functions.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__struct.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__type_support.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__functions.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__struct.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__type_support.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__functions.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__struct.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__type_support.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_object_with_feature.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_objects_with_feature.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object_array.h
+[4.954s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/feature.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/predicted_path.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/semantic.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/shape.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/state.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/library_path.sh
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/library_path.dsv
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_fastrtps_c.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_fastrtps_c.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_c.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_fastrtps_c.h
+[4.955s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_fastrtps_c.h
+[4.956s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_fastrtps_c.h
+[4.956s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_fastrtps_c.h
+[4.956s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_fastrtps_c.h
+[4.958s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[4.958s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.958s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[4.958s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.958s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_fastrtps_cpp.hpp
+[4.959s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_introspection_c.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_introspection_c.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_introspection_c.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_introspection_c.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_introspection_c.h
+[4.960s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_introspection_c.h
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_introspection_c.h
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_introspection_c.h
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__builder.hpp
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__struct.hpp
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__traits.hpp
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__builder.hpp
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__struct.hpp
+[4.961s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__traits.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__builder.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__struct.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__traits.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__builder.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__struct.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__traits.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__builder.hpp
+[4.962s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__struct.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__traits.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__builder.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__struct.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__traits.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__builder.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__struct.hpp
+[4.963s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__traits.hpp
+[4.964s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__builder.hpp
+[4.964s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__struct.hpp
+[4.964s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__traits.hpp
+[4.964s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__builder.hpp
+[4.964s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__struct.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__traits.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_object_with_feature.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detected_objects_with_feature.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/dynamic_object_array.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/feature.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/predicted_path.hpp
+[4.971s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/semantic.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/shape.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/state.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_object_with_feature__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/detected_objects_with_feature__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/dynamic_object_array__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/feature__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/predicted_path__rosidl_typesupport_introspection_cpp.hpp
+[4.972s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/semantic__rosidl_typesupport_introspection_cpp.hpp
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/include/tier4_perception_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/pythonpath.sh
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/pythonpath.dsv
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/__init__.py
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/__init__.py
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_detected_object_with_feature.py
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_detected_objects_with_feature.py
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_dynamic_object.py
+[4.973s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_dynamic_object_array.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_feature.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_predicted_path.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_semantic.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_shape.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/msg/_state.py
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/tier4_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__python.so
+[4.974s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DetectedObjectWithFeature.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DetectedObjectsWithFeature.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DynamicObject.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/DynamicObjectArray.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Feature.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/PredictedPath.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Semantic.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/Shape.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/msg/State.idl
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DetectedObjectWithFeature.msg
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DetectedObjectsWithFeature.msg
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DynamicObject.msg
+[4.975s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/DynamicObjectArray.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Feature.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/PredictedPath.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Semantic.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/Shape.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/object_recognition/State.msg
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_perception_msgs
+[4.976s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_perception_msgs
+[4.977s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/ament_prefix_path.sh
+[4.977s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/ament_prefix_path.dsv
+[4.977s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/path.sh
+[4.978s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/environment/path.dsv
+[4.978s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.bash
+[4.978s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.sh
+[4.978s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.zsh
+[4.978s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/local_setup.dsv
+[4.978s] -- Symlinking: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/package.dsv
+[4.979s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/ament_index/resource_index/packages/tier4_perception_msgs
+[4.979s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake-extras.cmake
+[4.979s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.979s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.979s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgsConfig.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgsConfig-version.cmake
+[4.980s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/package.xml
+[4.980s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_generator_c.so
+[4.980s] -- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_generator_c.so" to ""
+[4.980s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_c.so
+[4.981s] -- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.981s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_c.so
+[4.981s] -- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_c.so" to ""
+[4.981s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[4.981s] -- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.981s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_cpp.so
+[4.981s] -- Set runtime path of "/home/cityu/autoware/install/tier4_perception_msgs/lib/libtier4_perception_msgs__rosidl_typesupport_cpp.so" to ""
+[5.039s] Compiling '/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages/tier4_perception_msgs/__init__.py'...
+[5.056s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cExport.cmake
+[5.061s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cExport-release.cmake
+[5.061s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.062s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[5.062s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cExport.cmake
+[5.062s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cExport-release.cmake
+[5.062s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_generator_cppExport.cmake
+[5.062s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.062s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.062s] -- Up-to-date: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cppExport.cmake
+[5.063s] -- Installing: /home/cityu/autoware/install/tier4_perception_msgs/share/tier4_perception_msgs/cmake/tier4_perception_msgs__rosidl_typesupport_cppExport-release.cmake
+[5.179s] Invoked command in '/home/cityu/autoware/build/tier4_perception_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_perception_msgs

@@ -1,0 +1,206 @@
+[1.124s] Invoking command in '/home/cityu/autoware/build/ground_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/ground_segmentation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ground_segmentation
+[26.506s] -- The C compiler identification is GNU 9.4.0
+[26.509s] -- The CXX compiler identification is GNU 9.4.0
+[26.510s] -- Check for working C compiler: /usr/bin/cc
+[26.510s] -- Check for working C compiler: /usr/bin/cc -- works
+[26.510s] -- Detecting C compiler ABI info
+[26.510s] -- Detecting C compiler ABI info - done
+[26.510s] -- Detecting C compile features
+[26.510s] -- Detecting C compile features - done
+[26.511s] -- Check for working CXX compiler: /usr/bin/c++
+[26.511s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[26.511s] -- Detecting CXX compiler ABI info
+[26.519s] -- Detecting CXX compiler ABI info - done
+[26.520s] -- Detecting CXX compile features
+[26.520s] -- Detecting CXX compile features - done
+[26.520s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[26.520s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[26.521s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[26.521s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[26.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[26.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.521s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[26.521s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[26.521s] -- Found FastRTPS: /opt/ros/galactic/include  
+[26.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.521s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[26.522s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[26.522s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[26.522s] -- Looking for pthread.h
+[26.522s] -- Looking for pthread.h - found
+[26.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[26.522s] -- Looking for pthread_create in pthreads
+[26.522s] -- Looking for pthread_create in pthreads - not found
+[26.523s] -- Looking for pthread_create in pthread
+[26.523s] -- Looking for pthread_create in pthread - found
+[26.523s] -- Found Threads: TRUE  
+[26.523s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[26.523s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[26.523s] -- Checking for module 'eigen3'
+[26.523s] --   Found eigen3, version 3.3.7
+[26.523s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[26.524s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[26.524s] -- Checking for module 'flann'
+[26.524s] --   Found flann, version 1.9.1
+[26.524s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[26.524s] -- The imported target "vtkParseOGLExt" references the file
+[26.524s]    "/usr/bin/vtkParseOGLExt-7.1"
+[26.524s] but this file does not exist.  Possible reasons include:
+[26.524s] * The file was deleted, renamed, or moved to another location.
+[26.524s] * An install or uninstall procedure did not complete successfully.
+[26.525s] * The installation package was faulty and contained
+[26.525s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.525s] but not all the files it references.
+[26.525s] 
+[26.525s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[26.525s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[26.525s] but this file does not exist.  Possible reasons include:
+[26.525s] * The file was deleted, renamed, or moved to another location.
+[26.526s] * An install or uninstall procedure did not complete successfully.
+[26.526s] * The installation package was faulty and contained
+[26.526s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.526s] but not all the files it references.
+[26.526s] 
+[26.526s] -- The imported target "vtk" references the file
+[26.526s]    "/usr/bin/vtk"
+[26.526s] but this file does not exist.  Possible reasons include:
+[26.526s] * The file was deleted, renamed, or moved to another location.
+[26.527s] * An install or uninstall procedure did not complete successfully.
+[26.527s] * The installation package was faulty and contained
+[26.527s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.527s] but not all the files it references.
+[26.527s] 
+[26.527s] -- The imported target "pvtk" references the file
+[26.527s]    "/usr/bin/pvtk"
+[26.528s] but this file does not exist.  Possible reasons include:
+[26.528s] * The file was deleted, renamed, or moved to another location.
+[26.528s] * An install or uninstall procedure did not complete successfully.
+[26.528s] * The installation package was faulty and contained
+[26.528s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.528s] but not all the files it references.
+[26.528s] 
+[26.528s] -- Checking for module 'libusb-1.0'
+[26.529s] --   No package 'libusb-1.0' found
+[26.529s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[26.529s] -- OpenNI disabled because libusb-1.0 not found.
+[26.529s] -- Checking for module 'libusb-1.0'
+[26.529s] --   No package 'libusb-1.0' found
+[26.529s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[26.529s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[26.529s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[26.529s] -- Checking for module 'libusb-1.0'
+[26.530s] --   No package 'libusb-1.0' found
+[26.530s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[26.530s] -- OpenNI disabled because libusb-1.0 not found.
+[26.530s] -- Checking for module 'libusb-1.0'
+[26.530s] --   No package 'libusb-1.0' found
+[26.530s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[26.530s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[26.530s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[26.530s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[26.530s] -- Checking for module 'libusb-1.0'
+[26.531s] --   No package 'libusb-1.0' found
+[26.531s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[26.531s] -- OpenNI disabled because libusb-1.0 not found.
+[26.531s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[26.531s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[26.531s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[26.531s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[26.531s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[26.531s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[26.531s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[26.532s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[26.532s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[26.532s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[26.532s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[26.532s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[26.532s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[26.532s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[26.532s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[26.532s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[26.533s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[26.533s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[26.533s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[26.533s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[26.533s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[26.533s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[26.533s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[26.533s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[26.533s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+[26.534s] -- Found Boost: /usr/include (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[26.534s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[26.534s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[26.534s] -- Found OpenMP: TRUE (found version "4.5")  
+[26.534s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[26.534s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[26.534s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[26.534s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[26.535s] -- Found OpenCV: /usr (found version "4.2.0") 
+[26.535s] -- Found Boost: /usr/include (found version "1.71.0")  
+[26.535s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[26.535s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[26.535s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.535s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.535s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/ground_segmentation/include
+[26.535s] -- Configured cppcheck exclude dirs and/or files: 
+[26.535s] -- Added test 'lint_cmake' to check CMake code style
+[26.536s] -- Added test 'xmllint' to check XML markup files
+[26.536s] -- Configuring done
+[26.536s] -- Generating done
+[26.536s] -- Build files have been written to: /home/cityu/autoware/build/ground_segmentation
+[26.545s] Invoked command in '/home/cityu/autoware/build/ground_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/ground_segmentation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ground_segmentation
+[26.546s] Invoking command in '/home/cityu/autoware/build/ground_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ground_segmentation -- -j16 -l16
+[38.657s] [35m[1mScanning dependencies of target ransac_ground_filter_node[0m
+[38.657s] [ 10%] [32mBuilding CXX object CMakeFiles/ransac_ground_filter_node.dir/rclcpp_components/node_main_ransac_ground_filter_node.cpp.o[0m
+[38.657s] [ 20%] [32m[1mLinking CXX executable ransac_ground_filter_node[0m
+[38.657s] [ 20%] Built target ransac_ground_filter_node
+[38.657s] [35m[1mScanning dependencies of target scan_ground_filter_node[0m
+[38.657s] [ 30%] [32mBuilding CXX object CMakeFiles/scan_ground_filter_node.dir/rclcpp_components/node_main_scan_ground_filter_node.cpp.o[0m
+[39.250s] [ 40%] [32m[1mLinking CXX executable scan_ground_filter_node[0m
+[39.558s] [ 40%] Built target scan_ground_filter_node
+[39.583s] [35m[1mScanning dependencies of target ray_ground_filter_node[0m
+[39.631s] [ 50%] [32mBuilding CXX object CMakeFiles/ray_ground_filter_node.dir/rclcpp_components/node_main_ray_ground_filter_node.cpp.o[0m
+[45.567s] [ 60%] [32m[1mLinking CXX executable ray_ground_filter_node[0m
+[45.942s] [ 60%] Built target ray_ground_filter_node
+[45.967s] [35m[1mScanning dependencies of target ground_segmentation[0m
+[46.220s] [ 70%] [32mBuilding CXX object CMakeFiles/ground_segmentation.dir/src/ray_ground_filter_nodelet.cpp.o[0m
+[97.487s] [ 80%] [32mBuilding CXX object CMakeFiles/ground_segmentation.dir/src/scan_ground_filter_nodelet.cpp.o[0m
+[143.085s] [ 90%] [32mBuilding CXX object CMakeFiles/ground_segmentation.dir/src/ransac_ground_filter_nodelet.cpp.o[0m
+[207.514s] [100%] [32m[1mLinking CXX shared library libground_segmentation.so[0m
+[214.262s] [100%] Built target ground_segmentation
+[214.323s] Invoked command in '/home/cityu/autoware/build/ground_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ground_segmentation -- -j16 -l16
+[214.602s] Invoking command in '/home/cityu/autoware/build/ground_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ground_segmentation
+[246.690s] -- Install configuration: "Release"
+[246.690s] -- Execute custom install script
+[246.690s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/lib/ground_segmentation/ray_ground_filter_node
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/lib/ground_segmentation/ransac_ground_filter_node
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/lib/ground_segmentation/scan_ground_filter_node
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/include/ground_segmentation/gencolors.hpp
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/include/ground_segmentation/ransac_ground_filter_nodelet.hpp
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/include/ground_segmentation/ray_ground_filter_nodelet.hpp
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/include/ground_segmentation/scan_ground_filter_nodelet.hpp
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/library_path.sh
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/library_path.dsv
+[246.691s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/lib/libground_segmentation.so
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/launch/scan_ground_filter.launch.py
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ament_index/resource_index/package_run_dependencies/ground_segmentation
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ament_index/resource_index/parent_prefix_path/ground_segmentation
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/ament_prefix_path.sh
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/ament_prefix_path.dsv
+[246.692s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/path.sh
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/environment/path.dsv
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/local_setup.bash
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/local_setup.sh
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/local_setup.zsh
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/local_setup.dsv
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/package.dsv
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ament_index/resource_index/packages/ground_segmentation
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ament_index/resource_index/rclcpp_components/ground_segmentation
+[246.693s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[246.694s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[246.694s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[246.694s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/cmake/ground_segmentationConfig.cmake
+[246.694s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/cmake/ground_segmentationConfig-version.cmake
+[246.694s] -- Symlinking: /home/cityu/autoware/install/ground_segmentation/share/ground_segmentation/package.xml
+[246.763s] Invoked command in '/home/cityu/autoware/build/ground_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/pointcloud_preprocessor:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/pointcloud_preprocessor/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ground_segmentation

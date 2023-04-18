@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/object_merger/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/trajectory_follower_nodes/libcontroller_node.so" "/home/cityu/autoware/build/trajectory_follower_nodes/libsimple_trajectory_follower.so" "TARGETS" "controller_node" "simple_trajectory_follower" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,10 @@
+{
+  "package_name": "autoware_map_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs:msg/AreaInfo.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs:msg/LaneletMapBin.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellWithID.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs:srv/GetPartialPointCloudMap.srv",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs:srv/GetDifferentialPointCloudMap.srv"
+  ]
+}

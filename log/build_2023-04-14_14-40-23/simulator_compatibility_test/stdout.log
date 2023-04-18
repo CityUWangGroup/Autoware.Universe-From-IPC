@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating simulator_compatibility_test.egg-info
+writing simulator_compatibility_test.egg-info/PKG-INFO
+writing dependency_links to simulator_compatibility_test.egg-info/dependency_links.txt
+writing entry points to simulator_compatibility_test.egg-info/entry_points.txt
+writing requirements to simulator_compatibility_test.egg-info/requires.txt
+writing top-level names to simulator_compatibility_test.egg-info/top_level.txt
+writing manifest file 'simulator_compatibility_test.egg-info/SOURCES.txt'
+reading manifest file 'simulator_compatibility_test.egg-info/SOURCES.txt'
+writing manifest file 'simulator_compatibility_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cityu/autoware/install/simulator_compatibility_test/lib/python3.8/site-packages/simulator-compatibility-test.egg-link (link to .)
+Installing control_mode_command script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing control_mode_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing gear_command script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing gear_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing hazard_lights_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing morai_ctrl_cmd script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing morai_ctrl_mode script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing steering_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing turn_indicators_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+Installing velocity_report script to /home/cityu/autoware/install/simulator_compatibility_test/lib/simulator_compatibility_test
+
+Installed /home/cityu/autoware/build/simulator_compatibility_test
+running install_data
+creating /home/cityu/autoware/install/simulator_compatibility_test/share/ament_index
+creating /home/cityu/autoware/install/simulator_compatibility_test/share/ament_index/resource_index
+creating /home/cityu/autoware/install/simulator_compatibility_test/share/ament_index/resource_index/packages
+copying resource/simulator_compatibility_test -> /home/cityu/autoware/install/simulator_compatibility_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/cityu/autoware/install/simulator_compatibility_test/share/simulator_compatibility_test

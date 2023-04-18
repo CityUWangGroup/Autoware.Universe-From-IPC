@@ -1,0 +1,2 @@
+planning_diagnostics::PlanningErrorMonitorNode;lib/libplanning_error_monitor_node.so
+planning_diagnostics::InvalidTrajectoryPublisherNode;lib/libinvalid_trajectory_publisher_node.so

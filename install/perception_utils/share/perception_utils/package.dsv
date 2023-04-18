@@ -1,0 +1,11 @@
+source;share/perception_utils/hook/cmake_prefix_path.ps1
+source;share/perception_utils/hook/cmake_prefix_path.dsv
+source;share/perception_utils/hook/cmake_prefix_path.sh
+source;share/perception_utils/hook/ld_library_path_lib.ps1
+source;share/perception_utils/hook/ld_library_path_lib.dsv
+source;share/perception_utils/hook/ld_library_path_lib.sh
+source;share/perception_utils/local_setup.bash
+source;share/perception_utils/local_setup.dsv
+source;share/perception_utils/local_setup.ps1
+source;share/perception_utils/local_setup.sh
+source;share/perception_utils/local_setup.zsh

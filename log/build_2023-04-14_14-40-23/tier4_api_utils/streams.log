@@ -1,0 +1,91 @@
+[0.023s] Invoking command in '/home/cityu/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tier4_api_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_api_utils
+[3.482s] -- The C compiler identification is GNU 9.4.0
+[3.483s] -- The CXX compiler identification is GNU 9.4.0
+[3.484s] -- Check for working C compiler: /usr/bin/cc
+[3.484s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.484s] -- Detecting C compiler ABI info
+[3.485s] -- Detecting C compiler ABI info - done
+[3.485s] -- Detecting C compile features
+[3.485s] -- Detecting C compile features - done
+[3.485s] -- Check for working CXX compiler: /usr/bin/c++
+[3.486s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.486s] -- Detecting CXX compiler ABI info
+[3.487s] -- Detecting CXX compiler ABI info - done
+[3.493s] -- Detecting CXX compile features
+[3.494s] -- Detecting CXX compile features - done
+[3.494s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.494s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.494s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.494s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.494s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.494s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.494s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.494s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.495s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.495s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.495s] -- Looking for pthread.h
+[3.495s] -- Looking for pthread.h - found
+[3.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.495s] -- Looking for pthread_create in pthreads
+[3.495s] -- Looking for pthread_create in pthreads - not found
+[3.495s] -- Looking for pthread_create in pthread
+[3.495s] -- Looking for pthread_create in pthread - found
+[3.495s] -- Found Threads: TRUE  
+[3.495s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.496s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.496s] -- Check if compiler accepts -pthread
+[3.496s] -- Check if compiler accepts -pthread - yes
+[3.496s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.496s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/tier4_api_utils/include
+[3.496s] -- Configured cppcheck exclude dirs and/or files: 
+[3.496s] -- Added test 'lint_cmake' to check CMake code style
+[3.496s] -- Added test 'xmllint' to check XML markup files
+[3.496s] -- Configuring done
+[3.496s] -- Generating done
+[3.496s] -- Build files have been written to: /home/cityu/autoware/build/tier4_api_utils
+[3.542s] Invoked command in '/home/cityu/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tier4_api_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_api_utils
+[3.544s] Invoking command in '/home/cityu/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_api_utils -- -j16 -l16
+[10.417s] [35m[1mScanning dependencies of target gtest_main[0m
+[10.421s] [35m[1mScanning dependencies of target gtest[0m
+[10.421s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.422s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.422s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.422s] [ 50%] Built target gtest_main
+[17.586s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.636s] [ 66%] Built target gtest
+[17.651s] [35m[1mScanning dependencies of target tier4_api_utils_test[0m
+[17.715s] [ 83%] [32mBuilding CXX object CMakeFiles/tier4_api_utils_test.dir/test/test.cpp.o[0m
+[25.320s] [100%] [32m[1mLinking CXX executable tier4_api_utils_test[0m
+[25.856s] [100%] Built target tier4_api_utils_test
+[25.932s] Invoked command in '/home/cityu/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_api_utils -- -j16 -l16
+[26.244s] Invoking command in '/home/cityu/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_api_utils
+[29.031s] -- Install configuration: "Release"
+[29.031s] -- Execute custom install script
+[29.031s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/client.hpp
+[29.031s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/proxy.hpp
+[29.031s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/service.hpp
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/include/tier4_api_utils/tier4_api_utils.hpp
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/include/tier4_api_utils/types/response.hpp
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/ament_index/resource_index/package_run_dependencies/tier4_api_utils
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/ament_index/resource_index/parent_prefix_path/tier4_api_utils
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/environment/ament_prefix_path.sh
+[29.032s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/environment/ament_prefix_path.dsv
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/environment/path.sh
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/environment/path.dsv
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.bash
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.sh
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.zsh
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.dsv
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/package.dsv
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/ament_index/resource_index/packages/tier4_api_utils
+[29.033s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.034s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.034s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/tier4_api_utilsConfig.cmake
+[29.034s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/tier4_api_utilsConfig-version.cmake
+[29.034s] -- Symlinking: /home/cityu/autoware/install/tier4_api_utils/share/tier4_api_utils/package.xml
+[29.089s] Invoked command in '/home/cityu/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_api_utils

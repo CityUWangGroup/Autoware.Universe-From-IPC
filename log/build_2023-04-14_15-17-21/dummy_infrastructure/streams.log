@@ -1,0 +1,34 @@
+[0.193s] Invoking command in '/home/cityu/autoware/build/dummy_infrastructure': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/dummy_infrastructure -- -j16 -l16
+[0.265s] [ 50%] Built target dummy_infrastructure_node
+[0.266s] [100%] Built target dummy_infrastructure_node_component
+[0.304s] Invoked command in '/home/cityu/autoware/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/dummy_infrastructure -- -j16 -l16
+[0.465s] Invoking command in '/home/cityu/autoware/build/dummy_infrastructure': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/dummy_infrastructure
+[0.545s] -- Install configuration: "Release"
+[0.545s] -- Execute custom install script
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/lib/dummy_infrastructure/dummy_infrastructure_node
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/include/dummy_infrastructure/dummy_infrastructure_node.hpp
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.sh
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.dsv
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/lib/libdummy_infrastructure_node_component.so
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/config/dummy_infrastructure.param.yaml
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/launch/dummy_infrastructure.launch.xml
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/ament_index/resource_index/package_run_dependencies/dummy_infrastructure
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/ament_index/resource_index/parent_prefix_path/dummy_infrastructure
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.sh
+[0.545s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.dsv
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.sh
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.dsv
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.bash
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.sh
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.zsh
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.dsv
+[0.546s] -- Symlinking: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/package.dsv
+[0.546s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/ament_index/resource_index/packages/dummy_infrastructure
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/ament_index/resource_index/rclcpp_components/dummy_infrastructure
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_libraries-extras.cmake
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig.cmake
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig-version.cmake
+[0.547s] -- Up-to-date symlink: /home/cityu/autoware/install/dummy_infrastructure/share/dummy_infrastructure/package.xml
+[0.587s] Invoked command in '/home/cityu/autoware/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_v2x_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_v2x_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/dummy_infrastructure

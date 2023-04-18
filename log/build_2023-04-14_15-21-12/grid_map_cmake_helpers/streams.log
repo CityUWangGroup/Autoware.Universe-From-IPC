@@ -1,0 +1,37 @@
+[0.098s] Invoking command in '/home/cityu/autoware/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_cmake_helpers -DCMAKE_BUILD_TYPE=Release--cmake-args -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_cmake_helpers
+[0.377s] -- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.377s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.425s] -- Configuring done
+[0.426s] -- Generating done
+[0.426s] CMake Warning:
+[0.426s]   Manually-specified variables were not used by the project:
+[0.426s] 
+[0.426s]     DOWNLOAD_ARTIFACTS
+[0.426s] 
+[0.426s] 
+[0.426s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_cmake_helpers
+[0.430s] Invoked command in '/home/cityu/autoware/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_cmake_helpers -DCMAKE_BUILD_TYPE=Release--cmake-args -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_cmake_helpers
+[0.436s] Invoking command in '/home/cityu/autoware/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_cmake_helpers -- -j16 -l16
+[1.482s] Invoked command in '/home/cityu/autoware/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_cmake_helpers -- -j16 -l16
+[1.752s] Invoking command in '/home/cityu/autoware/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_cmake_helpers
+[3.469s] -- Install configuration: "Release--cmake-args"
+[3.470s] -- Execute custom install script
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/ament_index/resource_index/package_run_dependencies/grid_map_cmake_helpers
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/ament_index/resource_index/parent_prefix_path/grid_map_cmake_helpers
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.sh
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.dsv
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.sh
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.dsv
+[3.470s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.bash
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.sh
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.zsh
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.dsv
+[3.471s] -- Symlinking: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.dsv
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/ament_index/resource_index/packages/grid_map_cmake_helpers
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpers-extras.cmake
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig.cmake
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig-version.cmake
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.xml
+[3.471s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_package.cmake
+[3.562s] Invoked command in '/home/cityu/autoware/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_cmake_helpers

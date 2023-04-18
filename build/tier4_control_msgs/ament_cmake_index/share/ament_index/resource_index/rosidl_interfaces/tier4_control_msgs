@@ -1,0 +1,16 @@
+msg/ExternalCommandSelectorMode.idl
+msg/ExternalCommandSelectorMode.msg
+msg/GateMode.idl
+msg/GateMode.msg
+msg/IsPaused.idl
+msg/IsPaused.msg
+msg/IsStartRequested.idl
+msg/IsStartRequested.msg
+srv/ExternalCommandSelect.idl
+srv/ExternalCommandSelect.srv
+srv/ExternalCommandSelect_Request.msg
+srv/ExternalCommandSelect_Response.msg
+srv/SetPause.idl
+srv/SetPause.srv
+srv/SetPause_Request.msg
+srv/SetPause_Response.msg

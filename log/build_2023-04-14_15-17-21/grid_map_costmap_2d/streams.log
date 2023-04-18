@@ -1,0 +1,30 @@
+[0.190s] Invoking command in '/home/cityu/autoware/build/grid_map_costmap_2d': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_costmap_2d -- -j16 -l16
+[0.258s] [ 22%] Built target gtest_main
+[0.258s] [ 44%] Built target gtest
+[0.280s] [ 77%] Built target grid_map_costmap_2d-test
+[0.280s] [100%] Built target costmap-2d-ros-test
+[0.374s] Invoked command in '/home/cityu/autoware/build/grid_map_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_costmap_2d -- -j16 -l16
+[0.569s] Invoking command in '/home/cityu/autoware/build/grid_map_costmap_2d': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_costmap_2d
+[0.579s] -- Install configuration: "Release"
+[0.579s] -- Execute custom install script
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/ament_index/resource_index/package_run_dependencies/grid_map_costmap_2d
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/ament_index/resource_index/parent_prefix_path/grid_map_costmap_2d
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/environment/ament_prefix_path.sh
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/environment/ament_prefix_path.dsv
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/environment/path.sh
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/environment/path.dsv
+[0.579s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/local_setup.bash
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/local_setup.sh
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/local_setup.zsh
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/local_setup.dsv
+[0.580s] -- Symlinking: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/package.dsv
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/ament_index/resource_index/packages/grid_map_costmap_2d
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/cmake/grid_map_costmap_2dConfig.cmake
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/cmake/grid_map_costmap_2dConfig-version.cmake
+[0.580s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_costmap_2d/share/grid_map_costmap_2d/package.xml
+[0.580s] -- Up-to-date: /home/cityu/autoware/install/grid_map_costmap_2d/include/grid_map_costmap_2d
+[0.580s] -- Up-to-date: /home/cityu/autoware/install/grid_map_costmap_2d/include/grid_map_costmap_2d/grid_map_costmap_2d.hpp
+[0.583s] -- Up-to-date: /home/cityu/autoware/install/grid_map_costmap_2d/include/grid_map_costmap_2d/costmap_2d_converter.hpp
+[0.730s] Invoked command in '/home/cityu/autoware/build/grid_map_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_costmap_2d

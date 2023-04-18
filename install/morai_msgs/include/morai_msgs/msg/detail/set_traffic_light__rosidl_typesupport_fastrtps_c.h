@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_typesupport_fastrtps_c/morai_msgs/msg/detail/set_traffic_light__rosidl_typesupport_fastrtps_c.h

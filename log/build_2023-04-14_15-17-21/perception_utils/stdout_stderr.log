@@ -1,0 +1,34 @@
+[ 15%] Built target gtest
+[ 30%] Built target gtest_main
+[ 53%] Built target perception_utils
+[100%] Built target test_perception_utils
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/conversion.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/geometry.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/matching.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/object_classification.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/perception_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/predicted_path_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/include/perception_utils/transform.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/lib/libperception_utils.so
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/ament_index/resource_index/package_run_dependencies/perception_utils
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/ament_index/resource_index/parent_prefix_path/perception_utils
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/perception_utils/share/perception_utils/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/ament_index/resource_index/packages/perception_utils
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/cmake/perception_utilsConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/cmake/perception_utilsConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/perception_utils/share/perception_utils/package.xml

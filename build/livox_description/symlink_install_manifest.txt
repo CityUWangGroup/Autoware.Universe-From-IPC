@@ -1,0 +1,16 @@
+/home/cityu/autoware/install/livox_description/share/livox_description/urdf/livox_horizon.xacro
+/home/cityu/autoware/install/livox_description/share/ament_index/resource_index/package_run_dependencies/livox_description
+/home/cityu/autoware/install/livox_description/share/ament_index/resource_index/parent_prefix_path/livox_description
+/home/cityu/autoware/install/livox_description/share/livox_description/environment/ament_prefix_path.sh
+/home/cityu/autoware/install/livox_description/share/livox_description/environment/ament_prefix_path.dsv
+/home/cityu/autoware/install/livox_description/share/livox_description/environment/path.sh
+/home/cityu/autoware/install/livox_description/share/livox_description/environment/path.dsv
+/home/cityu/autoware/install/livox_description/share/livox_description/local_setup.bash
+/home/cityu/autoware/install/livox_description/share/livox_description/local_setup.sh
+/home/cityu/autoware/install/livox_description/share/livox_description/local_setup.zsh
+/home/cityu/autoware/install/livox_description/share/livox_description/local_setup.dsv
+/home/cityu/autoware/install/livox_description/share/livox_description/package.dsv
+/home/cityu/autoware/install/livox_description/share/ament_index/resource_index/packages/livox_description
+/home/cityu/autoware/install/livox_description/share/livox_description/cmake/livox_descriptionConfig.cmake
+/home/cityu/autoware/install/livox_description/share/livox_description/cmake/livox_descriptionConfig-version.cmake
+/home/cityu/autoware/install/livox_description/share/livox_description/package.xml

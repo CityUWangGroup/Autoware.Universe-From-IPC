@@ -1,0 +1,4 @@
+source;share/initial_pose_button_panel/local_setup.bash
+source;share/initial_pose_button_panel/local_setup.dsv
+source;share/initial_pose_button_panel/local_setup.sh
+source;share/initial_pose_button_panel/local_setup.zsh

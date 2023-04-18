@@ -1,0 +1,34 @@
+[0.243s] Invoking command in '/home/cityu/autoware/build/osqp_interface': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/osqp_interface -- -j16 -l16
+[0.349s] [ 20%] Built target gtest_main
+[0.349s] [ 40%] Built target gtest
+[0.349s] [ 70%] Built target osqp_interface
+[0.350s] [100%] Built target test_osqp_interface
+[0.463s] Invoked command in '/home/cityu/autoware/build/osqp_interface' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/osqp_interface -- -j16 -l16
+[0.631s] Invoking command in '/home/cityu/autoware/build/osqp_interface': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/osqp_interface
+[0.669s] -- Install configuration: "Release"
+[0.669s] -- Execute custom install script
+[0.669s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/library_path.sh
+[0.670s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/library_path.dsv
+[0.670s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/include/osqp_interface/csc_matrix_conv.hpp
+[0.670s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/include/osqp_interface/osqp_interface.hpp
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/include/osqp_interface/visibility_control.hpp
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/lib/libosqp_interface.so
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/ament_index/resource_index/package_run_dependencies/osqp_interface
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/ament_index/resource_index/parent_prefix_path/osqp_interface
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/ament_prefix_path.sh
+[0.674s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/ament_prefix_path.dsv
+[0.675s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/path.sh
+[0.675s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/environment/path.dsv
+[0.675s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/local_setup.bash
+[0.675s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/local_setup.sh
+[0.676s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/local_setup.zsh
+[0.676s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/local_setup.dsv
+[0.676s] -- Symlinking: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/package.dsv
+[0.679s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/ament_index/resource_index/packages/osqp_interface
+[0.679s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.680s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.680s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.680s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/cmake/osqp_interfaceConfig.cmake
+[0.680s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/cmake/osqp_interfaceConfig-version.cmake
+[0.680s] -- Up-to-date symlink: /home/cityu/autoware/install/osqp_interface/share/osqp_interface/package.xml
+[0.836s] Invoked command in '/home/cityu/autoware/build/osqp_interface' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/osqp_interface

@@ -1,0 +1,1 @@
+autoware::perception::lidar_apollo_segmentation_tvm_nodes::ApolloLidarSegmentationNode;lib/liblidar_apollo_segmentation_tvm_nodes.so

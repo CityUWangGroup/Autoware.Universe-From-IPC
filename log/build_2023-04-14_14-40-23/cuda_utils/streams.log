@@ -1,0 +1,70 @@
+[0.021s] Invoking command in '/home/cityu/autoware/build/cuda_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/cuda_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/cuda_utils
+[4.224s] -- The C compiler identification is GNU 9.4.0
+[4.224s] -- The CXX compiler identification is GNU 9.4.0
+[4.224s] -- Check for working C compiler: /usr/bin/cc
+[4.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.224s] -- Detecting C compiler ABI info
+[4.225s] -- Detecting C compiler ABI info - done
+[4.225s] -- Detecting C compile features
+[4.225s] -- Detecting C compile features - done
+[4.225s] -- Check for working CXX compiler: /usr/bin/c++
+[4.230s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.232s] -- Detecting CXX compiler ABI info
+[4.233s] -- Detecting CXX compiler ABI info - done
+[4.233s] -- Detecting CXX compile features
+[4.233s] -- Detecting CXX compile features - done
+[4.234s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[4.234s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[4.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.234s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.234s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.235s] -- Looking for pthread.h
+[4.235s] -- Looking for pthread.h - found
+[4.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.235s] -- Looking for pthread_create in pthreads
+[4.235s] -- Looking for pthread_create in pthreads - not found
+[4.235s] -- Looking for pthread_create in pthread
+[4.236s] -- Looking for pthread_create in pthread - found
+[4.236s] -- Found Threads: TRUE  
+[4.236s] -- Found CUDA: /usr/local/cuda (found version "11.6") 
+[4.236s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.236s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.236s] -- Configured cppcheck include dirs: 
+[4.236s] -- Configured cppcheck exclude dirs and/or files: 
+[4.236s] -- Added test 'lint_cmake' to check CMake code style
+[4.237s] -- Added test 'xmllint' to check XML markup files
+[4.237s] -- Configuring done
+[4.237s] -- Generating done
+[4.237s] -- Build files have been written to: /home/cityu/autoware/build/cuda_utils
+[4.308s] Invoked command in '/home/cityu/autoware/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/cuda_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/cuda_utils
+[4.310s] Invoking command in '/home/cityu/autoware/build/cuda_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/cuda_utils -- -j16 -l16
+[10.968s] Invoked command in '/home/cityu/autoware/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/cuda_utils -- -j16 -l16
+[11.004s] Invoking command in '/home/cityu/autoware/build/cuda_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/cuda_utils
+[15.361s] -- Install configuration: "Release"
+[15.361s] -- Execute custom install script
+[15.361s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/cuda_check_error.hpp
+[15.361s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/cuda_unique_ptr.hpp
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/stream_unique_ptr.hpp
+[15.362s] -- Up-to-date symlink: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/cuda_check_error.hpp
+[15.362s] -- Up-to-date symlink: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/cuda_unique_ptr.hpp
+[15.362s] -- Up-to-date symlink: /home/cityu/autoware/install/cuda_utils/include/cuda_utils/stream_unique_ptr.hpp
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/ament_index/resource_index/package_run_dependencies/cuda_utils
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/ament_index/resource_index/parent_prefix_path/cuda_utils
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/environment/ament_prefix_path.sh
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/environment/ament_prefix_path.dsv
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/environment/path.sh
+[15.362s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/environment/path.dsv
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/local_setup.bash
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/local_setup.sh
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/local_setup.zsh
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/local_setup.dsv
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/package.dsv
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/ament_index/resource_index/packages/cuda_utils
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.363s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.364s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/cmake/cuda_utilsConfig.cmake
+[15.364s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/cmake/cuda_utilsConfig-version.cmake
+[15.364s] -- Symlinking: /home/cityu/autoware/install/cuda_utils/share/cuda_utils/package.xml
+[15.396s] Invoked command in '/home/cityu/autoware/build/cuda_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/cuda_utils

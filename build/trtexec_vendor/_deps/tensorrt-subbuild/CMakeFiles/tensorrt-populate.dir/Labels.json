@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/CMakeFiles/tensorrt-populate"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/CMakeFiles/tensorrt-populate.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/CMakeFiles/tensorrt-populate-complete.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-install.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-download.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-update.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-patch.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-configure.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-build.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/trtexec_vendor/_deps/tensorrt-subbuild/tensorrt-populate-prefix/src/tensorrt-populate-stamp/tensorrt-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorrt-populate"
+		],
+		"name" : "tensorrt-populate"
+	}
+}

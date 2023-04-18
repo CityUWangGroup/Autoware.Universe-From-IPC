@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/ament_cmake_core/morai_msgsConfig.cmake

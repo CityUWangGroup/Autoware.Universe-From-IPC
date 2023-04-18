@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/autoware.universe/vehicle/vehicle_info_util/scripts/min_turning_radius_calculator.py

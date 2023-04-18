@@ -1,0 +1,27 @@
+-- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_export_dependencies: 1.1.6 (/opt/ros/galactic/share/ament_cmake_export_dependencies/cmake)
+-- Found ament_cmake_test: 1.1.6 (/opt/ros/galactic/share/ament_cmake_test/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/autoware_lint_common
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/package_run_dependencies/autoware_lint_common
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/parent_prefix_path/autoware_lint_common
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/packages/autoware_lint_common
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.xml

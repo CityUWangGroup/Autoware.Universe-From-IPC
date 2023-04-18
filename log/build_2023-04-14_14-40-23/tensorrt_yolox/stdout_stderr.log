@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found tensorrt_common: 0.0.1 (/home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found TensorRT headers at /usr/include/x86_64-linux-gnu
+-- Found TensorRT libs at /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so;/usr/lib/x86_64-linux-gnu/libnvparsers.so;/usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Checking and downloading yolox-tiny.onnx
+-- start yolox-tiny.onnx
+-- not found yolox-tiny.onnx
+-- File doesn't exists. Downloading now ...
+-- Download completed successfully!
+-- Checking and downloading label.txt
+-- start label.txt
+-- not found label.txt
+-- File doesn't exists. Downloading now ...
+-- Download completed successfully!
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolox/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tensorrt_yolox
+[35m[1mScanning dependencies of target tensorrt_yolox[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox.dir/src/tensorrt_yolox.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library libtensorrt_yolox.so[0m
+[ 20%] Built target tensorrt_yolox
+[35m[1mScanning dependencies of target tensorrt_yolox_node_exe[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox_node_exe.dir/rclcpp_components/node_main_tensorrt_yolox_node_exe.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable tensorrt_yolox_node_exe[0m
+[ 40%] Built target tensorrt_yolox_node_exe
+[35m[1mScanning dependencies of target yolox_single_image_inference_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolox_single_image_inference_node.dir/src/yolox_single_image_inference_node.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libyolox_single_image_inference_node.so[0m
+[ 60%] Built target yolox_single_image_inference_node
+[35m[1mScanning dependencies of target yolox_single_image_inference[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/yolox_single_image_inference.dir/rclcpp_components/node_main_yolox_single_image_inference.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable yolox_single_image_inference[0m
+[ 80%] Built target yolox_single_image_inference
+[35m[1mScanning dependencies of target tensorrt_yolox_node[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox_node.dir/src/tensorrt_yolox_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtensorrt_yolox_node.so[0m
+[100%] Built target tensorrt_yolox_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/tensorrt_yolox/yolox_single_image_inference
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/tensorrt_yolox/tensorrt_yolox_node_exe
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/include/tensorrt_yolox/tensorrt_yolox.hpp
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/include/tensorrt_yolox/tensorrt_yolox_node.hpp
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libtensorrt_yolox.so
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libyolox_single_image_inference_node.so
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libtensorrt_yolox_node.so
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/data/label.txt
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/data/yolox-tiny.onnx
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/package_run_dependencies/tensorrt_yolox
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/parent_prefix_path/tensorrt_yolox
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/package.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/packages/tensorrt_yolox
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/rclcpp_components/tensorrt_yolox
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/tensorrt_yoloxConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/tensorrt_yoloxConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/package.xml

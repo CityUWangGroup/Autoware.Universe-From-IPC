@@ -1,0 +1,121 @@
+[0.110s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolox': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolox -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_yolox
+[7.264s] -- The C compiler identification is GNU 9.4.0
+[7.264s] -- The CXX compiler identification is GNU 9.4.0
+[7.264s] -- Check for working C compiler: /usr/bin/cc
+[7.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.264s] -- Detecting C compiler ABI info
+[7.264s] -- Detecting C compiler ABI info - done
+[7.264s] -- Detecting C compile features
+[7.264s] -- Detecting C compile features - done
+[7.264s] -- Check for working CXX compiler: /usr/bin/c++
+[7.264s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.264s] -- Detecting CXX compiler ABI info
+[7.265s] -- Detecting CXX compiler ABI info - done
+[7.265s] -- Detecting CXX compile features
+[7.265s] -- Detecting CXX compile features - done
+[7.265s] -- Found tensorrt_common: 0.0.1 (/home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake)
+[7.265s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.265s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.265s] -- Looking for pthread.h
+[7.265s] -- Looking for pthread.h - found
+[7.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.266s] -- Looking for pthread_create in pthreads
+[7.266s] -- Looking for pthread_create in pthreads - not found
+[7.266s] -- Looking for pthread_create in pthread
+[7.266s] -- Looking for pthread_create in pthread - found
+[7.266s] -- Found Threads: TRUE  
+[7.266s] -- Found TensorRT headers at /usr/include/x86_64-linux-gnu
+[7.266s] -- Found TensorRT libs at /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so;/usr/lib/x86_64-linux-gnu/libnvparsers.so;/usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+[7.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.266s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[7.266s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.266s] -- Found FastRTPS: /opt/ros/galactic/include  
+[7.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.267s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[7.267s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[7.267s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.267s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[7.267s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[7.267s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.267s] -- Found OpenCV: /usr (found version "4.2.0") 
+[7.267s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.267s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[7.267s] -- Found OpenMP: TRUE (found version "4.5")  
+[7.268s] -- Checking and downloading yolox-tiny.onnx
+[7.268s] -- start yolox-tiny.onnx
+[7.268s] -- not found yolox-tiny.onnx
+[7.268s] -- File doesn't exists. Downloading now ...
+[10.293s] -- Download completed successfully!
+[10.293s] -- Checking and downloading label.txt
+[10.294s] -- start label.txt
+[10.294s] -- not found label.txt
+[10.294s] -- File doesn't exists. Downloading now ...
+[10.592s] -- Download completed successfully!
+[10.882s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.884s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.885s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolox/include
+[10.885s] -- Configured cppcheck exclude dirs and/or files: 
+[10.887s] -- Added test 'lint_cmake' to check CMake code style
+[10.887s] -- Added test 'xmllint' to check XML markup files
+[10.897s] -- Configuring done
+[11.094s] -- Generating done
+[11.098s] -- Build files have been written to: /home/cityu/autoware/build/tensorrt_yolox
+[11.137s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolox' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolox -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_yolox
+[11.146s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolox': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_yolox -- -j16 -l16
+[17.392s] [35m[1mScanning dependencies of target tensorrt_yolox[0m
+[17.392s] [ 10%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox.dir/src/tensorrt_yolox.cpp.o[0m
+[23.947s] [ 20%] [32m[1mLinking CXX shared library libtensorrt_yolox.so[0m
+[24.297s] [ 20%] Built target tensorrt_yolox
+[24.314s] [35m[1mScanning dependencies of target tensorrt_yolox_node_exe[0m
+[24.366s] [ 30%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox_node_exe.dir/rclcpp_components/node_main_tensorrt_yolox_node_exe.cpp.o[0m
+[28.878s] [ 40%] [32m[1mLinking CXX executable tensorrt_yolox_node_exe[0m
+[29.172s] [ 40%] Built target tensorrt_yolox_node_exe
+[29.191s] [35m[1mScanning dependencies of target yolox_single_image_inference_node[0m
+[29.297s] [ 50%] [32mBuilding CXX object CMakeFiles/yolox_single_image_inference_node.dir/src/yolox_single_image_inference_node.cpp.o[0m
+[40.148s] [ 60%] [32m[1mLinking CXX shared library libyolox_single_image_inference_node.so[0m
+[40.589s] [ 60%] Built target yolox_single_image_inference_node
+[40.602s] [35m[1mScanning dependencies of target yolox_single_image_inference[0m
+[40.640s] [ 70%] [32mBuilding CXX object CMakeFiles/yolox_single_image_inference.dir/rclcpp_components/node_main_yolox_single_image_inference.cpp.o[0m
+[45.466s] [ 80%] [32m[1mLinking CXX executable yolox_single_image_inference[0m
+[45.846s] [ 80%] Built target yolox_single_image_inference
+[45.870s] [35m[1mScanning dependencies of target tensorrt_yolox_node[0m
+[45.987s] [ 90%] [32mBuilding CXX object CMakeFiles/tensorrt_yolox_node.dir/src/tensorrt_yolox_node.cpp.o[0m
+[62.197s] [100%] [32m[1mLinking CXX shared library libtensorrt_yolox_node.so[0m
+[63.005s] [100%] Built target tensorrt_yolox_node
+[63.035s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolox' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_yolox -- -j16 -l16
+[63.121s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolox': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_yolox
+[69.697s] -- Install configuration: "Release"
+[69.697s] -- Execute custom install script
+[69.697s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/tensorrt_yolox/yolox_single_image_inference
+[69.697s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/tensorrt_yolox/tensorrt_yolox_node_exe
+[69.697s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/include/tensorrt_yolox/tensorrt_yolox.hpp
+[69.697s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/include/tensorrt_yolox/tensorrt_yolox_node.hpp
+[69.697s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/library_path.sh
+[69.714s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/library_path.dsv
+[69.714s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libtensorrt_yolox.so
+[69.714s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libyolox_single_image_inference_node.so
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/lib/libtensorrt_yolox_node.so
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/data/label.txt
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/data/yolox-tiny.onnx
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/package_run_dependencies/tensorrt_yolox
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/parent_prefix_path/tensorrt_yolox
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/ament_prefix_path.sh
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/ament_prefix_path.dsv
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/path.sh
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/environment/path.dsv
+[69.715s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.bash
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.sh
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.zsh
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/local_setup.dsv
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/package.dsv
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/packages/tensorrt_yolox
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/ament_index/resource_index/rclcpp_components/tensorrt_yolox
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.716s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/ament_cmake_export_libraries-extras.cmake
+[69.717s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/tensorrt_yoloxConfig.cmake
+[69.717s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/cmake/tensorrt_yoloxConfig-version.cmake
+[69.717s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolox/share/tensorrt_yolox/package.xml
+[69.759s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolox' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/tensorrt_common:/home/cityu/autoware/install/cuda_utils:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/tensorrt_common/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_yolox

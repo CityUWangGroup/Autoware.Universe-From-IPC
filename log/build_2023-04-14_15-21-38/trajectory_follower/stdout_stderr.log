@@ -1,0 +1,93 @@
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/control/trajectory_follower/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DOWNLOAD_ARTIFACTS
+
+
+-- Build files have been written to: /home/cityu/autoware/build/trajectory_follower
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 16%] [32m[1mLinking CXX shared library liblateral_controller_lib.so[0m
+[ 54%] Built target lateral_controller_lib
+[ 61%] [32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_mpc.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library liblongitudinal_controller_lib.so[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_interpolate.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_mpc_utils.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_lowpass_filter.cpp.o[0m
+[ 83%] Built target longitudinal_controller_lib
+[ 87%] [32mBuilding CXX object CMakeFiles/test_longitudinal_controller.dir/test/test_smooth_stop.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_longitudinal_controller.dir/test/test_pid.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_longitudinal_controller.dir/test/test_longitudinal_controller_utils.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_longitudinal_controller[0m
+[ 96%] Built target test_longitudinal_controller
+[100%] [32m[1mLinking CXX executable test_lateral_controller[0m
+[100%] Built target test_lateral_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/debug_values.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/input_data.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/interpolate.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/lateral_controller_base.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/longitudinal_controller_base.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/longitudinal_controller_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/lowpass_filter.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/mpc.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/mpc_lateral_controller.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/mpc_trajectory.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/mpc_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/pid.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/pid_longitudinal_controller.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/qp_solver/qp_solver_interface.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/qp_solver/qp_solver_osqp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/qp_solver/qp_solver_unconstr_fast.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/smooth_stop.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/sync_data.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/vehicle_model/vehicle_model_bicycle_dynamics.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/vehicle_model/vehicle_model_bicycle_kinematics.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/vehicle_model/vehicle_model_interface.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/include/trajectory_follower/visibility_control.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/lib/liblateral_controller_lib.so
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/lib/liblongitudinal_controller_lib.so
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/ament_index/resource_index/package_run_dependencies/trajectory_follower
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/ament_index/resource_index/parent_prefix_path/trajectory_follower
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/ament_index/resource_index/packages/trajectory_follower
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/cmake/trajectory_followerConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/cmake/trajectory_followerConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/trajectory_follower/share/trajectory_follower/package.xml

@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/autoware.universe/common/autoware_testing/autoware_testing/smoke_test.py

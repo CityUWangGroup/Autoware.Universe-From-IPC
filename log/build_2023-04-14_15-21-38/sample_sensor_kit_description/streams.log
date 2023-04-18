@@ -1,0 +1,40 @@
+[0.140s] Invoking command in '/home/cityu/autoware/build/sample_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_kit/sample_sensor_kit_launch/sample_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/sample_sensor_kit_description
+[0.364s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.370s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.371s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.464s] -- Configuring done
+[0.467s] -- Generating done
+[0.470s] -- Build files have been written to: /home/cityu/autoware/build/sample_sensor_kit_description
+[0.471s] CMake Warning:
+[0.471s]   Manually-specified variables were not used by the project:
+[0.471s] 
+[0.471s]     DOWNLOAD_ARTIFACTS
+[0.471s] 
+[0.471s] 
+[0.493s] Invoked command in '/home/cityu/autoware/build/sample_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_kit/sample_sensor_kit_launch/sample_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/sample_sensor_kit_description
+[0.499s] Invoking command in '/home/cityu/autoware/build/sample_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/sample_sensor_kit_description -- -j16 -l16
+[0.969s] Invoked command in '/home/cityu/autoware/build/sample_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/sample_sensor_kit_description -- -j16 -l16
+[1.095s] Invoking command in '/home/cityu/autoware/build/sample_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/sample_sensor_kit_description
+[2.344s] -- Install configuration: "Release"
+[2.344s] -- Execute custom install script
+[2.344s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensor_kit.xacro
+[2.344s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensors.xacro
+[2.344s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensor_kit_calibration.yaml
+[2.345s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensors_calibration.yaml
+[2.345s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/sample_sensor_kit_description
+[2.345s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/sample_sensor_kit_description
+[2.345s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.sh
+[2.345s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.dsv
+[2.346s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.sh
+[2.346s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.dsv
+[2.346s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.bash
+[2.346s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.sh
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.zsh
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.dsv
+[2.347s] -- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.dsv
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/packages/sample_sensor_kit_description
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig.cmake
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig-version.cmake
+[2.347s] -- Up-to-date symlink: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.xml
+[2.437s] Invoked command in '/home/cityu/autoware/build/sample_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/sample_sensor_kit_description

@@ -1,0 +1,152 @@
+[0.112s] Invoking command in '/home/cityu/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/livox_tag_filter
+[0.503s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.504s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.504s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.504s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.535s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.789s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.821s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.619s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.646s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.753s] -- The imported target "vtkParseOGLExt" references the file
+[1.753s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.753s] but this file does not exist.  Possible reasons include:
+[1.753s] * The file was deleted, renamed, or moved to another location.
+[1.754s] * An install or uninstall procedure did not complete successfully.
+[1.754s] * The installation package was faulty and contained
+[1.754s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.754s] but not all the files it references.
+[1.754s] 
+[1.756s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.756s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.756s] but this file does not exist.  Possible reasons include:
+[1.756s] * The file was deleted, renamed, or moved to another location.
+[1.756s] * An install or uninstall procedure did not complete successfully.
+[1.757s] * The installation package was faulty and contained
+[1.757s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.757s] but not all the files it references.
+[1.757s] 
+[1.758s] -- The imported target "vtk" references the file
+[1.758s]    "/usr/bin/vtk"
+[1.758s] but this file does not exist.  Possible reasons include:
+[1.758s] * The file was deleted, renamed, or moved to another location.
+[1.758s] * An install or uninstall procedure did not complete successfully.
+[1.758s] * The installation package was faulty and contained
+[1.758s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.758s] but not all the files it references.
+[1.758s] 
+[1.759s] -- The imported target "pvtk" references the file
+[1.759s]    "/usr/bin/pvtk"
+[1.759s] but this file does not exist.  Possible reasons include:
+[1.759s] * The file was deleted, renamed, or moved to another location.
+[1.759s] * An install or uninstall procedure did not complete successfully.
+[1.759s] * The installation package was faulty and contained
+[1.759s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.759s] but not all the files it references.
+[1.759s] 
+[1.783s] -- Checking for module 'libusb-1.0'
+[1.789s] --   No package 'libusb-1.0' found
+[1.796s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.796s] -- OpenNI disabled because libusb-1.0 not found.
+[1.797s] ** WARNING ** io features related to openni will be disabled
+[1.805s] -- Checking for module 'libusb-1.0'
+[1.811s] --   No package 'libusb-1.0' found
+[1.818s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.818s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.818s] ** WARNING ** io features related to openni2 will be disabled
+[1.819s] ** WARNING ** io features related to pcap will be disabled
+[1.819s] ** WARNING ** io features related to png will be disabled
+[1.843s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.844s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.854s] -- Checking for module 'libusb-1.0'
+[1.861s] --   No package 'libusb-1.0' found
+[1.870s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.870s] -- OpenNI disabled because libusb-1.0 not found.
+[1.871s] ** WARNING ** visualization features related to openni will be disabled
+[1.882s] -- Checking for module 'libusb-1.0'
+[1.890s] --   No package 'libusb-1.0' found
+[1.900s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.900s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.901s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.927s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.936s] -- Checking for module 'libusb-1.0'
+[1.943s] --   No package 'libusb-1.0' found
+[1.952s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.952s] -- OpenNI disabled because libusb-1.0 not found.
+[1.953s] ** WARNING ** apps features related to openni will be disabled
+[1.976s] -- looking for PCL_COMMON
+[1.977s] -- looking for PCL_KDTREE
+[1.978s] -- looking for PCL_OCTREE
+[1.979s] -- looking for PCL_SEARCH
+[1.980s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.981s] -- looking for PCL_FILTERS
+[1.982s] -- looking for PCL_2D
+[1.982s] -- looking for PCL_GEOMETRY
+[1.983s] -- looking for PCL_IO
+[1.984s] -- looking for PCL_FEATURES
+[1.985s] -- looking for PCL_ML
+[1.986s] -- looking for PCL_SEGMENTATION
+[1.988s] -- looking for PCL_VISUALIZATION
+[1.989s] -- looking for PCL_SURFACE
+[1.990s] -- looking for PCL_REGISTRATION
+[1.992s] -- looking for PCL_KEYPOINTS
+[1.993s] -- looking for PCL_TRACKING
+[1.994s] -- looking for PCL_RECOGNITION
+[1.996s] -- looking for PCL_STEREO
+[1.997s] -- looking for PCL_APPS
+[1.999s] -- looking for PCL_IN_HAND_SCANNER
+[2.000s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.001s] -- looking for PCL_OUTOFCORE
+[2.002s] -- looking for PCL_PEOPLE
+[2.122s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.123s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.124s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter/include
+[2.124s] -- Configured cppcheck exclude dirs and/or files: 
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.125s] -- Added test 'xmllint' to check XML markup files
+[2.136s] -- Configuring done
+[2.231s] -- Generating done
+[2.233s] CMake Warning:
+[2.233s]   Manually-specified variables were not used by the project:
+[2.234s] 
+[2.234s]     DOWNLOAD_ARTIFACTS
+[2.234s] 
+[2.234s] 
+[2.235s] -- Build files have been written to: /home/cityu/autoware/build/livox_tag_filter
+[2.305s] Invoked command in '/home/cityu/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/livox_tag_filter
+[2.307s] Invoking command in '/home/cityu/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_tag_filter -- -j16 -l16
+[3.300s] [ 50%] Built target livox_tag_filter_node
+[3.301s] [100%] Built target livox_tag_filter
+[3.363s] Invoked command in '/home/cityu/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/livox_tag_filter -- -j16 -l16
+[3.527s] Invoking command in '/home/cityu/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_tag_filter
+[3.812s] -- Install configuration: "Release"
+[3.812s] -- Execute custom install script
+[3.812s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/lib/livox_tag_filter/livox_tag_filter_node
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/include/livox_tag_filter/livox_tag_filter_node.hpp
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.sh
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.dsv
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/lib/liblivox_tag_filter.so
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/launch/livox_tag_filter.launch.xml
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/package_run_dependencies/livox_tag_filter
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/parent_prefix_path/livox_tag_filter
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.sh
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.dsv
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.sh
+[3.813s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.dsv
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.bash
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.sh
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.zsh
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.dsv
+[3.814s] -- Symlinking: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/package.dsv
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/packages/livox_tag_filter
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/ament_index/resource_index/rclcpp_components/livox_tag_filter
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[3.814s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig.cmake
+[3.815s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig-version.cmake
+[3.815s] -- Up-to-date symlink: /home/cityu/autoware/install/livox_tag_filter/share/livox_tag_filter/package.xml
+[3.861s] Invoked command in '/home/cityu/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/livox_tag_filter

@@ -1,0 +1,182 @@
+[0.110s] Invoking command in '/home/cityu/autoware/build/autoware_adapi_version_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_adapi_msgs/autoware_adapi_version_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_adapi_version_msgs
+[3.079s] -- The C compiler identification is GNU 9.4.0
+[3.079s] -- The CXX compiler identification is GNU 9.4.0
+[3.079s] -- Check for working C compiler: /usr/bin/cc
+[3.079s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.079s] -- Detecting C compiler ABI info
+[3.079s] -- Detecting C compiler ABI info - done
+[3.079s] -- Detecting C compile features
+[3.079s] -- Detecting C compile features - done
+[3.079s] -- Check for working CXX compiler: /usr/bin/c++
+[3.080s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.080s] -- Detecting CXX compiler ABI info
+[3.080s] -- Detecting CXX compiler ABI info - done
+[3.080s] -- Detecting CXX compile features
+[3.080s] -- Detecting CXX compile features - done
+[3.080s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.080s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.081s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.081s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.081s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.081s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.081s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.081s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.081s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.082s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.082s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.082s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.082s] -- Found PythonExtra: .so  
+[3.082s] -- Configuring done
+[3.082s] -- Generating done
+[3.082s] -- Build files have been written to: /home/cityu/autoware/build/autoware_adapi_version_msgs
+[3.095s] Invoked command in '/home/cityu/autoware/build/autoware_adapi_version_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_adapi_msgs/autoware_adapi_version_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_adapi_version_msgs
+[3.098s] Invoking command in '/home/cityu/autoware/build/autoware_adapi_version_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_adapi_version_msgs -- -j16 -l16
+[5.160s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__cpp[0m
+[5.161s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.161s] [  3%] Built target autoware_adapi_version_msgs__cpp
+[5.161s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.161s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_generator_c[0m
+[5.161s] [  9%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_adapi_version_msgs/srv/detail/interface_version__functions.c.o[0m
+[5.162s] [ 12%] [32m[1mLinking C shared library libautoware_adapi_version_msgs__rosidl_generator_c.so[0m
+[5.162s] [ 12%] Built target autoware_adapi_version_msgs__rosidl_generator_c
+[5.162s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.162s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_cpp[0m
+[5.162s] [ 19%] [32mBuilding CXX object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_adapi_version_msgs/srv/interface_version__type_support.cpp.o[0m
+[5.253s] [ 22%] [32m[1mLinking CXX shared library libautoware_adapi_version_msgs__rosidl_typesupport_cpp.so[0m
+[5.319s] [ 22%] Built target autoware_adapi_version_msgs__rosidl_typesupport_cpp
+[5.339s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.683s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_c[0m
+[5.699s] [ 29%] [32mBuilding CXX object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_adapi_version_msgs/srv/interface_version__type_support.cpp.o[0m
+[5.748s] [ 32%] [32m[1mLinking CXX shared library libautoware_adapi_version_msgs__rosidl_typesupport_c.so[0m
+[5.809s] [ 32%] Built target autoware_adapi_version_msgs__rosidl_typesupport_c
+[5.824s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.217s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_introspection_c[0m
+[6.238s] [ 38%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_adapi_version_msgs/srv/detail/interface_version__type_support.c.o[0m
+[6.288s] [ 41%] [32m[1mLinking C shared library libautoware_adapi_version_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.324s] [ 41%] Built target autoware_adapi_version_msgs__rosidl_typesupport_introspection_c
+[6.338s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.607s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.627s] [ 48%] [32mBuilding CXX object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_adapi_version_msgs/srv/detail/dds_fastrtps/interface_version__type_support.cpp.o[0m
+[7.135s] [ 51%] [32m[1mLinking CXX shared library libautoware_adapi_version_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.303s] [ 51%] Built target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_cpp
+[7.313s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.573s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.591s] [ 58%] [32mBuilding CXX object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_adapi_version_msgs/srv/detail/interface_version__type_support.cpp.o[0m
+[7.942s] [ 61%] [32m[1mLinking CXX shared library libautoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.997s] [ 61%] Built target autoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp
+[8.013s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.446s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.473s] [ 67%] [32mBuilding CXX object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_adapi_version_msgs/srv/detail/interface_version__type_support_c.cpp.o[0m
+[9.118s] [ 70%] [32m[1mLinking CXX shared library libautoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.315s] [ 70%] Built target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c
+[9.330s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs[0m
+[9.346s] [ 70%] Built target autoware_adapi_version_msgs
+[9.375s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__py[0m
+[9.390s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.344s] [ 74%] Built target autoware_adapi_version_msgs__py
+[10.361s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__python[0m
+[10.395s] [ 77%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__python.dir/rosidl_generator_py/autoware_adapi_version_msgs/srv/_interface_version_s.c.o[0m
+[10.620s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autoware_adapi_version_msgs/libautoware_adapi_version_msgs__python.so[0m
+[10.687s] [ 80%] Built target autoware_adapi_version_msgs__python
+[10.707s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_c__pyext[0m
+[10.712s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[10.737s] [ 83%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_adapi_version_msgs/_autoware_adapi_version_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.754s] [ 87%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_adapi_version_msgs/_autoware_adapi_version_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.997s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.020s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.071s] [ 93%] Built target autoware_adapi_version_msgs__rosidl_typesupport_introspection_c__pyext
+[11.084s] [ 93%] Built target autoware_adapi_version_msgs__rosidl_typesupport_c__pyext
+[11.093s] [35m[1mScanning dependencies of target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.118s] [ 96%] [32mBuilding C object CMakeFiles/autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_adapi_version_msgs/_autoware_adapi_version_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.323s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.432s] [100%] Built target autoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.454s] Invoked command in '/home/cityu/autoware/build/autoware_adapi_version_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_adapi_version_msgs -- -j16 -l16
+[11.566s] Invoking command in '/home/cityu/autoware/build/autoware_adapi_version_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_adapi_version_msgs
+[13.017s] -- Install configuration: "Release"
+[13.017s] -- Execute custom install script
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_adapi_version_msgs
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__functions.h
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__struct.h
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__type_support.h
+[13.017s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/interface_version.h
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/library_path.sh
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/library_path.dsv
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__rosidl_typesupport_fastrtps_c.h
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_fastrtps_c.so
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__rosidl_typesupport_fastrtps_cpp.hpp
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.018s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__rosidl_typesupport_introspection_c.h
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__builder.hpp
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__struct.hpp
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__traits.hpp
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/interface_version.hpp
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/include/autoware_adapi_version_msgs/srv/detail/interface_version__rosidl_typesupport_introspection_cpp.hpp
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/pythonpath.sh
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/pythonpath.dsv
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/__init__.py
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/srv/__init__.py
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/srv/_interface_version.py
+[13.019s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/autoware_adapi_version_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__python.so
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/srv/InterfaceVersion.idl
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/srv/InterfaceVersion.srv
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/srv/InterfaceVersion_Request.msg
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/srv/InterfaceVersion_Response.msg
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_adapi_version_msgs
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_adapi_version_msgs
+[13.020s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/ament_prefix_path.sh
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/ament_prefix_path.dsv
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/path.sh
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/environment/path.dsv
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/local_setup.bash
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/local_setup.sh
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/local_setup.zsh
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/local_setup.dsv
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/package.dsv
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/ament_index/resource_index/packages/autoware_adapi_version_msgs
+[13.021s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/rosidl_cmake-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.022s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.029s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgsConfig.cmake
+[13.031s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgsConfig-version.cmake
+[13.032s] -- Symlinking: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/package.xml
+[13.035s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_generator_c.so
+[13.035s] -- Set runtime path of "/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_generator_c.so" to ""
+[13.035s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_introspection_c.so
+[13.035s] -- Set runtime path of "/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.035s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_c.so
+[13.035s] -- Set runtime path of "/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_c.so" to ""
+[13.035s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp.so
+[13.036s] -- Set runtime path of "/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.036s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_cpp.so
+[13.036s] -- Set runtime path of "/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/libautoware_adapi_version_msgs__rosidl_typesupport_cpp.so" to ""
+[13.036s] Compiling '/home/cityu/autoware/install/autoware_adapi_version_msgs/lib/python3.8/site-packages/autoware_adapi_version_msgs/__init__.py'...
+[13.036s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_generator_cExport.cmake
+[13.036s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_generator_cExport-release.cmake
+[13.036s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.036s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_cExport.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_cExport-release.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_generator_cppExport.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_cppExport.cmake
+[13.037s] -- Installing: /home/cityu/autoware/install/autoware_adapi_version_msgs/share/autoware_adapi_version_msgs/cmake/autoware_adapi_version_msgs__rosidl_typesupport_cppExport-release.cmake
+[13.091s] Invoked command in '/home/cityu/autoware/build/autoware_adapi_version_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_adapi_version_msgs

@@ -1,0 +1,24 @@
+[0.189s] Invoking command in '/home/cityu/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/trtexec_vendor -- -j16 -l16
+[0.307s] [100%] Built target trtexec_vendor
+[0.400s] Invoked command in '/home/cityu/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/trtexec_vendor -- -j16 -l16
+[0.604s] Invoking command in '/home/cityu/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/trtexec_vendor
+[0.652s] -- Install configuration: "Release"
+[0.652s] -- Execute custom install script
+[0.652s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/bin/trtexec
+[0.652s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/trtexec_vendor.sh
+[0.652s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/package_run_dependencies/trtexec_vendor
+[0.652s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/parent_prefix_path/trtexec_vendor
+[0.652s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.sh
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.dsv
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.sh
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.dsv
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.bash
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.sh
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.zsh
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.dsv
+[0.653s] -- Symlinking: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/package.dsv
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/packages/trtexec_vendor
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig.cmake
+[0.653s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig-version.cmake
+[0.662s] -- Up-to-date symlink: /home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/package.xml
+[0.723s] Invoked command in '/home/cityu/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/trtexec_vendor

@@ -1,0 +1,16 @@
+{
+  "package_name": "tier4_api_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/AwapiAutowareStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/AwapiVehicleStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/CrosswalkStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/DoorControlCommand.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/DoorStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/Euler.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/IntersectionStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/LaneChangeStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/ObstacleAvoidanceStatus.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/StopCommand.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs:msg/VelocityLimit.msg"
+  ]
+}

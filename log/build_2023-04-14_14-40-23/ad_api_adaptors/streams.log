@@ -1,0 +1,82 @@
+[0.131s] Invoking command in '/home/cityu/autoware/build/ad_api_adaptors': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/default_ad_api_helpers/ad_api_adaptors -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ad_api_adaptors
+[6.375s] -- The C compiler identification is GNU 9.4.0
+[6.381s] -- The CXX compiler identification is GNU 9.4.0
+[6.382s] -- Check for working C compiler: /usr/bin/cc
+[6.382s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.382s] -- Detecting C compiler ABI info
+[6.383s] -- Detecting C compiler ABI info - done
+[6.383s] -- Detecting C compile features
+[6.383s] -- Detecting C compile features - done
+[6.384s] -- Check for working CXX compiler: /usr/bin/c++
+[6.384s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.391s] -- Detecting CXX compiler ABI info
+[6.392s] -- Detecting CXX compiler ABI info - done
+[6.392s] -- Detecting CXX compile features
+[6.392s] -- Detecting CXX compile features - done
+[6.393s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[6.393s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[6.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.395s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[6.395s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.395s] -- Found FastRTPS: /opt/ros/galactic/include  
+[6.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.396s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.396s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.396s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.396s] -- Looking for pthread.h
+[6.397s] -- Looking for pthread.h - found
+[6.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.397s] -- Looking for pthread_create in pthreads
+[6.398s] -- Looking for pthread_create in pthreads - not found
+[6.402s] -- Looking for pthread_create in pthread
+[6.403s] -- Looking for pthread_create in pthread - found
+[6.403s] -- Found Threads: TRUE  
+[6.403s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[6.403s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.403s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.403s] -- Configured cppcheck include dirs: 
+[6.403s] -- Configured cppcheck exclude dirs and/or files: 
+[6.404s] -- Added test 'lint_cmake' to check CMake code style
+[6.404s] -- Added test 'xmllint' to check XML markup files
+[6.404s] -- Configuring done
+[6.404s] -- Generating done
+[6.404s] -- Build files have been written to: /home/cityu/autoware/build/ad_api_adaptors
+[6.437s] Invoked command in '/home/cityu/autoware/build/ad_api_adaptors' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/default_ad_api_helpers/ad_api_adaptors -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ad_api_adaptors
+[6.438s] Invoking command in '/home/cityu/autoware/build/ad_api_adaptors': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ad_api_adaptors -- -j16 -l16
+[6.532s] [35m[1mScanning dependencies of target routing_adaptor[0m
+[6.534s] [35m[1mScanning dependencies of target initial_pose_adaptor[0m
+[6.568s] [ 25%] [32mBuilding CXX object CMakeFiles/routing_adaptor.dir/src/routing_adaptor.cpp.o[0m
+[6.584s] [ 50%] [32mBuilding CXX object CMakeFiles/initial_pose_adaptor.dir/src/initial_pose_adaptor.cpp.o[0m
+[31.249s] [ 75%] [32m[1mLinking CXX executable initial_pose_adaptor[0m
+[31.704s] [ 75%] Built target initial_pose_adaptor
+[36.302s] [100%] [32m[1mLinking CXX executable routing_adaptor[0m
+[36.603s] [100%] Built target routing_adaptor
+[36.617s] Invoked command in '/home/cityu/autoware/build/ad_api_adaptors' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ad_api_adaptors -- -j16 -l16
+[36.661s] Invoking command in '/home/cityu/autoware/build/ad_api_adaptors': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ad_api_adaptors
+[39.034s] -- Install configuration: "Release"
+[39.035s] -- Execute custom install script
+[39.035s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/lib/ad_api_adaptors/initial_pose_adaptor
+[39.039s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/lib/ad_api_adaptors/routing_adaptor
+[39.039s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/config/initial_pose.param.yaml
+[39.039s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/launch/rviz_adaptors.launch.xml
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ament_index/resource_index/package_run_dependencies/ad_api_adaptors
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ament_index/resource_index/parent_prefix_path/ad_api_adaptors
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/environment/ament_prefix_path.sh
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/environment/ament_prefix_path.dsv
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/environment/path.sh
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/environment/path.dsv
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/local_setup.bash
+[39.040s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/local_setup.sh
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/local_setup.zsh
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/local_setup.dsv
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/package.dsv
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ament_index/resource_index/packages/ad_api_adaptors
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/cmake/ad_api_adaptorsConfig.cmake
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/cmake/ad_api_adaptorsConfig-version.cmake
+[39.041s] -- Symlinking: /home/cityu/autoware/install/ad_api_adaptors/share/ad_api_adaptors/package.xml
+[39.054s] Invoked command in '/home/cityu/autoware/build/ad_api_adaptors' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/component_interface_utils:/home/cityu/autoware/install/autoware_ad_api_specs:/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ad_api_adaptors

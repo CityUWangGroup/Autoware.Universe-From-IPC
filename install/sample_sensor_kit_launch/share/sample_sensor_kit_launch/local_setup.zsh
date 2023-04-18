@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/sample_sensor_kit_launch/ament_cmake_environment_hooks/local_setup.zsh

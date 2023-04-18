@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/srv/detail/morai_tl_info_srv__builder.hpp

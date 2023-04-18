@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_map_msgs/rosidl_cmake/srv/GetPartialPointCloudMap_Request.msg

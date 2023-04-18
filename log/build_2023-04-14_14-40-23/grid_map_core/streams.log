@@ -1,0 +1,156 @@
+[0.076s] Invoking command in '/home/cityu/autoware/build/grid_map_core': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_core
+[16.015s] -- The C compiler identification is GNU 9.4.0
+[16.015s] -- The CXX compiler identification is GNU 9.4.0
+[16.015s] -- Check for working C compiler: /usr/bin/cc
+[16.016s] -- Check for working C compiler: /usr/bin/cc -- works
+[16.016s] -- Detecting C compiler ABI info
+[16.016s] -- Detecting C compiler ABI info - done
+[16.016s] -- Detecting C compile features
+[16.017s] -- Detecting C compile features - done
+[16.017s] -- Check for working CXX compiler: /usr/bin/c++
+[16.017s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[16.017s] -- Detecting CXX compiler ABI info
+[16.017s] -- Detecting CXX compiler ABI info - done
+[16.017s] -- Detecting CXX compile features
+[16.017s] -- Detecting CXX compile features - done
+[16.017s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[16.017s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[16.018s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[16.018s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[16.018s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[16.018s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.018s] -- Looking for pthread.h
+[16.018s] -- Looking for pthread.h - found
+[16.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.019s] -- Check if compiler accepts -pthread
+[16.019s] -- Check if compiler accepts -pthread - yes
+[16.019s] -- Found Threads: TRUE  
+[16.019s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.019s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/external/grid_map/grid_map_core/include
+[16.019s] -- Configured cppcheck exclude dirs and/or files: 
+[16.019s] -- Added test 'lint_cmake' to check CMake code style
+[16.019s] -- Added test 'uncrustify' to check C / C++ code style
+[16.020s] -- Configured uncrustify additional arguments: 
+[16.020s] -- Added test 'xmllint' to check XML markup files
+[16.020s] -- Configuring done
+[16.020s] -- Generating done
+[16.020s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_core
+[16.048s] Invoked command in '/home/cityu/autoware/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_core
+[16.056s] Invoking command in '/home/cityu/autoware/build/grid_map_core': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_core -- -j16 -l16
+[19.247s] [35m[1mScanning dependencies of target gtest[0m
+[19.247s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[29.790s] [  5%] [32m[1mLinking CXX static library libgtest.a[0m
+[29.849s] [  5%] Built target gtest
+[29.862s] [35m[1mScanning dependencies of target gtest_main[0m
+[29.883s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[31.373s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[31.411s] [ 11%] Built target gtest_main
+[31.422s] [35m[1mScanning dependencies of target grid_map_core[0m
+[31.599s] [ 14%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o[0m
+[36.460s] [ 17%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SlidingWindowIterator.cpp.o[0m
+[38.642s] [ 20%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o[0m
+[40.146s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o[0m
+[41.678s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o[0m
+[43.339s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o[0m
+[45.648s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o[0m
+[47.586s] [ 34%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SubmapIterator.cpp.o[0m
+[49.297s] [ 37%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/GridMapIterator.cpp.o[0m
+[51.199s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o[0m
+[54.085s] [ 42%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o[0m
+[66.790s] [ 45%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/BufferRegion.cpp.o[0m
+[66.809s] [ 48%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o[0m
+[68.810s] [ 51%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o[0m
+[73.260s] [ 54%] [32m[1mLinking CXX static library libgrid_map_core.a[0m
+[73.355s] [ 54%] Built target grid_map_core
+[73.373s] [35m[1mScanning dependencies of target grid_map_core-test[0m
+[73.573s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_helpers.cpp.o[0m
+[73.586s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_grid_map_core.cpp.o[0m
+[75.782s] [ 62%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SlidingWindowIteratorTest.cpp.o[0m
+[82.592s] [ 65%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SpiralIteratorTest.cpp.o[0m
+[85.881s] [ 68%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EigenPluginsTest.cpp.o[0m
+[91.823s] [ 71%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonTest.cpp.o[0m
+[95.931s] [ 74%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonIteratorTest.cpp.o[0m
+[100.244s] [ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EllipseIteratorTest.cpp.o[0m
+[100.244s] [ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SubmapIteratorTest.cpp.o[0m
+[106.606s] [ 82%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/LineIteratorTest.cpp.o[0m
+[110.945s] [ 85%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapIteratorTest.cpp.o[0m
+[113.964s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapTest.cpp.o[0m
+[113.976s] [ 91%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapMathTest.cpp.o[0m
+[128.832s] [ 94%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicInterpolationTest.cpp.o[0m
+[133.815s] [ 97%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicConvolutionInterpolationTest.cpp.o[0m
+[138.340s] [100%] [32m[1mLinking CXX executable grid_map_core-test[0m
+[138.681s] [100%] Built target grid_map_core-test
+[138.717s] Invoked command in '/home/cityu/autoware/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_core -- -j16 -l16
+[138.971s] Invoking command in '/home/cityu/autoware/build/grid_map_core': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_core
+[144.208s] -- Install configuration: "Release"
+[144.208s] -- Execute custom install script
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/lib/libgrid_map_core.a
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.pdf
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.png
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.pdf
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.png
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/interpolationGaussWorld.gif
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/interpolationSineWorld.gif
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator.gif
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator_preview.gif
+[144.209s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator_preview.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator_preview.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator_preview.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator_preview.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator_preview.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator.gif
+[144.210s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator_preview.gif
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/move_method.gif
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/doc/setposition_method.gif
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/library_path.sh
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/library_path.dsv
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/ament_index/resource_index/package_run_dependencies/grid_map_core
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/ament_index/resource_index/parent_prefix_path/grid_map_core
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.sh
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.dsv
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/path.sh
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/environment/path.dsv
+[144.211s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/local_setup.bash
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/local_setup.sh
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/local_setup.zsh
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/local_setup.dsv
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/package.dsv
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/ament_index/resource_index/packages/grid_map_core
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake/grid_map_core-extras.cmake
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[144.212s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_libraries-extras.cmake
+[144.213s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig.cmake
+[144.213s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig-version.cmake
+[144.213s] -- Symlinking: /home/cityu/autoware/install/grid_map_core/share/grid_map_core/package.xml
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/GridMapMath.hpp
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/SubmapIterator.hpp
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/SlidingWindowIterator.hpp
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/PolygonIterator.hpp
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/CircleIterator.hpp
+[144.213s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/SpiralIterator.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/iterators.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/EllipseIterator.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/LineIterator.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/iterators/GridMapIterator.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/TypeDefs.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/grid_map_core.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/eigen_plugins
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/eigen_plugins/Functors.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/eigen_plugins/DenseBasePlugin.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/eigen_plugins/FunctorsPlugin.hpp
+[144.214s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/BufferRegion.hpp
+[144.215s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
+[144.215s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/GridMap.hpp
+[144.215s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/gtest_eigen.hpp
+[144.215s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/CubicInterpolation.hpp
+[144.215s] -- Installing: /home/cityu/autoware/install/grid_map_core/include/grid_map_core/Polygon.hpp
+[144.236s] Invoked command in '/home/cityu/autoware/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_core

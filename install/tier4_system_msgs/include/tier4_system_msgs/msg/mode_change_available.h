@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/tier4_system_msgs/rosidl_generator_c/tier4_system_msgs/msg/mode_change_available.h

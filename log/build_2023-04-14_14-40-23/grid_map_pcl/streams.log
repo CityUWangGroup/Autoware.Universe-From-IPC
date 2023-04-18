@@ -1,0 +1,248 @@
+[0.186s] Invoking command in '/home/cityu/autoware/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_pcl -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_pcl
+[38.339s] -- The C compiler identification is GNU 9.4.0
+[38.340s] -- The CXX compiler identification is GNU 9.4.0
+[38.340s] -- Check for working C compiler: /usr/bin/cc
+[38.340s] -- Check for working C compiler: /usr/bin/cc -- works
+[38.340s] -- Detecting C compiler ABI info
+[38.340s] -- Detecting C compiler ABI info - done
+[38.340s] -- Detecting C compile features
+[38.340s] -- Detecting C compile features - done
+[38.340s] -- Check for working CXX compiler: /usr/bin/c++
+[38.341s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[38.341s] -- Detecting CXX compiler ABI info
+[38.342s] -- Detecting CXX compiler ABI info - done
+[38.342s] -- Detecting CXX compile features
+[38.342s] -- Detecting CXX compile features - done
+[38.343s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[38.347s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[38.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[38.347s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[38.347s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[38.347s] -- Found grid_map_core: 2.0.0 (/home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake)
+[38.347s] -- Found grid_map_msgs: 2.0.0 (/home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[38.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.348s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[38.348s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[38.348s] -- Found FastRTPS: /opt/ros/galactic/include  
+[38.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.348s] -- Found grid_map_ros: 2.0.0 (/home/cityu/autoware/install/grid_map_ros/share/grid_map_ros/cmake)
+[38.348s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[38.348s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[38.348s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[38.349s] -- Looking for pthread.h
+[38.349s] -- Looking for pthread.h - found
+[38.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[38.349s] -- Looking for pthread_create in pthreads
+[38.350s] -- Looking for pthread_create in pthreads - not found
+[38.350s] -- Looking for pthread_create in pthread
+[38.350s] -- Looking for pthread_create in pthread - found
+[38.350s] -- Found Threads: TRUE  
+[38.359s] -- Checking for module 'eigen3'
+[38.360s] --   Found eigen3, version 3.3.7
+[38.360s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[38.360s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[38.360s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[38.361s] -- Checking for module 'flann'
+[38.361s] --   Found flann, version 1.9.1
+[38.361s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[38.361s] -- The imported target "vtkParseOGLExt" references the file
+[38.361s]    "/usr/bin/vtkParseOGLExt-7.1"
+[38.361s] but this file does not exist.  Possible reasons include:
+[38.361s] * The file was deleted, renamed, or moved to another location.
+[38.361s] * An install or uninstall procedure did not complete successfully.
+[38.361s] * The installation package was faulty and contained
+[38.361s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[38.361s] but not all the files it references.
+[38.361s] 
+[38.361s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[38.361s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[38.362s] but this file does not exist.  Possible reasons include:
+[38.362s] * The file was deleted, renamed, or moved to another location.
+[38.362s] * An install or uninstall procedure did not complete successfully.
+[38.362s] * The installation package was faulty and contained
+[38.362s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[38.362s] but not all the files it references.
+[38.362s] 
+[38.362s] -- The imported target "vtk" references the file
+[38.362s]    "/usr/bin/vtk"
+[38.362s] but this file does not exist.  Possible reasons include:
+[38.362s] * The file was deleted, renamed, or moved to another location.
+[38.362s] * An install or uninstall procedure did not complete successfully.
+[38.362s] * The installation package was faulty and contained
+[38.362s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[38.363s] but not all the files it references.
+[38.363s] 
+[38.363s] -- The imported target "pvtk" references the file
+[38.363s]    "/usr/bin/pvtk"
+[38.363s] but this file does not exist.  Possible reasons include:
+[38.363s] * The file was deleted, renamed, or moved to another location.
+[38.363s] * An install or uninstall procedure did not complete successfully.
+[38.363s] * The installation package was faulty and contained
+[38.363s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[38.363s] but not all the files it references.
+[38.363s] 
+[38.363s] -- Checking for module 'libusb-1.0'
+[38.363s] --   No package 'libusb-1.0' found
+[38.364s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[38.364s] -- OpenNI disabled because libusb-1.0 not found.
+[38.364s] -- Checking for module 'libusb-1.0'
+[38.364s] --   No package 'libusb-1.0' found
+[38.364s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[38.364s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[38.364s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[38.364s] -- Checking for module 'libusb-1.0'
+[38.364s] --   No package 'libusb-1.0' found
+[38.364s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[38.364s] -- OpenNI disabled because libusb-1.0 not found.
+[38.364s] -- Checking for module 'libusb-1.0'
+[38.365s] --   No package 'libusb-1.0' found
+[38.365s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[38.365s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[38.365s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[38.365s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[38.365s] -- Checking for module 'libusb-1.0'
+[38.365s] --   No package 'libusb-1.0' found
+[38.365s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[38.365s] -- OpenNI disabled because libusb-1.0 not found.
+[38.365s] -- looking for PCL_COMMON
+[38.365s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[38.365s] -- looking for PCL_KDTREE
+[38.365s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[38.365s] -- looking for PCL_OCTREE
+[38.366s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[38.366s] -- looking for PCL_SEARCH
+[38.366s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[38.366s] -- looking for PCL_SAMPLE_CONSENSUS
+[38.366s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[38.366s] -- looking for PCL_FILTERS
+[38.366s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[38.366s] -- looking for PCL_2D
+[38.366s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[38.366s] -- looking for PCL_GEOMETRY
+[38.366s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[38.367s] -- looking for PCL_IO
+[38.367s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[38.367s] -- looking for PCL_FEATURES
+[38.367s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[38.367s] -- looking for PCL_ML
+[38.367s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[38.367s] -- looking for PCL_SEGMENTATION
+[38.367s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[38.367s] -- looking for PCL_VISUALIZATION
+[38.367s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[38.368s] -- looking for PCL_SURFACE
+[38.368s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[38.368s] -- looking for PCL_REGISTRATION
+[38.368s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[38.368s] -- looking for PCL_KEYPOINTS
+[38.368s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[38.368s] -- looking for PCL_TRACKING
+[38.368s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[38.369s] -- looking for PCL_RECOGNITION
+[38.369s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[38.369s] -- looking for PCL_STEREO
+[38.369s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[38.369s] -- looking for PCL_APPS
+[38.369s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[38.369s] -- looking for PCL_IN_HAND_SCANNER
+[38.370s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[38.370s] -- looking for PCL_POINT_CLOUD_EDITOR
+[38.370s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[38.370s] -- looking for PCL_OUTOFCORE
+[38.370s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[38.370s] -- looking for PCL_PEOPLE
+[38.371s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[38.371s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[38.371s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[38.371s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[38.371s] -- Check if compiler accepts -pthread
+[38.371s] -- Check if compiler accepts -pthread - yes
+[38.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[38.371s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/external/grid_map/grid_map_pcl/include
+[38.372s] -- Configured cppcheck exclude dirs and/or files: 
+[38.372s] -- Added test 'flake8' to check Python code syntax and style conventions
+[38.372s] -- Added test 'lint_cmake' to check CMake code style
+[38.372s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[38.372s] -- Added test 'uncrustify' to check C / C++ code style
+[38.372s] -- Configured uncrustify additional arguments: 
+[38.372s] -- Added test 'xmllint' to check XML markup files
+[38.372s] -- Configuring done
+[38.373s] -- Generating done
+[38.373s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_pcl
+[38.373s] ** WARNING ** io features related to openni will be disabled
+[38.373s] ** WARNING ** io features related to openni2 will be disabled
+[38.373s] ** WARNING ** io features related to pcap will be disabled
+[38.373s] ** WARNING ** io features related to png will be disabled
+[38.373s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[38.373s] ** WARNING ** visualization features related to openni will be disabled
+[38.374s] ** WARNING ** visualization features related to openni2 will be disabled
+[38.374s] ** WARNING ** apps features related to openni will be disabled
+[38.417s] Invoked command in '/home/cityu/autoware/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_pcl -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_pcl
+[38.422s] Invoking command in '/home/cityu/autoware/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_pcl -- -j16 -l16
+[41.657s] [35m[1mScanning dependencies of target gtest[0m
+[41.657s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[49.126s] [ 10%] [32m[1mLinking CXX static library libgtest.a[0m
+[49.181s] [ 10%] Built target gtest
+[49.196s] [35m[1mScanning dependencies of target gtest_main[0m
+[49.217s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[51.115s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[51.169s] [ 21%] Built target gtest_main
+[51.188s] [35m[1mScanning dependencies of target grid_map_pcl[0m
+[51.385s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/PclLoaderParameters.cpp.o[0m
+[51.385s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/PointcloudProcessor.cpp.o[0m
+[51.386s] [ 36%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclLoader.cpp.o[0m
+[75.884s] [ 47%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o[0m
+[75.885s] [ 47%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/helpers.cpp.o[0m
+[102.372s] [ 52%] [32m[1mLinking CXX shared library libgrid_map_pcl.so[0m
+[106.448s] [ 52%] Built target grid_map_pcl
+[106.470s] [35m[1mScanning dependencies of target grid_map_pcl-test[0m
+[106.474s] [35m[1mScanning dependencies of target grid_map_pcl_loader_node[0m
+[106.686s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_pcl_loader_node.dir/src/grid_map_pcl_loader_node.cpp.o[0m
+[106.787s] [ 63%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/GridMapPclLoaderTest.cpp.o[0m
+[106.789s] [ 68%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/HelpersTest.cpp.o[0m
+[106.793s] [ 73%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/PointcloudCreator.cpp.o[0m
+[135.246s] [ 78%] [32m[1mLinking CXX executable grid_map_pcl_loader_node[0m
+[135.626s] [ 84%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/test_grid_map_pcl.cpp.o[0m
+[137.639s] [ 84%] Built target grid_map_pcl_loader_node
+[140.996s] [ 89%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/test_helpers.cpp.o[0m
+[159.679s] [ 94%] [32mBuilding CXX object CMakeFiles/grid_map_pcl-test.dir/test/PointcloudProcessorTest.cpp.o[0m
+[170.476s] [100%] [32m[1mLinking CXX executable grid_map_pcl-test[0m
+[173.371s] [100%] Built target grid_map_pcl-test
+[173.402s] Invoked command in '/home/cityu/autoware/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_pcl -- -j16 -l16
+[174.233s] Invoking command in '/home/cityu/autoware/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_pcl
+[180.344s] -- Install configuration: "Release"
+[180.344s] -- Execute custom install script
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/lib/libgrid_map_pcl.so
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/lib/grid_map_pcl/grid_map_pcl_loader_node
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/config/parameters.yaml
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/launch/grid_map_pcl_loader_launch.py
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/test_data//parameters.yaml
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/test_data//plane_noisy.pcd
+[180.344s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.sh
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.dsv
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/package_run_dependencies/grid_map_pcl
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/parent_prefix_path/grid_map_pcl
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.sh
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.dsv
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/path.sh
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/path.dsv
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.bash
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.sh
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.zsh
+[180.345s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.dsv
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/package.dsv
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/packages/grid_map_pcl
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_libraries-extras.cmake
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig.cmake
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig-version.cmake
+[180.346s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/package.xml
+[180.346s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl
+[180.346s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/helpers.hpp
+[180.346s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/GridMapPclConverter.hpp
+[180.346s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/GridMapPclLoader.hpp
+[180.347s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/PclLoaderParameters.hpp
+[180.347s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/PointcloudProcessor.hpp
+[180.347s] -- Installing: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/grid_map_pcl.hpp
+[180.594s] Invoked command in '/home/cityu/autoware/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_pcl

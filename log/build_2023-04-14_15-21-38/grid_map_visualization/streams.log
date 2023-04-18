@@ -1,0 +1,72 @@
+[0.029s] Invoking command in '/home/cityu/autoware/build/grid_map_visualization': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_visualization -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_visualization
+[1.284s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.284s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.284s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.285s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.285s] -- Found grid_map_core: 2.0.0 (/home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake)
+[1.285s] -- Found grid_map_msgs: 2.0.0 (/home/cityu/autoware/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.285s] -- Found grid_map_ros: 2.0.0 (/home/cityu/autoware/install/grid_map_ros/share/grid_map_ros/cmake)
+[1.285s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.285s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.286s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.957s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.056s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/external/grid_map/grid_map_visualization/include
+[3.056s] -- Configured cppcheck exclude dirs and/or files: 
+[3.057s] -- Added test 'lint_cmake' to check CMake code style
+[3.060s] -- Added test 'uncrustify' to check C / C++ code style
+[3.060s] -- Configured uncrustify additional arguments: 
+[3.061s] -- Added test 'xmllint' to check XML markup files
+[3.068s] -- Configuring done
+[3.178s] -- Generating done
+[3.181s] CMake Warning:
+[3.181s]   Manually-specified variables were not used by the project:
+[3.182s] 
+[3.182s]     DOWNLOAD_ARTIFACTS
+[3.182s] 
+[3.182s] 
+[3.182s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_visualization
+[3.222s] Invoked command in '/home/cityu/autoware/build/grid_map_visualization' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_visualization -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_visualization
+[3.224s] Invoking command in '/home/cityu/autoware/build/grid_map_visualization': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_visualization -- -j16 -l16
+[4.481s] [  7%] [32m[1mLinking CXX shared library libgrid_map_visualization_core.so[0m
+[4.481s] [ 84%] Built target grid_map_visualization_core
+[4.481s] [ 92%] [32m[1mLinking CXX executable grid_map_visualization[0m
+[5.091s] [100%] Built target grid_map_visualization
+[5.108s] Invoked command in '/home/cityu/autoware/build/grid_map_visualization' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_visualization -- -j16 -l16
+[5.173s] Invoking command in '/home/cityu/autoware/build/grid_map_visualization': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_visualization
+[5.992s] -- Install configuration: "Release"
+[5.992s] -- Execute custom install script
+[5.993s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/lib/libgrid_map_visualization_core.so
+[5.993s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/lib/grid_map_visualization/grid_map_visualization
+[5.993s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells.jpg
+[5.993s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells_preview.jpg
+[5.993s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid.jpg
+[5.994s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid_preview.jpg
+[5.994s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud.jpg
+[5.999s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud_preview.jpg
+[5.999s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/vectors.jpg
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/doc/vectors_preview.jpg
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.sh
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.dsv
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/ament_index/resource_index/package_run_dependencies/grid_map_visualization
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/ament_index/resource_index/parent_prefix_path/grid_map_visualization
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.sh
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.dsv
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/path.sh
+[6.000s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/environment/path.dsv
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/local_setup.bash
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/local_setup.sh
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/local_setup.zsh
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/local_setup.dsv
+[6.001s] -- Symlinking: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/package.dsv
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/ament_index/resource_index/packages/grid_map_visualization
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+[6.001s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.002s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig.cmake
+[6.002s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig-version.cmake
+[6.002s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_visualization/share/grid_map_visualization/package.xml
+[6.069s] Invoked command in '/home/cityu/autoware/build/grid_map_visualization' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_visualization

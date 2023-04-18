@@ -1,0 +1,52 @@
+[0.060s] Invoking command in '/home/cityu/autoware/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/velodyne_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_description
+[0.416s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.417s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.417s] -- Configuring done
+[0.417s] -- Generating done
+[0.418s] -- Build files have been written to: /home/cityu/autoware/build/velodyne_description
+[0.424s] CMake Warning:
+[0.424s]   Manually-specified variables were not used by the project:
+[0.424s] 
+[0.426s]     DOWNLOAD_ARTIFACTS
+[0.427s] 
+[0.427s] 
+[0.543s] Invoked command in '/home/cityu/autoware/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/velodyne_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_description
+[0.548s] Invoking command in '/home/cityu/autoware/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_description -- -j16 -l16
+[0.811s] Invoked command in '/home/cityu/autoware/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_description -- -j16 -l16
+[1.016s] Invoking command in '/home/cityu/autoware/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_description
+[1.234s] -- Install configuration: "Release"
+[1.239s] -- Execute custom install script
+[1.240s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/launch/example.launch.py
+[1.240s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[1.240s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[1.241s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/world/example.world
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/environment/velodyne_description.dsv
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/environment/path.sh
+[1.242s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/local_setup.bash
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/local_setup.sh
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[1.243s] -- Symlinking: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/package.dsv
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[1.243s] -- Up-to-date symlink: /home/cityu/autoware/install/velodyne_description/share/velodyne_description/package.xml
+[1.256s] Invoked command in '/home/cityu/autoware/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_description

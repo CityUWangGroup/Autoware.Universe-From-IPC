@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/core/autoware_msgs/autoware_map_msgs/msg/LaneletMapBin.msg

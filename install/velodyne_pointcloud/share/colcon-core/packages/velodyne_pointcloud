@@ -1,0 +1,1 @@
+angles:autoware_auto_vehicle_msgs:cv_bridge:diagnostic_updater:geometry_msgs:image_transport:libpcl-all-dev:message_filters:pcl_conversions:pcl_ros:rclcpp:rclcpp_components:sensor_msgs:tf2:tf2_ros:velodyne_msgs:visualization_msgs:yaml-cpp

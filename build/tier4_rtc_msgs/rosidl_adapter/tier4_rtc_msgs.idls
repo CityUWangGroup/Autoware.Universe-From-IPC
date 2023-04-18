@@ -1,0 +1,8 @@
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/Command.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/CooperateCommand.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/CooperateResponse.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/CooperateStatus.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/CooperateStatusArray.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:msg/Module.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:srv/AutoMode.idl
+/home/cityu/autoware/build/tier4_rtc_msgs/rosidl_adapter/tier4_rtc_msgs:srv/CooperateCommands.idl

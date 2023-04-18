@@ -1,0 +1,3 @@
+/home/cityu/autoware/install/grid_map_rviz_plugin/lib/libgrid_map_rviz_plugin.so
+/home/cityu/autoware/install/grid_map_rviz_plugin/share/grid_map_rviz_plugin/cmake/grid_map_rviz_pluginExport.cmake
+/home/cityu/autoware/install/grid_map_rviz_plugin/share/grid_map_rviz_plugin/cmake/grid_map_rviz_pluginExport-release.cmake

@@ -1,0 +1,66 @@
+[0.098s] Invoking command in '/home/cityu/autoware/build/tier4_rtc_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs -DCMAKE_BUILD_TYPE=Release--cmake-args -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_rtc_msgs
+[0.420s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.420s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.422s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.422s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.866s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.096s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.133s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.133s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.133s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.172s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.192s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.195s] -- Added test 'lint_cmake' to check CMake code style
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.205s] -- Configuring done
+[1.298s] -- Generating done
+[1.307s] CMake Warning:
+[1.308s]   Manually-specified variables were not used by the project:
+[1.308s] 
+[1.308s]     DOWNLOAD_ARTIFACTS
+[1.308s] 
+[1.308s] 
+[1.312s] -- Build files have been written to: /home/cityu/autoware/build/tier4_rtc_msgs
+[1.338s] Invoked command in '/home/cityu/autoware/build/tier4_rtc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs -DCMAKE_BUILD_TYPE=Release--cmake-args -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_rtc_msgs
+[1.339s] Invoking command in '/home/cityu/autoware/build/tier4_rtc_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_rtc_msgs -- -j16 -l16
+[2.297s] [  1%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/command__functions.c.o[0m
+[2.298s] [  2%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_response__functions.c.o[0m
+[2.299s] [  3%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_command__functions.c.o[0m
+[2.299s] [  5%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_status__functions.c.o[0m
+[2.299s] [  6%] Built target tier4_rtc_msgs__cpp
+[2.299s] [  4%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_status_array__functions.c.o[0m
+[2.299s] [  8%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/srv/detail/auto_mode__functions.c.o[0m
+[2.299s] [  9%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/srv/detail/cooperate_commands__functions.c.o[0m
+[2.299s] [ 10%] [32mBuilding C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/module__functions.c.o[0m
+[2.299s] [ 11%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_response__type_support.cpp.o[0m
+[2.299s] [ 12%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_command__type_support.cpp.o[0m
+[2.300s] [ 14%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_status_array__type_support.cpp.o[0m
+[2.300s] [ 13%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/command__type_support.cpp.o[0m
+[2.300s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_status__type_support.cpp.o[0m
+[2.300s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/command__type_support.cpp.o[0m
+[2.300s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[2.300s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_command__type_support.cpp.o[0m
+[2.300s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_response__type_support.cpp.o[0m
+[2.300s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_command__type_support.cpp.o[0m
+[2.300s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_status__type_support.cpp.o[0m
+[2.301s] [ 24%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_response__type_support.cpp.o[0m
+[2.301s] [ 25%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_status__type_support.cpp.o[0m
+[2.301s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_status_array__type_support.cpp.o[0m
+[2.301s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/module__type_support.cpp.o[0m
+[2.301s] [ 28%] [32m[1mLinking C shared library libtier4_rtc_msgs__rosidl_generator_c.so[0m
+[2.433s] [ 29%] Built target tier4_rtc_msgs__rosidl_generator_c
+[2.513s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/module__type_support.cpp.o[0m
+[3.033s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_status_array__type_support.cpp.o[0m
+[3.799s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/srv/auto_mode__type_support.cpp.o[0m
+[4.062s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/srv/cooperate_commands__type_support.cpp.o[0m
+[4.114s] [ 35%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/srv/detail/auto_mode__type_support.cpp.o[0m
+[4.245s] [ 36%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/srv/detail/cooperate_commands__type_support.cpp.o[0m
+[4.498s] [ 37%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/module__type_support.cpp.o[0m
+[4.758s] [ 39%] [32mBuilding CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/srv/detail/dds_fastrtps/auto_mode__type_support.cpp.o[0m

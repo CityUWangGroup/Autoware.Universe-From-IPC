@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_map_msgs/rosidl_typesupport_introspection_c/autoware_map_msgs/msg/detail/lanelet_map_bin__rosidl_typesupport_introspection_c.h

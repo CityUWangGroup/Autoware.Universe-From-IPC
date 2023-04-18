@@ -1,0 +1,3 @@
+repository='https://github.com/NVIDIA/TensorRT'
+module=''
+tag='origin'

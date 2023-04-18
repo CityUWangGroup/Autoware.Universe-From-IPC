@@ -1,0 +1,237 @@
+[0.236s] Invoking command in '/home/cityu/autoware/build/image_projection_based_fusion': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/image_projection_based_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/image_projection_based_fusion
+[25.413s] -- The C compiler identification is GNU 9.4.0
+[25.414s] -- The CXX compiler identification is GNU 9.4.0
+[25.414s] -- Check for working C compiler: /usr/bin/cc
+[25.414s] -- Check for working C compiler: /usr/bin/cc -- works
+[25.414s] -- Detecting C compiler ABI info
+[25.414s] -- Detecting C compiler ABI info - done
+[25.414s] -- Detecting C compile features
+[25.415s] -- Detecting C compile features - done
+[25.415s] -- Check for working CXX compiler: /usr/bin/c++
+[25.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[25.415s] -- Detecting CXX compiler ABI info
+[25.415s] -- Detecting CXX compiler ABI info - done
+[25.415s] -- Detecting CXX compile features
+[25.415s] -- Detecting CXX compile features - done
+[25.415s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[25.415s] -- Found OpenCV: /usr (found version "4.2.0") 
+[25.416s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[25.416s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[25.416s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[25.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[25.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.416s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[25.416s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[25.416s] -- Found FastRTPS: /opt/ros/galactic/include  
+[25.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.416s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[25.417s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[25.417s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[25.417s] -- Looking for pthread.h
+[25.417s] -- Looking for pthread.h - found
+[25.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[25.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[25.417s] -- Looking for pthread_create in pthreads
+[25.417s] -- Looking for pthread_create in pthreads - not found
+[25.417s] -- Looking for pthread_create in pthread
+[25.418s] -- Looking for pthread_create in pthread - found
+[25.418s] -- Found Threads: TRUE  
+[25.418s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[25.418s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[25.418s] -- Checking for module 'eigen3'
+[25.418s] --   Found eigen3, version 3.3.7
+[25.418s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[25.418s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[25.418s] -- Checking for module 'flann'
+[25.418s] --   Found flann, version 1.9.1
+[25.419s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[25.419s] -- The imported target "vtkParseOGLExt" references the file
+[25.419s]    "/usr/bin/vtkParseOGLExt-7.1"
+[25.419s] but this file does not exist.  Possible reasons include:
+[25.419s] * The file was deleted, renamed, or moved to another location.
+[25.419s] * An install or uninstall procedure did not complete successfully.
+[25.419s] * The installation package was faulty and contained
+[25.419s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[25.419s] but not all the files it references.
+[25.419s] 
+[25.420s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[25.420s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[25.420s] but this file does not exist.  Possible reasons include:
+[25.420s] * The file was deleted, renamed, or moved to another location.
+[25.420s] * An install or uninstall procedure did not complete successfully.
+[25.420s] * The installation package was faulty and contained
+[25.420s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[25.420s] but not all the files it references.
+[25.420s] 
+[25.420s] -- The imported target "vtk" references the file
+[25.421s]    "/usr/bin/vtk"
+[25.421s] but this file does not exist.  Possible reasons include:
+[25.421s] * The file was deleted, renamed, or moved to another location.
+[25.421s] * An install or uninstall procedure did not complete successfully.
+[25.421s] * The installation package was faulty and contained
+[25.421s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[25.421s] but not all the files it references.
+[25.421s] 
+[25.421s] -- The imported target "pvtk" references the file
+[25.421s]    "/usr/bin/pvtk"
+[25.422s] but this file does not exist.  Possible reasons include:
+[25.422s] * The file was deleted, renamed, or moved to another location.
+[25.422s] * An install or uninstall procedure did not complete successfully.
+[25.422s] * The installation package was faulty and contained
+[25.422s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[25.422s] but not all the files it references.
+[25.422s] 
+[25.422s] -- Checking for module 'libusb-1.0'
+[25.422s] --   No package 'libusb-1.0' found
+[25.422s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[25.423s] -- OpenNI disabled because libusb-1.0 not found.
+[25.423s] -- Checking for module 'libusb-1.0'
+[25.423s] --   No package 'libusb-1.0' found
+[25.423s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[25.423s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[25.423s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[25.423s] -- Checking for module 'libusb-1.0'
+[25.423s] --   No package 'libusb-1.0' found
+[25.423s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[25.424s] -- OpenNI disabled because libusb-1.0 not found.
+[25.424s] -- Checking for module 'libusb-1.0'
+[25.424s] --   No package 'libusb-1.0' found
+[25.424s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[25.424s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[25.424s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[25.424s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[25.424s] -- Checking for module 'libusb-1.0'
+[25.424s] --   No package 'libusb-1.0' found
+[25.424s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[25.425s] -- OpenNI disabled because libusb-1.0 not found.
+[25.425s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[25.425s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[25.425s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[25.425s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[25.425s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[25.425s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[25.425s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[25.425s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[25.425s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[25.426s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[25.426s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[25.426s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[25.426s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[25.426s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[25.426s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[25.426s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[25.426s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[25.426s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[25.426s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[25.426s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[25.427s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[25.427s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[25.427s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[25.427s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[25.427s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[27.422s] -- Found CUDA: /usr/local/cuda (found version "11.6") 
+[27.438s] -- start to download
+[27.438s] -- Checking and downloading pts_voxel_encoder_pointpainting.onnx
+[27.438s] -- start pts_voxel_encoder_pointpainting.onnx
+[27.439s] -- not found pts_voxel_encoder_pointpainting.onnx
+[27.439s] -- File doesn't exists. Downloading now ...
+[28.195s] -- Download completed successfully!
+[28.196s] -- Checking and downloading pts_backbone_neck_head_pointpainting.onnx
+[28.196s] -- start pts_backbone_neck_head_pointpainting.onnx
+[28.196s] -- not found pts_backbone_neck_head_pointpainting.onnx
+[28.196s] -- File doesn't exists. Downloading now ...
+[35.325s] -- Download completed successfully!
+[50.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[50.864s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[50.876s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/image_projection_based_fusion/include
+[50.876s] -- Configured cppcheck exclude dirs and/or files: 
+[50.879s] -- Added test 'lint_cmake' to check CMake code style
+[50.882s] -- Added test 'xmllint' to check XML markup files
+[50.912s] -- Configuring done
+[51.776s] -- Generating done
+[51.783s] -- Build files have been written to: /home/cityu/autoware/build/image_projection_based_fusion
+[51.853s] Invoked command in '/home/cityu/autoware/build/image_projection_based_fusion' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/image_projection_based_fusion -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/image_projection_based_fusion
+[51.855s] Invoking command in '/home/cityu/autoware/build/image_projection_based_fusion': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/image_projection_based_fusion -- -j16 -l16
+[74.723s] [35m[1mScanning dependencies of target roi_detected_object_fusion_node[0m
+[74.723s] [  5%] [32mBuilding CXX object CMakeFiles/roi_detected_object_fusion_node.dir/rclcpp_components/node_main_roi_detected_object_fusion_node.cpp.o[0m
+[74.723s] [ 10%] [32m[1mLinking CXX executable roi_detected_object_fusion_node[0m
+[74.723s] [ 10%] Built target roi_detected_object_fusion_node
+[74.723s] [35m[1mScanning dependencies of target pointpainting_fusion_node[0m
+[74.723s] [ 15%] [32mBuilding CXX object CMakeFiles/pointpainting_fusion_node.dir/rclcpp_components/node_main_pointpainting_fusion_node.cpp.o[0m
+[74.723s] [ 21%] [32m[1mLinking CXX executable pointpainting_fusion_node[0m
+[74.724s] [ 21%] Built target pointpainting_fusion_node
+[74.724s] [ 26%] [34m[1mBuilding NVCC (Device) object CMakeFiles/pointpainting_cuda_lib.dir/src/pointpainting_fusion/pointpainting_cuda_lib_generated_preprocess_kernel.cu.o[0m
+[74.724s] [35m[1mScanning dependencies of target pointpainting_cuda_lib[0m
+[74.724s] [ 31%] [32m[1mLinking CXX shared library libpointpainting_cuda_lib.so[0m
+[74.724s] [ 31%] Built target pointpainting_cuda_lib
+[74.724s] [35m[1mScanning dependencies of target image_projection_based_fusion[0m
+[74.724s] [ 36%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/fusion_node.cpp.o[0m
+[74.724s] <command-line>: warning: ISO C++11 requires whitespace after the macro name
+[74.724s] <command-line>: warning: ISO C++11 requires whitespace after the macro name
+[74.724s] <command-line>: warning: ISO C++11 requires whitespace after the macro name
+[74.725s] <command-line>: warning: ISO C++11 requires whitespace after the macro name
+[128.814s] [ 42%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/roi_detected_object_fusion/node.cpp.o[0m
+[143.291s] [ 47%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/roi_cluster_fusion/node.cpp.o[0m
+[156.532s] [ 52%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/utils/utils.cpp.o[0m
+[166.903s] [ 57%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/utils/geometry.cpp.o[0m
+[166.925s] [ 63%] [32mBuilding CXX object CMakeFiles/image_projection_based_fusion.dir/src/debugger.cpp.o[0m
+[177.887s] [ 68%] [32m[1mLinking CXX shared library libimage_projection_based_fusion.so[0m
+[181.849s] [ 68%] Built target image_projection_based_fusion
+[181.936s] [35m[1mScanning dependencies of target roi_cluster_fusion_node[0m
+[182.104s] [ 73%] [32mBuilding CXX object CMakeFiles/roi_cluster_fusion_node.dir/rclcpp_components/node_main_roi_cluster_fusion_node.cpp.o[0m
+[190.173s] [ 78%] [32m[1mLinking CXX executable roi_cluster_fusion_node[0m
+[190.824s] [ 78%] Built target roi_cluster_fusion_node
+[190.918s] [35m[1mScanning dependencies of target pointpainting_lib[0m
+[191.538s] [ 84%] [32mBuilding CXX object CMakeFiles/pointpainting_lib.dir/src/pointpainting_fusion/node.cpp.o[0m
+[221.200s] [ 89%] [32mBuilding CXX object CMakeFiles/pointpainting_lib.dir/src/pointpainting_fusion/voxel_generator.cpp.o[0m
+[228.638s] [ 94%] [32mBuilding CXX object CMakeFiles/pointpainting_lib.dir/src/pointpainting_fusion/pointpainting_trt.cpp.o[0m
+[243.140s] [100%] [32m[1mLinking CXX shared library libpointpainting_lib.so[0m
+[246.470s] [100%] Built target pointpainting_lib
+[246.524s] Invoked command in '/home/cityu/autoware/build/image_projection_based_fusion' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/image_projection_based_fusion -- -j16 -l16
+[247.541s] Invoking command in '/home/cityu/autoware/build/image_projection_based_fusion': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/image_projection_based_fusion
+[286.587s] -- Install configuration: "Release"
+[286.588s] -- Execute custom install script
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/lib/image_projection_based_fusion/roi_detected_object_fusion_node
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/lib/image_projection_based_fusion/roi_cluster_fusion_node
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/lib/image_projection_based_fusion/pointpainting_fusion_node
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/debugger.hpp
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/fusion_node.hpp
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/pointpainting_fusion/node.hpp
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/pointpainting_fusion/pointpainting_trt.hpp
+[286.588s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/pointpainting_fusion/preprocess_kernel.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/pointpainting_fusion/voxel_generator.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/roi_cluster_fusion/node.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/roi_detected_object_fusion/node.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/utils/geometry.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/include/image_projection_based_fusion/utils/utils.hpp
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/library_path.sh
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/library_path.dsv
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/lib/libimage_projection_based_fusion.so
+[286.589s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/lib/libpointpainting_lib.so
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/launch/pointpainting_fusion.launch.xml
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/launch/roi_cluster_fusion.launch.xml
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/launch/roi_detected_object_fusion.launch.xml
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/config/pointpainting.param.yaml
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/config/roi_sync.param.yaml
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/data/pts_backbone_neck_head_pointpainting.onnx
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/data/pts_voxel_encoder_pointpainting.onnx
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/ament_index/resource_index/package_run_dependencies/image_projection_based_fusion
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/ament_index/resource_index/parent_prefix_path/image_projection_based_fusion
+[286.590s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/ament_prefix_path.sh
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/ament_prefix_path.dsv
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/path.sh
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/environment/path.dsv
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/local_setup.bash
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/local_setup.sh
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/local_setup.zsh
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/local_setup.dsv
+[286.591s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/package.dsv
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/ament_index/resource_index/packages/image_projection_based_fusion
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/ament_index/resource_index/rclcpp_components/image_projection_based_fusion
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/cmake/ament_cmake_export_dependencies-extras.cmake
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/cmake/ament_cmake_export_include_directories-extras.cmake
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/cmake/ament_cmake_export_libraries-extras.cmake
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/cmake/image_projection_based_fusionConfig.cmake
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/cmake/image_projection_based_fusionConfig-version.cmake
+[286.592s] -- Symlinking: /home/cityu/autoware/install/image_projection_based_fusion/share/image_projection_based_fusion/package.xml
+[286.624s] Invoked command in '/home/cityu/autoware/build/image_projection_based_fusion' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/lidar_centerpoint:/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/lidar_centerpoint/lib:/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/image_projection_based_fusion

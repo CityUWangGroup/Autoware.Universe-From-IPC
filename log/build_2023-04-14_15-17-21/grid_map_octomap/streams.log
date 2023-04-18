@@ -1,0 +1,34 @@
+[0.256s] Invoking command in '/home/cityu/autoware/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_octomap -- -j16 -l16
+[0.355s] [ 22%] Built target gtest_main
+[0.355s] [ 44%] Built target gtest
+[0.355s] [ 66%] Built target grid_map_octomap
+[0.355s] [100%] Built target grid_map_octomap-test
+[0.481s] Invoked command in '/home/cityu/autoware/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_octomap -- -j16 -l16
+[0.701s] Invoking command in '/home/cityu/autoware/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_octomap
+[0.724s] -- Install configuration: "Release"
+[0.724s] -- Execute custom install script
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/lib/libgrid_map_octomap.a
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+[0.724s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+[0.725s] -- Symlinking: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+[0.726s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+[0.726s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+[0.726s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_octomap/share/grid_map_octomap/package.xml
+[0.726s] -- Up-to-date: /home/cityu/autoware/install/grid_map_octomap/include/grid_map_octomap
+[0.726s] -- Up-to-date: /home/cityu/autoware/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+[0.726s] -- Up-to-date: /home/cityu/autoware/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+[0.812s] Invoked command in '/home/cityu/autoware/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_octomap

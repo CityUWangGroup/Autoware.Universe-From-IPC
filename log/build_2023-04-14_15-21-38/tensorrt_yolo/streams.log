@@ -1,0 +1,135 @@
+[0.051s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolo': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_yolo
+[1.610s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.610s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.611s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.611s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.629s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.630s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.659s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.038s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.072s] -- Checking and downloading yolov3.onnx
+[3.072s] -- start yolov3.onnx
+[3.073s] -- found yolov3.onnx
+[3.526s] -- same yolov3.onnx
+[3.527s] -- File already exists.
+[3.527s] -- Download completed successfully!
+[3.527s] -- Checking and downloading yolov4.onnx
+[3.527s] -- start yolov4.onnx
+[3.527s] -- found yolov4.onnx
+[3.989s] -- same yolov4.onnx
+[3.989s] -- File already exists.
+[3.989s] -- Download completed successfully!
+[3.989s] -- Checking and downloading yolov4-tiny.onnx
+[3.990s] -- start yolov4-tiny.onnx
+[3.990s] -- found yolov4-tiny.onnx
+[4.036s] -- same yolov4-tiny.onnx
+[4.036s] -- File already exists.
+[4.036s] -- Download completed successfully!
+[4.036s] -- Checking and downloading yolov5s.onnx
+[4.036s] -- start yolov5s.onnx
+[4.036s] -- found yolov5s.onnx
+[4.095s] -- same yolov5s.onnx
+[4.095s] -- File already exists.
+[4.095s] -- Download completed successfully!
+[4.096s] -- Checking and downloading yolov5m.onnx
+[4.096s] -- start yolov5m.onnx
+[4.096s] -- found yolov5m.onnx
+[4.234s] -- same yolov5m.onnx
+[4.235s] -- File already exists.
+[4.235s] -- Download completed successfully!
+[4.235s] -- Checking and downloading yolov5l.onnx
+[4.235s] -- start yolov5l.onnx
+[4.235s] -- found yolov5l.onnx
+[4.572s] -- same yolov5l.onnx
+[4.572s] -- File already exists.
+[4.572s] -- Download completed successfully!
+[4.572s] -- Checking and downloading yolov5x.onnx
+[4.576s] -- start yolov5x.onnx
+[4.576s] -- found yolov5x.onnx
+[5.221s] -- same yolov5x.onnx
+[5.221s] -- File already exists.
+[5.221s] -- Download completed successfully!
+[5.221s] -- Checking and downloading coco.names
+[5.221s] -- start coco.names
+[5.221s] -- found coco.names
+[5.221s] -- same coco.names
+[5.222s] -- File already exists.
+[5.222s] -- Download completed successfully!
+[5.404s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.409s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo/include;/home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo/lib/include
+[5.409s] -- Configured cppcheck exclude dirs and/or files: 
+[5.410s] -- Added test 'lint_cmake' to check CMake code style
+[5.411s] -- Added test 'xmllint' to check XML markup files
+[5.419s] -- Configuring done
+[5.550s] -- Generating done
+[5.553s] CMake Warning:
+[5.553s]   Manually-specified variables were not used by the project:
+[5.553s] 
+[5.553s]     DOWNLOAD_ARTIFACTS
+[5.554s] 
+[5.554s] 
+[5.554s] -- Build files have been written to: /home/cityu/autoware/build/tensorrt_yolo
+[5.567s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolo' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_yolo
+[5.591s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolo': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_yolo -- -j16 -l16
+[5.639s] [ 20%] Built target mish_plugin
+[5.666s] [ 33%] Built target tensorrt_yolo_node
+[5.709s] [ 53%] Built target yolo_layer_plugin
+[5.779s] [ 73%] Built target nms_plugin
+[5.812s] [ 80%] [32m[1mLinking CXX shared library libyolo.so[0m
+[6.117s] [ 86%] Built target yolo
+[6.175s] [ 93%] [32m[1mLinking CXX shared library libtensorrt_yolo_nodelet.so[0m
+[6.914s] [100%] Built target tensorrt_yolo_nodelet
+[7.030s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolo' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_yolo -- -j16 -l16
+[7.205s] Invoking command in '/home/cityu/autoware/build/tensorrt_yolo': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_yolo
+[7.290s] -- Install configuration: "Release"
+[7.290s] -- Execute custom install script
+[7.290s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/tensorrt_yolo/tensorrt_yolo_node
+[7.290s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/include/tensorrt_yolo/nodelet.hpp
+[7.290s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/library_path.sh
+[7.291s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/library_path.dsv
+[7.291s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libyolo.so
+[7.291s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libtensorrt_yolo_nodelet.so
+[7.291s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov3.param.yaml
+[7.291s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov4-tiny.param.yaml
+[7.292s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov4.param.yaml
+[7.292s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5l.param.yaml
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5m.param.yaml
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5s.param.yaml
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5x.param.yaml
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/coco.names
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov3.onnx
+[7.293s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov4-tiny.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov4.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5l.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5m.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5s.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5x.onnx
+[7.294s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/launch/tensorrt_yolo.launch.xml
+[7.295s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/launch/yolo.launch.xml
+[7.295s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/package_run_dependencies/tensorrt_yolo
+[7.295s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/parent_prefix_path/tensorrt_yolo
+[7.295s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/ament_prefix_path.sh
+[7.296s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/ament_prefix_path.dsv
+[7.297s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/path.sh
+[7.297s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/path.dsv
+[7.297s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.bash
+[7.297s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.sh
+[7.297s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.zsh
+[7.300s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.dsv
+[7.300s] -- Symlinking: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/package.dsv
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/packages/tensorrt_yolo
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/rclcpp_components/tensorrt_yolo
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_libraries-extras.cmake
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/tensorrt_yoloConfig.cmake
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/tensorrt_yoloConfig-version.cmake
+[7.301s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/package.xml
+[7.302s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libmish_plugin.so
+[7.302s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libyolo_layer_plugin.so
+[7.302s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libnms_plugin.so
+[7.368s] Invoked command in '/home/cityu/autoware/build/tensorrt_yolo' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_yolo

@@ -1,0 +1,63 @@
+[0.111s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+[0.988s] -- The C compiler identification is GNU 9.4.0
+[0.988s] -- The CXX compiler identification is GNU 9.4.0
+[0.989s] -- Check for working C compiler: /usr/bin/cc
+[0.989s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.989s] -- Detecting C compiler ABI info
+[0.995s] -- Detecting C compiler ABI info - done
+[0.995s] -- Detecting C compile features
+[0.996s] -- Detecting C compile features - done
+[0.996s] -- Check for working CXX compiler: /usr/bin/c++
+[0.996s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.997s] -- Detecting CXX compiler ABI info
+[0.997s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[1.153s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.289s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.289s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.290s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.341s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.625s] -- Configuring done
+[1.629s] -- Generating done
+[1.630s] -- Build files have been written to: /home/cityu/autoware/build/mussp
+[1.648s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/mussp
+[1.649s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+[6.801s] [35m[1mScanning dependencies of target mussp[0m
+[6.801s] [ 20%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Graph.cpp.o[0m
+[6.801s] [ 40%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/mussp.cpp.o[0m
+[8.003s] [ 60%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Sink.cpp.o[0m
+[8.904s] [ 80%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Node.cpp.o[0m
+[9.212s] [100%] [32m[1mLinking CXX shared library libmussp.so[0m
+[9.430s] [100%] Built target mussp
+[9.450s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/mussp -- -j16 -l16
+[9.500s] Invoking command in '/home/cityu/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp
+[20.294s] -- Install configuration: "Release"
+[20.294s] -- Execute custom install script
+[20.294s] -- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Graph.h
+[20.294s] -- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Node.h
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/Sink.h
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/include/mussp/mussp.h
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.sh
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/library_path.dsv
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/lib/libmussp.so
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/package_run_dependencies/mussp
+[20.295s] -- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/parent_prefix_path/mussp
+[20.296s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.sh
+[20.296s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/ament_prefix_path.dsv
+[20.296s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/path.sh
+[20.296s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/environment/path.dsv
+[20.296s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.bash
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.sh
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.zsh
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/local_setup.dsv
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/package.dsv
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/ament_index/resource_index/packages/mussp
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_libraries-extras.cmake
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig.cmake
+[20.297s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/cmake/musspConfig-version.cmake
+[20.298s] -- Symlinking: /home/cityu/autoware/install/mussp/share/mussp/package.xml
+[20.418s] Invoked command in '/home/cityu/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/mussp

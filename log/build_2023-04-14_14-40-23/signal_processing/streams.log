@@ -1,0 +1,101 @@
+[0.121s] Invoking command in '/home/cityu/autoware/build/signal_processing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/signal_processing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/signal_processing
+[3.158s] -- The C compiler identification is GNU 9.4.0
+[3.158s] -- The CXX compiler identification is GNU 9.4.0
+[3.158s] -- Check for working C compiler: /usr/bin/cc
+[3.158s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.158s] -- Detecting C compiler ABI info
+[3.159s] -- Detecting C compiler ABI info - done
+[3.159s] -- Detecting C compile features
+[3.159s] -- Detecting C compile features - done
+[3.159s] -- Check for working CXX compiler: /usr/bin/c++
+[3.159s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.159s] -- Detecting CXX compiler ABI info
+[3.159s] -- Detecting CXX compiler ABI info - done
+[3.159s] -- Detecting CXX compile features
+[3.159s] -- Detecting CXX compile features - done
+[3.160s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.160s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.160s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.160s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.160s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.161s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.161s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.161s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.162s] -- Looking for pthread.h
+[3.162s] -- Looking for pthread.h - found
+[3.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.162s] -- Looking for pthread_create in pthreads
+[3.162s] -- Looking for pthread_create in pthreads - not found
+[3.162s] -- Looking for pthread_create in pthread
+[3.163s] -- Looking for pthread_create in pthread - found
+[3.163s] -- Found Threads: TRUE  
+[3.163s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.163s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.163s] -- Check if compiler accepts -pthread
+[3.163s] -- Check if compiler accepts -pthread - yes
+[3.163s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.163s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.163s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/signal_processing/include;/home/cityu/autoware/src/universe/autoware.universe/common/signal_processing/test/include
+[3.164s] -- Configured cppcheck exclude dirs and/or files: 
+[3.164s] -- Added test 'lint_cmake' to check CMake code style
+[3.164s] -- Added test 'xmllint' to check XML markup files
+[3.164s] -- Configuring done
+[3.164s] -- Generating done
+[3.164s] -- Build files have been written to: /home/cityu/autoware/build/signal_processing
+[3.230s] Invoked command in '/home/cityu/autoware/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/signal_processing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/signal_processing
+[3.233s] Invoking command in '/home/cityu/autoware/build/signal_processing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/signal_processing -- -j16 -l16
+[21.238s] [35m[1mScanning dependencies of target gtest[0m
+[21.238s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.238s] [ 16%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.239s] [ 16%] Built target gtest
+[21.239s] [35m[1mScanning dependencies of target gtest_main[0m
+[21.239s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[21.239s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.239s] [ 33%] Built target gtest_main
+[21.239s] [35m[1mScanning dependencies of target lowpass_filters[0m
+[21.239s] [ 41%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/lowpass_filter_1d.cpp.o[0m
+[21.239s] [ 50%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/butterworth.cpp.o[0m
+[21.239s] [ 58%] [32mBuilding CXX object CMakeFiles/lowpass_filters.dir/src/lowpass_filter.cpp.o[0m
+[22.126s] [ 66%] [32m[1mLinking CXX shared library liblowpass_filters.so[0m
+[22.433s] [ 66%] Built target lowpass_filters
+[22.452s] [35m[1mScanning dependencies of target test_signal_processing[0m
+[22.530s] [ 75%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/lowpass_filter_1d_test.cpp.o[0m
+[22.541s] [ 83%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/lowpass_filter_test.cpp.o[0m
+[25.687s] [ 91%] [32mBuilding CXX object CMakeFiles/test_signal_processing.dir/test/src/butterworth_filter_test.cpp.o[0m
+[31.123s] [100%] [32m[1mLinking CXX executable test_signal_processing[0m
+[31.406s] [100%] Built target test_signal_processing
+[31.479s] Invoked command in '/home/cityu/autoware/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/signal_processing -- -j16 -l16
+[31.618s] Invoking command in '/home/cityu/autoware/build/signal_processing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/signal_processing
+[32.472s] -- Install configuration: "Release"
+[32.472s] -- Execute custom install script
+[32.473s] -- Symlinking: /home/cityu/autoware/install/signal_processing/include/signal_processing/butterworth.hpp
+[32.473s] -- Symlinking: /home/cityu/autoware/install/signal_processing/include/signal_processing/lowpass_filter.hpp
+[32.473s] -- Symlinking: /home/cityu/autoware/install/signal_processing/include/signal_processing/lowpass_filter_1d.hpp
+[32.479s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/library_path.sh
+[32.480s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/library_path.dsv
+[32.480s] -- Symlinking: /home/cityu/autoware/install/signal_processing/lib/liblowpass_filters.so
+[32.481s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/ament_index/resource_index/package_run_dependencies/signal_processing
+[32.481s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/ament_index/resource_index/parent_prefix_path/signal_processing
+[32.481s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/ament_prefix_path.sh
+[32.482s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/ament_prefix_path.dsv
+[32.483s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/path.sh
+[32.484s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/environment/path.dsv
+[32.502s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/local_setup.bash
+[32.503s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/local_setup.sh
+[32.503s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/local_setup.zsh
+[32.504s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/local_setup.dsv
+[32.504s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/package.dsv
+[32.504s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/ament_index/resource_index/packages/signal_processing
+[32.504s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.504s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.505s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_libraries-extras.cmake
+[32.505s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/cmake/signal_processingConfig.cmake
+[32.506s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/cmake/signal_processingConfig-version.cmake
+[32.511s] -- Symlinking: /home/cityu/autoware/install/signal_processing/share/signal_processing/package.xml
+[32.592s] Invoked command in '/home/cityu/autoware/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/signal_processing

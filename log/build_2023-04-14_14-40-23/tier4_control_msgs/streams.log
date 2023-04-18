@@ -1,0 +1,304 @@
+[0.211s] Invoking command in '/home/cityu/autoware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_control_msgs
+[2.276s] -- The C compiler identification is GNU 9.4.0
+[2.276s] -- The CXX compiler identification is GNU 9.4.0
+[2.276s] -- Check for working C compiler: /usr/bin/cc
+[2.277s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.277s] -- Detecting C compiler ABI info
+[2.277s] -- Detecting C compiler ABI info - done
+[2.277s] -- Detecting C compile features
+[2.277s] -- Detecting C compile features - done
+[2.277s] -- Check for working CXX compiler: /usr/bin/c++
+[2.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.277s] -- Detecting CXX compiler ABI info
+[2.278s] -- Detecting CXX compiler ABI info - done
+[2.278s] -- Detecting CXX compile features
+[2.278s] -- Detecting CXX compile features - done
+[2.278s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[2.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.278s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.279s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.279s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.279s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.279s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.342s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.813s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.815s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.861s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.862s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.862s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.862s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.900s] -- Found PythonExtra: .so  
+[3.253s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.291s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.295s] -- Added test 'lint_cmake' to check CMake code style
+[3.297s] -- Added test 'xmllint' to check XML markup files
+[3.308s] -- Configuring done
+[3.416s] -- Generating done
+[3.418s] -- Build files have been written to: /home/cityu/autoware/build/tier4_control_msgs
+[3.453s] Invoked command in '/home/cityu/autoware/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_control_msgs
+[3.455s] Invoking command in '/home/cityu/autoware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_control_msgs -- -j16 -l16
+[4.521s] [35m[1mScanning dependencies of target tier4_control_msgs__cpp[0m
+[4.522s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.734s] [  1%] Built target tier4_control_msgs__cpp
+[4.743s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.130s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_generator_c[0m
+[6.155s] [  4%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/gate_mode__functions.c.o[0m
+[6.272s] [  5%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/set_pause__functions.c.o[0m
+[6.449s] [  7%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_paused__functions.c.o[0m
+[6.583s] [  8%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_start_requested__functions.c.o[0m
+[6.711s] [  9%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/external_command_select__functions.c.o[0m
+[6.912s] [ 11%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.c.o[0m
+[7.034s] [ 12%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_generator_c.so[0m
+[7.100s] [ 12%] Built target tier4_control_msgs__rosidl_generator_c
+[7.116s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.830s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.858s] [ 15%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/gate_mode__type_support.cpp.o[0m
+[8.333s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/set_pause__type_support.cpp.o[0m
+[8.858s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_paused__type_support.cpp.o[0m
+[9.282s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_start_requested__type_support.cpp.o[0m
+[9.646s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/external_command_select__type_support.cpp.o[0m
+[10.072s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.cpp.o[0m
+[10.412s] [ 23%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.496s] [ 23%] Built target tier4_control_msgs__rosidl_typesupport_introspection_cpp
+[10.506s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.903s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_c[0m
+[10.922s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[10.963s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[11.010s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[11.053s] [ 30%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[11.096s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[11.141s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[11.173s] [ 35%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_c.so[0m
+[11.231s] [ 35%] Built target tier4_control_msgs__rosidl_typesupport_c
+[11.247s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.047s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_c[0m
+[12.070s] [ 38%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/gate_mode__type_support.c.o[0m
+[12.122s] [ 39%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/set_pause__type_support.c.o[0m
+[12.190s] [ 40%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_paused__type_support.c.o[0m
+[12.241s] [ 42%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_start_requested__type_support.c.o[0m
+[12.294s] [ 43%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/external_command_select__type_support.c.o[0m
+[12.357s] [ 45%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.c.o[0m
+[12.402s] [ 46%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.447s] [ 46%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c
+[12.462s] [ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.110s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_cpp[0m
+[13.124s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[13.437s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[13.821s] [ 52%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[14.285s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[14.754s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[15.073s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[15.439s] [ 57%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_cpp.so[0m
+[15.496s] [ 57%] Built target tier4_control_msgs__rosidl_typesupport_cpp
+[15.509s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.128s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[16.154s] [ 60%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/gate_mode__type_support.cpp.o[0m
+[16.744s] [ 61%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/set_pause__type_support.cpp.o[0m
+[17.245s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_paused__type_support.cpp.o[0m
+[17.897s] [ 64%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_start_requested__type_support.cpp.o[0m
+[18.492s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/external_command_select__type_support.cpp.o[0m
+[19.252s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/external_command_selector_mode__type_support.cpp.o[0m
+[19.915s] [ 69%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.047s] [ 69%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_cpp
+[20.058s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.860s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[20.895s] [ 71%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/gate_mode__type_support_c.cpp.o[0m
+[21.306s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/set_pause__type_support_c.cpp.o[0m
+[21.837s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_paused__type_support_c.cpp.o[0m
+[22.207s] [ 76%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_start_requested__type_support_c.cpp.o[0m
+[22.670s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/external_command_select__type_support_c.cpp.o[0m
+[23.102s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support_c.cpp.o[0m
+[23.490s] [ 80%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.692s] [ 80%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c
+[23.707s] [35m[1mScanning dependencies of target tier4_control_msgs[0m
+[23.724s] [ 80%] Built target tier4_control_msgs
+[23.739s] [35m[1mScanning dependencies of target tier4_control_msgs__py[0m
+[23.754s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.647s] [ 81%] Built target tier4_control_msgs__py
+[25.657s] [35m[1mScanning dependencies of target tier4_control_msgs__python[0m
+[25.687s] [ 83%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_gate_mode_s.c.o[0m
+[25.860s] [ 84%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/srv/_set_pause_s.c.o[0m
+[26.060s] [ 85%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_paused_s.c.o[0m
+[26.166s] [ 87%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_start_requested_s.c.o[0m
+[26.274s] [ 88%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/srv/_external_command_select_s.c.o[0m
+[26.405s] [ 90%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_external_command_selector_mode_s.c.o[0m
+[26.513s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/libtier4_control_msgs__python.so[0m
+[26.556s] [ 91%] Built target tier4_control_msgs__python
+[26.567s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[26.588s] [ 92%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.888s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.946s] [ 94%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c__pyext
+[26.960s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[26.989s] [ 95%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.293s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.399s] [ 97%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[27.414s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_c__pyext[0m
+[27.440s] [ 98%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[27.638s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.684s] [100%] Built target tier4_control_msgs__rosidl_typesupport_c__pyext
+[27.709s] Invoked command in '/home/cityu/autoware/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_control_msgs -- -j16 -l16
+[27.824s] Invoking command in '/home/cityu/autoware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_control_msgs
+[29.939s] -- Install configuration: "Release"
+[29.939s] -- Execute custom install script
+[29.939s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_control_msgs
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__functions.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__struct.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__type_support.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__functions.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__struct.h
+[29.940s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__type_support.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__functions.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__struct.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__type_support.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/external_command_selector_mode.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/gate_mode.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_paused.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_start_requested.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[29.941s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__functions.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__struct.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__type_support.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__functions.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__struct.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__type_support.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/external_command_select.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_pause.h
+[29.942s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.sh
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.dsv
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_c.h
+[29.943s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_cpp.hpp
+[29.944s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_c.h
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__builder.hpp
+[29.945s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__traits.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__builder.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__struct.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__traits.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__builder.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__struct.hpp
+[29.946s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__traits.hpp
+[29.947s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__builder.hpp
+[29.947s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__struct.hpp
+[29.947s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__traits.hpp
+[29.947s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/external_command_selector_mode.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/gate_mode.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_paused.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_start_requested.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__builder.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__struct.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__traits.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__builder.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__struct.hpp
+[29.948s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__traits.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/external_command_select.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_pause.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_introspection_cpp.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_introspection_cpp.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_introspection_cpp.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_introspection_cpp.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_introspection_cpp.hpp
+[29.949s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_cpp.hpp
+[29.950s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/pythonpath.sh
+[29.950s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/pythonpath.dsv
+[29.950s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/__init__.py
+[29.960s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/msg/__init__.py
+[29.960s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/msg/_external_command_selector_mode.py
+[29.961s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/msg/_gate_mode.py
+[29.970s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/msg/_is_paused.py
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/msg/_is_start_requested.py
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/srv/__init__.py
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/srv/_external_command_select.py
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/srv/_set_pause.py
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[29.971s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__python.so
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/GateMode.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/ExternalCommandSelectorMode.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStartRequested.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsPaused.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause.idl
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/GateMode.msg
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/ExternalCommandSelectorMode.msg
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect.srv
+[29.972s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect_Request.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/ExternalCommandSelect_Response.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsStartRequested.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/msg/IsPaused.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause.srv
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause_Request.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/srv/SetPause_Response.msg
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_control_msgs
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_control_msgs
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/ament_prefix_path.sh
+[29.973s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/ament_prefix_path.dsv
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/path.sh
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/environment/path.dsv
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.bash
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.sh
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.zsh
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/local_setup.dsv
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/package.dsv
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/ament_index/resource_index/packages/tier4_control_msgs
+[29.974s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgsConfig.cmake
+[29.975s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgsConfig-version.cmake
+[29.977s] -- Symlinking: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/package.xml
+[29.977s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so
+[29.977s] -- Set runtime path of "/home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so" to ""
+[29.977s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so
+[29.977s] -- Set runtime path of "/home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[29.977s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so
+[29.978s] -- Set runtime path of "/home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so" to ""
+[29.978s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so
+[29.978s] -- Set runtime path of "/home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[29.978s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_cpp.so
+[29.978s] -- Set runtime path of "/home/cityu/autoware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_cpp.so" to ""
+[29.989s] Compiling '/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages/tier4_control_msgs/__init__.py'...
+[30.016s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_generator_cExport.cmake
+[30.017s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_generator_cExport-release.cmake
+[30.017s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.026s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[30.028s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cExport.cmake
+[30.028s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cExport-release.cmake
+[30.028s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_generator_cppExport.cmake
+[30.038s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.038s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[30.038s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cppExport.cmake
+[30.039s] -- Installing: /home/cityu/autoware/install/tier4_control_msgs/share/tier4_control_msgs/cmake/tier4_control_msgs__rosidl_typesupport_cppExport-release.cmake
+[30.126s] Invoked command in '/home/cityu/autoware/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_control_msgs

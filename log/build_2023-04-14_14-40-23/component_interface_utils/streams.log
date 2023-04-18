@@ -1,0 +1,81 @@
+[0.114s] Invoking command in '/home/cityu/autoware/build/component_interface_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/component_interface_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/component_interface_utils
+[0.938s] -- The C compiler identification is GNU 9.4.0
+[0.938s] -- The CXX compiler identification is GNU 9.4.0
+[0.938s] -- Check for working C compiler: /usr/bin/cc
+[0.938s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.939s] -- Detecting C compiler ABI info
+[0.939s] -- Detecting C compiler ABI info - done
+[0.939s] -- Detecting C compile features
+[0.939s] -- Detecting C compile features - done
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.939s] -- Detecting CXX compiler ABI info
+[0.939s] -- Detecting CXX compiler ABI info - done
+[0.939s] -- Detecting CXX compile features
+[0.939s] -- Detecting CXX compile features - done
+[0.940s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.940s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.970s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.315s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.457s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.505s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.030s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.036s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.072s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.074s] -- Looking for pthread.h
+[2.189s] -- Looking for pthread.h - found
+[2.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.310s] -- Looking for pthread_create in pthreads
+[2.416s] -- Looking for pthread_create in pthreads - not found
+[2.423s] -- Looking for pthread_create in pthread
+[2.534s] -- Looking for pthread_create in pthread - found
+[2.536s] -- Found Threads: TRUE  
+[2.914s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.939s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.945s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.945s] -- Configured cppcheck include dirs: 
+[2.945s] -- Configured cppcheck exclude dirs and/or files: 
+[2.946s] -- Added test 'lint_cmake' to check CMake code style
+[2.947s] -- Added test 'xmllint' to check XML markup files
+[2.955s] -- Configuring done
+[2.958s] -- Generating done
+[2.961s] -- Build files have been written to: /home/cityu/autoware/build/component_interface_utils
+[2.985s] Invoked command in '/home/cityu/autoware/build/component_interface_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/component_interface_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/component_interface_utils
+[2.993s] Invoking command in '/home/cityu/autoware/build/component_interface_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/component_interface_utils -- -j16 -l16
+[10.405s] Invoked command in '/home/cityu/autoware/build/component_interface_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/component_interface_utils -- -j16 -l16
+[10.590s] Invoking command in '/home/cityu/autoware/build/component_interface_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/component_interface_utils
+[10.868s] -- Install configuration: "Release"
+[10.868s] -- Execute custom install script
+[10.868s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp.hpp
+[10.868s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/create_interface.hpp
+[10.868s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/exceptions.hpp
+[10.868s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/interface.hpp
+[10.869s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/service_client.hpp
+[10.869s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/service_server.hpp
+[10.869s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/topic_publisher.hpp
+[10.870s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/topic_subscription.hpp
+[10.870s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/specs.hpp
+[10.870s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/include/component_interface_utils/status.hpp
+[10.870s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/ament_index/resource_index/package_run_dependencies/component_interface_utils
+[10.870s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/ament_index/resource_index/parent_prefix_path/component_interface_utils
+[10.871s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/environment/ament_prefix_path.sh
+[10.871s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/environment/ament_prefix_path.dsv
+[10.871s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/environment/path.sh
+[10.871s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/environment/path.dsv
+[10.871s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/local_setup.bash
+[10.887s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/local_setup.sh
+[10.905s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/local_setup.zsh
+[10.925s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/local_setup.dsv
+[10.934s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/package.dsv
+[10.945s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/ament_index/resource_index/packages/component_interface_utils
+[10.974s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.995s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.017s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/cmake/component_interface_utilsConfig.cmake
+[11.049s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/cmake/component_interface_utilsConfig-version.cmake
+[11.084s] -- Symlinking: /home/cityu/autoware/install/component_interface_utils/share/component_interface_utils/package.xml
+[11.122s] Invoked command in '/home/cityu/autoware/build/component_interface_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_adapi_v1_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_adapi_v1_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/component_interface_utils

@@ -1,0 +1,59 @@
+[0.269s] Invoking command in '/home/cityu/autoware/build/component_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/component_state_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/component_state_monitor
+[0.290s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.290s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.330s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.444s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.964s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.997s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.405s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.421s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.422s] -- Configured cppcheck include dirs: 
+[1.422s] -- Configured cppcheck exclude dirs and/or files: 
+[1.423s] -- Added test 'lint_cmake' to check CMake code style
+[1.423s] -- Added test 'xmllint' to check XML markup files
+[1.429s] -- Configuring done
+[1.438s] -- Generating done
+[1.440s] CMake Warning:
+[1.440s]   Manually-specified variables were not used by the project:
+[1.446s] 
+[1.446s]     DOWNLOAD_ARTIFACTS
+[1.446s] 
+[1.447s] 
+[1.447s] -- Build files have been written to: /home/cityu/autoware/build/component_state_monitor
+[1.459s] Invoked command in '/home/cityu/autoware/build/component_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/component_state_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/component_state_monitor
+[1.547s] Invoking command in '/home/cityu/autoware/build/component_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/component_state_monitor -- -j16 -l16
+[1.668s] [ 50%] [32m[1mLinking CXX shared library libcomponent_state_monitor.so[0m
+[1.730s] [100%] Built target component_state_monitor
+[1.796s] Invoked command in '/home/cityu/autoware/build/component_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/component_state_monitor -- -j16 -l16
+[2.048s] Invoking command in '/home/cityu/autoware/build/component_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/component_state_monitor
+[2.088s] -- Install configuration: "Release"
+[2.089s] -- Execute custom install script
+[2.089s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/library_path.sh
+[2.089s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/library_path.dsv
+[2.090s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/lib/libcomponent_state_monitor.so
+[2.090s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/config/topics.yaml
+[2.090s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/launch/component_state_monitor.launch.py
+[2.090s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/ament_index/resource_index/package_run_dependencies/component_state_monitor
+[2.091s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/ament_index/resource_index/parent_prefix_path/component_state_monitor
+[2.091s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/ament_prefix_path.sh
+[2.093s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/ament_prefix_path.dsv
+[2.093s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/path.sh
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/environment/path.dsv
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/local_setup.bash
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/local_setup.sh
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/local_setup.zsh
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/local_setup.dsv
+[2.096s] -- Symlinking: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/package.dsv
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/ament_index/resource_index/packages/component_state_monitor
+[2.096s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/ament_index/resource_index/rclcpp_components/component_state_monitor
+[2.097s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.097s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[2.097s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/cmake/component_state_monitorConfig.cmake
+[2.097s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/cmake/component_state_monitorConfig-version.cmake
+[2.097s] -- Up-to-date symlink: /home/cityu/autoware/install/component_state_monitor/share/component_state_monitor/package.xml
+[2.159s] Invoked command in '/home/cityu/autoware/build/component_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/component_state_monitor

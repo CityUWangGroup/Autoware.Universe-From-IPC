@@ -1,0 +1,79 @@
+[0.127s] Invoking command in '/home/cityu/autoware/build/stop_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/stop_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/stop_filter
+[17.628s] -- The C compiler identification is GNU 9.4.0
+[17.628s] -- The CXX compiler identification is GNU 9.4.0
+[17.628s] -- Check for working C compiler: /usr/bin/cc
+[17.628s] -- Check for working C compiler: /usr/bin/cc -- works
+[17.628s] -- Detecting C compiler ABI info
+[17.628s] -- Detecting C compiler ABI info - done
+[17.628s] -- Detecting C compile features
+[17.628s] -- Detecting C compile features - done
+[17.629s] -- Check for working CXX compiler: /usr/bin/c++
+[17.629s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[17.629s] -- Detecting CXX compiler ABI info
+[17.629s] -- Detecting CXX compiler ABI info - done
+[17.629s] -- Detecting CXX compile features
+[17.629s] -- Detecting CXX compile features - done
+[17.629s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[17.629s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[17.629s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[17.629s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.630s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.630s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[17.630s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[17.630s] -- Found FastRTPS: /opt/ros/galactic/include  
+[17.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.630s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[17.630s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[17.630s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[17.631s] -- Looking for pthread.h
+[17.631s] -- Looking for pthread.h - found
+[17.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.638s] -- Looking for pthread_create in pthreads
+[17.639s] -- Looking for pthread_create in pthreads - not found
+[17.639s] -- Looking for pthread_create in pthread
+[17.639s] -- Looking for pthread_create in pthread - found
+[17.640s] -- Found Threads: TRUE  
+[17.640s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[17.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.641s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/localization/stop_filter/include
+[17.641s] -- Configured cppcheck exclude dirs and/or files: 
+[17.642s] -- Added test 'lint_cmake' to check CMake code style
+[17.642s] -- Added test 'xmllint' to check XML markup files
+[17.642s] -- Configuring done
+[17.642s] -- Generating done
+[17.642s] -- Build files have been written to: /home/cityu/autoware/build/stop_filter
+[17.692s] Invoked command in '/home/cityu/autoware/build/stop_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/stop_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/stop_filter
+[17.694s] Invoking command in '/home/cityu/autoware/build/stop_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/stop_filter -- -j16 -l16
+[19.358s] [35m[1mScanning dependencies of target stop_filter[0m
+[19.363s] [ 33%] [32mBuilding CXX object CMakeFiles/stop_filter.dir/src/stop_filter_node.cpp.o[0m
+[23.696s] [ 66%] [32mBuilding CXX object CMakeFiles/stop_filter.dir/src/stop_filter.cpp.o[0m
+[45.311s] [100%] [32m[1mLinking CXX executable stop_filter[0m
+[45.744s] [100%] Built target stop_filter
+[45.771s] Invoked command in '/home/cityu/autoware/build/stop_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/stop_filter -- -j16 -l16
+[46.009s] Invoking command in '/home/cityu/autoware/build/stop_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/stop_filter
+[53.769s] -- Install configuration: "Release"
+[53.769s] -- Execute custom install script
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/include/stop_filter/stop_filter.hpp
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/lib/stop_filter/stop_filter
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/launch/stop_filter.launch.xml
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/package_run_dependencies/stop_filter
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/parent_prefix_path/stop_filter
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/ament_prefix_path.sh
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/ament_prefix_path.dsv
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/path.sh
+[53.769s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/environment/path.dsv
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.bash
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.sh
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.zsh
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/local_setup.dsv
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/package.dsv
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/ament_index/resource_index/packages/stop_filter
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/stop_filterConfig.cmake
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/cmake/stop_filterConfig-version.cmake
+[53.770s] -- Symlinking: /home/cityu/autoware/install/stop_filter/share/stop_filter/package.xml
+[53.783s] Invoked command in '/home/cityu/autoware/build/stop_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/stop_filter

@@ -1,0 +1,97 @@
+Start testing: Apr 14 15:20 CST
+----------------------------------------------------------
+1/4 Testing: copyright
+1/4 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_copyright/copyright.txt" "--command" "/opt/ros/galactic/bin/ament_copyright" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml"
+Directory: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility
+"copyright" start time: Apr 14 15:20 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_copyright --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml
+No problems found, checked 4 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml'
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Apr 14 15:20 CST
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: cppcheck
+2/4 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/galactic/bin/ament_cppcheck" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml" "--include_dirs" "/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include"
+Directory: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility
+"cppcheck" start time: Apr 14 15:20 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_cppcheck --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml --include_dirs /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Apr 14 15:20 CST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: lint_cmake
+3/4 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/galactic/bin/ament_lint_cmake" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml"
+Directory: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility
+"lint_cmake" start time: Apr 14 15:20 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_lint_cmake --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Apr 14 15:20 CST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: xmllint
+4/4 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_xmllint/xmllint.txt" "--command" "/opt/ros/galactic/bin/ament_xmllint" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml"
+Directory: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility
+"xmllint" start time: Apr 14 15:20 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_xmllint --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml'
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Apr 14 15:20 CST
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Apr 14 15:20 CST
+
+copyright =   0.85 sec*proc
+
+cppcheck =   0.34 sec*proc
+
+lint_cmake =   0.29 sec*proc
+
+linter =   2.83 sec*proc
+
+xmllint =   1.35 sec*proc
+

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://autoware-modelzoo.s3.us-east-2.amazonaws.com/models/2.1.0-20221102/baidu_cnn-x86_64-llvm-2.1.0-20221102.tar.gz'
+tag=''

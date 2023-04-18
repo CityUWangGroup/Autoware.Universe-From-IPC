@@ -1,0 +1,133 @@
+[0.270s] Invoking command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/probabilistic_occupancy_grid_map
+[7.834s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[7.834s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[7.834s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.834s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.834s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[7.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.834s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[7.834s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[7.834s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.834s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.835s] -- The imported target "vtkParseOGLExt" references the file
+[7.835s]    "/usr/bin/vtkParseOGLExt-7.1"
+[7.835s] but this file does not exist.  Possible reasons include:
+[7.835s] * The file was deleted, renamed, or moved to another location.
+[7.835s] * An install or uninstall procedure did not complete successfully.
+[7.835s] * The installation package was faulty and contained
+[7.835s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.835s] but not all the files it references.
+[7.835s] 
+[7.835s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[7.835s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[7.836s] but this file does not exist.  Possible reasons include:
+[7.836s] * The file was deleted, renamed, or moved to another location.
+[7.836s] * An install or uninstall procedure did not complete successfully.
+[7.836s] * The installation package was faulty and contained
+[7.836s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.836s] but not all the files it references.
+[7.836s] 
+[7.836s] -- The imported target "vtk" references the file
+[7.836s]    "/usr/bin/vtk"
+[7.836s] but this file does not exist.  Possible reasons include:
+[7.836s] * The file was deleted, renamed, or moved to another location.
+[7.837s] * An install or uninstall procedure did not complete successfully.
+[7.837s] * The installation package was faulty and contained
+[7.837s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.837s] but not all the files it references.
+[7.837s] 
+[7.837s] -- The imported target "pvtk" references the file
+[7.837s]    "/usr/bin/pvtk"
+[7.837s] but this file does not exist.  Possible reasons include:
+[7.837s] * The file was deleted, renamed, or moved to another location.
+[7.837s] * An install or uninstall procedure did not complete successfully.
+[7.837s] * The installation package was faulty and contained
+[7.838s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.838s] but not all the files it references.
+[7.838s] 
+[7.838s] -- Checking for module 'libusb-1.0'
+[7.838s] --   No package 'libusb-1.0' found
+[7.842s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.842s] -- OpenNI disabled because libusb-1.0 not found.
+[7.842s] -- Checking for module 'libusb-1.0'
+[7.842s] --   No package 'libusb-1.0' found
+[7.843s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.843s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.843s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[7.843s] -- Checking for module 'libusb-1.0'
+[7.843s] --   No package 'libusb-1.0' found
+[7.843s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.843s] -- OpenNI disabled because libusb-1.0 not found.
+[7.844s] -- Checking for module 'libusb-1.0'
+[7.844s] --   No package 'libusb-1.0' found
+[7.844s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.844s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.844s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[7.844s] -- Checking for module 'libusb-1.0'
+[7.844s] --   No package 'libusb-1.0' found
+[7.844s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.844s] -- OpenNI disabled because libusb-1.0 not found.
+[10.141s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[14.560s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.565s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map/include
+[14.565s] -- Configured cppcheck exclude dirs and/or files: 
+[14.566s] -- Added test 'lint_cmake' to check CMake code style
+[14.567s] -- Added test 'xmllint' to check XML markup files
+[14.579s] -- Configuring done
+[14.963s] -- Generating done
+[14.967s] CMake Warning:
+[14.967s]   Manually-specified variables were not used by the project:
+[14.967s] 
+[14.967s]     DOWNLOAD_ARTIFACTS
+[14.968s] 
+[14.968s] 
+[14.968s] -- Build files have been written to: /home/cityu/autoware/build/probabilistic_occupancy_grid_map
+[15.011s] Invoked command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/probabilistic_occupancy_grid_map
+[15.020s] Invoking command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/probabilistic_occupancy_grid_map -- -j16 -l16
+[18.262s] [ 16%] Built target laserscan_based_occupancy_grid_map_node
+[18.262s] [ 33%] Built target pointcloud_based_occupancy_grid_map_node
+[18.262s] [ 41%] [32m[1mLinking CXX shared library libpointcloud_based_occupancy_grid_map.so[0m
+[18.262s] [ 66%] Built target pointcloud_based_occupancy_grid_map
+[18.263s] [ 75%] [32m[1mLinking CXX shared library liblaserscan_based_occupancy_grid_map.so[0m
+[18.263s] [100%] Built target laserscan_based_occupancy_grid_map
+[18.358s] Invoked command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/probabilistic_occupancy_grid_map -- -j16 -l16
+[18.634s] Invoking command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/probabilistic_occupancy_grid_map
+[18.811s] -- Install configuration: "Release"
+[18.812s] -- Execute custom install script
+[18.812s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/lib/probabilistic_occupancy_grid_map/pointcloud_based_occupancy_grid_map_node
+[18.812s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/lib/probabilistic_occupancy_grid_map/laserscan_based_occupancy_grid_map_node
+[18.812s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/cost_value.hpp
+[18.813s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/laserscan_based_occupancy_grid_map/laserscan_based_occupancy_grid_map_node.hpp
+[18.813s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/laserscan_based_occupancy_grid_map/occupancy_grid_map.hpp
+[18.813s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/pointcloud_based_occupancy_grid_map/occupancy_grid_map.hpp
+[18.823s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/pointcloud_based_occupancy_grid_map/pointcloud_based_occupancy_grid_map_node.hpp
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/updater/occupancy_grid_map_binary_bayes_filter_updater.hpp
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/include/updater/occupancy_grid_map_updater_interface.hpp
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/library_path.sh
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/library_path.dsv
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/lib/libpointcloud_based_occupancy_grid_map.so
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/lib/liblaserscan_based_occupancy_grid_map.so
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/launch/laserscan_based_occupancy_grid_map.launch.py
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/launch/pointcloud_based_occupancy_grid_map.launch.py
+[18.824s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/package_run_dependencies/probabilistic_occupancy_grid_map
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/parent_prefix_path/probabilistic_occupancy_grid_map
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/ament_prefix_path.sh
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/ament_prefix_path.dsv
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/path.sh
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/path.dsv
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.bash
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.sh
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.zsh
+[18.825s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.dsv
+[18.826s] -- Symlinking: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/package.dsv
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/packages/probabilistic_occupancy_grid_map
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/rclcpp_components/probabilistic_occupancy_grid_map
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_libraries-extras.cmake
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/probabilistic_occupancy_grid_mapConfig.cmake
+[18.826s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/probabilistic_occupancy_grid_mapConfig-version.cmake
+[18.827s] -- Up-to-date symlink: /home/cityu/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/package.xml
+[18.932s] Invoked command in '/home/cityu/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/pointcloud_to_laserscan:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/pointcloud_to_laserscan/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/probabilistic_occupancy_grid_map

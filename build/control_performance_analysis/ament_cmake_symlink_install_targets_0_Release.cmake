@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/control_performance_analysis/libcontrol_performance_analysis__rosidl_typesupport_fastrtps_c.so" "TARGETS" "control_performance_analysis__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

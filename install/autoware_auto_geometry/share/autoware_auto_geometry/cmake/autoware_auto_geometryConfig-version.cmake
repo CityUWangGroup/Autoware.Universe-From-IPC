@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_auto_geometry/ament_cmake_core/autoware_auto_geometryConfig-version.cmake

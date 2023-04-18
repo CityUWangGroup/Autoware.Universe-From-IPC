@@ -1,0 +1,62 @@
+[0.185s] Invoking command in '/home/cityu/autoware/build/object_range_splitter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/object_range_splitter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/object_range_splitter
+[0.290s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.291s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.291s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.291s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.096s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.118s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.390s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.413s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.415s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.415s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/object_range_splitter/include
+[1.415s] -- Configured cppcheck exclude dirs and/or files: 
+[1.416s] -- Added test 'lint_cmake' to check CMake code style
+[1.417s] -- Added test 'xmllint' to check XML markup files
+[1.425s] -- Configuring done
+[1.450s] -- Generating done
+[1.453s] CMake Warning:
+[1.453s]   Manually-specified variables were not used by the project:
+[1.453s] 
+[1.453s]     DOWNLOAD_ARTIFACTS
+[1.453s] 
+[1.453s] 
+[1.453s] -- Build files have been written to: /home/cityu/autoware/build/object_range_splitter
+[1.474s] Invoked command in '/home/cityu/autoware/build/object_range_splitter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/object_range_splitter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/object_range_splitter
+[1.476s] Invoking command in '/home/cityu/autoware/build/object_range_splitter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/object_range_splitter -- -j16 -l16
+[3.061s] [ 25%] [32m[1mLinking CXX shared library libobject_range_splitter.so[0m
+[3.065s] [ 50%] Built target object_range_splitter
+[3.065s] [100%] Built target object_range_splitter_node
+[3.094s] Invoked command in '/home/cityu/autoware/build/object_range_splitter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/object_range_splitter -- -j16 -l16
+[3.139s] Invoking command in '/home/cityu/autoware/build/object_range_splitter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/object_range_splitter
+[3.966s] -- Install configuration: "Release"
+[3.966s] -- Execute custom install script
+[3.966s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/lib/object_range_splitter/object_range_splitter_node
+[3.967s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/include/object_range_splitter/node.hpp
+[3.970s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/library_path.sh
+[3.970s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/library_path.dsv
+[3.970s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/lib/libobject_range_splitter.so
+[3.970s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/launch/object_range_splitter.launch.xml
+[3.970s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/ament_index/resource_index/package_run_dependencies/object_range_splitter
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/ament_index/resource_index/parent_prefix_path/object_range_splitter
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/ament_prefix_path.sh
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/ament_prefix_path.dsv
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/path.sh
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/environment/path.dsv
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/local_setup.bash
+[3.971s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/local_setup.sh
+[3.972s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/local_setup.zsh
+[3.972s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/local_setup.dsv
+[3.972s] -- Symlinking: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/package.dsv
+[3.978s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/ament_index/resource_index/packages/object_range_splitter
+[3.981s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/ament_index/resource_index/rclcpp_components/object_range_splitter
+[3.981s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.981s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.981s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/cmake/ament_cmake_export_libraries-extras.cmake
+[3.981s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/cmake/object_range_splitterConfig.cmake
+[3.982s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/cmake/object_range_splitterConfig-version.cmake
+[3.982s] -- Up-to-date symlink: /home/cityu/autoware/install/object_range_splitter/share/object_range_splitter/package.xml
+[4.001s] Invoked command in '/home/cityu/autoware/build/object_range_splitter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/object_range_splitter

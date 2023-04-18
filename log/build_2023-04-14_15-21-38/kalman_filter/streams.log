@@ -1,0 +1,49 @@
+[0.039s] Invoking command in '/home/cityu/autoware/build/kalman_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/kalman_filter
+[0.888s] CMake Warning:
+[0.889s]   Manually-specified variables were not used by the project:
+[0.889s] 
+[0.889s]     DOWNLOAD_ARTIFACTS
+[0.889s] 
+[0.889s] 
+[0.890s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.890s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.890s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.890s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.890s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.890s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.890s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.890s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/include
+[0.890s] -- Configured cppcheck exclude dirs and/or files: 
+[0.890s] -- Configuring done
+[0.891s] -- Generating done
+[0.891s] -- Build files have been written to: /home/cityu/autoware/build/kalman_filter
+[0.903s] Invoked command in '/home/cityu/autoware/build/kalman_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/kalman_filter
+[0.914s] Invoking command in '/home/cityu/autoware/build/kalman_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/kalman_filter -- -j16 -l16
+[2.175s] [100%] Built target kalman_filter
+[2.197s] Invoked command in '/home/cityu/autoware/build/kalman_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/kalman_filter -- -j16 -l16
+[2.242s] Invoking command in '/home/cityu/autoware/build/kalman_filter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/kalman_filter
+[3.892s] -- Install configuration: "Release"
+[3.896s] -- Execute custom install script
+[3.897s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/include/kalman_filter/kalman_filter.hpp
+[3.897s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/include/kalman_filter/time_delay_kalman_filter.hpp
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/library_path.sh
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/library_path.dsv
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/lib/libkalman_filter.so
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/ament_index/resource_index/package_run_dependencies/kalman_filter
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/ament_index/resource_index/parent_prefix_path/kalman_filter
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/ament_prefix_path.sh
+[3.898s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/ament_prefix_path.dsv
+[3.899s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/path.sh
+[3.899s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/environment/path.dsv
+[3.899s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/local_setup.bash
+[3.899s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/local_setup.sh
+[3.899s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/local_setup.zsh
+[3.901s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/local_setup.dsv
+[3.912s] -- Symlinking: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/package.dsv
+[3.912s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/ament_index/resource_index/packages/kalman_filter
+[3.912s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.913s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[3.913s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/cmake/kalman_filterConfig.cmake
+[3.913s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/cmake/kalman_filterConfig-version.cmake
+[3.913s] -- Up-to-date symlink: /home/cityu/autoware/install/kalman_filter/share/kalman_filter/package.xml
+[3.956s] Invoked command in '/home/cityu/autoware/build/kalman_filter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/kalman_filter

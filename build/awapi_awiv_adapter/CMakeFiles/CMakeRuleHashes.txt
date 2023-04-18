@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+38c49f20718d685f948aaf539dbbc4b8 CMakeFiles/awapi_awiv_adapter_uninstall

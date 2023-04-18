@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (tvm_utility) JobQueued: {'identifier': 'tvm_utility', 'dependencies': OrderedDict([('autoware_lint_common', '/home/cityu/autoware/install/autoware_lint_common'), ('autoware_cmake', '/home/cityu/autoware/install/autoware_cmake'), ('autoware_auto_common', '/home/cityu/autoware/install/autoware_auto_common'), ('tvm_utility', '/home/cityu/autoware/install/tvm_utility')])}
+[0.000616] (tvm_utility) JobStarted: {'identifier': 'tvm_utility'}
+[0.056134] (tvm_utility) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/cityu/autoware/build/tvm_utility', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cityu/autoware/install/tvm_utility/lib:/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/tvm_utility'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common')]), 'shell': False}
+[0.066007] (tvm_utility) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/cityu/autoware/build/tvm_utility/CTestConfiguration.ini\n'}
+[0.066144] (tvm_utility) StdoutLine: {'line': b'Parse Config file:/home/cityu/autoware/build/tvm_utility/CTestConfiguration.ini\n'}
+[0.066217] (tvm_utility) StdoutLine: {'line': b'   Site: cityu-autoware\n'}
+[0.066282] (tvm_utility) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.066411] (tvm_utility) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.066503] (tvm_utility) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.066569] (tvm_utility) StdoutLine: {'line': b'Create new tag: 20230414-0720 - Experimental\n'}
+[0.066631] (tvm_utility) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/cityu/autoware/build/tvm_utility/CTestConfiguration.ini\n'}
+[0.066692] (tvm_utility) StdoutLine: {'line': b'Parse Config file:/home/cityu/autoware/build/tvm_utility/CTestConfiguration.ini\n'}
+[0.066754] (tvm_utility) StdoutLine: {'line': b'Test project /home/cityu/autoware/build/tvm_utility\n'}
+[0.066814] (tvm_utility) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.066951] (tvm_utility) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.067044] (tvm_utility) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.067110] (tvm_utility) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.067180] (tvm_utility) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.067240] (tvm_utility) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.067297] (tvm_utility) StdoutLine: {'line': b'test 1\n'}
+[0.067354] (tvm_utility) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.067410] (tvm_utility) StdoutLine: {'line': b'\n'}
+[0.067466] (tvm_utility) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_copyright/copyright.txt" "--command" "/opt/ros/galactic/bin/ament_copyright" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml"\n'}
+[0.067527] (tvm_utility) StdoutLine: {'line': b'1: Test timeout computed to be: 120\n'}
+[0.100018] (-) TimerEvent: {}
+[0.115861] (tvm_utility) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':\n"}
+[0.116017] (tvm_utility) StdoutLine: {'line': b'1:  - /opt/ros/galactic/bin/ament_copyright --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml\n'}
+[0.200138] (-) TimerEvent: {}
+[0.300413] (-) TimerEvent: {}
+[0.400742] (-) TimerEvent: {}
+[0.500978] (-) TimerEvent: {}
+[0.601189] (-) TimerEvent: {}
+[0.701396] (-) TimerEvent: {}
+[0.801622] (-) TimerEvent: {}
+[0.901812] (-) TimerEvent: {}
+[0.901991] (tvm_utility) StdoutLine: {'line': b'1: No problems found, checked 4 files\n'}
+[0.912394] (tvm_utility) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.912600] (tvm_utility) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml'\n"}
+[0.920070] (tvm_utility) StdoutLine: {'line': b'1/4 Test #1: copyright ........................   Passed    0.85 sec\n'}
+[0.920296] (tvm_utility) StdoutLine: {'line': b'test 2\n'}
+[0.920385] (tvm_utility) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.920450] (tvm_utility) StdoutLine: {'line': b'\n'}
+[0.920511] (tvm_utility) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/galactic/bin/ament_cppcheck" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml" "--include_dirs" "/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include"\n'}
+[0.920581] (tvm_utility) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.968628] (tvm_utility) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':\n"}
+[0.968778] (tvm_utility) StdoutLine: {'line': b'2:  - /opt/ros/galactic/bin/ament_cppcheck --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml --include_dirs /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include\n'}
+[1.001976] (-) TimerEvent: {}
+[1.102393] (-) TimerEvent: {}
+[1.202648] (-) TimerEvent: {}
+[1.239288] (tvm_utility) StdoutLine: {'line': b'2: No problems found\n'}
+[1.252288] (tvm_utility) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.252505] (tvm_utility) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml'\n"}
+[1.259503] (tvm_utility) StdoutLine: {'line': b'2/4 Test #2: cppcheck .........................   Passed    0.34 sec\n'}
+[1.259613] (tvm_utility) StdoutLine: {'line': b'test 3\n'}
+[1.259679] (tvm_utility) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[1.259750] (tvm_utility) StdoutLine: {'line': b'\n'}
+[1.259811] (tvm_utility) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/galactic/bin/ament_lint_cmake" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml"\n'}
+[1.259875] (tvm_utility) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[1.302767] (-) TimerEvent: {}
+[1.307996] (tvm_utility) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':\n"}
+[1.308125] (tvm_utility) StdoutLine: {'line': b'3:  - /opt/ros/galactic/bin/ament_lint_cmake --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml\n'}
+[1.402883] (-) TimerEvent: {}
+[1.503129] (-) TimerEvent: {}
+[1.530251] (tvm_utility) StdoutLine: {'line': b'3: \n'}
+[1.530403] (tvm_utility) StdoutLine: {'line': b'3: No problems found\n'}
+[1.540222] (tvm_utility) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.540449] (tvm_utility) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/lint_cmake.xunit.xml'\n"}
+[1.547612] (tvm_utility) StdoutLine: {'line': b'3/4 Test #3: lint_cmake .......................   Passed    0.29 sec\n'}
+[1.547736] (tvm_utility) StdoutLine: {'line': b'test 4\n'}
+[1.547805] (tvm_utility) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[1.547867] (tvm_utility) StdoutLine: {'line': b'\n'}
+[1.547926] (tvm_utility) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml" "--package-name" "tvm_utility" "--output-file" "/home/cityu/autoware/build/tvm_utility/ament_xmllint/xmllint.txt" "--command" "/opt/ros/galactic/bin/ament_xmllint" "--xunit-file" "/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml"\n'}
+[1.547990] (tvm_utility) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.594865] (tvm_utility) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':\n"}
+[1.594989] (tvm_utility) StdoutLine: {'line': b'4:  - /opt/ros/galactic/bin/ament_xmllint --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml\n'}
+[1.603205] (-) TimerEvent: {}
+[1.703440] (-) TimerEvent: {}
+[1.803732] (-) TimerEvent: {}
+[1.904392] (-) TimerEvent: {}
+[2.005083] (-) TimerEvent: {}
+[2.105820] (-) TimerEvent: {}
+[2.206730] (-) TimerEvent: {}
+[2.307462] (-) TimerEvent: {}
+[2.408238] (-) TimerEvent: {}
+[2.509173] (-) TimerEvent: {}
+[2.609780] (-) TimerEvent: {}
+[2.710684] (-) TimerEvent: {}
+[2.811431] (-) TimerEvent: {}
+[2.881177] (tvm_utility) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[2.881469] (tvm_utility) StdoutLine: {'line': b'4: \n'}
+[2.881639] (tvm_utility) StdoutLine: {'line': b'4: No problems found\n'}
+[2.894538] (tvm_utility) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[2.894754] (tvm_utility) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/xmllint.xunit.xml'\n"}
+[2.901915] (tvm_utility) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    1.35 sec\n'}
+[2.902540] (tvm_utility) StdoutLine: {'line': b'\n'}
+[2.902642] (tvm_utility) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 4\n'}
+[2.902717] (tvm_utility) StdoutLine: {'line': b'\n'}
+[2.902784] (tvm_utility) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.902850] (tvm_utility) StdoutLine: {'line': b'copyright     =   0.85 sec*proc (1 test)\n'}
+[2.902914] (tvm_utility) StdoutLine: {'line': b'cppcheck      =   0.34 sec*proc (1 test)\n'}
+[2.902977] (tvm_utility) StdoutLine: {'line': b'lint_cmake    =   0.29 sec*proc (1 test)\n'}
+[2.903038] (tvm_utility) StdoutLine: {'line': b'linter        =   2.83 sec*proc (4 tests)\n'}
+[2.903101] (tvm_utility) StdoutLine: {'line': b'xmllint       =   1.35 sec*proc (1 test)\n'}
+[2.903179] (tvm_utility) StdoutLine: {'line': b'\n'}
+[2.903243] (tvm_utility) StdoutLine: {'line': b'Total Test time (real) =   2.84 sec\n'}
+[2.911509] (-) TimerEvent: {}
+[2.924856] (tvm_utility) CommandEnded: {'returncode': 0}
+[2.925434] (tvm_utility) JobEnded: {'identifier': 'tvm_utility', 'rc': 0}
+[2.925882] (-) EventReactorShutdown: {}

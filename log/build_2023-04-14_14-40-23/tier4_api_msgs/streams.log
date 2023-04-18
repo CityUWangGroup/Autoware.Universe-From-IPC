@@ -1,0 +1,414 @@
+[0.044s] Invoking command in '/home/cityu/autoware/build/tier4_api_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_api_msgs
+[5.237s] -- The C compiler identification is GNU 9.4.0
+[5.241s] -- The CXX compiler identification is GNU 9.4.0
+[5.243s] -- Check for working C compiler: /usr/bin/cc
+[5.243s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.244s] -- Detecting C compiler ABI info
+[5.244s] -- Detecting C compiler ABI info - done
+[5.244s] -- Detecting C compile features
+[5.244s] -- Detecting C compile features - done
+[5.244s] -- Check for working CXX compiler: /usr/bin/c++
+[5.244s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.244s] -- Detecting CXX compiler ABI info
+[5.244s] -- Detecting CXX compiler ABI info - done
+[5.244s] -- Detecting CXX compile features
+[5.245s] -- Detecting CXX compile features - done
+[5.245s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.245s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.245s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.245s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.246s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.246s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.246s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[5.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.246s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.246s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[5.295s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.295s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.295s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.342s] -- Found PythonExtra: .so  
+[5.969s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[6.031s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.035s] -- Added test 'lint_cmake' to check CMake code style
+[6.037s] -- Added test 'xmllint' to check XML markup files
+[6.048s] -- Configuring done
+[6.324s] -- Generating done
+[6.330s] -- Build files have been written to: /home/cityu/autoware/build/tier4_api_msgs
+[6.383s] Invoked command in '/home/cityu/autoware/build/tier4_api_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_api_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_api_msgs
+[6.385s] Invoking command in '/home/cityu/autoware/build/tier4_api_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_api_msgs -- -j16 -l16
+[16.260s] [35m[1mScanning dependencies of target tier4_api_msgs__cpp[0m
+[16.260s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.260s] [  0%] Built target tier4_api_msgs__cpp
+[16.260s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.260s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_generator_c[0m
+[16.261s] [  2%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/awapi_autoware_status__functions.c.o[0m
+[16.261s] [  3%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/velocity_limit__functions.c.o[0m
+[16.261s] [  4%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/stop_command__functions.c.o[0m
+[16.261s] [  5%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/obstacle_avoidance_status__functions.c.o[0m
+[16.261s] [  6%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/lane_change_status__functions.c.o[0m
+[16.261s] [  7%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/intersection_status__functions.c.o[0m
+[16.261s] [  7%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/euler__functions.c.o[0m
+[16.261s] [  8%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/door_status__functions.c.o[0m
+[16.262s] [  9%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/door_control_command__functions.c.o[0m
+[16.262s] [ 10%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/crosswalk_status__functions.c.o[0m
+[16.262s] [ 11%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_api_msgs/msg/detail/awapi_vehicle_status__functions.c.o[0m
+[16.262s] [ 12%] [32m[1mLinking C shared library libtier4_api_msgs__rosidl_generator_c.so[0m
+[16.262s] [ 12%] Built target tier4_api_msgs__rosidl_generator_c
+[16.262s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.262s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_cpp[0m
+[16.262s] [ 14%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/awapi_autoware_status__type_support.cpp.o[0m
+[16.263s] [ 15%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/velocity_limit__type_support.cpp.o[0m
+[16.330s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/stop_command__type_support.cpp.o[0m
+[16.842s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/obstacle_avoidance_status__type_support.cpp.o[0m
+[17.393s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/lane_change_status__type_support.cpp.o[0m
+[17.902s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/intersection_status__type_support.cpp.o[0m
+[18.245s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/euler__type_support.cpp.o[0m
+[18.598s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/door_status__type_support.cpp.o[0m
+[18.917s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/door_control_command__type_support.cpp.o[0m
+[19.259s] [ 23%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/crosswalk_status__type_support.cpp.o[0m
+[19.723s] [ 23%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_api_msgs/msg/detail/awapi_vehicle_status__type_support.cpp.o[0m
+[20.206s] [ 24%] [32m[1mLinking CXX shared library libtier4_api_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.306s] [ 24%] Built target tier4_api_msgs__rosidl_typesupport_introspection_cpp
+[20.319s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.150s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_c[0m
+[21.189s] [ 26%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/awapi_autoware_status__type_support.c.o[0m
+[21.270s] [ 27%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/velocity_limit__type_support.c.o[0m
+[21.327s] [ 28%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/stop_command__type_support.c.o[0m
+[21.388s] [ 29%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/obstacle_avoidance_status__type_support.c.o[0m
+[21.454s] [ 30%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/lane_change_status__type_support.c.o[0m
+[21.526s] [ 30%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/intersection_status__type_support.c.o[0m
+[21.592s] [ 31%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/euler__type_support.c.o[0m
+[21.652s] [ 32%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/door_status__type_support.c.o[0m
+[21.771s] [ 33%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/door_control_command__type_support.c.o[0m
+[21.779s] [ 34%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/crosswalk_status__type_support.c.o[0m
+[21.848s] [ 35%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_api_msgs/msg/detail/awapi_vehicle_status__type_support.c.o[0m
+[21.920s] [ 36%] [32m[1mLinking C shared library libtier4_api_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.008s] [ 36%] Built target tier4_api_msgs__rosidl_typesupport_introspection_c
+[22.053s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.110s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_c[0m
+[23.139s] [ 38%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/awapi_autoware_status__type_support.cpp.o[0m
+[23.238s] [ 39%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/velocity_limit__type_support.cpp.o[0m
+[23.291s] [ 40%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/stop_command__type_support.cpp.o[0m
+[23.344s] [ 41%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/obstacle_avoidance_status__type_support.cpp.o[0m
+[23.411s] [ 42%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/lane_change_status__type_support.cpp.o[0m
+[23.464s] [ 43%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/intersection_status__type_support.cpp.o[0m
+[23.525s] [ 44%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/euler__type_support.cpp.o[0m
+[23.575s] [ 45%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/door_status__type_support.cpp.o[0m
+[23.638s] [ 46%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/door_control_command__type_support.cpp.o[0m
+[23.696s] [ 46%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/crosswalk_status__type_support.cpp.o[0m
+[23.753s] [ 47%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_api_msgs/msg/awapi_vehicle_status__type_support.cpp.o[0m
+[23.820s] [ 48%] [32m[1mLinking CXX shared library libtier4_api_msgs__rosidl_typesupport_c.so[0m
+[23.914s] [ 48%] Built target tier4_api_msgs__rosidl_typesupport_c
+[23.936s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[25.372s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[25.424s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/awapi_autoware_status__type_support.cpp.o[0m
+[26.314s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/velocity_limit__type_support.cpp.o[0m
+[26.849s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/stop_command__type_support.cpp.o[0m
+[27.334s] [ 51%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/obstacle_avoidance_status__type_support.cpp.o[0m
+[28.021s] [ 52%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/lane_change_status__type_support.cpp.o[0m
+[28.696s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/intersection_status__type_support.cpp.o[0m
+[29.261s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/euler__type_support.cpp.o[0m
+[29.696s] [ 55%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/door_status__type_support.cpp.o[0m
+[30.121s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/door_control_command__type_support.cpp.o[0m
+[30.752s] [ 57%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/crosswalk_status__type_support.cpp.o[0m
+[31.187s] [ 58%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_api_msgs/msg/detail/dds_fastrtps/awapi_vehicle_status__type_support.cpp.o[0m
+[31.803s] [ 59%] [32m[1mLinking CXX shared library libtier4_api_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.022s] [ 59%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_cpp
+[32.041s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.041s] [ 61%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[32.949s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_cpp[0m
+[32.980s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/awapi_autoware_status__type_support.cpp.o[0m
+[32.980s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/awapi_vehicle_status__type_support.cpp.o[0m
+[33.140s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_c[0m
+[33.201s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/awapi_vehicle_status__type_support_c.cpp.o[0m
+[33.202s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/awapi_autoware_status__type_support_c.cpp.o[0m
+[33.421s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/velocity_limit__type_support.cpp.o[0m
+[33.471s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/stop_command__type_support.cpp.o[0m
+[33.916s] [ 69%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/intersection_status__type_support_c.cpp.o[0m
+[33.922s] [ 69%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/obstacle_avoidance_status__type_support.cpp.o[0m
+[33.956s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/obstacle_avoidance_status__type_support_c.cpp.o[0m
+[33.990s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/lane_change_status__type_support.cpp.o[0m
+[34.448s] [ 71%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/intersection_status__type_support.cpp.o[0m
+[34.514s] [ 72%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/euler__type_support.cpp.o[0m
+[34.587s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/velocity_limit__type_support_c.cpp.o[0m
+[34.610s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/stop_command__type_support_c.cpp.o[0m
+[34.956s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/door_status__type_support.cpp.o[0m
+[35.021s] [ 76%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/door_control_command__type_support.cpp.o[0m
+[35.202s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/lane_change_status__type_support_c.cpp.o[0m
+[35.231s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/euler__type_support_c.cpp.o[0m
+[35.566s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_api_msgs/msg/crosswalk_status__type_support.cpp.o[0m
+[35.872s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/door_status__type_support_c.cpp.o[0m
+[35.902s] [ 80%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/door_control_command__type_support_c.cpp.o[0m
+[36.110s] [ 81%] [32m[1mLinking CXX shared library libtier4_api_msgs__rosidl_typesupport_cpp.so[0m
+[36.251s] [ 81%] Built target tier4_api_msgs__rosidl_typesupport_cpp
+[36.510s] [ 82%] [32mBuilding CXX object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_api_msgs/msg/detail/crosswalk_status__type_support_c.cpp.o[0m
+[37.141s] [ 83%] [32m[1mLinking CXX shared library libtier4_api_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[37.302s] [ 83%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_c
+[37.318s] [35m[1mScanning dependencies of target tier4_api_msgs[0m
+[37.337s] [ 83%] Built target tier4_api_msgs
+[37.355s] [35m[1mScanning dependencies of target tier4_api_msgs__py[0m
+[37.374s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[39.929s] [ 84%] Built target tier4_api_msgs__py
+[39.966s] [35m[1mScanning dependencies of target tier4_api_msgs__python[0m
+[40.055s] [ 85%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_awapi_autoware_status_s.c.o[0m
+[40.079s] [ 86%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_awapi_vehicle_status_s.c.o[0m
+[40.123s] [ 87%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_crosswalk_status_s.c.o[0m
+[40.439s] [ 88%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_velocity_limit_s.c.o[0m
+[40.449s] [ 89%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_stop_command_s.c.o[0m
+[40.456s] [ 89%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_obstacle_avoidance_status_s.c.o[0m
+[40.656s] [ 90%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_intersection_status_s.c.o[0m
+[40.680s] [ 91%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_lane_change_status_s.c.o[0m
+[40.750s] [ 92%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_euler_s.c.o[0m
+[40.907s] [ 93%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_door_control_command_s.c.o[0m
+[40.922s] [ 94%] [32mBuilding C object CMakeFiles/tier4_api_msgs__python.dir/rosidl_generator_py/tier4_api_msgs/msg/_door_status_s.c.o[0m
+[41.279s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_api_msgs/libtier4_api_msgs__python.so[0m
+[41.518s] [ 95%] Built target tier4_api_msgs__python
+[41.548s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_c__pyext[0m
+[41.557s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[41.592s] [35m[1mScanning dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[41.651s] [ 96%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[41.666s] [ 96%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[41.702s] [ 97%] [32mBuilding C object CMakeFiles/tier4_api_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[42.163s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[42.232s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[42.316s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[42.352s] [100%] Built target tier4_api_msgs__rosidl_typesupport_c__pyext
+[42.477s] [100%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_c__pyext
+[42.490s] [100%] Built target tier4_api_msgs__rosidl_typesupport_introspection_c__pyext
+[42.532s] Invoked command in '/home/cityu/autoware/build/tier4_api_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_api_msgs -- -j16 -l16
+[45.509s] Invoking command in '/home/cityu/autoware/build/tier4_api_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_api_msgs
+[49.585s] -- Install configuration: "Release"
+[49.586s] -- Execute custom install script
+[49.587s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_api_msgs
+[49.587s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/awapi_autoware_status.h
+[49.587s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/awapi_vehicle_status.h
+[49.587s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/crosswalk_status.h
+[49.587s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__functions.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__struct.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__type_support.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__functions.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__struct.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__type_support.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__functions.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__struct.h
+[49.588s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__type_support.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__functions.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__struct.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__type_support.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__functions.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__struct.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__type_support.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__functions.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__struct.h
+[49.589s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__type_support.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__functions.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__struct.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__type_support.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__functions.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__struct.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__type_support.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__functions.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__struct.h
+[49.590s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__type_support.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__functions.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__struct.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__type_support.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__functions.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__struct.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__type_support.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/door_control_command.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/door_status.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/euler.h
+[49.591s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/intersection_status.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/lane_change_status.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/obstacle_avoidance_status.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/rosidl_generator_c__visibility_control.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/stop_command.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/velocity_limit.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/library_path.sh
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/library_path.dsv
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_fastrtps_c.h
+[49.592s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_fastrtps_c.h
+[49.593s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_fastrtps_c.h
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_fastrtps_c.so
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_fastrtps_cpp.hpp
+[49.594s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.595s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.595s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.595s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_fastrtps_cpp.hpp
+[49.595s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[49.595s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_fastrtps_cpp.so
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_introspection_c.h
+[49.596s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_introspection_c.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_introspection_c.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_introspection_c.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_introspection_c.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_introspection_c.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/awapi_autoware_status.hpp
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/awapi_vehicle_status.hpp
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/crosswalk_status.hpp
+[49.597s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__builder.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__struct.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__traits.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__builder.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__struct.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__traits.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__builder.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__struct.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__traits.hpp
+[49.598s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__builder.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__struct.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__traits.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__builder.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__struct.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__traits.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__builder.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__struct.hpp
+[49.599s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__traits.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__builder.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__struct.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__traits.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__builder.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__struct.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__traits.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__builder.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__struct.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__traits.hpp
+[49.600s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__builder.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__struct.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__traits.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__builder.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__struct.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__traits.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/door_control_command.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/door_status.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/euler.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/intersection_status.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/lane_change_status.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/obstacle_avoidance_status.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/stop_command.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/velocity_limit.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_introspection_cpp.hpp
+[49.603s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_introspection_cpp.hpp
+[49.604s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_introspection_cpp.hpp
+[49.605s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_introspection_cpp.hpp
+[49.609s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_introspection_cpp.hpp
+[49.627s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/include/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_introspection_cpp.hpp
+[49.643s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/pythonpath.sh
+[49.664s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/pythonpath.dsv
+[49.673s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/__init__.py
+[49.687s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/__init__.py
+[49.702s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_awapi_autoware_status.py
+[49.721s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_awapi_vehicle_status.py
+[49.734s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_crosswalk_status.py
+[49.750s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_door_control_command.py
+[49.765s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_door_status.py
+[49.781s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_euler.py
+[49.796s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_intersection_status.py
+[49.810s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_lane_change_status.py
+[49.828s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_obstacle_avoidance_status.py
+[49.842s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_stop_command.py
+[49.856s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/msg/_velocity_limit.py
+[49.871s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[49.887s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[49.902s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[49.913s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__python.so
+[49.924s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiAutowareStatus.idl
+[49.937s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiVehicleStatus.idl
+[49.951s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/CrosswalkStatus.idl
+[49.964s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorControlCommand.idl
+[49.982s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorStatus.idl
+[49.999s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/Euler.idl
+[50.010s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/IntersectionStatus.idl
+[50.026s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/LaneChangeStatus.idl
+[50.040s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/ObstacleAvoidanceStatus.idl
+[50.054s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/StopCommand.idl
+[50.067s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/VelocityLimit.idl
+[50.080s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiAutowareStatus.msg
+[50.094s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiVehicleStatus.msg
+[50.107s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/CrosswalkStatus.msg
+[50.123s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorControlCommand.msg
+[50.139s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorStatus.msg
+[50.154s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/Euler.msg
+[50.168s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/IntersectionStatus.msg
+[50.185s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/LaneChangeStatus.msg
+[50.199s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/ObstacleAvoidanceStatus.msg
+[50.213s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/StopCommand.msg
+[50.227s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/VelocityLimit.msg
+[50.246s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_api_msgs
+[50.260s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_api_msgs
+[50.273s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/ament_prefix_path.sh
+[50.288s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/ament_prefix_path.dsv
+[50.305s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/path.sh
+[50.320s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/path.dsv
+[50.336s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.bash
+[50.352s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.sh
+[50.366s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.zsh
+[50.437s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.dsv
+[50.438s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/package.dsv
+[50.438s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/ament_index/resource_index/packages/tier4_api_msgs
+[50.438s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake-extras.cmake
+[50.439s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.449s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[50.462s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[50.479s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.489s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.503s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.529s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgsConfig.cmake
+[50.535s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgsConfig-version.cmake
+[50.549s] -- Symlinking: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/package.xml
+[50.567s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_generator_c.so
+[50.568s] -- Set runtime path of "/home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_generator_c.so" to ""
+[50.568s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_c.so
+[50.568s] -- Set runtime path of "/home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_c.so" to ""
+[50.568s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_c.so
+[50.568s] -- Set runtime path of "/home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_c.so" to ""
+[50.568s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_cpp.so
+[50.569s] -- Set runtime path of "/home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[50.569s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_cpp.so
+[50.569s] -- Set runtime path of "/home/cityu/autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_cpp.so" to ""
+[50.617s] Compiling '/home/cityu/autoware/install/tier4_api_msgs/lib/python3.8/site-packages/tier4_api_msgs/__init__.py'...
+[50.629s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_generator_cExport.cmake
+[50.630s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_generator_cExport-release.cmake
+[50.631s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cExport.cmake
+[50.631s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[50.632s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cExport.cmake
+[50.633s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cExport-release.cmake
+[50.633s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_generator_cppExport.cmake
+[50.633s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[50.633s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[50.633s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cppExport.cmake
+[50.634s] -- Installing: /home/cityu/autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cppExport-release.cmake
+[50.677s] Invoked command in '/home/cityu/autoware/build/tier4_api_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_system_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_system_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_api_msgs

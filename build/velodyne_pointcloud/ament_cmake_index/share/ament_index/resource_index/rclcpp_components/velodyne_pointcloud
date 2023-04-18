@@ -1,0 +1,3 @@
+velodyne_pointcloud::Convert;lib/libcloud_nodelet.so
+velodyne_pointcloud::Interpolate;lib/libinterpolate_nodelet.so
+velodyne_pointcloud::Interpolate;lib/libtransform_nodelet.so

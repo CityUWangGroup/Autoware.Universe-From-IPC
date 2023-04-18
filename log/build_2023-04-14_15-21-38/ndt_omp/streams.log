@@ -1,0 +1,144 @@
+[0.166s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+[0.616s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.616s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.616s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.639s] -- The imported target "vtkParseOGLExt" references the file
+[0.639s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.639s] but this file does not exist.  Possible reasons include:
+[0.639s] * The file was deleted, renamed, or moved to another location.
+[0.639s] * An install or uninstall procedure did not complete successfully.
+[0.640s] * The installation package was faulty and contained
+[0.640s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.640s] but not all the files it references.
+[0.640s] 
+[0.640s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.641s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.641s] but this file does not exist.  Possible reasons include:
+[0.641s] * The file was deleted, renamed, or moved to another location.
+[0.641s] * An install or uninstall procedure did not complete successfully.
+[0.641s] * The installation package was faulty and contained
+[0.641s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.641s] but not all the files it references.
+[0.641s] 
+[0.642s] -- The imported target "vtk" references the file
+[0.642s]    "/usr/bin/vtk"
+[0.642s] but this file does not exist.  Possible reasons include:
+[0.642s] * The file was deleted, renamed, or moved to another location.
+[0.642s] * An install or uninstall procedure did not complete successfully.
+[0.642s] * The installation package was faulty and contained
+[0.642s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.642s] but not all the files it references.
+[0.642s] 
+[0.643s] -- The imported target "pvtk" references the file
+[0.643s]    "/usr/bin/pvtk"
+[0.643s] but this file does not exist.  Possible reasons include:
+[0.643s] * The file was deleted, renamed, or moved to another location.
+[0.643s] * An install or uninstall procedure did not complete successfully.
+[0.643s] * The installation package was faulty and contained
+[0.643s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.643s] but not all the files it references.
+[0.643s] 
+[0.674s] -- Checking for module 'libusb-1.0'
+[0.679s] --   No package 'libusb-1.0' found
+[0.684s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.685s] -- OpenNI disabled because libusb-1.0 not found.
+[0.685s] ** WARNING ** io features related to openni will be disabled
+[0.692s] -- Checking for module 'libusb-1.0'
+[0.696s] --   No package 'libusb-1.0' found
+[0.701s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.701s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.702s] ** WARNING ** io features related to openni2 will be disabled
+[0.702s] ** WARNING ** io features related to pcap will be disabled
+[0.702s] ** WARNING ** io features related to png will be disabled
+[0.727s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.728s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.734s] -- Checking for module 'libusb-1.0'
+[0.737s] --   No package 'libusb-1.0' found
+[0.742s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.742s] -- OpenNI disabled because libusb-1.0 not found.
+[0.742s] ** WARNING ** visualization features related to openni will be disabled
+[0.748s] -- Checking for module 'libusb-1.0'
+[0.753s] --   No package 'libusb-1.0' found
+[0.757s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.757s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.757s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.781s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.788s] -- Checking for module 'libusb-1.0'
+[0.792s] --   No package 'libusb-1.0' found
+[0.797s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.797s] -- OpenNI disabled because libusb-1.0 not found.
+[0.798s] ** WARNING ** apps features related to openni will be disabled
+[0.820s] -- looking for PCL_COMMON
+[0.821s] -- looking for PCL_KDTREE
+[0.822s] -- looking for PCL_OCTREE
+[0.822s] -- looking for PCL_SEARCH
+[0.823s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.824s] -- looking for PCL_FILTERS
+[0.825s] -- looking for PCL_2D
+[0.826s] -- looking for PCL_GEOMETRY
+[0.827s] -- looking for PCL_IO
+[0.828s] -- looking for PCL_FEATURES
+[0.829s] -- looking for PCL_ML
+[0.830s] -- looking for PCL_SEGMENTATION
+[0.832s] -- looking for PCL_VISUALIZATION
+[0.833s] -- looking for PCL_SURFACE
+[0.834s] -- looking for PCL_REGISTRATION
+[0.835s] -- looking for PCL_KEYPOINTS
+[0.836s] -- looking for PCL_TRACKING
+[0.838s] -- looking for PCL_RECOGNITION
+[0.839s] -- looking for PCL_STEREO
+[0.840s] -- looking for PCL_APPS
+[0.842s] -- looking for PCL_IN_HAND_SCANNER
+[0.843s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.844s] -- looking for PCL_OUTOFCORE
+[0.845s] -- looking for PCL_PEOPLE
+[0.849s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.10/usr/include/eigen3/usr/include/usr/include/vtk-7.1/usr/include/freetype2/usr/include/x86_64-linux-gnu
+[0.849s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[0.849s] -- PCL_DEFINITIONS:-DDISABLE_OPENNI-DDISABLE_OPENNI2-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+[0.851s] -- Found OpenMP_C: -fopenmp  
+[0.852s] -- Found OpenMP_CXX: -fopenmp  
+[0.853s] -- Found OpenMP: TRUE   
+[0.869s] -- Configuring done
+[0.902s] -- Generating done
+[0.903s] CMake Warning:
+[0.903s]   Manually-specified variables were not used by the project:
+[0.903s] 
+[0.904s]     DOWNLOAD_ARTIFACTS
+[0.904s] 
+[0.904s] 
+[0.904s] -- Build files have been written to: /home/cityu/autoware/build/ndt_omp
+[0.930s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+[0.948s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+[1.476s] [100%] Built target ndt_omp
+[1.502s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+[1.558s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp
+[1.819s] -- Install configuration: "RELEASE"
+[1.819s] -- Execute custom install script
+[1.819s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp.h
+[1.819s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[1.820s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp.h
+[1.820s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/lib/libndt_omp.so
+[1.821s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.sh
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.bash
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.sh
+[1.822s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[1.823s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.dsv
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[1.823s] -- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.xml
+[1.876s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp

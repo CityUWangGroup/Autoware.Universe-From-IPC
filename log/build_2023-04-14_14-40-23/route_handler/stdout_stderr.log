@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/route_handler/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/route_handler
+[35m[1mScanning dependencies of target route_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/route_handler.dir/src/route_handler.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libroute_handler.so[0m
+[100%] Built target route_handler
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/route_handler/include/route_handler/route_handler.hpp
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/route_handler/lib/libroute_handler.so
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/ament_index/resource_index/package_run_dependencies/route_handler
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/ament_index/resource_index/parent_prefix_path/route_handler
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/package.dsv
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/ament_index/resource_index/packages/route_handler
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/cmake/route_handlerConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/cmake/route_handlerConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/route_handler/share/route_handler/package.xml

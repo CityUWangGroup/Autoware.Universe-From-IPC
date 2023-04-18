@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/cityu/autoware/build/autoware_cmake': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_cmake -- -j16 -l16
+[0.036s] Invoked command in '/home/cityu/autoware/build/autoware_cmake' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_cmake -- -j16 -l16
+[0.053s] Invoking command in '/home/cityu/autoware/build/autoware_cmake': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_cmake
+[0.060s] -- Install configuration: "Release"
+[0.060s] -- Execute custom install script
+[0.061s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_package.cmake
+[0.061s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/package_run_dependencies/autoware_cmake
+[0.061s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/parent_prefix_path/autoware_cmake
+[0.061s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/path.sh
+[0.062s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/path.dsv
+[0.062s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.bash
+[0.063s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.sh
+[0.063s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.dsv
+[0.064s] -- Symlinking: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/package.dsv
+[0.071s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/packages/autoware_cmake
+[0.072s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmake-extras.cmake
+[0.072s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmakeConfig.cmake
+[0.072s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmakeConfig-version.cmake
+[0.072s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/package.xml
+[0.079s] Invoked command in '/home/cityu/autoware/build/autoware_cmake' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_cmake

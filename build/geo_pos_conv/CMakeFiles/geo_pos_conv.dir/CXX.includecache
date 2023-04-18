@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cityu/autoware/src/universe/autoware.universe/sensing/geo_pos_conv/include/geo_pos_conv/geo_pos_conv.hpp
+math.h
+-
+
+/home/cityu/autoware/src/universe/autoware.universe/sensing/geo_pos_conv/src/geo_pos_conv.cpp
+geo_pos_conv/geo_pos_conv.hpp
+/home/cityu/autoware/src/universe/autoware.universe/sensing/geo_pos_conv/src/geo_pos_conv/geo_pos_conv.hpp
+

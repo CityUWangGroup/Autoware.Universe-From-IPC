@@ -1,0 +1,93 @@
+[0.237s] Invoking command in '/home/cityu/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/gnss_poser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/gnss_poser
+[5.671s] -- The C compiler identification is GNU 9.4.0
+[5.671s] -- The CXX compiler identification is GNU 9.4.0
+[5.672s] -- Check for working C compiler: /usr/bin/cc
+[5.672s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.672s] -- Detecting C compiler ABI info
+[5.672s] -- Detecting C compiler ABI info - done
+[5.672s] -- Detecting C compile features
+[5.672s] -- Detecting C compile features - done
+[5.672s] -- Check for working CXX compiler: /usr/bin/c++
+[5.672s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.672s] -- Detecting CXX compiler ABI info
+[5.673s] -- Detecting CXX compiler ABI info - done
+[5.673s] -- Detecting CXX compile features
+[5.673s] -- Detecting CXX compile features - done
+[5.673s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[5.673s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.673s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.674s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.674s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.674s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.674s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.674s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[5.674s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.674s] -- Looking for pthread.h
+[5.674s] -- Looking for pthread.h - found
+[5.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.675s] -- Looking for pthread_create in pthreads
+[5.675s] -- Looking for pthread_create in pthreads - not found
+[5.675s] -- Looking for pthread_create in pthread
+[5.675s] -- Looking for pthread_create in pthread - found
+[5.675s] -- Found Threads: TRUE  
+[5.675s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[5.675s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.796s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.810s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.855s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.856s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/sensing/gnss_poser/include
+[5.856s] -- Configured cppcheck exclude dirs and/or files: 
+[5.856s] -- Added test 'lint_cmake' to check CMake code style
+[5.856s] -- Added test 'xmllint' to check XML markup files
+[5.857s] -- Configuring done
+[5.882s] -- Generating done
+[5.884s] -- Build files have been written to: /home/cityu/autoware/build/gnss_poser
+[5.914s] Invoked command in '/home/cityu/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/gnss_poser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/gnss_poser
+[5.915s] Invoking command in '/home/cityu/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/gnss_poser -- -j16 -l16
+[7.584s] [35m[1mScanning dependencies of target gnss_poser_node[0m
+[7.584s] [ 25%] [32mBuilding CXX object CMakeFiles/gnss_poser_node.dir/src/gnss_poser_core.cpp.o[0m
+[35.193s] [ 50%] [32m[1mLinking CXX shared library libgnss_poser_node.so[0m
+[35.560s] [ 50%] Built target gnss_poser_node
+[35.571s] [35m[1mScanning dependencies of target gnss_poser[0m
+[35.610s] [ 75%] [32mBuilding CXX object CMakeFiles/gnss_poser.dir/rclcpp_components/node_main_gnss_poser.cpp.o[0m
+[41.682s] [100%] [32m[1mLinking CXX executable gnss_poser[0m
+[42.125s] [100%] Built target gnss_poser
+[42.178s] Invoked command in '/home/cityu/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/gnss_poser -- -j16 -l16
+[42.437s] Invoking command in '/home/cityu/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/gnss_poser
+[43.452s] -- Install configuration: "Release"
+[43.453s] -- Execute custom install script
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/lib/gnss_poser/gnss_poser
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/include/gnss_poser/convert.hpp
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/include/gnss_poser/gnss_poser_core.hpp
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/include/gnss_poser/gnss_stat.hpp
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/library_path.sh
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/library_path.dsv
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/lib/libgnss_poser_node.so
+[43.453s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/launch/gnss_poser.launch.xml
+[43.454s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/config/set_local_origin.param.yaml
+[43.454s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/ament_index/resource_index/package_run_dependencies/gnss_poser
+[43.454s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/ament_index/resource_index/parent_prefix_path/gnss_poser
+[43.454s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/ament_prefix_path.sh
+[43.454s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/ament_prefix_path.dsv
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/path.sh
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/environment/path.dsv
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/local_setup.bash
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/local_setup.sh
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/local_setup.zsh
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/local_setup.dsv
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/package.dsv
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/ament_index/resource_index/packages/gnss_poser
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/ament_index/resource_index/rclcpp_components/gnss_poser
+[43.455s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.456s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.456s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_libraries-extras.cmake
+[43.456s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/cmake/gnss_poserConfig.cmake
+[43.456s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/cmake/gnss_poserConfig-version.cmake
+[43.456s] -- Symlinking: /home/cityu/autoware/install/gnss_poser/share/gnss_poser/package.xml
+[43.529s] Invoked command in '/home/cityu/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/geo_pos_conv:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_sensing_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/geo_pos_conv/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/gnss_poser

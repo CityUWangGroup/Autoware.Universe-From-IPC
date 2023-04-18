@@ -1,0 +1,123 @@
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Checking and downloading yolov3.onnx
+-- start yolov3.onnx
+-- found yolov3.onnx
+-- same yolov3.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov4.onnx
+-- start yolov4.onnx
+-- found yolov4.onnx
+-- same yolov4.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov4-tiny.onnx
+-- start yolov4-tiny.onnx
+-- found yolov4-tiny.onnx
+-- same yolov4-tiny.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov5s.onnx
+-- start yolov5s.onnx
+-- found yolov5s.onnx
+-- same yolov5s.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov5m.onnx
+-- start yolov5m.onnx
+-- found yolov5m.onnx
+-- same yolov5m.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov5l.onnx
+-- start yolov5l.onnx
+-- found yolov5l.onnx
+-- same yolov5l.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading yolov5x.onnx
+-- start yolov5x.onnx
+-- found yolov5x.onnx
+-- same yolov5x.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading coco.names
+-- start coco.names
+-- found coco.names
+-- same coco.names
+-- File already exists.
+-- Download completed successfully!
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo/include;/home/cityu/autoware/src/universe/autoware.universe/perception/tensorrt_yolo/lib/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tensorrt_yolo
+[ 20%] Built target mish_plugin
+[ 33%] Built target tensorrt_yolo_node
+[ 53%] Built target yolo_layer_plugin
+[ 73%] Built target nms_plugin
+[ 80%] [32m[1mLinking CXX shared library libyolo.so[0m
+[ 86%] Built target yolo
+[ 93%] [32m[1mLinking CXX shared library libtensorrt_yolo_nodelet.so[0m
+[100%] Built target tensorrt_yolo_nodelet
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/tensorrt_yolo/tensorrt_yolo_node
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/include/tensorrt_yolo/nodelet.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libyolo.so
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libtensorrt_yolo_nodelet.so
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov3.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov4-tiny.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov4.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5l.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5m.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5s.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/config/yolov5x.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/coco.names
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov3.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov4-tiny.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov4.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5l.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5m.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5s.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/data/yolov5x.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/launch/tensorrt_yolo.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/launch/yolo.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/package_run_dependencies/tensorrt_yolo
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/parent_prefix_path/tensorrt_yolo
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/packages/tensorrt_yolo
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/ament_index/resource_index/rclcpp_components/tensorrt_yolo
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/tensorrt_yoloConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/cmake/tensorrt_yoloConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/share/tensorrt_yolo/package.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libmish_plugin.so
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libyolo_layer_plugin.so
+-- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_yolo/lib/libnms_plugin.so

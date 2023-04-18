@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/pose_with_uuid__rosidl_typesupport_fastrtps_c.h

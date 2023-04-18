@@ -1,0 +1,50 @@
+[0.113s] Invoking command in '/home/cityu/autoware/build/global_parameter_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/global_parameter_loader -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/global_parameter_loader
+[5.579s] -- The C compiler identification is GNU 9.4.0
+[5.582s] -- The CXX compiler identification is GNU 9.4.0
+[5.582s] -- Check for working C compiler: /usr/bin/cc
+[5.583s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.583s] -- Detecting C compiler ABI info
+[5.583s] -- Detecting C compiler ABI info - done
+[5.583s] -- Detecting C compile features
+[5.583s] -- Detecting C compile features - done
+[5.583s] -- Check for working CXX compiler: /usr/bin/c++
+[5.583s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.583s] -- Detecting CXX compiler ABI info
+[5.583s] -- Detecting CXX compiler ABI info - done
+[5.583s] -- Detecting CXX compile features
+[5.583s] -- Detecting CXX compile features - done
+[5.584s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[5.584s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.584s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.584s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.584s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.585s] -- Added test 'lint_cmake' to check CMake code style
+[5.585s] -- Added test 'xmllint' to check XML markup files
+[5.585s] -- Configuring done
+[5.585s] -- Generating done
+[5.585s] -- Build files have been written to: /home/cityu/autoware/build/global_parameter_loader
+[5.618s] Invoked command in '/home/cityu/autoware/build/global_parameter_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/global_parameter_loader -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/global_parameter_loader
+[5.619s] Invoking command in '/home/cityu/autoware/build/global_parameter_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/global_parameter_loader -- -j16 -l16
+[8.276s] Invoked command in '/home/cityu/autoware/build/global_parameter_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/global_parameter_loader -- -j16 -l16
+[8.308s] Invoking command in '/home/cityu/autoware/build/global_parameter_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/global_parameter_loader
+[19.102s] -- Install configuration: "Release"
+[19.102s] -- Execute custom install script
+[19.102s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/launch/global_params.launch.py
+[19.102s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/ament_index/resource_index/package_run_dependencies/global_parameter_loader
+[19.102s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/ament_index/resource_index/parent_prefix_path/global_parameter_loader
+[19.102s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/environment/ament_prefix_path.sh
+[19.103s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/environment/ament_prefix_path.dsv
+[19.103s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/environment/path.sh
+[19.103s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/environment/path.dsv
+[19.104s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/local_setup.bash
+[19.108s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/local_setup.sh
+[19.108s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/local_setup.zsh
+[19.109s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/local_setup.dsv
+[19.109s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/package.dsv
+[19.110s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/ament_index/resource_index/packages/global_parameter_loader
+[19.110s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/cmake/global_parameter_loaderConfig.cmake
+[19.110s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/cmake/global_parameter_loaderConfig-version.cmake
+[19.110s] -- Symlinking: /home/cityu/autoware/install/global_parameter_loader/share/global_parameter_loader/package.xml
+[19.201s] Invoked command in '/home/cityu/autoware/build/global_parameter_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/global_parameter_loader

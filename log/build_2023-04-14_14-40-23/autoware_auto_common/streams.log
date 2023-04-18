@@ -1,0 +1,100 @@
+[0.032s] Invoking command in '/home/cityu/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_auto_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_auto_common
+[18.770s] -- The C compiler identification is GNU 9.4.0
+[18.770s] -- The CXX compiler identification is GNU 9.4.0
+[18.770s] -- Check for working C compiler: /usr/bin/cc
+[18.771s] -- Check for working C compiler: /usr/bin/cc -- works
+[18.771s] -- Detecting C compiler ABI info
+[18.771s] -- Detecting C compiler ABI info - done
+[18.771s] -- Detecting C compile features
+[18.771s] -- Detecting C compile features - done
+[18.772s] -- Check for working CXX compiler: /usr/bin/c++
+[18.772s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[18.772s] -- Detecting CXX compiler ABI info
+[18.772s] -- Detecting CXX compiler ABI info - done
+[18.773s] -- Detecting CXX compile features
+[18.773s] -- Detecting CXX compile features - done
+[18.773s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[18.773s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[18.773s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[18.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.780s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[18.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.781s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[18.781s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[18.781s] -- Found FastRTPS: /opt/ros/galactic/include  
+[18.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.782s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[18.783s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.788s] -- Looking for pthread.h
+[18.789s] -- Looking for pthread.h - found
+[18.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[18.790s] -- Check if compiler accepts -pthread
+[18.790s] -- Check if compiler accepts -pthread - yes
+[18.790s] -- Found Threads: TRUE  
+[18.791s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.791s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.797s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/autoware_auto_common/include
+[18.798s] -- Configured cppcheck exclude dirs and/or files: 
+[18.798s] -- Added test 'lint_cmake' to check CMake code style
+[18.799s] -- Added test 'xmllint' to check XML markup files
+[18.799s] -- Configuring done
+[18.799s] -- Generating done
+[18.800s] -- Build files have been written to: /home/cityu/autoware/build/autoware_auto_common
+[18.824s] Invoked command in '/home/cityu/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_auto_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_auto_common
+[18.830s] Invoking command in '/home/cityu/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_common -- -j16 -l16
+[25.078s] [35m[1mScanning dependencies of target gtest[0m
+[25.079s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[31.306s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.356s] [ 13%] Built target gtest
+[31.371s] [35m[1mScanning dependencies of target gtest_main[0m
+[31.392s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[33.268s] [ 26%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[33.305s] [ 26%] Built target gtest_main
+[33.318s] [35m[1mScanning dependencies of target test_common_gtest[0m
+[33.371s] [ 33%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/gtest_main.cpp.o[0m
+[35.176s] [ 40%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_type_traits.cpp.o[0m
+[37.715s] [ 53%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_type_name.cpp.o[0m
+[37.715s] [ 53%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_angle_utils.cpp.o[0m
+[40.162s] [ 60%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_template_utils.cpp.o[0m
+[40.286s] [ 66%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_message_field_adapters.cpp.o[0m
+[43.292s] [ 73%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_mahalanobis_distance.cpp.o[0m
+[49.663s] [ 80%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_float_comparisons.cpp.o[0m
+[49.682s] [ 86%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_byte_reader.cpp.o[0m
+[52.621s] [ 93%] [32mBuilding CXX object CMakeFiles/test_common_gtest.dir/test/test_bool_comparisons.cpp.o[0m
+[54.039s] [100%] [32m[1mLinking CXX executable test_common_gtest[0m
+[54.225s] [100%] Built target test_common_gtest
+[54.253s] Invoked command in '/home/cityu/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_auto_common -- -j16 -l16
+[54.313s] Invoking command in '/home/cityu/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_common
+[56.980s] -- Install configuration: "Release"
+[56.980s] -- Execute custom install script
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/common/type_traits.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/common/types.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/common/visibility_control.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/angle_utils.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/bool_comparisons.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/byte_reader.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/crtp.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/float_comparisons.hpp
+[56.981s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/mahalanobis_distance.hpp
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/message_adapters.hpp
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/template_utils.hpp
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/type_name.hpp
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/package_run_dependencies/autoware_auto_common
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/parent_prefix_path/autoware_auto_common
+[56.982s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.sh
+[56.983s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.dsv
+[56.983s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.sh
+[56.983s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.dsv
+[56.983s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.bash
+[56.983s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.sh
+[56.984s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.zsh
+[56.991s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.dsv
+[56.999s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/package.dsv
+[56.999s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/packages/autoware_auto_common
+[57.000s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.000s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.000s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig.cmake
+[57.000s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig-version.cmake
+[57.000s] -- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/package.xml
+[57.041s] Invoked command in '/home/cityu/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_auto_common

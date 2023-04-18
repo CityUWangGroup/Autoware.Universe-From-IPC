@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/static_centerline_optimizer/rosidl_generator_py/static_centerline_optimizer/libstatic_centerline_optimizer__python.so" "TARGETS" "static_centerline_optimizer__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

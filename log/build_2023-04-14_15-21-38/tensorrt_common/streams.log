@@ -1,0 +1,71 @@
+[0.159s] Invoking command in '/home/cityu/autoware/build/tensorrt_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tensorrt_common -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_common
+[0.546s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.549s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.550s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.668s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.687s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.834s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.850s] CMake Warning (dev) at CMakeLists.txt:9 (find_package):
+[0.850s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[0.850s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[0.850s]   command to set the policy and suppress this warning.
+[0.850s] 
+[0.850s]   CMake variable TENSORRT_ROOT is set to:
+[0.850s] 
+[0.850s]     /usr
+[0.850s] 
+[0.850s]   For compatibility, CMake is ignoring the variable.
+[0.850s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.850s] 
+[0.850s] -- Found TensorRT headers at /usr/include/x86_64-linux-gnu
+[0.851s] -- Found TensorRT libs at /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so;/usr/lib/x86_64-linux-gnu/libnvparsers.so;/usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+[0.859s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.860s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cityu/autoware/src/universe/autoware.universe/common/tensorrt_common/include>
+[0.860s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.861s] -- Added test 'xmllint' to check XML markup files
+[0.865s] -- Configuring done
+[0.872s] -- Generating done
+[0.873s] CMake Warning:
+[0.873s]   Manually-specified variables were not used by the project:
+[0.873s] 
+[0.873s]     DOWNLOAD_ARTIFACTS
+[0.873s] 
+[0.873s] 
+[0.873s] -- Build files have been written to: /home/cityu/autoware/build/tensorrt_common
+[0.886s] Invoked command in '/home/cityu/autoware/build/tensorrt_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tensorrt_common -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tensorrt_common
+[0.893s] Invoking command in '/home/cityu/autoware/build/tensorrt_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_common -- -j16 -l16
+[0.967s] [100%] Built target tensorrt_common
+[1.040s] Invoked command in '/home/cityu/autoware/build/tensorrt_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tensorrt_common -- -j16 -l16
+[1.218s] Invoking command in '/home/cityu/autoware/build/tensorrt_common': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_common
+[1.255s] -- Install configuration: "Release"
+[1.265s] -- Execute custom install script
+[1.265s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/include/tensorrt_common/tensorrt_common.hpp
+[1.265s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/library_path.sh
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/library_path.dsv
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/lib/libtensorrt_common.so
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/ament_index/resource_index/package_run_dependencies/tensorrt_common
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/ament_index/resource_index/parent_prefix_path/tensorrt_common
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/ament_prefix_path.sh
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/ament_prefix_path.dsv
+[1.266s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/path.sh
+[1.267s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/environment/path.dsv
+[1.267s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/local_setup.bash
+[1.267s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/local_setup.sh
+[1.267s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/local_setup.zsh
+[1.267s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/local_setup.dsv
+[1.268s] -- Symlinking: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/package.dsv
+[1.268s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/ament_index/resource_index/packages/tensorrt_common
+[1.268s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.268s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.268s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake/ament_cmake_export_libraries-extras.cmake
+[1.268s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake/tensorrt_commonConfig.cmake
+[1.269s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/cmake/tensorrt_commonConfig-version.cmake
+[1.269s] -- Up-to-date symlink: /home/cityu/autoware/install/tensorrt_common/share/tensorrt_common/package.xml
+[1.401s] Invoked command in '/home/cityu/autoware/build/tensorrt_common' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tensorrt_common

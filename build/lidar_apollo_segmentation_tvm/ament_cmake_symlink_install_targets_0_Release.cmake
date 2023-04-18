@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/liblidar_apollo_segmentation_tvm.so" "TARGETS" "lidar_apollo_segmentation_tvm" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

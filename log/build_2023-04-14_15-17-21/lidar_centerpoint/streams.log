@@ -1,0 +1,175 @@
+[0.222s] Invoking command in '/home/cityu/autoware/build/lidar_centerpoint': AMENT_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_centerpoint -- -j16 -l16
+[0.308s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.308s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.308s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.460s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.203s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.223s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.882s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.113s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.229s] -- The imported target "vtkParseOGLExt" references the file
+[2.232s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.232s] but this file does not exist.  Possible reasons include:
+[2.232s] * The file was deleted, renamed, or moved to another location.
+[2.232s] * An install or uninstall procedure did not complete successfully.
+[2.232s] * The installation package was faulty and contained
+[2.233s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.233s] but not all the files it references.
+[2.235s] 
+[2.235s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.235s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.235s] but this file does not exist.  Possible reasons include:
+[2.235s] * The file was deleted, renamed, or moved to another location.
+[2.236s] * An install or uninstall procedure did not complete successfully.
+[2.236s] * The installation package was faulty and contained
+[2.236s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.236s] but not all the files it references.
+[2.236s] 
+[2.236s] -- The imported target "vtk" references the file
+[2.244s]    "/usr/bin/vtk"
+[2.245s] but this file does not exist.  Possible reasons include:
+[2.245s] * The file was deleted, renamed, or moved to another location.
+[2.245s] * An install or uninstall procedure did not complete successfully.
+[2.245s] * The installation package was faulty and contained
+[2.245s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.245s] but not all the files it references.
+[2.245s] 
+[2.245s] -- The imported target "pvtk" references the file
+[2.245s]    "/usr/bin/pvtk"
+[2.246s] but this file does not exist.  Possible reasons include:
+[2.246s] * The file was deleted, renamed, or moved to another location.
+[2.246s] * An install or uninstall procedure did not complete successfully.
+[2.246s] * The installation package was faulty and contained
+[2.246s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.246s] but not all the files it references.
+[2.246s] 
+[2.252s] -- Checking for module 'libusb-1.0'
+[2.253s] --   No package 'libusb-1.0' found
+[2.253s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.253s] -- OpenNI disabled because libusb-1.0 not found.
+[2.264s] -- Checking for module 'libusb-1.0'
+[2.264s] --   No package 'libusb-1.0' found
+[2.264s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.264s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[2.265s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[2.265s] -- Checking for module 'libusb-1.0'
+[2.265s] --   No package 'libusb-1.0' found
+[2.269s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.269s] -- OpenNI disabled because libusb-1.0 not found.
+[2.275s] -- Checking for module 'libusb-1.0'
+[2.277s] --   No package 'libusb-1.0' found
+[2.287s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.288s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[2.292s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.296s] -- Checking for module 'libusb-1.0'
+[2.301s] --   No package 'libusb-1.0' found
+[2.302s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.302s] -- OpenNI disabled because libusb-1.0 not found.
+[4.755s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.769s] -- start to download
+[4.776s] -- Checking and downloading pts_voxel_encoder_centerpoint.onnx 
+[4.776s] -- start pts_voxel_encoder_centerpoint.onnx
+[4.776s] -- found pts_voxel_encoder_centerpoint.onnx
+[4.776s] -- same pts_voxel_encoder_centerpoint.onnx
+[4.776s] -- File already exists.
+[4.776s] -- Download completed successfully!
+[4.777s] -- Checking and downloading pts_backbone_neck_head_centerpoint.onnx 
+[4.780s] -- start pts_backbone_neck_head_centerpoint.onnx
+[4.780s] -- found pts_backbone_neck_head_centerpoint.onnx
+[4.805s] -- same pts_backbone_neck_head_centerpoint.onnx
+[4.805s] -- File already exists.
+[4.805s] -- Download completed successfully!
+[4.805s] -- Checking and downloading pts_voxel_encoder_centerpoint_tiny.onnx 
+[4.805s] -- start pts_voxel_encoder_centerpoint_tiny.onnx
+[4.805s] -- found pts_voxel_encoder_centerpoint_tiny.onnx
+[4.805s] -- same pts_voxel_encoder_centerpoint_tiny.onnx
+[4.805s] -- File already exists.
+[4.805s] -- Download completed successfully!
+[4.805s] -- Checking and downloading pts_backbone_neck_head_centerpoint_tiny.onnx 
+[4.805s] -- start pts_backbone_neck_head_centerpoint_tiny.onnx
+[4.805s] -- found pts_backbone_neck_head_centerpoint_tiny.onnx
+[4.838s] -- same pts_backbone_neck_head_centerpoint_tiny.onnx
+[4.838s] -- File already exists.
+[4.838s] -- Download completed successfully!
+[11.015s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.017s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.018s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include;$<BUILD_INTERFACE:/home/cityu/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include>
+[11.018s] -- Configured cppcheck exclude dirs and/or files: 
+[11.019s] -- Added test 'lint_cmake' to check CMake code style
+[11.019s] -- Added test 'xmllint' to check XML markup files
+[11.025s] -- Configuring done
+[11.235s] -- Generating done
+[11.237s] -- Build files have been written to: /home/cityu/autoware/build/lidar_centerpoint
+[11.280s] [ 17%] Built target lidar_centerpoint_node
+[11.280s] [ 17%] Built target single_inference_lidar_centerpoint_node
+[11.308s] [ 21%] [32m[1mLinking CXX shared library libcenterpoint_cuda_lib.so[0m
+[11.375s] [ 39%] Built target centerpoint_cuda_lib
+[11.458s] [ 43%] [32m[1mLinking CXX shared library libcenterpoint_lib.so[0m
+[11.875s] [ 82%] Built target centerpoint_lib
+[11.940s] [ 86%] [32m[1mLinking CXX shared library liblidar_centerpoint_component.so[0m
+[12.387s] [ 91%] Built target lidar_centerpoint_component
+[12.453s] [ 95%] [32m[1mLinking CXX shared library libsingle_inference_lidar_centerpoint_component.so[0m
+[12.989s] [100%] Built target single_inference_lidar_centerpoint_component
+[12.999s] Invoked command in '/home/cityu/autoware/build/lidar_centerpoint' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_centerpoint -- -j16 -l16
+[13.035s] Invoking command in '/home/cityu/autoware/build/lidar_centerpoint': AMENT_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_centerpoint
+[13.045s] -- Install configuration: "Release"
+[13.045s] -- Execute custom install script
+[13.045s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_node
+[13.046s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/single_inference_lidar_centerpoint_node
+[13.046s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_visualizer.py
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_config.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_trt.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/cuda_utils.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/detection_class_remapper.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/network_trt.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/scatter_kernel.hpp
+[13.047s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/tensorrt_wrapper.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/node.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/circle_nms_kernel.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/non_maximum_suppression.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/postprocess_kernel.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/pointcloud_densification.hpp
+[13.048s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/preprocess_kernel.hpp
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/voxel_generator.hpp
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/ros_utils.hpp
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/single_inference_node.hpp
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/utils.hpp
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.sh
+[13.049s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.dsv
+[13.050s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libcenterpoint_lib.so
+[13.050s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/liblidar_centerpoint_component.so
+[13.050s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libsingle_inference_lidar_centerpoint_component.so
+[13.051s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/lidar_centerpoint.launch.xml
+[13.051s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/single_inference_lidar_centerpoint.launch.xml
+[13.051s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint.onnx
+[13.052s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint_tiny.onnx
+[13.052s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint.onnx
+[13.052s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint_tiny.onnx
+[13.052s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint.param.yaml
+[13.052s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint_tiny.param.yaml
+[13.053s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/detection_class_remapper.param.yaml
+[13.053s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/package_run_dependencies/lidar_centerpoint
+[13.053s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/parent_prefix_path/lidar_centerpoint
+[13.053s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.sh
+[13.054s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.dsv
+[13.054s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.sh
+[13.054s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.dsv
+[13.054s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.bash
+[13.054s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.sh
+[13.055s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.zsh
+[13.055s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.dsv
+[13.055s] -- Symlinking: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.dsv
+[13.064s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/packages/lidar_centerpoint
+[13.064s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/rclcpp_components/lidar_centerpoint
+[13.064s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.064s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.065s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_libraries-extras.cmake
+[13.065s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig.cmake
+[13.065s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig-version.cmake
+[13.065s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.xml
+[13.066s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libcenterpoint_cuda_lib.so
+[13.073s] Invoked command in '/home/cityu/autoware/build/lidar_centerpoint' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/perception_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/perception_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_centerpoint

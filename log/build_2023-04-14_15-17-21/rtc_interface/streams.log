@@ -1,0 +1,29 @@
+[0.370s] Invoking command in '/home/cityu/autoware/build/rtc_interface': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/rtc_interface -- -j16 -l16
+[0.440s] [100%] Built target rtc_interface
+[0.515s] Invoked command in '/home/cityu/autoware/build/rtc_interface' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/rtc_interface -- -j16 -l16
+[0.665s] Invoking command in '/home/cityu/autoware/build/rtc_interface': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/rtc_interface
+[0.742s] -- Install configuration: "Release"
+[0.743s] -- Execute custom install script
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/include/rtc_interface/rtc_interface.hpp
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/library_path.sh
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/library_path.dsv
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/lib/librtc_interface.so
+[0.744s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/ament_index/resource_index/package_run_dependencies/rtc_interface
+[0.746s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/ament_index/resource_index/parent_prefix_path/rtc_interface
+[0.747s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/ament_prefix_path.sh
+[0.747s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/ament_prefix_path.dsv
+[0.747s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/path.sh
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/environment/path.dsv
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/local_setup.bash
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/local_setup.sh
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/local_setup.zsh
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/local_setup.dsv
+[0.748s] -- Symlinking: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/package.dsv
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/ament_index/resource_index/packages/rtc_interface
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.748s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.749s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.749s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/cmake/rtc_interfaceConfig.cmake
+[0.749s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/cmake/rtc_interfaceConfig-version.cmake
+[0.749s] -- Up-to-date symlink: /home/cityu/autoware/install/rtc_interface/share/rtc_interface/package.xml
+[0.844s] Invoked command in '/home/cityu/autoware/build/rtc_interface' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_rtc_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_rtc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/rtc_interface

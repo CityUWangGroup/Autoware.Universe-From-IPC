@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/control/shift_decider/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/shift_decider
+[35m[1mScanning dependencies of target shift_decider[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/shift_decider.dir/rclcpp_components/node_main_shift_decider.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable shift_decider[0m
+[ 50%] Built target shift_decider
+[35m[1mScanning dependencies of target shift_decider_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/shift_decider_node.dir/src/shift_decider.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libshift_decider_node.so[0m
+[100%] Built target shift_decider_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/shift_decider/lib/shift_decider/shift_decider
+-- Symlinking: /home/cityu/autoware/install/shift_decider/include/shift_decider/shift_decider.hpp
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/shift_decider/lib/libshift_decider_node.so
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/launch/shift_decider.launch.xml
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/config/shift_decider.param.yaml
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/ament_index/resource_index/package_run_dependencies/shift_decider
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/ament_index/resource_index/parent_prefix_path/shift_decider
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/package.dsv
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/ament_index/resource_index/packages/shift_decider
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/ament_index/resource_index/rclcpp_components/shift_decider
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/cmake/shift_deciderConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/cmake/shift_deciderConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/shift_decider/share/shift_decider/package.xml

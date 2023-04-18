@@ -1,0 +1,58 @@
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreMemoryAllocatorConfig.h:32[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgrePrerequisites.h:315[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:37[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreAlignedAllocator.h:108:73:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  108 |         AlignedAllocator(const AlignedAllocator<U, Alignment>& other) {}[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+      |                                                                         [31m[K-[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:[m[K In member function ‘[01m[KOgre::Radian Ogre::VectorBase<2, float>::angleTo(const Vector2&) const[m[K’:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:770:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Radian::Radian(const Ogre::Radian&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  770 |         return [01;35m[Kangle[m[K;
+      |                [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:38[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreMath.h:70:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Radian[m[K’ has user-provided ‘[01m[KOgre::Radian& Ogre::Radian::operator=(const Ogre::Radian&)[m[K’
+   70 |         Radian& [01;36m[Koperator[m[K = ( const Radian& r ) { mRad = r.mRad; return *this; }
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:[m[K In member function ‘[01m[KOgre::Quaternion Ogre::VectorBase<3, float>::getRotationTo(const Vector3&, const Vector3&) const[m[K’:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:835:32:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  835 |             return Quaternion::[01;35m[KIDENTITY[m[K;
+      |                                [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Quaternion[m[K’ has user-provided ‘[01m[KOgre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)[m[K’
+  176 |         inline Quaternion& [01;36m[Koperator[m[K= (const Quaternion& rkQ)
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:853:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  853 |         return [01;35m[Kq[m[K;
+      |                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39[m[K,
+                 from [01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/frame_manager_iface.hpp:45[m[K,
+                 from [01m[K/opt/ros/galactic/include/rviz_common/display_context.hpp:42[m[K,
+                 from [01m[K/home/cityu/autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28[m[K:
+[01m[K/opt/ros/galactic/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Quaternion[m[K’ has user-provided ‘[01m[KOgre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)[m[K’
+  176 |         inline Quaternion& [01;36m[Koperator[m[K= (const Quaternion& rkQ)
+      |                            [01;36m[K^~~~~~~~[m[K

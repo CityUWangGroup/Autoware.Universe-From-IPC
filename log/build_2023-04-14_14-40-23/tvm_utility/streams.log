@@ -1,0 +1,82 @@
+[0.256s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tvm_utility
+[3.228s] -- The C compiler identification is GNU 9.4.0
+[3.229s] -- The CXX compiler identification is GNU 9.4.0
+[3.229s] -- Check for working C compiler: /usr/bin/cc
+[3.229s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.229s] -- Detecting C compiler ABI info
+[3.229s] -- Detecting C compiler ABI info - done
+[3.230s] -- Detecting C compile features
+[3.230s] -- Detecting C compile features - done
+[3.230s] -- Check for working CXX compiler: /usr/bin/c++
+[3.230s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.230s] -- Detecting CXX compiler ABI info
+[3.230s] -- Detecting CXX compiler ABI info - done
+[3.230s] -- Detecting CXX compile features
+[3.230s] -- Detecting CXX compile features - done
+[3.230s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.230s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.231s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.231s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.231s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.231s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.231s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.231s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.231s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[3.232s] -- Found OpenCV: /usr (found version "4.2.0") 
+[3.232s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.232s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.232s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include
+[3.232s] -- Configured cppcheck exclude dirs and/or files: 
+[3.232s] -- Added test 'lint_cmake' to check CMake code style
+[3.232s] -- Added test 'xmllint' to check XML markup files
+[3.232s] -- Configuring done
+[3.232s] -- Generating done
+[3.232s] -- Build files have been written to: /home/cityu/autoware/build/tvm_utility
+[3.233s] CMake Warning at tvm_utility-extras.cmake:58 (message):
+[3.234s]   Skipped download for yolo_v2_tiny (enable by setting DOWNLOAD_ARTIFACTS)
+[3.234s] Call Stack (most recent call first):
+[3.234s]   CMakeLists.txt:53 (get_neural_network)
+[3.234s] 
+[3.234s] 
+[3.238s] CMake Warning at CMakeLists.txt:90 (message):
+[3.238s]   No model is generated for
+[3.243s]   /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/test/yolo_v2_tiny,
+[3.245s]   skipping test
+[3.245s] 
+[3.245s] 
+[3.254s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tvm_utility
+[3.255s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tvm_utility -- -j16 -l16
+[5.321s] [35m[1mScanning dependencies of target tvm_utility[0m
+[5.321s] [100%] [32m[1mLinking CXX shared library libtvm_utility.so[0m
+[5.322s] [100%] Built target tvm_utility
+[5.343s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tvm_utility -- -j16 -l16
+[5.385s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tvm_utility
+[12.725s] -- Install configuration: "Release"
+[12.725s] -- Execute custom install script
+[12.725s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/include/tvm_utility/pipeline.hpp
+[12.725s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.sh
+[12.725s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.dsv
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/lib/libtvm_utility.so
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/package_run_dependencies/tvm_utility
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/parent_prefix_path/tvm_utility
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.sh
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.dsv
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.sh
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.dsv
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.bash
+[12.726s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.sh
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.zsh
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.dsv
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.dsv
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/packages/tvm_utility
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_libraries-extras.cmake
+[12.727s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig.cmake
+[12.728s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig-version.cmake
+[12.728s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.xml
+[12.819s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tvm_utility

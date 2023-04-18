@@ -1,0 +1,97 @@
+[0.123s] Invoking command in '/home/cityu/autoware/build/autoware_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_common/autoware_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_utils
+[3.336s] -- The C compiler identification is GNU 9.4.0
+[3.336s] -- The CXX compiler identification is GNU 9.4.0
+[3.336s] -- Check for working C compiler: /usr/bin/cc
+[3.336s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.336s] -- Detecting C compiler ABI info
+[3.336s] -- Detecting C compiler ABI info - done
+[3.336s] -- Detecting C compile features
+[3.336s] -- Detecting C compile features - done
+[3.337s] -- Check for working CXX compiler: /usr/bin/c++
+[3.337s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.337s] -- Detecting CXX compiler ABI info
+[3.337s] -- Detecting CXX compiler ABI info - done
+[3.337s] -- Detecting CXX compile features
+[3.337s] -- Detecting CXX compile features - done
+[3.337s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.337s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.337s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.338s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.338s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.338s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.338s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.338s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.338s] -- Looking for pthread.h
+[3.338s] -- Looking for pthread.h - found
+[3.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.339s] -- Looking for pthread_create in pthreads
+[3.339s] -- Looking for pthread_create in pthreads - not found
+[3.339s] -- Looking for pthread_create in pthread
+[3.339s] -- Looking for pthread_create in pthread - found
+[3.339s] -- Found Threads: TRUE  
+[3.339s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.339s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.339s] -- Check if compiler accepts -pthread
+[3.339s] -- Check if compiler accepts -pthread - yes
+[3.339s] -- Configuring done
+[3.340s] -- Generating done
+[3.340s] -- Build files have been written to: /home/cityu/autoware/build/autoware_utils
+[3.360s] Invoked command in '/home/cityu/autoware/build/autoware_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_common/autoware_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_utils
+[3.361s] Invoking command in '/home/cityu/autoware/build/autoware_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_utils -- -j16 -l16
+[5.061s] [35m[1mScanning dependencies of target gtest[0m
+[5.061s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.807s] [ 16%] [32m[1mLinking CXX static library libgtest.a[0m
+[14.855s] [ 16%] Built target gtest
+[14.871s] [35m[1mScanning dependencies of target gtest_main[0m
+[14.894s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.145s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.184s] [ 33%] Built target gtest_main
+[16.194s] [35m[1mScanning dependencies of target autoware_utils[0m
+[16.212s] [ 41%] [32mBuilding CXX object CMakeFiles/autoware_utils.dir/src/autoware_utils.cpp.o[0m
+[16.566s] [ 50%] [32m[1mLinking CXX shared library libautoware_utils.so[0m
+[16.635s] [ 50%] Built target autoware_utils
+[16.645s] [35m[1mScanning dependencies of target test_autoware_utils[0m
+[16.684s] [ 58%] [32mBuilding CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_constants.cpp.o[0m
+[17.944s] [ 66%] [32mBuilding CXX object CMakeFiles/test_autoware_utils.dir/test/src/test_autoware_utils.cpp.o[0m
+[21.776s] [ 75%] [32mBuilding CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_unit_conversion.cpp.o[0m
+[23.699s] [ 83%] [32mBuilding CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_range.cpp.o[0m
+[26.995s] [ 91%] [32mBuilding CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_normalization.cpp.o[0m
+[29.414s] [100%] [32m[1mLinking CXX executable test_autoware_utils[0m
+[29.723s] [100%] Built target test_autoware_utils
+[29.870s] Invoked command in '/home/cityu/autoware/build/autoware_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_utils -- -j16 -l16
+[29.984s] Invoking command in '/home/cityu/autoware/build/autoware_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_utils
+[33.344s] -- Install configuration: "Release"
+[33.345s] -- Execute custom install script
+[33.345s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/include/autoware_utils/autoware_utils.hpp
+[33.345s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/include/autoware_utils/math/constants.hpp
+[33.345s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/include/autoware_utils/math/normalization.hpp
+[33.345s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/include/autoware_utils/math/range.hpp
+[33.345s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/include/autoware_utils/math/unit_conversion.hpp
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/library_path.sh
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/library_path.dsv
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/lib/libautoware_utils.so
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/ament_index/resource_index/package_run_dependencies/autoware_utils
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/ament_index/resource_index/parent_prefix_path/autoware_utils
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/ament_prefix_path.sh
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/ament_prefix_path.dsv
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/path.sh
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/environment/path.dsv
+[33.346s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/local_setup.bash
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/local_setup.sh
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/local_setup.zsh
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/local_setup.dsv
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/package.dsv
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/ament_index/resource_index/packages/autoware_utils
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[33.347s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/cmake/autoware_utilsConfig.cmake
+[33.348s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/cmake/autoware_utilsConfig-version.cmake
+[33.348s] -- Symlinking: /home/cityu/autoware/install/autoware_utils/share/autoware_utils/package.xml
+[33.361s] Invoked command in '/home/cityu/autoware/build/autoware_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_utils

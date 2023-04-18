@@ -1,0 +1,191 @@
+[0.044s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+[5.406s] -- The C compiler identification is GNU 9.4.0
+[5.407s] -- The CXX compiler identification is GNU 9.4.0
+[5.408s] -- Check for working C compiler: /usr/bin/cc
+[5.408s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.408s] -- Detecting C compiler ABI info
+[5.408s] -- Detecting C compiler ABI info - done
+[5.408s] -- Detecting C compile features
+[5.408s] -- Detecting C compile features - done
+[5.408s] -- Check for working CXX compiler: /usr/bin/c++
+[5.408s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.409s] -- Detecting CXX compiler ABI info
+[5.409s] -- Detecting CXX compiler ABI info - done
+[5.409s] -- Detecting CXX compile features
+[5.409s] -- Detecting CXX compile features - done
+[5.409s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.409s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.409s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.410s] -- Checking for module 'eigen3'
+[5.410s] --   Found eigen3, version 3.3.7
+[5.413s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.414s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.414s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[5.414s] -- Checking for module 'flann'
+[5.414s] --   Found flann, version 1.9.1
+[5.414s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.414s] -- The imported target "vtkParseOGLExt" references the file
+[5.414s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.414s] but this file does not exist.  Possible reasons include:
+[5.415s] * The file was deleted, renamed, or moved to another location.
+[5.415s] * An install or uninstall procedure did not complete successfully.
+[5.415s] * The installation package was faulty and contained
+[5.415s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.415s] but not all the files it references.
+[5.415s] 
+[5.415s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.415s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.415s] but this file does not exist.  Possible reasons include:
+[5.415s] * The file was deleted, renamed, or moved to another location.
+[5.415s] * An install or uninstall procedure did not complete successfully.
+[5.416s] * The installation package was faulty and contained
+[5.416s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.416s] but not all the files it references.
+[5.416s] 
+[5.416s] -- The imported target "vtk" references the file
+[5.416s]    "/usr/bin/vtk"
+[5.416s] but this file does not exist.  Possible reasons include:
+[5.416s] * The file was deleted, renamed, or moved to another location.
+[5.416s] * An install or uninstall procedure did not complete successfully.
+[5.416s] * The installation package was faulty and contained
+[5.416s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.416s] but not all the files it references.
+[5.417s] 
+[5.417s] -- The imported target "pvtk" references the file
+[5.417s]    "/usr/bin/pvtk"
+[5.417s] but this file does not exist.  Possible reasons include:
+[5.417s] * The file was deleted, renamed, or moved to another location.
+[5.417s] * An install or uninstall procedure did not complete successfully.
+[5.417s] * The installation package was faulty and contained
+[5.417s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.417s] but not all the files it references.
+[5.418s] 
+[5.418s] -- Checking for module 'libusb-1.0'
+[5.418s] --   No package 'libusb-1.0' found
+[5.418s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.418s] -- OpenNI disabled because libusb-1.0 not found.
+[5.418s] -- Checking for module 'libusb-1.0'
+[5.418s] --   No package 'libusb-1.0' found
+[5.418s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.418s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.419s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[5.419s] -- Checking for module 'libusb-1.0'
+[5.419s] --   No package 'libusb-1.0' found
+[5.419s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.419s] -- OpenNI disabled because libusb-1.0 not found.
+[5.419s] -- Checking for module 'libusb-1.0'
+[5.419s] --   No package 'libusb-1.0' found
+[5.419s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.419s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.419s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[5.420s] ** WARNING ** io features related to openni will be disabled
+[5.420s] ** WARNING ** io features related to openni2 will be disabled
+[5.420s] ** WARNING ** io features related to pcap will be disabled
+[5.420s] ** WARNING ** io features related to png will be disabled
+[5.420s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.420s] ** WARNING ** visualization features related to openni will be disabled
+[5.420s] ** WARNING ** visualization features related to openni2 will be disabled
+[5.420s] ** WARNING ** apps features related to openni will be disabled
+[5.420s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[5.421s] -- Checking for module 'libusb-1.0'
+[5.421s] --   No package 'libusb-1.0' found
+[5.421s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.421s] -- OpenNI disabled because libusb-1.0 not found.
+[5.421s] -- looking for PCL_COMMON
+[5.421s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.421s] -- looking for PCL_KDTREE
+[5.421s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.421s] -- looking for PCL_OCTREE
+[5.421s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.421s] -- looking for PCL_SEARCH
+[5.422s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.422s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.422s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.422s] -- looking for PCL_FILTERS
+[5.422s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.422s] -- looking for PCL_2D
+[5.422s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[5.422s] -- looking for PCL_GEOMETRY
+[5.422s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[5.423s] -- looking for PCL_IO
+[5.423s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.423s] -- looking for PCL_FEATURES
+[5.423s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.423s] -- looking for PCL_ML
+[5.423s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.423s] -- looking for PCL_SEGMENTATION
+[5.423s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.423s] -- looking for PCL_VISUALIZATION
+[5.423s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.424s] -- looking for PCL_SURFACE
+[5.424s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.424s] -- looking for PCL_REGISTRATION
+[5.424s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.424s] -- looking for PCL_KEYPOINTS
+[5.424s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.424s] -- looking for PCL_TRACKING
+[5.424s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.424s] -- looking for PCL_RECOGNITION
+[5.424s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.424s] -- looking for PCL_STEREO
+[5.425s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.425s] -- looking for PCL_APPS
+[5.425s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.425s] -- looking for PCL_IN_HAND_SCANNER
+[5.425s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[5.425s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.425s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[5.425s] -- looking for PCL_OUTOFCORE
+[5.425s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.426s] -- looking for PCL_PEOPLE
+[5.426s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.426s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.7") 
+[5.426s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.10/usr/include/eigen3/usr/include/usr/include/vtk-7.1/usr/include/freetype2/usr/include/x86_64-linux-gnu
+[5.426s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[5.426s] -- PCL_DEFINITIONS:-DDISABLE_OPENNI-DDISABLE_OPENNI2-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+[5.426s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[5.426s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[5.426s] -- Found OpenMP: TRUE (found version "4.5")  
+[5.426s] -- Configuring done
+[5.427s] -- Generating done
+[5.427s] -- Build files have been written to: /home/cityu/autoware/build/ndt_omp
+[5.435s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+[5.440s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+[11.339s] [35m[1mScanning dependencies of target ndt_omp[0m
+[11.339s] [ 25%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[18.752s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o[0m
+[55.120s] [ 75%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o[0m
+[81.222s] [100%] [32m[1mLinking CXX shared library libndt_omp.so[0m
+[86.682s] [100%] Built target ndt_omp
+[86.716s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+[86.797s] Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp
+[88.279s] -- Install configuration: "RELEASE"
+[88.279s] -- Execute custom install script
+[88.279s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp.h
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp.h
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[88.280s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[88.281s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/lib/libndt_omp.so
+[88.281s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[88.281s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[88.281s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[88.282s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[88.282s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.sh
+[88.282s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[88.282s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.bash
+[88.288s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.sh
+[88.289s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[88.290s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[88.290s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.dsv
+[88.291s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[88.291s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.292s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[88.292s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[88.292s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[88.296s] -- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.xml
+[88.334s] Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp

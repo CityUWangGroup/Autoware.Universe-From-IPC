@@ -1,0 +1,6 @@
+Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_omp
+Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/ndt_omp -- -j16 -l16
+Invoking command in '/home/cityu/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp
+Invoked command in '/home/cityu/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/ndt_omp

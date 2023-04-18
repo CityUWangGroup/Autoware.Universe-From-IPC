@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/sample_sensor_kit_description
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensor_kit.xacro
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensors.xacro
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensor_kit_calibration.yaml
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensors_calibration.yaml
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/sample_sensor_kit_description
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/sample_sensor_kit_description
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.dsv
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/packages/sample_sensor_kit_description
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.xml

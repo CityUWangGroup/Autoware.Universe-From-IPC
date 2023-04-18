@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/srv/morai_event_cmd_srv.h

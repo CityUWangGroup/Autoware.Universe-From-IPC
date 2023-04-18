@@ -1,0 +1,33 @@
+[0.275s] Invoking command in '/home/cityu/autoware/build/image_transport_decompressor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/image_transport_decompressor -- -j16 -l16
+[0.328s] [ 50%] Built target image_transport_decompressor_node
+[0.329s] [100%] Built target image_transport_decompressor
+[0.461s] Invoked command in '/home/cityu/autoware/build/image_transport_decompressor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/image_transport_decompressor -- -j16 -l16
+[0.660s] Invoking command in '/home/cityu/autoware/build/image_transport_decompressor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/image_transport_decompressor
+[0.718s] -- Install configuration: "Release"
+[0.718s] -- Execute custom install script
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/lib/image_transport_decompressor/image_transport_decompressor_node
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/include/image_transport_decompressor/image_transport_decompressor.hpp
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/library_path.sh
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/library_path.dsv
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/lib/libimage_transport_decompressor.so
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/launch/image_transport_decompressor.launch.xml
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/ament_index/resource_index/package_run_dependencies/image_transport_decompressor
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/ament_index/resource_index/parent_prefix_path/image_transport_decompressor
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/ament_prefix_path.sh
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/ament_prefix_path.dsv
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/path.sh
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/environment/path.dsv
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.bash
+[0.719s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.sh
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.zsh
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/local_setup.dsv
+[0.720s] -- Symlinking: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/package.dsv
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/ament_index/resource_index/packages/image_transport_decompressor
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/ament_index/resource_index/rclcpp_components/image_transport_decompressor
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.720s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.721s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/cmake/image_transport_decompressorConfig.cmake
+[0.721s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/cmake/image_transport_decompressorConfig-version.cmake
+[0.721s] -- Up-to-date symlink: /home/cityu/autoware/install/image_transport_decompressor/share/image_transport_decompressor/package.xml
+[0.811s] Invoked command in '/home/cityu/autoware/build/image_transport_decompressor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/image_transport_decompressor

@@ -1,0 +1,43 @@
+[0.229s] Invoking command in '/home/cityu/autoware/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_pcl -- -j16 -l16
+[0.275s] [ 10%] Built target gtest
+[0.275s] [ 21%] Built target gtest_main
+[0.310s] [ 52%] Built target grid_map_pcl
+[0.351s] [ 63%] Built target grid_map_pcl_loader_node
+[0.365s] [100%] Built target grid_map_pcl-test
+[0.504s] Invoked command in '/home/cityu/autoware/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_pcl -- -j16 -l16
+[0.779s] Invoking command in '/home/cityu/autoware/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_pcl
+[0.836s] -- Install configuration: "Release"
+[0.836s] -- Execute custom install script
+[0.836s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/lib/libgrid_map_pcl.so
+[0.836s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/lib/grid_map_pcl/grid_map_pcl_loader_node
+[0.836s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/config/parameters.yaml
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/launch/grid_map_pcl_loader_launch.py
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/test_data//parameters.yaml
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/test_data//plane_noisy.pcd
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.sh
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/library_path.dsv
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/package_run_dependencies/grid_map_pcl
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/parent_prefix_path/grid_map_pcl
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.sh
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/ament_prefix_path.dsv
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/path.sh
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/environment/path.dsv
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.bash
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.sh
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.zsh
+[0.837s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/local_setup.dsv
+[0.838s] -- Symlinking: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/package.dsv
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/ament_index/resource_index/packages/grid_map_pcl
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/ament_cmake_export_libraries-extras.cmake
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig.cmake
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/cmake/grid_map_pclConfig-version.cmake
+[0.838s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_pcl/share/grid_map_pcl/package.xml
+[0.838s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl
+[0.838s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/helpers.hpp
+[0.838s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/GridMapPclConverter.hpp
+[0.839s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/GridMapPclLoader.hpp
+[0.839s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/PclLoaderParameters.hpp
+[0.839s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/PointcloudProcessor.hpp
+[0.839s] -- Up-to-date: /home/cityu/autoware/install/grid_map_pcl/include/grid_map_pcl/grid_map_pcl.hpp
+[0.887s] Invoked command in '/home/cityu/autoware/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_pcl

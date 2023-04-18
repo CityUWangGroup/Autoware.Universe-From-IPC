@@ -1,0 +1,216 @@
+[0.184s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_segmentation_tvm -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lidar_apollo_segmentation_tvm
+[22.852s] ** WARNING ** io features related to openni will be disabled
+[22.853s] ** WARNING ** io features related to openni2 will be disabled
+[22.853s] ** WARNING ** io features related to pcap will be disabled
+[22.853s] ** WARNING ** io features related to png will be disabled
+[22.853s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[22.853s] ** WARNING ** visualization features related to openni will be disabled
+[22.853s] ** WARNING ** visualization features related to openni2 will be disabled
+[22.853s] ** WARNING ** apps features related to openni will be disabled
+[22.853s] CMake Warning at /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake:58 (message):
+[22.853s]   Skipped download for baidu_cnn (enable by setting DOWNLOAD_ARTIFACTS)
+[22.853s] Call Stack (most recent call first):
+[22.854s]   CMakeLists.txt:34 (get_neural_network)
+[22.854s] 
+[22.854s] 
+[22.854s] CMake Warning at CMakeLists.txt:83 (message):
+[22.854s]   Neural network not found, skipping package.
+[22.854s] 
+[22.854s] 
+[22.863s] -- The C compiler identification is GNU 9.4.0
+[22.863s] -- The CXX compiler identification is GNU 9.4.0
+[22.863s] -- Check for working C compiler: /usr/bin/cc
+[22.864s] -- Check for working C compiler: /usr/bin/cc -- works
+[22.864s] -- Detecting C compiler ABI info
+[22.864s] -- Detecting C compiler ABI info - done
+[22.864s] -- Detecting C compile features
+[22.864s] -- Detecting C compile features - done
+[22.864s] -- Check for working CXX compiler: /usr/bin/c++
+[22.864s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[22.864s] -- Detecting CXX compiler ABI info
+[22.864s] -- Detecting CXX compiler ABI info - done
+[22.865s] -- Detecting CXX compile features
+[22.865s] -- Detecting CXX compile features - done
+[22.865s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[22.865s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[22.865s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[22.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.865s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.865s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[22.866s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[22.866s] -- Found FastRTPS: /opt/ros/galactic/include  
+[22.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.866s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[22.866s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[22.866s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[22.866s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[22.866s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[22.866s] -- Looking for pthread.h
+[22.866s] -- Looking for pthread.h - found
+[22.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[22.867s] -- Looking for pthread_create in pthreads
+[22.867s] -- Looking for pthread_create in pthreads - not found
+[22.867s] -- Looking for pthread_create in pthread
+[22.867s] -- Looking for pthread_create in pthread - found
+[22.867s] -- Found Threads: TRUE  
+[22.867s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[22.867s] -- Checking for module 'eigen3'
+[22.868s] --   Found eigen3, version 3.3.7
+[22.868s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[22.868s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[22.868s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[22.868s] -- Checking for module 'flann'
+[22.868s] --   Found flann, version 1.9.1
+[22.868s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[22.868s] -- The imported target "vtkParseOGLExt" references the file
+[22.868s]    "/usr/bin/vtkParseOGLExt-7.1"
+[22.886s] but this file does not exist.  Possible reasons include:
+[22.886s] * The file was deleted, renamed, or moved to another location.
+[22.887s] * An install or uninstall procedure did not complete successfully.
+[22.887s] * The installation package was faulty and contained
+[22.887s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[22.887s] but not all the files it references.
+[22.887s] 
+[22.887s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[22.887s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[22.887s] but this file does not exist.  Possible reasons include:
+[22.888s] * The file was deleted, renamed, or moved to another location.
+[22.888s] * An install or uninstall procedure did not complete successfully.
+[22.888s] * The installation package was faulty and contained
+[22.888s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[22.888s] but not all the files it references.
+[22.888s] 
+[22.888s] -- The imported target "vtk" references the file
+[22.888s]    "/usr/bin/vtk"
+[22.888s] but this file does not exist.  Possible reasons include:
+[22.888s] * The file was deleted, renamed, or moved to another location.
+[22.889s] * An install or uninstall procedure did not complete successfully.
+[22.889s] * The installation package was faulty and contained
+[22.889s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[22.889s] but not all the files it references.
+[22.889s] 
+[22.889s] -- The imported target "pvtk" references the file
+[22.889s]    "/usr/bin/pvtk"
+[22.889s] but this file does not exist.  Possible reasons include:
+[22.889s] * The file was deleted, renamed, or moved to another location.
+[22.890s] * An install or uninstall procedure did not complete successfully.
+[22.890s] * The installation package was faulty and contained
+[22.890s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[22.890s] but not all the files it references.
+[22.890s] 
+[22.890s] -- Checking for module 'libusb-1.0'
+[22.890s] --   No package 'libusb-1.0' found
+[22.890s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[22.890s] -- OpenNI disabled because libusb-1.0 not found.
+[22.890s] -- Checking for module 'libusb-1.0'
+[22.891s] --   No package 'libusb-1.0' found
+[22.891s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[22.891s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[22.891s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[22.891s] -- Checking for module 'libusb-1.0'
+[22.891s] --   No package 'libusb-1.0' found
+[22.891s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[22.891s] -- OpenNI disabled because libusb-1.0 not found.
+[22.891s] -- Checking for module 'libusb-1.0'
+[22.892s] --   No package 'libusb-1.0' found
+[22.892s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[22.892s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[22.892s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[22.892s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[22.892s] -- Checking for module 'libusb-1.0'
+[22.892s] --   No package 'libusb-1.0' found
+[22.892s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[22.893s] -- OpenNI disabled because libusb-1.0 not found.
+[22.893s] -- looking for PCL_COMMON
+[22.893s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[22.893s] -- looking for PCL_KDTREE
+[22.893s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[22.893s] -- looking for PCL_OCTREE
+[22.893s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[22.893s] -- looking for PCL_SEARCH
+[22.893s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[22.893s] -- looking for PCL_SAMPLE_CONSENSUS
+[22.894s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[22.894s] -- looking for PCL_FILTERS
+[22.894s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[22.894s] -- looking for PCL_2D
+[22.894s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[22.894s] -- looking for PCL_GEOMETRY
+[22.894s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[22.894s] -- looking for PCL_IO
+[22.894s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[22.894s] -- looking for PCL_FEATURES
+[22.909s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[22.910s] -- looking for PCL_ML
+[22.910s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[22.916s] -- looking for PCL_SEGMENTATION
+[22.917s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[22.917s] -- looking for PCL_VISUALIZATION
+[22.917s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[22.917s] -- looking for PCL_SURFACE
+[22.917s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[22.918s] -- looking for PCL_REGISTRATION
+[22.918s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[22.918s] -- looking for PCL_KEYPOINTS
+[22.918s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[22.918s] -- looking for PCL_TRACKING
+[22.918s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[22.918s] -- looking for PCL_RECOGNITION
+[22.918s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[22.918s] -- looking for PCL_STEREO
+[22.919s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[22.919s] -- looking for PCL_APPS
+[22.919s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[22.919s] -- looking for PCL_IN_HAND_SCANNER
+[22.919s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[22.919s] -- looking for PCL_POINT_CLOUD_EDITOR
+[22.919s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[22.919s] -- looking for PCL_OUTOFCORE
+[22.919s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[22.919s] -- looking for PCL_PEOPLE
+[22.920s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[22.920s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") 
+[22.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.920s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.920s] -- Configured cppcheck include dirs: 
+[22.920s] -- Configured cppcheck exclude dirs and/or files: 
+[22.920s] -- Added test 'lint_cmake' to check CMake code style
+[22.921s] -- Added test 'xmllint' to check XML markup files
+[22.921s] -- Configuring done
+[22.921s] -- Generating done
+[22.921s] -- Build files have been written to: /home/cityu/autoware/build/lidar_apollo_segmentation_tvm
+[22.982s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_segmentation_tvm -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lidar_apollo_segmentation_tvm
+[22.983s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_apollo_segmentation_tvm -- -j16 -l16
+[44.461s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_apollo_segmentation_tvm -- -j16 -l16
+[44.501s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_apollo_segmentation_tvm
+[49.601s] -- Install configuration: "Release"
+[49.601s] -- Execute custom install script
+[49.601s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/cluster2d.hpp
+[49.601s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/disjoint_set.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/feature_generator.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/feature_map.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/lidar_apollo_segmentation_tvm.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/log_table.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/util.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/include/lidar_apollo_segmentation_tvm/visibility_control.hpp
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/ament_index/resource_index/package_run_dependencies/lidar_apollo_segmentation_tvm
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/ament_index/resource_index/parent_prefix_path/lidar_apollo_segmentation_tvm
+[49.602s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/environment/ament_prefix_path.sh
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/environment/ament_prefix_path.dsv
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/environment/path.sh
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/environment/path.dsv
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/local_setup.bash
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/local_setup.sh
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/local_setup.zsh
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/local_setup.dsv
+[49.603s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/package.dsv
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/ament_index/resource_index/packages/lidar_apollo_segmentation_tvm
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/cmake/lidar_apollo_segmentation_tvm-extras.cmake
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/cmake/lidar_apollo_segmentation_tvmConfig.cmake
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/cmake/lidar_apollo_segmentation_tvmConfig-version.cmake
+[49.604s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/package.xml
+[49.633s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_segmentation_tvm' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_geometry:/home/cityu/autoware/install/tvm_utility:/home/cityu/autoware/install/autoware_auto_tf2:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_system_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_geometry/lib:/home/cityu/autoware/install/tvm_utility/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_system_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_system_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_apollo_segmentation_tvm

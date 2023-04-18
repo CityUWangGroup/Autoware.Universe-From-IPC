@@ -1,0 +1,22 @@
+[0.223s] Invoking command in '/home/cityu/autoware/build/camera_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/camera_description -- -j16 -l16
+[0.395s] Invoked command in '/home/cityu/autoware/build/camera_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/camera_description -- -j16 -l16
+[0.573s] Invoking command in '/home/cityu/autoware/build/camera_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/camera_description
+[0.595s] -- Install configuration: "Release"
+[0.596s] -- Execute custom install script
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/urdf/monocular_camera.xacro
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/ament_index/resource_index/package_run_dependencies/camera_description
+[0.596s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/ament_index/resource_index/parent_prefix_path/camera_description
+[0.598s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/environment/ament_prefix_path.sh
+[0.598s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/environment/ament_prefix_path.dsv
+[0.598s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/environment/path.sh
+[0.598s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/environment/path.dsv
+[0.598s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/local_setup.bash
+[0.599s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/local_setup.sh
+[0.599s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/local_setup.zsh
+[0.599s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/local_setup.dsv
+[0.599s] -- Symlinking: /home/cityu/autoware/install/camera_description/share/camera_description/package.dsv
+[0.599s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/ament_index/resource_index/packages/camera_description
+[0.603s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/cmake/camera_descriptionConfig.cmake
+[0.603s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/cmake/camera_descriptionConfig-version.cmake
+[0.604s] -- Up-to-date symlink: /home/cityu/autoware/install/camera_description/share/camera_description/package.xml
+[0.787s] Invoked command in '/home/cityu/autoware/build/camera_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/camera_description

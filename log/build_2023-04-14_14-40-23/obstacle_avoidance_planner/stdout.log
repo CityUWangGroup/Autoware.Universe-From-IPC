@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/obstacle_avoidance_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/obstacle_avoidance_planner
+[35m[1mScanning dependencies of target obstacle_avoidance_planner[0m
+[35m[1mScanning dependencies of target obstacle_avoidance_planner_node[0m
+[  8%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner_node.dir/rclcpp_components/node_main_obstacle_avoidance_planner_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/vehicle_model/vehicle_model_interface.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/vehicle_model/vehicle_model_bicycle_kinematics.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/node.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable obstacle_avoidance_planner_node[0m
+[ 41%] Built target obstacle_avoidance_planner_node
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/utils/cv_utils.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/utils/debug_utils.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/utils/utils.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/mpt_optimizer.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/eb_path_optimizer.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_planner.dir/src/costmap_generator.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libobstacle_avoidance_planner.so[0m
+[100%] Built target obstacle_avoidance_planner
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/lib/obstacle_avoidance_planner/obstacle_avoidance_planner_node
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/common_structs.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/costmap_generator.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/eb_path_optimizer.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/mpt_optimizer.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/node.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/utils/cv_utils.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/utils/debug_utils.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/utils/utils.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/vehicle_model/vehicle_model_bicycle_kinematics.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/include/obstacle_avoidance_planner/vehicle_model/vehicle_model_interface.hpp
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/lib/libobstacle_avoidance_planner.so
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/launch/obstacle_avoidance_planner.launch.xml
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/config/obstacle_avoidance_planner.param.yaml
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/scripts/calclation_time_analyzer.py
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/scripts/trajectory_visualizer.py
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/ament_index/resource_index/package_run_dependencies/obstacle_avoidance_planner
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/ament_index/resource_index/parent_prefix_path/obstacle_avoidance_planner
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/package.dsv
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/ament_index/resource_index/packages/obstacle_avoidance_planner
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/ament_index/resource_index/rclcpp_components/obstacle_avoidance_planner
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/cmake/obstacle_avoidance_plannerConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/cmake/obstacle_avoidance_plannerConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/obstacle_avoidance_planner/share/obstacle_avoidance_planner/package.xml

@@ -1,0 +1,57 @@
+[0.162s] Invoking command in '/home/cityu/autoware/build/pose2twist': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/pose2twist -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pose2twist
+[0.498s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.498s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.503s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.886s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.141s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.870s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.891s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.891s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.891s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/localization/pose2twist/include
+[1.891s] -- Configured cppcheck exclude dirs and/or files: 
+[1.892s] -- Added test 'lint_cmake' to check CMake code style
+[1.892s] -- Added test 'xmllint' to check XML markup files
+[1.899s] -- Configuring done
+[1.919s] -- Generating done
+[1.921s] CMake Warning:
+[1.922s]   Manually-specified variables were not used by the project:
+[1.922s] 
+[1.922s]     DOWNLOAD_ARTIFACTS
+[1.922s] 
+[1.922s] 
+[1.922s] -- Build files have been written to: /home/cityu/autoware/build/pose2twist
+[1.941s] Invoked command in '/home/cityu/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/pose2twist -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pose2twist
+[1.947s] Invoking command in '/home/cityu/autoware/build/pose2twist': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/pose2twist -- -j16 -l16
+[2.580s] [ 33%] [32m[1mLinking CXX executable pose2twist[0m
+[2.580s] [100%] Built target pose2twist
+[2.637s] Invoked command in '/home/cityu/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/pose2twist -- -j16 -l16
+[2.742s] Invoking command in '/home/cityu/autoware/build/pose2twist': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/pose2twist
+[2.778s] -- Install configuration: "Release"
+[2.779s] -- Execute custom install script
+[2.779s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/include/pose2twist/pose2twist_core.hpp
+[2.779s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/lib/pose2twist/pose2twist
+[2.779s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/launch/pose2twist.launch.xml
+[2.780s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/ament_index/resource_index/package_run_dependencies/pose2twist
+[2.780s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/ament_index/resource_index/parent_prefix_path/pose2twist
+[2.780s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/environment/ament_prefix_path.sh
+[2.781s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/environment/ament_prefix_path.dsv
+[2.784s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/environment/path.sh
+[2.784s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/environment/path.dsv
+[2.784s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/local_setup.bash
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/local_setup.sh
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/local_setup.zsh
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/local_setup.dsv
+[2.785s] -- Symlinking: /home/cityu/autoware/install/pose2twist/share/pose2twist/package.dsv
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/ament_index/resource_index/packages/pose2twist
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.785s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/cmake/pose2twistConfig.cmake
+[2.786s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/cmake/pose2twistConfig-version.cmake
+[2.786s] -- Up-to-date symlink: /home/cityu/autoware/install/pose2twist/share/pose2twist/package.xml
+[2.833s] Invoked command in '/home/cityu/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/pose2twist

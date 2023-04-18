@@ -1,0 +1,66 @@
+[  9%] Built target transform_node
+[ 18%] Built target interpolate_node
+[ 27%] Built target cloud_node
+[ 40%] Built target velodyne_rawdata
+[ 63%] Built target cloud_nodelet
+[ 86%] Built target interpolate_nodelet
+[100%] Built target transform_nodelet
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/cloud_node
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/interpolate_node
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/transform_node
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/colors.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/func.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/interpolate.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/point_types.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIR.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRADT.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.h
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/libcloud_nodelet.so
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/libinterpolate_nodelet.so
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/lib/libtransform_nodelet.so
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/32e_points.launch
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/64e_S3.launch
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-16_points.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-32C_points.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLS-128_points.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/cloud_nodelet.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/interpolate_nodelet.launch
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/laserscan_nodelet.launch
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/transform_nodelet.launch
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS-128_FS1.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml

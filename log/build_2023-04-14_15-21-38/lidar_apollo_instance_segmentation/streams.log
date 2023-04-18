@@ -1,0 +1,188 @@
+[0.238s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_instance_segmentation -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lidar_apollo_instance_segmentation
+[6.456s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[6.457s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[6.459s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.460s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[6.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.460s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.460s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.460s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.598s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.616s] -- Checking and downloading vlp-16.caffemodel
+[7.616s] -- start vlp-16.caffemodel
+[7.617s] -- found vlp-16.caffemodel
+[7.637s] -- same vlp-16.caffemodel
+[7.637s] -- File already exists.
+[7.637s] -- Download completed successfully!
+[7.637s] -- Checking and downloading hdl-64.caffemodel
+[7.637s] -- start hdl-64.caffemodel
+[7.637s] -- found hdl-64.caffemodel
+[7.658s] -- same hdl-64.caffemodel
+[7.658s] -- File already exists.
+[7.658s] -- Download completed successfully!
+[7.658s] -- Checking and downloading vls-128.caffemodel
+[7.658s] -- start vls-128.caffemodel
+[7.658s] -- found vls-128.caffemodel
+[7.679s] -- same vls-128.caffemodel
+[7.679s] -- File already exists.
+[7.679s] -- Download completed successfully!
+[7.695s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.841s] -- The imported target "vtkParseOGLExt" references the file
+[7.841s]    "/usr/bin/vtkParseOGLExt-7.1"
+[7.841s] but this file does not exist.  Possible reasons include:
+[7.841s] * The file was deleted, renamed, or moved to another location.
+[7.841s] * An install or uninstall procedure did not complete successfully.
+[7.841s] * The installation package was faulty and contained
+[7.841s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.842s] but not all the files it references.
+[7.842s] 
+[7.842s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[7.843s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[7.843s] but this file does not exist.  Possible reasons include:
+[7.843s] * The file was deleted, renamed, or moved to another location.
+[7.843s] * An install or uninstall procedure did not complete successfully.
+[7.843s] * The installation package was faulty and contained
+[7.843s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.843s] but not all the files it references.
+[7.843s] 
+[7.844s] -- The imported target "vtk" references the file
+[7.844s]    "/usr/bin/vtk"
+[7.844s] but this file does not exist.  Possible reasons include:
+[7.844s] * The file was deleted, renamed, or moved to another location.
+[7.844s] * An install or uninstall procedure did not complete successfully.
+[7.844s] * The installation package was faulty and contained
+[7.844s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.845s] but not all the files it references.
+[7.845s] 
+[7.845s] -- The imported target "pvtk" references the file
+[7.845s]    "/usr/bin/pvtk"
+[7.845s] but this file does not exist.  Possible reasons include:
+[7.845s] * The file was deleted, renamed, or moved to another location.
+[7.845s] * An install or uninstall procedure did not complete successfully.
+[7.845s] * The installation package was faulty and contained
+[7.845s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.845s] but not all the files it references.
+[7.845s] 
+[7.879s] -- Checking for module 'libusb-1.0'
+[7.885s] --   No package 'libusb-1.0' found
+[7.896s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.896s] -- OpenNI disabled because libusb-1.0 not found.
+[7.896s] ** WARNING ** io features related to openni will be disabled
+[7.909s] -- Checking for module 'libusb-1.0'
+[7.909s] --   No package 'libusb-1.0' found
+[7.910s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.910s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.911s] ** WARNING ** io features related to openni2 will be disabled
+[7.911s] ** WARNING ** io features related to pcap will be disabled
+[7.911s] ** WARNING ** io features related to png will be disabled
+[7.933s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[7.933s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[7.940s] -- Checking for module 'libusb-1.0'
+[7.946s] --   No package 'libusb-1.0' found
+[7.951s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.951s] -- OpenNI disabled because libusb-1.0 not found.
+[7.951s] ** WARNING ** visualization features related to openni will be disabled
+[7.959s] -- Checking for module 'libusb-1.0'
+[7.965s] --   No package 'libusb-1.0' found
+[7.971s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.971s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.972s] ** WARNING ** visualization features related to openni2 will be disabled
+[7.995s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[8.003s] -- Checking for module 'libusb-1.0'
+[8.008s] --   No package 'libusb-1.0' found
+[8.013s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[8.013s] -- OpenNI disabled because libusb-1.0 not found.
+[8.013s] ** WARNING ** apps features related to openni will be disabled
+[8.035s] -- looking for PCL_COMMON
+[8.036s] -- looking for PCL_KDTREE
+[8.037s] -- looking for PCL_OCTREE
+[8.038s] -- looking for PCL_SEARCH
+[8.040s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.041s] -- looking for PCL_FILTERS
+[8.043s] -- looking for PCL_2D
+[8.044s] -- looking for PCL_GEOMETRY
+[8.045s] -- looking for PCL_IO
+[8.046s] -- looking for PCL_FEATURES
+[8.047s] -- looking for PCL_ML
+[8.049s] -- looking for PCL_SEGMENTATION
+[8.051s] -- looking for PCL_VISUALIZATION
+[8.053s] -- looking for PCL_SURFACE
+[8.054s] -- looking for PCL_REGISTRATION
+[8.056s] -- looking for PCL_KEYPOINTS
+[8.057s] -- looking for PCL_TRACKING
+[8.059s] -- looking for PCL_RECOGNITION
+[8.061s] -- looking for PCL_STEREO
+[8.062s] -- looking for PCL_APPS
+[8.064s] -- looking for PCL_IN_HAND_SCANNER
+[8.065s] -- looking for PCL_POINT_CLOUD_EDITOR
+[8.066s] -- looking for PCL_OUTOFCORE
+[8.068s] -- looking for PCL_PEOPLE
+[9.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.718s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_instance_segmentation/lib/include;/home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_instance_segmentation/include
+[9.720s] -- Configured cppcheck exclude dirs and/or files: 
+[9.720s] -- Configuring done
+[10.071s] -- Generating done
+[10.074s] CMake Warning:
+[10.075s]   Manually-specified variables were not used by the project:
+[10.075s] 
+[10.075s]     DOWNLOAD_ARTIFACTS
+[10.075s] 
+[10.075s] 
+[10.076s] -- Build files have been written to: /home/cityu/autoware/build/lidar_apollo_instance_segmentation
+[10.170s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_apollo_instance_segmentation -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/lidar_apollo_instance_segmentation
+[10.171s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_apollo_instance_segmentation -- -j16 -l16
+[15.076s] [  8%] [32m[1mLinking CXX shared library libtensorrt_apollo_cnn_lib.so[0m
+[15.076s] [ 16%] Built target tensorrt_apollo_cnn_lib
+[15.076s] [ 33%] Built target lidar_apollo_instance_segmentation_node
+[15.076s] [ 41%] [32m[1mLinking CXX shared library liblidar_apollo_instance_segmentation.so[0m
+[15.076s] [100%] Built target lidar_apollo_instance_segmentation
+[15.089s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/lidar_apollo_instance_segmentation -- -j16 -l16
+[15.157s] Invoking command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_apollo_instance_segmentation
+[18.327s] -- Install configuration: "Release"
+[18.327s] -- Execute custom install script
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/lib/lidar_apollo_instance_segmentation/lidar_apollo_instance_segmentation_node
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/cluster2d.hpp
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/debugger.hpp
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/detector.hpp
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/disjoint_set.hpp
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/feature_generator.hpp
+[18.328s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/feature_map.hpp
+[18.329s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/log_table.hpp
+[18.329s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/node.hpp
+[18.329s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/include/lidar_apollo_instance_segmentation/util.hpp
+[18.329s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/library_path.sh
+[18.329s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/library_path.dsv
+[18.336s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/lib/libtensorrt_apollo_cnn_lib.so
+[18.337s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/lib/liblidar_apollo_instance_segmentation.so
+[18.337s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/launch/lidar_apollo_instance_segmentation.launch.xml
+[18.338s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/config/hdl-64.param.yaml
+[18.339s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/config/vlp-16.param.yaml
+[18.339s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/config/vls-128.param.yaml
+[18.340s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/hdl-64.caffemodel
+[18.340s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/hdl-64.prototxt
+[18.340s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/vlp-16.caffemodel
+[18.341s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/vlp-16.prototxt
+[18.347s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/vls-128.caffemodel
+[18.347s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/data/vls-128.prototxt
+[18.348s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/ament_index/resource_index/package_run_dependencies/lidar_apollo_instance_segmentation
+[18.348s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/ament_index/resource_index/parent_prefix_path/lidar_apollo_instance_segmentation
+[18.348s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/ament_prefix_path.sh
+[18.349s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/ament_prefix_path.dsv
+[18.349s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/path.sh
+[18.349s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/environment/path.dsv
+[18.349s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/local_setup.bash
+[18.349s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/local_setup.sh
+[18.350s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/local_setup.zsh
+[18.350s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/local_setup.dsv
+[18.350s] -- Symlinking: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/package.dsv
+[18.350s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/ament_index/resource_index/packages/lidar_apollo_instance_segmentation
+[18.351s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/ament_index/resource_index/rclcpp_components/lidar_apollo_instance_segmentation
+[18.351s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.351s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.351s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[18.351s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/cmake/lidar_apollo_instance_segmentationConfig.cmake
+[18.358s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/cmake/lidar_apollo_instance_segmentationConfig-version.cmake
+[18.359s] -- Up-to-date symlink: /home/cityu/autoware/install/lidar_apollo_instance_segmentation/share/lidar_apollo_instance_segmentation/package.xml
+[18.445s] Invoked command in '/home/cityu/autoware/build/lidar_apollo_instance_segmentation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/tier4_perception_msgs:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/tier4_perception_msgs/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/lidar_apollo_instance_segmentation

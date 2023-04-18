@@ -1,0 +1,212 @@
+[0.135s] Invoking command in '/home/cityu/autoware/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_msgs/autoware_sensing_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_sensing_msgs
+[5.499s] -- The C compiler identification is GNU 9.4.0
+[5.499s] -- The CXX compiler identification is GNU 9.4.0
+[5.500s] -- Check for working C compiler: /usr/bin/cc
+[5.500s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.500s] -- Detecting C compiler ABI info
+[5.500s] -- Detecting C compiler ABI info - done
+[5.500s] -- Detecting C compile features
+[5.500s] -- Detecting C compile features - done
+[5.500s] -- Check for working CXX compiler: /usr/bin/c++
+[5.504s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.505s] -- Detecting CXX compiler ABI info
+[5.505s] -- Detecting CXX compiler ABI info - done
+[5.505s] -- Detecting CXX compile features
+[5.505s] -- Detecting CXX compile features - done
+[5.505s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.506s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.506s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.506s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.506s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.506s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.506s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[5.507s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[5.507s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[5.507s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[5.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.507s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.507s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[5.507s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.507s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.507s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.508s] -- Found PythonExtra: .so  
+[5.508s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[5.508s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[5.508s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.508s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.508s] -- Added test 'lint_cmake' to check CMake code style
+[5.508s] -- Added test 'xmllint' to check XML markup files
+[5.508s] -- Configuring done
+[5.508s] -- Generating done
+[5.508s] -- Build files have been written to: /home/cityu/autoware/build/autoware_sensing_msgs
+[5.532s] Invoked command in '/home/cityu/autoware/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/core/autoware_msgs/autoware_sensing_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_sensing_msgs
+[5.533s] Invoking command in '/home/cityu/autoware/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_sensing_msgs -- -j16 -l16
+[8.183s] [35m[1mScanning dependencies of target autoware_sensing_msgs__cpp[0m
+[8.184s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.184s] [  2%] Built target autoware_sensing_msgs__cpp
+[8.185s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.185s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_generator_c[0m
+[8.185s] [  7%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__functions.c.o[0m
+[8.185s] [ 10%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__functions.c.o[0m
+[8.185s] [ 12%] [32m[1mLinking C shared library libautoware_sensing_msgs__rosidl_generator_c.so[0m
+[8.185s] [ 12%] Built target autoware_sensing_msgs__rosidl_generator_c
+[8.185s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.185s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_introspection_cpp[0m
+[8.185s] [ 17%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__type_support.cpp.o[0m
+[8.403s] [ 20%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__type_support.cpp.o[0m
+[8.890s] [ 23%] [32m[1mLinking CXX shared library libautoware_sensing_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.021s] [ 23%] Built target autoware_sensing_msgs__rosidl_typesupport_introspection_cpp
+[9.035s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.472s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_c[0m
+[9.491s] [ 28%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_sensing_msgs/msg/gnss_ins_orientation__type_support.cpp.o[0m
+[9.537s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_sensing_msgs/msg/gnss_ins_orientation_stamped__type_support.cpp.o[0m
+[9.585s] [ 33%] [32m[1mLinking CXX shared library libautoware_sensing_msgs__rosidl_typesupport_c.so[0m
+[9.645s] [ 33%] Built target autoware_sensing_msgs__rosidl_typesupport_c
+[9.660s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.194s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_introspection_c[0m
+[10.215s] [ 38%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__type_support.c.o[0m
+[10.266s] [ 41%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__type_support.c.o[0m
+[10.317s] [ 43%] [32m[1mLinking C shared library libautoware_sensing_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.348s] [ 43%] Built target autoware_sensing_msgs__rosidl_typesupport_introspection_c
+[10.360s] [ 46%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.631s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_cpp[0m
+[10.648s] [ 48%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_sensing_msgs/msg/gnss_ins_orientation__type_support.cpp.o[0m
+[11.050s] [ 51%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_sensing_msgs/msg/gnss_ins_orientation_stamped__type_support.cpp.o[0m
+[11.460s] [ 53%] [32m[1mLinking CXX shared library libautoware_sensing_msgs__rosidl_typesupport_cpp.so[0m
+[11.548s] [ 53%] Built target autoware_sensing_msgs__rosidl_typesupport_cpp
+[11.565s] [ 56%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.909s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[11.927s] [ 58%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_sensing_msgs/msg/detail/dds_fastrtps/gnss_ins_orientation__type_support.cpp.o[0m
+[12.371s] [ 61%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_sensing_msgs/msg/detail/dds_fastrtps/gnss_ins_orientation_stamped__type_support.cpp.o[0m
+[13.088s] [ 64%] [32m[1mLinking CXX shared library libautoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.302s] [ 64%] Built target autoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp
+[13.319s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.840s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_fastrtps_c[0m
+[13.866s] [ 71%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__type_support_c.cpp.o[0m
+[13.866s] [ 71%] [32mBuilding CXX object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__type_support_c.cpp.o[0m
+[14.480s] [ 74%] [32m[1mLinking CXX shared library libautoware_sensing_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.700s] [ 74%] Built target autoware_sensing_msgs__rosidl_typesupport_fastrtps_c
+[14.719s] [35m[1mScanning dependencies of target autoware_sensing_msgs[0m
+[14.741s] [ 74%] Built target autoware_sensing_msgs
+[14.760s] [35m[1mScanning dependencies of target autoware_sensing_msgs__py[0m
+[14.778s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.933s] [ 76%] Built target autoware_sensing_msgs__py
+[15.953s] [35m[1mScanning dependencies of target autoware_sensing_msgs__python[0m
+[15.991s] [ 79%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__python.dir/rosidl_generator_py/autoware_sensing_msgs/msg/_gnss_ins_orientation_s.c.o[0m
+[16.021s] [ 82%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__python.dir/rosidl_generator_py/autoware_sensing_msgs/msg/_gnss_ins_orientation_stamped_s.c.o[0m
+[16.224s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/autoware_sensing_msgs/libautoware_sensing_msgs__python.so[0m
+[16.309s] [ 84%] Built target autoware_sensing_msgs__python
+[16.332s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.344s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[16.370s] [ 87%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_sensing_msgs/_autoware_sensing_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.410s] [ 89%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_sensing_msgs/_autoware_sensing_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.596s] [ 92%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.611s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.765s] [ 94%] Built target autoware_sensing_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.779s] [ 94%] Built target autoware_sensing_msgs__rosidl_typesupport_introspection_c__pyext
+[16.786s] [35m[1mScanning dependencies of target autoware_sensing_msgs__rosidl_typesupport_c__pyext[0m
+[16.843s] [ 97%] [32mBuilding C object CMakeFiles/autoware_sensing_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_sensing_msgs/_autoware_sensing_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.083s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.223s] [100%] Built target autoware_sensing_msgs__rosidl_typesupport_c__pyext
+[17.259s] Invoked command in '/home/cityu/autoware/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_sensing_msgs -- -j16 -l16
+[17.564s] Invoking command in '/home/cityu/autoware/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_sensing_msgs
+[19.029s] -- Install configuration: "Release"
+[19.030s] -- Execute custom install script
+[19.030s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_sensing_msgs
+[19.030s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__functions.h
+[19.030s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__struct.h
+[19.038s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__type_support.h
+[19.038s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__functions.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__struct.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__type_support.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/gnss_ins_orientation.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/gnss_ins_orientation_stamped.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/library_path.sh
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/library_path.dsv
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__rosidl_typesupport_fastrtps_c.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__rosidl_typesupport_fastrtps_c.h
+[19.039s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_fastrtps_c.so
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__rosidl_typesupport_fastrtps_cpp.hpp
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__rosidl_typesupport_introspection_c.h
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__rosidl_typesupport_introspection_c.h
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__builder.hpp
+[19.040s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__struct.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__traits.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__builder.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__struct.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__traits.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/gnss_ins_orientation.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/gnss_ins_orientation_stamped.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation__rosidl_typesupport_introspection_cpp.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/include/autoware_sensing_msgs/msg/detail/gnss_ins_orientation_stamped__rosidl_typesupport_introspection_cpp.hpp
+[19.041s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/pythonpath.sh
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/pythonpath.dsv
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/__init__.py
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/msg/__init__.py
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/msg/_gnss_ins_orientation.py
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/msg/_gnss_ins_orientation_stamped.py
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/autoware_sensing_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__python.so
+[19.042s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/msg/GnssInsOrientation.idl
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/msg/GnssInsOrientationStamped.idl
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/msg/GnssInsOrientation.msg
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/msg/GnssInsOrientationStamped.msg
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_sensing_msgs
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_sensing_msgs
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/ament_prefix_path.sh
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/ament_prefix_path.dsv
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/path.sh
+[19.043s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/environment/path.dsv
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/local_setup.bash
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/local_setup.sh
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/local_setup.zsh
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/local_setup.dsv
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.dsv
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/ament_index/resource_index/packages/autoware_sensing_msgs
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/rosidl_cmake-extras.cmake
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.044s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.045s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.045s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.045s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.045s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.046s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgsConfig.cmake
+[19.046s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgsConfig-version.cmake
+[19.046s] -- Symlinking: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.xml
+[19.046s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_generator_c.so
+[19.046s] -- Set runtime path of "/home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_generator_c.so" to ""
+[19.046s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_introspection_c.so
+[19.046s] -- Set runtime path of "/home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.046s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_c.so
+[19.046s] -- Set runtime path of "/home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_c.so" to ""
+[19.046s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_introspection_cpp.so
+[19.047s] -- Set runtime path of "/home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.047s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_cpp.so
+[19.047s] -- Set runtime path of "/home/cityu/autoware/install/autoware_sensing_msgs/lib/libautoware_sensing_msgs__rosidl_typesupport_cpp.so" to ""
+[19.047s] Compiling '/home/cityu/autoware/install/autoware_sensing_msgs/lib/python3.8/site-packages/autoware_sensing_msgs/__init__.py'...
+[19.047s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_generator_cExport.cmake
+[19.047s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_generator_cExport-release.cmake
+[19.047s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.048s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[19.048s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_cExport.cmake
+[19.048s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_cExport-release.cmake
+[19.048s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_generator_cppExport.cmake
+[19.048s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.066s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[19.067s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_cppExport.cmake
+[19.067s] -- Installing: /home/cityu/autoware/install/autoware_sensing_msgs/share/autoware_sensing_msgs/cmake/autoware_sensing_msgs__rosidl_typesupport_cppExport-release.cmake
+[19.270s] Invoked command in '/home/cityu/autoware/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_sensing_msgs

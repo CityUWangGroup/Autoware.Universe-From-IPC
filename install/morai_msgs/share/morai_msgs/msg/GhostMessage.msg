@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/external/morai_msgs/msg/GhostMessage.msg

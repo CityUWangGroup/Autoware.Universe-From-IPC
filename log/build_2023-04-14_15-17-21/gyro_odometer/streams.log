@@ -1,0 +1,27 @@
+[0.289s] Invoking command in '/home/cityu/autoware/build/gyro_odometer': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/gyro_odometer -- -j16 -l16
+[0.345s] [100%] Built target gyro_odometer
+[0.461s] Invoked command in '/home/cityu/autoware/build/gyro_odometer' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/gyro_odometer -- -j16 -l16
+[0.653s] Invoking command in '/home/cityu/autoware/build/gyro_odometer': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/gyro_odometer
+[0.668s] -- Install configuration: "Release"
+[0.671s] -- Execute custom install script
+[0.671s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/include/gyro_odometer/gyro_odometer_core.hpp
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/lib/gyro_odometer/gyro_odometer
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/launch/gyro_odometer.launch.xml
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/ament_index/resource_index/package_run_dependencies/gyro_odometer
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/ament_index/resource_index/parent_prefix_path/gyro_odometer
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/environment/ament_prefix_path.sh
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/environment/ament_prefix_path.dsv
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/environment/path.sh
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/environment/path.dsv
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/local_setup.bash
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/local_setup.sh
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/local_setup.zsh
+[0.672s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/local_setup.dsv
+[0.673s] -- Symlinking: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/package.dsv
+[0.676s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/ament_index/resource_index/packages/gyro_odometer
+[0.676s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.677s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.677s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/cmake/gyro_odometerConfig.cmake
+[0.677s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/cmake/gyro_odometerConfig-version.cmake
+[0.677s] -- Up-to-date symlink: /home/cityu/autoware/install/gyro_odometer/share/gyro_odometer/package.xml
+[0.809s] Invoked command in '/home/cityu/autoware/build/gyro_odometer' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/gyro_odometer

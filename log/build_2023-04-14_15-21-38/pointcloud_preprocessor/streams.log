@@ -1,0 +1,221 @@
+[0.133s] Invoking command in '/home/cityu/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pointcloud_preprocessor
+[0.203s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.203s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.203s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.976s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.978s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.009s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.999s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[4.675s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.854s] -- The imported target "vtkParseOGLExt" references the file
+[4.854s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.854s] but this file does not exist.  Possible reasons include:
+[4.854s] * The file was deleted, renamed, or moved to another location.
+[4.854s] * An install or uninstall procedure did not complete successfully.
+[4.854s] * The installation package was faulty and contained
+[4.854s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.854s] but not all the files it references.
+[4.854s] 
+[4.855s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.855s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.855s] but this file does not exist.  Possible reasons include:
+[4.855s] * The file was deleted, renamed, or moved to another location.
+[4.855s] * An install or uninstall procedure did not complete successfully.
+[4.855s] * The installation package was faulty and contained
+[4.855s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.855s] but not all the files it references.
+[4.856s] 
+[4.856s] -- The imported target "vtk" references the file
+[4.856s]    "/usr/bin/vtk"
+[4.856s] but this file does not exist.  Possible reasons include:
+[4.856s] * The file was deleted, renamed, or moved to another location.
+[4.856s] * An install or uninstall procedure did not complete successfully.
+[4.856s] * The installation package was faulty and contained
+[4.856s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.857s] but not all the files it references.
+[4.857s] 
+[4.857s] -- The imported target "pvtk" references the file
+[4.857s]    "/usr/bin/pvtk"
+[4.857s] but this file does not exist.  Possible reasons include:
+[4.857s] * The file was deleted, renamed, or moved to another location.
+[4.857s] * An install or uninstall procedure did not complete successfully.
+[4.857s] * The installation package was faulty and contained
+[4.857s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.857s] but not all the files it references.
+[4.858s] 
+[4.888s] -- Checking for module 'libusb-1.0'
+[4.893s] --   No package 'libusb-1.0' found
+[4.897s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.898s] -- OpenNI disabled because libusb-1.0 not found.
+[4.904s] -- Checking for module 'libusb-1.0'
+[4.908s] --   No package 'libusb-1.0' found
+[4.913s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.913s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[4.939s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[4.947s] -- Checking for module 'libusb-1.0'
+[4.951s] --   No package 'libusb-1.0' found
+[4.956s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.956s] -- OpenNI disabled because libusb-1.0 not found.
+[4.963s] -- Checking for module 'libusb-1.0'
+[4.967s] --   No package 'libusb-1.0' found
+[4.972s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.972s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[4.996s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[5.003s] -- Checking for module 'libusb-1.0'
+[5.007s] --   No package 'libusb-1.0' found
+[5.012s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.012s] -- OpenNI disabled because libusb-1.0 not found.
+[6.097s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+[6.151s] -- Found Boost: /usr/include (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[6.160s] -- Found OpenMP_C: -fopenmp  
+[6.160s] -- Found OpenMP_CXX: -fopenmp  
+[6.161s] -- Found OpenMP: TRUE   
+[7.404s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.424s] -- Found Boost: /usr/include (found version "1.71.0")  
+[7.441s] -- Found OpenMP_C: -fopenmp  
+[7.441s] -- Found OpenMP_CXX: -fopenmp  
+[7.449s] -- Using header-only CGAL
+[7.452s] -- Targetting Unix Makefiles
+[7.453s] -- Using /usr/bin/c++ compiler.
+[7.540s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.48")  
+[7.541s] -- Boost include dirs: /usr/include
+[7.541s] -- Boost libraries:    
+[7.546s] -- Using gcc version 4 or later. Adding -frounding-math
+[15.346s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.374s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor/include;$<BUILD_INTERFACE:/home/cityu/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor/include>
+[15.375s] -- Configured cppcheck exclude dirs and/or files: 
+[15.378s] -- Added test 'lint_cmake' to check CMake code style
+[15.380s] -- Added test 'xmllint' to check XML markup files
+[15.418s] -- Configuring done
+[16.091s] -- Generating done
+[16.098s] CMake Warning:
+[16.098s]   Manually-specified variables were not used by the project:
+[16.098s] 
+[16.098s]     DOWNLOAD_ARTIFACTS
+[16.098s] 
+[16.098s] 
+[16.099s] -- Build files have been written to: /home/cityu/autoware/build/pointcloud_preprocessor
+[16.179s] Invoked command in '/home/cityu/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/pointcloud_preprocessor
+[16.180s] Invoking command in '/home/cityu/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/pointcloud_preprocessor -- -j16 -l16
+[16.618s] [  3%] Built target ring_outlier_filter_node
+[16.618s] [  7%] Built target random_downsample_filter_node
+[16.711s] [ 10%] Built target vector_map_inside_area_filter_node
+[16.777s] [ 14%] Built target radius_search_2d_outlier_filter_node
+[16.853s] [ 17%] Built target polygon_remover_node
+[16.927s] [ 21%] Built target blockage_diag_node
+[17.050s] [ 25%] Built target voxel_grid_outlier_filter_node
+[17.202s] [ 28%] Built target pointcloud_accumulator_node
+[17.339s] [ 32%] Built target voxel_grid_downsample_filter_node
+[17.423s] [ 35%] Built target passthrough_filter_uint16_node
+[17.510s] [ 39%] Built target dual_return_outlier_filter_node
+[17.644s] [ 42%] Built target distortion_corrector_node
+[17.802s] [ 46%] Built target vector_map_filter_node
+[17.995s] [ 48%] [32m[1mLinking CXX shared library libpointcloud_preprocessor_filter_base.so[0m
+[19.699s] [ 50%] Built target pointcloud_preprocessor_filter_base
+[19.755s] [ 53%] Built target concatenate_data_node
+[20.046s] [ 55%] [32m[1mLinking CXX shared library libpointcloud_preprocessor_filter.so[0m
+[32.631s] [ 89%] Built target pointcloud_preprocessor_filter
+[32.667s] [ 96%] Built target approximate_downsample_filter_node
+[32.667s] [ 96%] Built target passthrough_filter_node
+[32.703s] [100%] Built target crop_box_filter_node
+[32.723s] Invoked command in '/home/cityu/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/pointcloud_preprocessor -- -j16 -l16
+[32.806s] Invoking command in '/home/cityu/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/pointcloud_preprocessor
+[32.818s] -- Install configuration: "Release"
+[32.819s] -- Execute custom install script
+[32.819s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/concatenate_data_node
+[32.819s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/crop_box_filter_node
+[32.820s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/voxel_grid_downsample_filter_node
+[32.820s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/random_downsample_filter_node
+[32.820s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/approximate_downsample_filter_node
+[32.821s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/ring_outlier_filter_node
+[32.821s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/voxel_grid_outlier_filter_node
+[32.821s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/radius_search_2d_outlier_filter_node
+[32.822s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/dual_return_outlier_filter_node
+[32.822s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/passthrough_filter_node
+[32.822s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/passthrough_filter_uint16_node
+[32.823s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/pointcloud_accumulator_node
+[32.823s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/vector_map_filter_node
+[32.823s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/distortion_corrector_node
+[32.824s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/blockage_diag_node
+[32.824s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/polygon_remover_node
+[32.824s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/vector_map_inside_area_filter_node
+[32.825s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/blockage_diag/blockage_diag_nodelet.hpp
+[32.825s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/concatenate_data/concatenate_data_nodelet.hpp
+[32.825s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/crop_box_filter/crop_box_filter_nodelet.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/distortion_corrector/distortion_corrector.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/approximate_downsample_filter_nodelet.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/random_downsample_filter_nodelet.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/voxel_grid_downsample_filter_nodelet.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/filter.hpp
+[32.826s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/dual_return_outlier_filter_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/radius_search_2d_outlier_filter_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/ring_outlier_filter_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/voxel_grid_outlier_filter_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_filter_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_filter_uint16_nodelet.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_uint16.hpp
+[32.827s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/pointcloud_accumulator/pointcloud_accumulator_nodelet.hpp
+[32.828s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/polygon_remover/polygon_remover.hpp
+[32.828s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/utility/utilities.hpp
+[32.828s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/vector_map_filter/lanelet2_map_filter_nodelet.hpp
+[32.828s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/vector_map_filter/vector_map_inside_area_filter.hpp
+[32.829s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/blockage_diag/blockage_diag_nodelet.hpp
+[32.829s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/concatenate_data/concatenate_data_nodelet.hpp
+[32.829s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/crop_box_filter/crop_box_filter_nodelet.hpp
+[32.829s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/distortion_corrector/distortion_corrector.hpp
+[32.829s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/approximate_downsample_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/random_downsample_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/voxel_grid_downsample_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/filter.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/dual_return_outlier_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/radius_search_2d_outlier_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/ring_outlier_filter_nodelet.hpp
+[32.830s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/voxel_grid_outlier_filter_nodelet.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_filter_nodelet.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_filter_uint16_nodelet.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_uint16.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_accumulator/pointcloud_accumulator_nodelet.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/polygon_remover/polygon_remover.hpp
+[32.831s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/utility/utilities.hpp
+[32.832s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/vector_map_filter/lanelet2_map_filter_nodelet.hpp
+[32.832s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/vector_map_filter/vector_map_inside_area_filter.hpp
+[32.832s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/library_path.sh
+[32.832s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/library_path.dsv
+[32.833s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[32.833s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/blockage_diag.launch.xml
+[32.833s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/dual_return_outlier_filter.launch.xml
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/polygon_remover.launch.py
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/preprocessor.launch.py
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/preprocessor.launch.xml
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/random_downsample_filter.launch.xml
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/ring_passthrough_filter.launch.xml
+[32.834s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/package_run_dependencies/pointcloud_preprocessor
+[32.835s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/parent_prefix_path/pointcloud_preprocessor
+[32.835s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/ament_prefix_path.sh
+[32.835s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/ament_prefix_path.dsv
+[32.835s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/path.sh
+[32.836s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/path.dsv
+[32.836s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.bash
+[32.836s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.sh
+[32.836s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.zsh
+[32.837s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.dsv
+[32.837s] -- Symlinking: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/package.dsv
+[32.848s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/packages/pointcloud_preprocessor
+[32.848s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/rclcpp_components/pointcloud_preprocessor
+[32.848s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_targets-extras.cmake
+[32.848s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.849s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.849s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_libraries-extras.cmake
+[32.849s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/pointcloud_preprocessorConfig.cmake
+[32.849s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/pointcloud_preprocessorConfig-version.cmake
+[32.849s] -- Up-to-date symlink: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/package.xml
+[32.850s] -- Installing: /home/cityu/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter_base.so
+[32.852s] -- Set runtime path of "/home/cityu/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter_base.so" to ""
+[32.852s] -- Up-to-date: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/export_pointcloud_preprocessorExport.cmake
+[32.852s] -- Installing: /home/cityu/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/export_pointcloud_preprocessorExport-release.cmake
+[32.860s] Invoked command in '/home/cityu/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/tier4_pcl_extensions:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_point_types:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/tier4_pcl_extensions/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/pointcloud_preprocessor

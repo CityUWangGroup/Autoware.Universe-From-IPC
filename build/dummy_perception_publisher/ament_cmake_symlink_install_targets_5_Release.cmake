@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/dummy_perception_publisher/rosidl_generator_py/dummy_perception_publisher/libdummy_perception_publisher__python.so" "TARGETS" "dummy_perception_publisher__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

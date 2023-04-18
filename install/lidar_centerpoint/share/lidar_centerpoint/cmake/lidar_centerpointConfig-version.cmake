@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/lidar_centerpoint/ament_cmake_core/lidar_centerpointConfig-version.cmake

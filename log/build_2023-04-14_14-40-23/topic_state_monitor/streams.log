@@ -1,0 +1,90 @@
+[0.093s] Invoking command in '/home/cityu/autoware/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/topic_state_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/topic_state_monitor
+[17.082s] -- The C compiler identification is GNU 9.4.0
+[17.082s] -- The CXX compiler identification is GNU 9.4.0
+[17.082s] -- Check for working C compiler: /usr/bin/cc
+[17.082s] -- Check for working C compiler: /usr/bin/cc -- works
+[17.082s] -- Detecting C compiler ABI info
+[17.083s] -- Detecting C compiler ABI info - done
+[17.091s] -- Detecting C compile features
+[17.092s] -- Detecting C compile features - done
+[17.092s] -- Check for working CXX compiler: /usr/bin/c++
+[17.092s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[17.093s] -- Detecting CXX compiler ABI info
+[17.093s] -- Detecting CXX compiler ABI info - done
+[17.093s] -- Detecting CXX compile features
+[17.093s] -- Detecting CXX compile features - done
+[17.093s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[17.093s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[17.093s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[17.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.093s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.093s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[17.094s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[17.094s] -- Found FastRTPS: /opt/ros/galactic/include  
+[17.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.094s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[17.094s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[17.094s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[17.094s] -- Looking for pthread.h
+[17.094s] -- Looking for pthread.h - found
+[17.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.095s] -- Looking for pthread_create in pthreads
+[17.095s] -- Looking for pthread_create in pthreads - not found
+[17.095s] -- Looking for pthread_create in pthread
+[17.095s] -- Looking for pthread_create in pthread - found
+[17.095s] -- Found Threads: TRUE  
+[17.095s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[17.095s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.095s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/system/topic_state_monitor/include
+[17.095s] -- Configured cppcheck exclude dirs and/or files: 
+[17.096s] -- Added test 'lint_cmake' to check CMake code style
+[17.096s] -- Added test 'xmllint' to check XML markup files
+[17.096s] -- Configuring done
+[17.096s] -- Generating done
+[17.096s] -- Build files have been written to: /home/cityu/autoware/build/topic_state_monitor
+[17.177s] Invoked command in '/home/cityu/autoware/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/topic_state_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/topic_state_monitor
+[17.185s] Invoking command in '/home/cityu/autoware/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/topic_state_monitor -- -j16 -l16
+[18.804s] [35m[1mScanning dependencies of target topic_state_monitor[0m
+[18.805s] [ 20%] [32mBuilding CXX object CMakeFiles/topic_state_monitor.dir/src/topic_state_monitor/topic_state_monitor.cpp.o[0m
+[23.165s] [ 40%] [32mBuilding CXX object CMakeFiles/topic_state_monitor.dir/src/topic_state_monitor_core.cpp.o[0m
+[45.899s] [ 60%] [32m[1mLinking CXX shared library libtopic_state_monitor.so[0m
+[46.230s] [ 60%] Built target topic_state_monitor
+[46.244s] [35m[1mScanning dependencies of target topic_state_monitor_node[0m
+[46.309s] [ 80%] [32mBuilding CXX object CMakeFiles/topic_state_monitor_node.dir/rclcpp_components/node_main_topic_state_monitor_node.cpp.o[0m
+[52.084s] [100%] [32m[1mLinking CXX executable topic_state_monitor_node[0m
+[52.441s] [100%] Built target topic_state_monitor_node
+[52.472s] Invoked command in '/home/cityu/autoware/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/topic_state_monitor -- -j16 -l16
+[52.617s] Invoking command in '/home/cityu/autoware/build/topic_state_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/topic_state_monitor
+[65.326s] -- Install configuration: "Release"
+[65.326s] -- Execute custom install script
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor.hpp
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/include/topic_state_monitor/topic_state_monitor_core.hpp
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.sh
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/library_path.dsv
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/lib/libtopic_state_monitor.so
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor.launch.xml
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/launch/topic_state_monitor_tf.launch.xml
+[65.326s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/package_run_dependencies/topic_state_monitor
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/parent_prefix_path/topic_state_monitor
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.sh
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/ament_prefix_path.dsv
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/path.sh
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/environment/path.dsv
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.bash
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.sh
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.zsh
+[65.327s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/local_setup.dsv
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/package.dsv
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/packages/topic_state_monitor
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/ament_index/resource_index/rclcpp_components/topic_state_monitor
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig.cmake
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/cmake/topic_state_monitorConfig-version.cmake
+[65.328s] -- Symlinking: /home/cityu/autoware/install/topic_state_monitor/share/topic_state_monitor/package.xml
+[65.405s] Invoked command in '/home/cityu/autoware/build/topic_state_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/topic_state_monitor

@@ -1,0 +1,12 @@
+msg/LaneletPrimitive.idl
+msg/LaneletPrimitive.msg
+msg/LaneletRoute.idl
+msg/LaneletRoute.msg
+msg/LaneletSegment.idl
+msg/LaneletSegment.msg
+msg/PoseWithUuid.idl
+msg/PoseWithUuid.msg
+srv/SetRoute.idl
+srv/SetRoute.srv
+srv/SetRoute_Request.msg
+srv/SetRoute_Response.msg

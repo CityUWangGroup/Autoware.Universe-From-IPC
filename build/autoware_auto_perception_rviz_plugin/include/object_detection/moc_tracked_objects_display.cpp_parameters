@@ -1,0 +1,6 @@
+-I/usr/include/eigen3
+-DBOOST_ALLOW_DEPRECATED_HEADERS
+-DROS_DISTRO_GALACTIC
+-o
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/include/object_detection/moc_tracked_objects_display.cpp
+/home/cityu/autoware/src/universe/autoware.universe/common/autoware_auto_perception_rviz_plugin/include/object_detection/tracked_objects_display.hpp

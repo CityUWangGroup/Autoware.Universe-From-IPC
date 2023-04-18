@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.000974] (-) JobUnselected: {'identifier': 'accel_brake_map_calibrator'}
+[0.001110] (-) JobUnselected: {'identifier': 'ad_api_adaptors'}
+[0.001131] (-) JobUnselected: {'identifier': 'automatic_pose_initializer'}
+[0.001148] (-) JobUnselected: {'identifier': 'autoware_ad_api_specs'}
+[0.002378] (-) JobUnselected: {'identifier': 'autoware_adapi_v1_msgs'}
+[0.002455] (-) JobUnselected: {'identifier': 'autoware_adapi_version_msgs'}
+[0.002475] (-) JobUnselected: {'identifier': 'autoware_auto_control_msgs'}
+[0.002492] (-) JobUnselected: {'identifier': 'autoware_auto_geometry'}
+[0.002508] (-) JobUnselected: {'identifier': 'autoware_auto_geometry_msgs'}
+[0.002523] (-) JobUnselected: {'identifier': 'autoware_auto_mapping_msgs'}
+[0.002538] (-) JobUnselected: {'identifier': 'autoware_auto_msgs'}
+[0.002553] (-) JobUnselected: {'identifier': 'autoware_auto_perception_msgs'}
+[0.002568] (-) JobUnselected: {'identifier': 'autoware_auto_perception_rviz_plugin'}
+[0.002583] (-) JobUnselected: {'identifier': 'autoware_auto_planning_msgs'}
+[0.002598] (-) JobUnselected: {'identifier': 'autoware_auto_system_msgs'}
+[0.002613] (-) JobUnselected: {'identifier': 'autoware_auto_tf2'}
+[0.002628] (-) JobUnselected: {'identifier': 'autoware_auto_vehicle_msgs'}
+[0.002642] (-) JobUnselected: {'identifier': 'autoware_common_msgs'}
+[0.002657] (-) JobUnselected: {'identifier': 'autoware_control_msgs'}
+[0.002677] (-) JobUnselected: {'identifier': 'autoware_external_api_msgs'}
+[0.002695] (-) JobUnselected: {'identifier': 'autoware_iv_external_api_adaptor'}
+[0.002710] (-) JobUnselected: {'identifier': 'autoware_iv_internal_api_adaptor'}
+[0.002725] (-) JobUnselected: {'identifier': 'autoware_launch'}
+[0.002740] (-) JobUnselected: {'identifier': 'autoware_localization_msgs'}
+[0.002754] (-) JobUnselected: {'identifier': 'autoware_map_msgs'}
+[0.002769] (-) JobUnselected: {'identifier': 'autoware_planning_msgs'}
+[0.002783] (-) JobUnselected: {'identifier': 'autoware_point_types'}
+[0.002798] (-) JobUnselected: {'identifier': 'autoware_sensing_msgs'}
+[0.002813] (-) JobUnselected: {'identifier': 'autoware_testing'}
+[0.002827] (-) JobUnselected: {'identifier': 'autoware_utils'}
+[0.002842] (-) JobUnselected: {'identifier': 'awapi_awiv_adapter'}
+[0.002856] (-) JobUnselected: {'identifier': 'awsim_sensor_kit_description'}
+[0.002871] (-) JobUnselected: {'identifier': 'awsim_sensor_kit_launch'}
+[0.002885] (-) JobUnselected: {'identifier': 'bag_time_manager_rviz_plugin'}
+[0.002900] (-) JobUnselected: {'identifier': 'behavior_path_planner'}
+[0.002915] (-) JobUnselected: {'identifier': 'behavior_velocity_planner'}
+[0.002930] (-) JobUnselected: {'identifier': 'bluetooth_monitor'}
+[0.002944] (-) JobUnselected: {'identifier': 'camera_description'}
+[0.002959] (-) JobUnselected: {'identifier': 'common_awsim_sensor_launch'}
+[0.002973] (-) JobUnselected: {'identifier': 'common_sensor_launch'}
+[0.002988] (-) JobUnselected: {'identifier': 'compare_map_segmentation'}
+[0.003002] (-) JobUnselected: {'identifier': 'component_interface_specs'}
+[0.003017] (-) JobUnselected: {'identifier': 'component_interface_utils'}
+[0.003031] (-) JobUnselected: {'identifier': 'component_state_monitor'}
+[0.003046] (-) JobUnselected: {'identifier': 'control_performance_analysis'}
+[0.003060] (-) JobUnselected: {'identifier': 'costmap_generator'}
+[0.003075] (-) JobUnselected: {'identifier': 'crosswalk_traffic_light_estimator'}
+[0.003089] (-) JobUnselected: {'identifier': 'cuda_utils'}
+[0.003104] (-) JobUnselected: {'identifier': 'default_ad_api'}
+[0.003118] (-) JobUnselected: {'identifier': 'detected_object_feature_remover'}
+[0.003133] (-) JobUnselected: {'identifier': 'detected_object_validation'}
+[0.003148] (-) JobUnselected: {'identifier': 'detection_by_tracker'}
+[0.003162] (-) JobUnselected: {'identifier': 'dummy_diag_publisher'}
+[0.003177] (-) JobUnselected: {'identifier': 'dummy_infrastructure'}
+[0.003192] (-) JobUnselected: {'identifier': 'dummy_perception_publisher'}
+[0.003206] (-) JobUnselected: {'identifier': 'ekf_localizer'}
+[0.003221] (-) JobUnselected: {'identifier': 'elevation_map_loader'}
+[0.003304] (-) JobUnselected: {'identifier': 'emergency_handler'}
+[0.003320] (-) JobUnselected: {'identifier': 'euclidean_cluster'}
+[0.003335] (-) JobUnselected: {'identifier': 'external_cmd_converter'}
+[0.003350] (-) JobUnselected: {'identifier': 'external_cmd_selector'}
+[0.003365] (-) JobUnselected: {'identifier': 'external_velocity_limit_selector'}
+[0.003379] (-) JobUnselected: {'identifier': 'fake_test_node'}
+[0.003394] (-) JobUnselected: {'identifier': 'fault_injection'}
+[0.003409] (-) JobUnselected: {'identifier': 'freespace_planner'}
+[0.003423] (-) JobUnselected: {'identifier': 'freespace_planning_algorithms'}
+[0.003438] (-) JobUnselected: {'identifier': 'front_vehicle_velocity_estimator'}
+[0.003452] (-) JobUnselected: {'identifier': 'geo_pos_conv'}
+[0.003467] (-) JobUnselected: {'identifier': 'global_parameter_loader'}
+[0.003481] (-) JobUnselected: {'identifier': 'gnss_poser'}
+[0.003496] (-) JobUnselected: {'identifier': 'goal_distance_calculator'}
+[0.003510] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.003525] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.003540] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.003554] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.003569] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.003583] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.003603] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.003619] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.003633] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003648] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003662] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003677] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003692] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003707] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003721] (-) JobUnselected: {'identifier': 'grid_map_utils'}
+[0.003736] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003751] (-) JobUnselected: {'identifier': 'ground_segmentation'}
+[0.003765] (-) JobUnselected: {'identifier': 'gyro_odometer'}
+[0.003780] (-) JobUnselected: {'identifier': 'heatmap_visualizer'}
+[0.003795] (-) JobUnselected: {'identifier': 'image_diagnostics'}
+[0.003809] (-) JobUnselected: {'identifier': 'image_projection_based_fusion'}
+[0.003824] (-) JobUnselected: {'identifier': 'image_transport_decompressor'}
+[0.003838] (-) JobUnselected: {'identifier': 'imu_corrector'}
+[0.003853] (-) JobUnselected: {'identifier': 'imu_description'}
+[0.003867] (-) JobUnselected: {'identifier': 'individual_params'}
+[0.003882] (-) JobUnselected: {'identifier': 'initial_pose_button_panel'}
+[0.003896] (-) JobUnselected: {'identifier': 'interpolation'}
+[0.003911] (-) JobUnselected: {'identifier': 'joy_controller'}
+[0.003925] (-) JobUnselected: {'identifier': 'kalman_filter'}
+[0.003940] (-) JobUnselected: {'identifier': 'kinematic_evaluator'}
+[0.003954] (-) JobUnselected: {'identifier': 'lane_departure_checker'}
+[0.003969] (-) JobUnselected: {'identifier': 'lanelet2_extension'}
+[0.003983] (-) JobUnselected: {'identifier': 'lanelet2_map_preprocessor'}
+[0.003997] (-) JobUnselected: {'identifier': 'lidar_apollo_instance_segmentation'}
+[0.004012] (-) JobUnselected: {'identifier': 'lidar_apollo_segmentation_tvm'}
+[0.004026] (-) JobUnselected: {'identifier': 'lidar_apollo_segmentation_tvm_nodes'}
+[0.004041] (-) JobUnselected: {'identifier': 'lidar_centerpoint'}
+[0.004056] (-) JobUnselected: {'identifier': 'lidar_centerpoint_tvm'}
+[0.004070] (-) JobUnselected: {'identifier': 'livox_description'}
+[0.004085] (-) JobUnselected: {'identifier': 'livox_tag_filter'}
+[0.004099] (-) JobUnselected: {'identifier': 'localization_error_monitor'}
+[0.004114] (-) JobUnselected: {'identifier': 'localization_evaluator'}
+[0.004128] (-) JobUnselected: {'identifier': 'map_based_prediction'}
+[0.004143] (-) JobUnselected: {'identifier': 'map_loader'}
+[0.004157] (-) JobUnselected: {'identifier': 'map_tf_generator'}
+[0.004178] (-) JobUnselected: {'identifier': 'mission_planner'}
+[0.004195] (-) JobUnselected: {'identifier': 'morai_msgs'}
+[0.004214] (-) JobUnselected: {'identifier': 'motion_utils'}
+[0.004229] (-) JobUnselected: {'identifier': 'motion_velocity_smoother'}
+[0.004244] (-) JobUnselected: {'identifier': 'mrm_comfortable_stop_operator'}
+[0.004259] (-) JobUnselected: {'identifier': 'mrm_emergency_stop_operator'}
+[0.004274] (-) JobUnselected: {'identifier': 'multi_object_tracker'}
+[0.004289] (-) JobUnselected: {'identifier': 'mussp'}
+[0.004303] (-) JobUnselected: {'identifier': 'ndt_omp'}
+[0.004318] (-) JobUnselected: {'identifier': 'ndt_scan_matcher'}
+[0.004333] (-) JobUnselected: {'identifier': 'object_merger'}
+[0.004347] (-) JobUnselected: {'identifier': 'object_range_splitter'}
+[0.004362] (-) JobUnselected: {'identifier': 'obstacle_avoidance_planner'}
+[0.004376] (-) JobUnselected: {'identifier': 'obstacle_collision_checker'}
+[0.004391] (-) JobUnselected: {'identifier': 'obstacle_cruise_planner'}
+[0.004405] (-) JobUnselected: {'identifier': 'obstacle_stop_planner'}
+[0.004420] (-) JobUnselected: {'identifier': 'obstacle_velocity_limiter'}
+[0.004434] (-) JobUnselected: {'identifier': 'occupancy_grid_map_outlier_filter'}
+[0.004449] (-) JobUnselected: {'identifier': 'operation_mode_transition_manager'}
+[0.004463] (-) JobUnselected: {'identifier': 'osqp_interface'}
+[0.004478] (-) JobUnselected: {'identifier': 'pacmod_interface'}
+[0.004492] (-) JobUnselected: {'identifier': 'pandar_description'}
+[0.004507] (-) JobUnselected: {'identifier': 'path_distance_calculator'}
+[0.004521] (-) JobUnselected: {'identifier': 'perception_utils'}
+[0.004536] (-) JobUnselected: {'identifier': 'planning_debug_tools'}
+[0.004550] (-) JobUnselected: {'identifier': 'planning_error_monitor'}
+[0.004565] (-) JobUnselected: {'identifier': 'planning_evaluator'}
+[0.004580] (-) JobUnselected: {'identifier': 'pointcloud_preprocessor'}
+[0.004594] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.004609] (-) JobUnselected: {'identifier': 'polar_grid'}
+[0.004623] (-) JobUnselected: {'identifier': 'pose2twist'}
+[0.004638] (-) JobUnselected: {'identifier': 'pose_initializer'}
+[0.004652] (-) JobUnselected: {'identifier': 'probabilistic_occupancy_grid_map'}
+[0.004667] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.004682] (-) JobUnselected: {'identifier': 'radar_fusion_to_detected_object'}
+[0.004696] (-) JobUnselected: {'identifier': 'radar_static_pointcloud_filter'}
+[0.004711] (-) JobUnselected: {'identifier': 'radar_threshold_filter'}
+[0.004725] (-) JobUnselected: {'identifier': 'radar_tracks_msgs_converter'}
+[0.004740] (-) JobUnselected: {'identifier': 'raw_vehicle_cmd_converter'}
+[0.004754] (-) JobUnselected: {'identifier': 'route_handler'}
+[0.004769] (-) JobUnselected: {'identifier': 'rtc_auto_mode_manager'}
+[0.004783] (-) JobUnselected: {'identifier': 'rtc_interface'}
+[0.004797] (-) JobUnselected: {'identifier': 'rtc_manager_rviz_plugin'}
+[0.004812] (-) JobUnselected: {'identifier': 'rtc_replayer'}
+[0.004826] (-) JobUnselected: {'identifier': 'sample_sensor_kit_description'}
+[0.004841] (-) JobUnselected: {'identifier': 'sample_sensor_kit_launch'}
+[0.004855] (-) JobUnselected: {'identifier': 'sample_vehicle_description'}
+[0.004870] (-) JobUnselected: {'identifier': 'sample_vehicle_launch'}
+[0.004884] (-) JobUnselected: {'identifier': 'scenario_selector'}
+[0.004899] (-) JobUnselected: {'identifier': 'shape_estimation'}
+[0.004913] (-) JobUnselected: {'identifier': 'shift_decider'}
+[0.004928] (-) JobUnselected: {'identifier': 'signal_processing'}
+[0.004942] (-) JobUnselected: {'identifier': 'simple_planning_simulator'}
+[0.004957] (-) JobUnselected: {'identifier': 'simulator_compatibility_test'}
+[0.004971] (-) JobUnselected: {'identifier': 'static_centerline_optimizer'}
+[0.004986] (-) JobUnselected: {'identifier': 'steer_offset_estimator'}
+[0.005000] (-) JobUnselected: {'identifier': 'stop_filter'}
+[0.005015] (-) JobUnselected: {'identifier': 'surround_obstacle_checker'}
+[0.005030] (-) JobUnselected: {'identifier': 'system_error_monitor'}
+[0.005044] (-) JobUnselected: {'identifier': 'system_monitor'}
+[0.005059] (-) JobUnselected: {'identifier': 'tamagawa_imu_driver'}
+[0.005077] (-) JobUnselected: {'identifier': 'tensorrt_common'}
+[0.005091] (-) JobUnselected: {'identifier': 'tensorrt_yolo'}
+[0.005106] (-) JobUnselected: {'identifier': 'tensorrt_yolox'}
+[0.005121] (-) JobUnselected: {'identifier': 'tier4_api_msgs'}
+[0.005135] (-) JobUnselected: {'identifier': 'tier4_api_utils'}
+[0.005150] (-) JobUnselected: {'identifier': 'tier4_auto_msgs_converter'}
+[0.005164] (-) JobUnselected: {'identifier': 'tier4_autoware_api_launch'}
+[0.005179] (-) JobUnselected: {'identifier': 'tier4_autoware_utils'}
+[0.005193] (-) JobUnselected: {'identifier': 'tier4_calibration_rviz_plugin'}
+[0.005208] (-) JobUnselected: {'identifier': 'tier4_control_launch'}
+[0.005222] (-) JobUnselected: {'identifier': 'tier4_control_msgs'}
+[0.005237] (-) JobUnselected: {'identifier': 'tier4_control_rviz_plugin'}
+[0.005251] (-) JobUnselected: {'identifier': 'tier4_datetime_rviz_plugin'}
+[0.005266] (-) JobUnselected: {'identifier': 'tier4_debug_msgs'}
+[0.005280] (-) JobUnselected: {'identifier': 'tier4_debug_rviz_plugin'}
+[0.005294] (-) JobUnselected: {'identifier': 'tier4_debug_tools'}
+[0.005309] (-) JobUnselected: {'identifier': 'tier4_external_api_msgs'}
+[0.005323] (-) JobUnselected: {'identifier': 'tier4_hmi_msgs'}
+[0.005338] (-) JobUnselected: {'identifier': 'tier4_localization_launch'}
+[0.005352] (-) JobUnselected: {'identifier': 'tier4_localization_msgs'}
+[0.005367] (-) JobUnselected: {'identifier': 'tier4_localization_rviz_plugin'}
+[0.005381] (-) JobUnselected: {'identifier': 'tier4_map_launch'}
+[0.005395] (-) JobUnselected: {'identifier': 'tier4_pcl_extensions'}
+[0.005410] (-) JobUnselected: {'identifier': 'tier4_perception_launch'}
+[0.005424] (-) JobUnselected: {'identifier': 'tier4_perception_msgs'}
+[0.005439] (-) JobUnselected: {'identifier': 'tier4_perception_rviz_plugin'}
+[0.005453] (-) JobUnselected: {'identifier': 'tier4_planning_launch'}
+[0.005468] (-) JobUnselected: {'identifier': 'tier4_planning_msgs'}
+[0.005483] (-) JobUnselected: {'identifier': 'tier4_planning_rviz_plugin'}
+[0.005497] (-) JobUnselected: {'identifier': 'tier4_rtc_msgs'}
+[0.005512] (-) JobUnselected: {'identifier': 'tier4_screen_capture_rviz_plugin'}
+[0.005527] (-) JobUnselected: {'identifier': 'tier4_sensing_launch'}
+[0.005541] (-) JobUnselected: {'identifier': 'tier4_simulated_clock_rviz_plugin'}
+[0.005556] (-) JobUnselected: {'identifier': 'tier4_simulation_msgs'}
+[0.005570] (-) JobUnselected: {'identifier': 'tier4_simulator_launch'}
+[0.005585] (-) JobUnselected: {'identifier': 'tier4_state_rviz_plugin'}
+[0.005599] (-) JobUnselected: {'identifier': 'tier4_system_launch'}
+[0.005613] (-) JobUnselected: {'identifier': 'tier4_system_msgs'}
+[0.005628] (-) JobUnselected: {'identifier': 'tier4_traffic_light_rviz_plugin'}
+[0.005643] (-) JobUnselected: {'identifier': 'tier4_v2x_msgs'}
+[0.005657] (-) JobUnselected: {'identifier': 'tier4_vehicle_launch'}
+[0.005672] (-) JobUnselected: {'identifier': 'tier4_vehicle_msgs'}
+[0.005687] (-) JobUnselected: {'identifier': 'tier4_vehicle_rviz_plugin'}
+[0.005701] (-) JobUnselected: {'identifier': 'time_utils'}
+[0.005716] (-) JobUnselected: {'identifier': 'topic_state_monitor'}
+[0.005730] (-) JobUnselected: {'identifier': 'traffic_light_classifier'}
+[0.005745] (-) JobUnselected: {'identifier': 'traffic_light_map_based_detector'}
+[0.005759] (-) JobUnselected: {'identifier': 'traffic_light_ssd_fine_detector'}
+[0.005773] (-) JobUnselected: {'identifier': 'traffic_light_visualization'}
+[0.005788] (-) JobUnselected: {'identifier': 'trajectory_follower'}
+[0.005802] (-) JobUnselected: {'identifier': 'trajectory_follower_nodes'}
+[0.005817] (-) JobUnselected: {'identifier': 'trtexec_vendor'}
+[0.005831] (-) JobUnselected: {'identifier': 'twist2accel'}
+[0.005846] (-) JobUnselected: {'identifier': 'vehicle_cmd_gate'}
+[0.005860] (-) JobUnselected: {'identifier': 'vehicle_info_util'}
+[0.005874] (-) JobUnselected: {'identifier': 'vehicle_velocity_converter'}
+[0.005889] (-) JobUnselected: {'identifier': 'velodyne_description'}
+[0.005903] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.005921] (-) JobUnselected: {'identifier': 'velodyne_monitor'}
+[0.005935] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.005950] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.005964] (-) JobUnselected: {'identifier': 'vls_description'}
+[0.005978] (-) JobUnselected: {'identifier': 'web_controller'}
+[0.005996] (autoware_lint_common) JobQueued: {'identifier': 'autoware_lint_common', 'dependencies': OrderedDict()}
+[0.006073] (autoware_cmake) JobQueued: {'identifier': 'autoware_cmake', 'dependencies': OrderedDict([('autoware_lint_common', '/home/cityu/autoware/install/autoware_lint_common')])}
+[0.006095] (autoware_auto_common) JobQueued: {'identifier': 'autoware_auto_common', 'dependencies': OrderedDict([('autoware_lint_common', '/home/cityu/autoware/install/autoware_lint_common'), ('autoware_cmake', '/home/cityu/autoware/install/autoware_cmake')])}
+[0.006121] (tvm_utility) JobQueued: {'identifier': 'tvm_utility', 'dependencies': OrderedDict([('autoware_lint_common', '/home/cityu/autoware/install/autoware_lint_common'), ('autoware_cmake', '/home/cityu/autoware/install/autoware_cmake'), ('autoware_auto_common', '/home/cityu/autoware/install/autoware_auto_common')])}
+[0.006147] (autoware_lint_common) JobStarted: {'identifier': 'autoware_lint_common'}
+[0.016946] (autoware_lint_common) JobProgress: {'identifier': 'autoware_lint_common', 'progress': 'cmake'}
+[0.017866] (autoware_lint_common) JobProgress: {'identifier': 'autoware_lint_common', 'progress': 'build'}
+[0.017909] (autoware_lint_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cityu/autoware/build/autoware_lint_common', '--', '-j16', '-l16'], 'cwd': '/home/cityu/autoware/build/autoware_lint_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_lint_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.049147] (autoware_lint_common) CommandEnded: {'returncode': 0}
+[0.065548] (autoware_lint_common) JobProgress: {'identifier': 'autoware_lint_common', 'progress': 'install'}
+[0.074310] (autoware_lint_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cityu/autoware/build/autoware_lint_common'], 'cwd': '/home/cityu/autoware/build/autoware_lint_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_lint_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.080939] (autoware_lint_common) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.081368] (autoware_lint_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.081640] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/package_run_dependencies/autoware_lint_common\n'}
+[0.081877] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/parent_prefix_path/autoware_lint_common\n'}
+[0.082106] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.sh\n'}
+[0.082319] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.dsv\n'}
+[0.082534] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.sh\n'}
+[0.082749] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.dsv\n'}
+[0.082902] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.bash\n'}
+[0.083104] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.sh\n'}
+[0.083315] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.zsh\n'}
+[0.083520] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.dsv\n'}
+[0.083737] (autoware_lint_common) StdoutLine: {'line': b'-- Symlinking: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.dsv\n'}
+[0.090815] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/ament_index/resource_index/packages/autoware_lint_common\n'}
+[0.091087] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.091324] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig.cmake\n'}
+[0.091533] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig-version.cmake\n'}
+[0.091711] (autoware_lint_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_lint_common/share/autoware_lint_common/package.xml\n'}
+[0.094756] (autoware_lint_common) CommandEnded: {'returncode': 0}
+[0.100298] (-) TimerEvent: {}
+[0.157822] (autoware_lint_common) JobEnded: {'identifier': 'autoware_lint_common', 'rc': 0}
+[0.158168] (autoware_cmake) JobStarted: {'identifier': 'autoware_cmake'}
+[0.163228] (autoware_cmake) JobProgress: {'identifier': 'autoware_cmake', 'progress': 'cmake'}
+[0.164609] (autoware_cmake) JobProgress: {'identifier': 'autoware_cmake', 'progress': 'build'}
+[0.164764] (autoware_cmake) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cityu/autoware/build/autoware_cmake', '--', '-j16', '-l16'], 'cwd': '/home/cityu/autoware/build/autoware_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.194027] (autoware_cmake) CommandEnded: {'returncode': 0}
+[0.200392] (-) TimerEvent: {}
+[0.210484] (autoware_cmake) JobProgress: {'identifier': 'autoware_cmake', 'progress': 'install'}
+[0.210639] (autoware_cmake) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cityu/autoware/build/autoware_cmake'], 'cwd': '/home/cityu/autoware/build/autoware_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.217600] (autoware_cmake) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.218072] (autoware_cmake) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.218809] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_package.cmake\n'}
+[0.219087] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/package_run_dependencies/autoware_cmake\n'}
+[0.219333] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/parent_prefix_path/autoware_cmake\n'}
+[0.219571] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/ament_prefix_path.sh\n'}
+[0.219803] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/ament_prefix_path.dsv\n'}
+[0.220029] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/path.sh\n'}
+[0.220162] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/environment/path.dsv\n'}
+[0.220508] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.bash\n'}
+[0.220748] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.sh\n'}
+[0.220978] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.zsh\n'}
+[0.221222] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/local_setup.dsv\n'}
+[0.221679] (autoware_cmake) StdoutLine: {'line': b'-- Symlinking: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/package.dsv\n'}
+[0.229514] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/ament_index/resource_index/packages/autoware_cmake\n'}
+[0.229767] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmake-extras.cmake\n'}
+[0.230016] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmakeConfig.cmake\n'}
+[0.230180] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake/autoware_cmakeConfig-version.cmake\n'}
+[0.230402] (autoware_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/package.xml\n'}
+[0.236641] (autoware_cmake) CommandEnded: {'returncode': 0}
+[0.284309] (autoware_cmake) JobEnded: {'identifier': 'autoware_cmake', 'rc': 0}
+[0.285426] (autoware_auto_common) JobStarted: {'identifier': 'autoware_auto_common'}
+[0.292314] (autoware_auto_common) JobProgress: {'identifier': 'autoware_auto_common', 'progress': 'cmake'}
+[0.293811] (autoware_auto_common) JobProgress: {'identifier': 'autoware_auto_common', 'progress': 'build'}
+[0.293965] (autoware_auto_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cityu/autoware/build/autoware_auto_common', '--', '-j16', '-l16'], 'cwd': '/home/cityu/autoware/build/autoware_auto_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_auto_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.300452] (-) TimerEvent: {}
+[0.333963] (autoware_auto_common) StdoutLine: {'line': b'[ 13%] Built target gtest_main\n'}
+[0.334184] (autoware_auto_common) StdoutLine: {'line': b'[ 26%] Built target gtest\n'}
+[0.355216] (autoware_auto_common) StdoutLine: {'line': b'[100%] Built target test_common_gtest\n'}
+[0.363919] (autoware_auto_common) CommandEnded: {'returncode': 0}
+[0.396894] (autoware_auto_common) JobProgress: {'identifier': 'autoware_auto_common', 'progress': 'install'}
+[0.397081] (autoware_auto_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cityu/autoware/build/autoware_auto_common'], 'cwd': '/home/cityu/autoware/build/autoware_auto_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/autoware_auto_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.400554] (-) TimerEvent: {}
+[0.404235] (autoware_auto_common) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.404719] (autoware_auto_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.405306] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/common/type_traits.hpp\n'}
+[0.405513] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/common/types.hpp\n'}
+[0.405732] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/common/visibility_control.hpp\n'}
+[0.405834] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/angle_utils.hpp\n'}
+[0.405984] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/bool_comparisons.hpp\n'}
+[0.406090] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/byte_reader.hpp\n'}
+[0.406194] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/crtp.hpp\n'}
+[0.406292] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/float_comparisons.hpp\n'}
+[0.406394] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/mahalanobis_distance.hpp\n'}
+[0.406488] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/message_adapters.hpp\n'}
+[0.406652] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/template_utils.hpp\n'}
+[0.406786] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/include/helper_functions/type_name.hpp\n'}
+[0.407293] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/package_run_dependencies/autoware_auto_common\n'}
+[0.407593] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/parent_prefix_path/autoware_auto_common\n'}
+[0.407845] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.sh\n'}
+[0.408077] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.dsv\n'}
+[0.408317] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.sh\n'}
+[0.408559] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.dsv\n'}
+[0.408786] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.bash\n'}
+[0.409011] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.sh\n'}
+[0.409181] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.zsh\n'}
+[0.409399] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.dsv\n'}
+[0.409588] (autoware_auto_common) StdoutLine: {'line': b'-- Symlinking: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/package.dsv\n'}
+[0.417140] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/ament_index/resource_index/packages/autoware_auto_common\n'}
+[0.417389] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.417625] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.417868] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig.cmake\n'}
+[0.418063] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig-version.cmake\n'}
+[0.418195] (autoware_auto_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/autoware_auto_common/share/autoware_auto_common/package.xml\n'}
+[0.424645] (autoware_auto_common) CommandEnded: {'returncode': 0}
+[0.500163] (autoware_auto_common) JobEnded: {'identifier': 'autoware_auto_common', 'rc': 0}
+[0.500576] (-) TimerEvent: {}
+[0.500683] (tvm_utility) JobStarted: {'identifier': 'tvm_utility'}
+[0.507093] (tvm_utility) JobProgress: {'identifier': 'tvm_utility', 'progress': 'cmake'}
+[0.508009] (tvm_utility) JobProgress: {'identifier': 'tvm_utility', 'progress': 'build'}
+[0.508839] (tvm_utility) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cityu/autoware/build/tvm_utility', '--', '-j16', '-l16'], 'cwd': '/home/cityu/autoware/build/tvm_utility', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/tvm_utility'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.549040] (tvm_utility) StdoutLine: {'line': b'[ 88%] Built target yolo_v2_tiny_llvm\n'}
+[0.549380] (tvm_utility) StdoutLine: {'line': b'[100%] Built target tvm_utility\n'}
+[0.558880] (tvm_utility) CommandEnded: {'returncode': 0}
+[0.581088] (tvm_utility) JobProgress: {'identifier': 'tvm_utility', 'progress': 'install'}
+[0.581329] (tvm_utility) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cityu/autoware/build/tvm_utility'], 'cwd': '/home/cityu/autoware/build/tvm_utility', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('USER', 'cityu'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1587'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cityu'), ('OLDPWD', '/home/cityu/autoware/artifacts'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cityu'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:40284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cityu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/galactic/bin:/home/cityu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cityu/.local/bin:/home/cityu/.local/bin'), ('SESSION_MANAGER', 'local/cityu-autoware:@/tmp/.ICE-unix/1622,unix/cityu-autoware:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', 'bfbb74fcfc3745d19f4a6c49582f7fd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617d4bea_b220_4230_9d1a_c257fcc862b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cityu/autoware/build/tvm_utility'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=867932327b6abe78cd355a086438d338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic')]), 'shell': False}
+[0.592730] (tvm_utility) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.593642] (tvm_utility) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.594548] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/include/tvm_utility/pipeline.hpp\n'}
+[0.595031] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.sh\n'}
+[0.595473] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.dsv\n'}
+[0.596104] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/lib/libtvm_utility.so\n'}
+[0.596837] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/package_run_dependencies/tvm_utility\n'}
+[0.597299] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/parent_prefix_path/tvm_utility\n'}
+[0.597748] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.sh\n'}
+[0.598175] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.dsv\n'}
+[0.598611] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.sh\n'}
+[0.599023] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.dsv\n'}
+[0.599448] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.bash\n'}
+[0.599874] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.sh\n'}
+[0.600342] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.zsh\n'}
+[0.600654] (-) TimerEvent: {}
+[0.600937] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.dsv\n'}
+[0.601284] (tvm_utility) StdoutLine: {'line': b'-- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.dsv\n'}
+[0.615051] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/packages/tvm_utility\n'}
+[0.615529] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake\n'}
+[0.615957] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.616462] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.616908] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.617354] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig.cmake\n'}
+[0.617688] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig-version.cmake\n'}
+[0.618069] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.xml\n'}
+[0.618480] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny\n'}
+[0.618670] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_graph.json\n'}
+[0.618808] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_lib.so\n'}
+[0.618933] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_param.params\n'}
+[0.619054] (tvm_utility) StdoutLine: {'line': b'-- Up-to-date: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/inference_engine_tvm_config.hpp\n'}
+[0.625957] (tvm_utility) CommandEnded: {'returncode': 0}
+[0.700929] (tvm_utility) JobEnded: {'identifier': 'tvm_utility', 'rc': 0}
+[0.701268] (-) TimerEvent: {}
+[0.701348] (-) EventReactorShutdown: {}

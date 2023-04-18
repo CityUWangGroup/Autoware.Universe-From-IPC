@@ -1,0 +1,13 @@
+# Target labels
+ centerpoint_encoder_llvm
+# Source files and their labels
+/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_encoder_llvm
+/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_encoder_llvm.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/CMakeFiles/centerpoint_encoder_llvm-complete.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-install.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-mkdir.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-download.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-update.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-patch.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-configure.rule
+/home/cityu/autoware/build/lidar_centerpoint_tvm/centerpoint_encoder_llvm-prefix/src/centerpoint_encoder_llvm-stamp/centerpoint_encoder_llvm-build.rule

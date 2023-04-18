@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/include/kalman_filter/kalman_filter.hpp
+eigen3/Eigen/Core
+-
+eigen3/Eigen/LU
+-
+
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/include/kalman_filter/time_delay_kalman_filter.hpp
+kalman_filter/kalman_filter.hpp
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/include/kalman_filter/kalman_filter/kalman_filter.hpp
+eigen3/Eigen/Core
+-
+eigen3/Eigen/LU
+-
+iostream
+-
+
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/src/kalman_filter.cpp
+kalman_filter/kalman_filter.hpp
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/src/kalman_filter/kalman_filter.hpp
+
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/src/time_delay_kalman_filter.cpp
+kalman_filter/time_delay_kalman_filter.hpp
+/home/cityu/autoware/src/universe/autoware.universe/common/kalman_filter/src/kalman_filter/time_delay_kalman_filter.hpp
+

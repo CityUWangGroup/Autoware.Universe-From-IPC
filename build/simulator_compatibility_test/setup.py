@@ -1,0 +1,1 @@
+/home/cityu/autoware/src/universe/autoware.universe/tools/simulator_test/simulator_compatibility_test/setup.py

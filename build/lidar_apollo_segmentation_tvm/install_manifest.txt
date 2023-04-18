@@ -1,0 +1,4 @@
+/home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/models//baidu_cnn/deploy_graph.json
+/home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/models//baidu_cnn/deploy_lib.so
+/home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/models//baidu_cnn/deploy_param.params
+/home/cityu/autoware/install/lidar_apollo_segmentation_tvm/share/lidar_apollo_segmentation_tvm/models//baidu_cnn/inference_engine_tvm_config.hpp

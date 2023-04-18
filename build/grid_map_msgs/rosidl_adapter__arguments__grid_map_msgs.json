@@ -1,0 +1,11 @@
+{
+  "package_name": "grid_map_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:msg/GridMapInfo.msg",
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:msg/GridMap.msg",
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:srv/SetGridMap.srv",
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:srv/GetGridMap.srv",
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:srv/GetGridMapInfo.srv",
+    "/home/cityu/autoware/src/universe/external/grid_map/grid_map_msgs:srv/ProcessFile.srv"
+  ]
+}

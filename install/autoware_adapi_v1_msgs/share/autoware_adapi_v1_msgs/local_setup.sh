@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_adapi_v1_msgs/ament_cmake_environment_hooks/local_setup.sh

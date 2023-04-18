@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/trajectory_follower/liblateral_controller_lib.so" "/home/cityu/autoware/build/trajectory_follower/liblongitudinal_controller_lib.so" "TARGETS" "lateral_controller_lib" "longitudinal_controller_lib" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

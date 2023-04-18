@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_auto_perception_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

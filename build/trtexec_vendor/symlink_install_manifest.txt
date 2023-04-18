@@ -1,0 +1,17 @@
+/home/cityu/autoware/install/trtexec_vendor/bin/trtexec
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/trtexec_vendor.sh
+/home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/package_run_dependencies/trtexec_vendor
+/home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/parent_prefix_path/trtexec_vendor
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.sh
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.dsv
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.sh
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.dsv
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.bash
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.sh
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.zsh
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.dsv
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/package.dsv
+/home/cityu/autoware/install/trtexec_vendor/share/ament_index/resource_index/packages/trtexec_vendor
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig.cmake
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig-version.cmake
+/home/cityu/autoware/install/trtexec_vendor/share/trtexec_vendor/package.xml

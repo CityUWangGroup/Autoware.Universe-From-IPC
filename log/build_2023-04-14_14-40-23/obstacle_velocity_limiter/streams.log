@@ -1,0 +1,243 @@
+[0.130s] Invoking command in '/home/cityu/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/obstacle_velocity_limiter
+[3.450s] -- The C compiler identification is GNU 9.4.0
+[3.450s] -- The CXX compiler identification is GNU 9.4.0
+[3.450s] -- Check for working C compiler: /usr/bin/cc
+[3.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.450s] -- Detecting C compiler ABI info
+[3.450s] -- Detecting C compiler ABI info - done
+[3.451s] -- Detecting C compile features
+[3.451s] -- Detecting C compile features - done
+[3.451s] -- Check for working CXX compiler: /usr/bin/c++
+[3.451s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.451s] -- Detecting CXX compiler ABI info
+[3.451s] -- Detecting CXX compiler ABI info - done
+[3.451s] -- Detecting CXX compile features
+[3.451s] -- Detecting CXX compile features - done
+[3.451s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.451s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.451s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.452s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.452s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.452s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.452s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.452s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.452s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.452s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.453s] -- Looking for pthread.h
+[3.453s] -- Looking for pthread.h - found
+[3.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.453s] -- Looking for pthread_create in pthreads
+[3.555s] -- Looking for pthread_create in pthreads - not found
+[3.555s] -- Looking for pthread_create in pthread
+[3.699s] -- Looking for pthread_create in pthread - found
+[3.701s] -- Found Threads: TRUE  
+[6.515s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.521s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.582s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+[7.729s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[8.174s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[8.353s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[8.353s] -- Found OpenMP: TRUE (found version "4.5")  
+[8.854s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[8.886s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[8.893s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[10.797s] -- Checking for module 'eigen3'
+[10.863s] --   Found eigen3, version 3.3.7
+[10.971s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[10.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[11.026s] -- Checking for module 'flann'
+[11.065s] --   Found flann, version 1.9.1
+[11.175s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[11.289s] -- The imported target "vtkParseOGLExt" references the file
+[11.289s]    "/usr/bin/vtkParseOGLExt-7.1"
+[11.289s] but this file does not exist.  Possible reasons include:
+[11.289s] * The file was deleted, renamed, or moved to another location.
+[11.289s] * An install or uninstall procedure did not complete successfully.
+[11.289s] * The installation package was faulty and contained
+[11.289s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[11.290s] but not all the files it references.
+[11.290s] 
+[11.290s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[11.290s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[11.291s] but this file does not exist.  Possible reasons include:
+[11.291s] * The file was deleted, renamed, or moved to another location.
+[11.291s] * An install or uninstall procedure did not complete successfully.
+[11.291s] * The installation package was faulty and contained
+[11.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[11.291s] but not all the files it references.
+[11.291s] 
+[11.291s] -- The imported target "vtk" references the file
+[11.292s]    "/usr/bin/vtk"
+[11.292s] but this file does not exist.  Possible reasons include:
+[11.292s] * The file was deleted, renamed, or moved to another location.
+[11.292s] * An install or uninstall procedure did not complete successfully.
+[11.292s] * The installation package was faulty and contained
+[11.292s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[11.292s] but not all the files it references.
+[11.292s] 
+[11.292s] -- The imported target "pvtk" references the file
+[11.292s]    "/usr/bin/pvtk"
+[11.293s] but this file does not exist.  Possible reasons include:
+[11.293s] * The file was deleted, renamed, or moved to another location.
+[11.293s] * An install or uninstall procedure did not complete successfully.
+[11.293s] * The installation package was faulty and contained
+[11.293s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[11.293s] but not all the files it references.
+[11.293s] 
+[11.329s] -- Checking for module 'libusb-1.0'
+[11.338s] --   No package 'libusb-1.0' found
+[11.347s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[11.347s] -- OpenNI disabled because libusb-1.0 not found.
+[11.358s] -- Checking for module 'libusb-1.0'
+[11.366s] --   No package 'libusb-1.0' found
+[11.374s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[11.374s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[11.403s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[11.414s] -- Checking for module 'libusb-1.0'
+[11.423s] --   No package 'libusb-1.0' found
+[11.431s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[11.432s] -- OpenNI disabled because libusb-1.0 not found.
+[11.443s] -- Checking for module 'libusb-1.0'
+[11.453s] --   No package 'libusb-1.0' found
+[11.460s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[11.460s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[11.530s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[11.531s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[11.536s] -- Checking for module 'libusb-1.0'
+[11.544s] --   No package 'libusb-1.0' found
+[11.551s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[11.551s] -- OpenNI disabled because libusb-1.0 not found.
+[11.574s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.576s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.579s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.581s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.583s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.586s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.587s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[11.588s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[11.591s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.594s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.596s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.599s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.602s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.605s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.607s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.610s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.613s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.617s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.620s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.623s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.625s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[11.626s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[11.629s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.632s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[12.230s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[12.266s] CMake Warning (dev) at CMakeLists.txt:7 (find_package):
+[12.266s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[12.267s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[12.267s]   command to set the policy and suppress this warning.
+[12.267s] 
+[12.267s]   CMake variable PCL_ROOT is set to:
+[12.267s] 
+[12.267s]     /usr
+[12.267s] 
+[12.267s]   For compatibility, CMake is ignoring the variable.
+[12.267s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[12.268s] 
+[22.191s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[22.205s] -- Check if compiler accepts -pthread
+[22.360s] -- Check if compiler accepts -pthread - yes
+[22.380s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.389s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter/include
+[22.389s] -- Configured cppcheck exclude dirs and/or files: 
+[22.395s] -- Added test 'lint_cmake' to check CMake code style
+[22.396s] -- Added test 'xmllint' to check XML markup files
+[22.423s] -- Configuring done
+[22.923s] -- Generating done
+[22.930s] -- Build files have been written to: /home/cityu/autoware/build/obstacle_velocity_limiter
+[23.019s] Invoked command in '/home/cityu/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/obstacle_velocity_limiter
+[23.021s] Invoking command in '/home/cityu/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/obstacle_velocity_limiter -- -j16 -l16
+[52.479s] [35m[1mScanning dependencies of target obstacle_velocity_limiter_node[0m
+[52.480s] [  4%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/debug.cpp.o[0m
+[52.480s] [  8%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/trajectory_preprocessing.cpp.o[0m
+[52.480s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/pointcloud_utils.cpp.o[0m
+[71.610s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/occupancy_grid_utils.cpp.o[0m
+[93.011s] [ 20%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacles.cpp.o[0m
+[109.031s] [ 29%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacle_velocity_limiter.cpp.o[0m
+[109.032s] [ 29%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacle_velocity_limiter_node.cpp.o[0m
+[139.747s] [ 33%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/forward_projection.cpp.o[0m
+[139.762s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/map_utils.cpp.o[0m
+[169.472s] [ 41%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/distance.cpp.o[0m
+[180.777s] [ 45%] [32m[1mLinking CXX shared library libobstacle_velocity_limiter_node.so[0m
+[183.502s] [ 45%] Built target obstacle_velocity_limiter_node
+[183.515s] [35m[1mScanning dependencies of target obstacle_velocity_limiter[0m
+[183.515s] [35m[1mScanning dependencies of target gtest[0m
+[183.518s] [35m[1mScanning dependencies of target gtest_main[0m
+[183.519s] [35m[1mScanning dependencies of target collision_benchmark[0m
+[183.533s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[183.540s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[183.560s] [ 58%] [32mBuilding CXX object CMakeFiles/obstacle_velocity_limiter.dir/rclcpp_components/node_main_obstacle_velocity_limiter.cpp.o[0m
+[183.654s] [ 62%] [32mBuilding CXX object CMakeFiles/collision_benchmark.dir/benchmarks/collision_checker_benchmark.cpp.o[0m
+[185.304s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[185.367s] [ 66%] Built target gtest_main
+[187.198s] [ 70%] [32m[1mLinking CXX executable obstacle_velocity_limiter[0m
+[187.423s] [ 70%] Built target obstacle_velocity_limiter
+[193.246s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[193.333s] [ 75%] Built target gtest
+[193.372s] [35m[1mScanning dependencies of target test_obstacle_velocity_limiter[0m
+[193.609s] [ 79%] [32mBuilding CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_forward_projection.cpp.o[0m
+[193.635s] [ 83%] [32mBuilding CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_collision_distance.cpp.o[0m
+[193.636s] [ 87%] [32mBuilding CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_occupancy_grid_utils.cpp.o[0m
+[193.637s] [ 91%] [32mBuilding CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_obstacles.cpp.o[0m
+[207.919s] [ 95%] [32m[1mLinking CXX executable collision_benchmark[0m
+[218.513s] [ 95%] Built target collision_benchmark
+[224.921s] [100%] [32m[1mLinking CXX executable test_obstacle_velocity_limiter[0m
+[242.608s] [100%] Built target test_obstacle_velocity_limiter
+[242.641s] Invoked command in '/home/cityu/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/obstacle_velocity_limiter -- -j16 -l16
+[242.713s] Invoking command in '/home/cityu/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/obstacle_velocity_limiter
+[242.737s] -- Install configuration: "Release"
+[242.737s] -- Execute custom install script
+[242.738s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/lib/obstacle_velocity_limiter/obstacle_velocity_limiter
+[242.757s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/debug.hpp
+[242.777s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/distance.hpp
+[242.797s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/forward_projection.hpp
+[242.817s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/map_utils.hpp
+[242.839s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacle_velocity_limiter.hpp
+[242.862s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacle_velocity_limiter_node.hpp
+[242.884s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacles.hpp
+[242.907s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/occupancy_grid_utils.hpp
+[242.929s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/parameters.hpp
+[242.953s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/pointcloud_utils.hpp
+[242.982s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/trajectory_preprocessing.hpp
+[243.002s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/types.hpp
+[243.021s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/library_path.sh
+[243.040s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/library_path.dsv
+[243.060s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/lib/libobstacle_velocity_limiter_node.so
+[243.080s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/launch/obstacle_velocity_limiter.launch.xml
+[243.098s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/config/default_obstacle_velocity_limiter.param.yaml
+[243.122s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/script/velocity_visualizer.py
+[243.142s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/package_run_dependencies/obstacle_velocity_limiter
+[243.161s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/parent_prefix_path/obstacle_velocity_limiter
+[243.183s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/ament_prefix_path.sh
+[243.208s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/ament_prefix_path.dsv
+[243.234s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/path.sh
+[243.260s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/path.dsv
+[243.285s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.bash
+[243.306s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.sh
+[243.332s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.zsh
+[243.362s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.dsv
+[243.387s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/package.dsv
+[243.419s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/packages/obstacle_velocity_limiter
+[243.443s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/rclcpp_components/obstacle_velocity_limiter
+[243.469s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_dependencies-extras.cmake
+[243.497s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_include_directories-extras.cmake
+[243.525s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_libraries-extras.cmake
+[243.551s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/obstacle_velocity_limiterConfig.cmake
+[243.581s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/obstacle_velocity_limiterConfig-version.cmake
+[243.602s] -- Symlinking: /home/cityu/autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/package.xml
+[243.639s] Invoked command in '/home/cityu/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/motion_utils:/home/cityu/autoware/install/interpolation:/home/cityu/autoware/install/grid_map_utils:/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/grid_map_ros:/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/grid_map_cv:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/grid_map_msgs:/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_planning_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/motion_utils/lib:/home/cityu/autoware/install/interpolation/lib:/home/cityu/autoware/install/grid_map_utils/lib:/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/grid_map_ros/lib:/home/cityu/autoware/install/vehicle_info_util/lib:/home/cityu/autoware/install/grid_map_cv/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/grid_map_msgs/lib:/home/cityu/autoware/install/grid_map_core/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_planning_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/grid_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/obstacle_velocity_limiter

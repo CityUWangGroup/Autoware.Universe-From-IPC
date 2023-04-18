@@ -1,0 +1,278 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/autoware_planning_msgs
+[35m[1mScanning dependencies of target autoware_planning_msgs__cpp[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target autoware_planning_msgs__cpp
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_generator_c[0m
+[  4%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/lanelet_primitive__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/srv/detail/set_route__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/pose_with_uuid__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/lanelet_segment__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/lanelet_route__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libautoware_planning_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target autoware_planning_msgs__rosidl_generator_c
+[ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_cpp[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/lanelet_primitive__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/srv/set_route__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/pose_with_uuid__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/lanelet_segment__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/lanelet_route__type_support.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libautoware_planning_msgs__rosidl_typesupport_cpp.so[0m
+[ 23%] Built target autoware_planning_msgs__rosidl_typesupport_cpp
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_c[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/lanelet_primitive__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/srv/set_route__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/pose_with_uuid__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/lanelet_segment__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/lanelet_route__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libautoware_planning_msgs__rosidl_typesupport_c.so[0m
+[ 34%] Built target autoware_planning_msgs__rosidl_typesupport_c
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_introspection_c[0m
+[ 38%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/lanelet_primitive__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/srv/detail/set_route__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/pose_with_uuid__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/lanelet_segment__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/lanelet_route__type_support.c.o[0m
+[ 46%] [32m[1mLinking C shared library libautoware_planning_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 46%] Built target autoware_planning_msgs__rosidl_typesupport_introspection_c
+[ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/lanelet_primitive__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/srv/detail/dds_fastrtps/set_route__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/pose_with_uuid__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/lanelet_segment__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/lanelet_route__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 57%] Built target autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp
+[ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/lanelet_primitive__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/srv/detail/set_route__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/pose_with_uuid__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/lanelet_segment__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/lanelet_route__type_support.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] Built target autoware_planning_msgs__rosidl_typesupport_introspection_cpp
+[ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/lanelet_primitive__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/srv/detail/set_route__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/pose_with_uuid__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/lanelet_segment__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/lanelet_route__type_support_c.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target autoware_planning_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target autoware_planning_msgs[0m
+[ 79%] Built target autoware_planning_msgs
+[35m[1mScanning dependencies of target autoware_planning_msgs__py[0m
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target autoware_planning_msgs__py
+[35m[1mScanning dependencies of target autoware_planning_msgs__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__python.dir/rosidl_generator_py/autoware_planning_msgs/msg/_lanelet_primitive_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__python.dir/rosidl_generator_py/autoware_planning_msgs/srv/_set_route_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__python.dir/rosidl_generator_py/autoware_planning_msgs/msg/_pose_with_uuid_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__python.dir/rosidl_generator_py/autoware_planning_msgs/msg/_lanelet_segment_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__python.dir/rosidl_generator_py/autoware_planning_msgs/msg/_lanelet_route_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/autoware_planning_msgs/libautoware_planning_msgs__python.so[0m
+[ 90%] Built target autoware_planning_msgs__python
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_planning_msgs/_autoware_planning_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 93%] Built target autoware_planning_msgs__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 95%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_planning_msgs/_autoware_planning_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] Built target autoware_planning_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target autoware_planning_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_planning_msgs/_autoware_planning_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target autoware_planning_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_planning_msgs
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__functions.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__struct.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__type_support.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__functions.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__struct.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__type_support.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__functions.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__struct.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__type_support.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__functions.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__struct.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__type_support.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_primitive.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_route.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_segment.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/pose_with_uuid.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__functions.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__struct.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__type_support.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/set_route.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_primitive.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_route.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/lanelet_segment.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/pose_with_uuid.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__builder.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__struct.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__traits.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/set_route.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_primitive__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_route__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/lanelet_segment__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/msg/detail/pose_with_uuid__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/include/autoware_planning_msgs/srv/detail/set_route__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/pythonpath.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/__init__.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/msg/__init__.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/msg/_lanelet_primitive.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/msg/_lanelet_route.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/msg/_lanelet_segment.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/msg/_pose_with_uuid.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/srv/__init__.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/srv/_set_route.py
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/autoware_planning_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__python.so
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletPrimitive.idl
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletRoute.idl
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletSegment.idl
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/PoseWithUuid.idl
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/srv/SetRoute.idl
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletPrimitive.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletRoute.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/LaneletSegment.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/msg/PoseWithUuid.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/srv/SetRoute.srv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/srv/SetRoute_Request.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/srv/SetRoute_Response.msg
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_planning_msgs
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_planning_msgs
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/package.dsv
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/ament_index/resource_index/packages/autoware_planning_msgs
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/package.xml
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/cityu/autoware/install/autoware_planning_msgs/lib/libautoware_planning_msgs__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages/autoware_planning_msgs/__init__.py'...
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/cityu/autoware/install/autoware_planning_msgs/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport-release.cmake

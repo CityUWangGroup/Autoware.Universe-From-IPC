@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_auto_control_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

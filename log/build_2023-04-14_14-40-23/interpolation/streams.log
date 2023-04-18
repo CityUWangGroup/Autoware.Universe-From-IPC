@@ -1,0 +1,110 @@
+[0.158s] Invoking command in '/home/cityu/autoware/build/interpolation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/interpolation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/interpolation
+[22.722s] -- The C compiler identification is GNU 9.4.0
+[22.723s] -- The CXX compiler identification is GNU 9.4.0
+[22.723s] -- Check for working C compiler: /usr/bin/cc
+[22.723s] -- Check for working C compiler: /usr/bin/cc -- works
+[22.723s] -- Detecting C compiler ABI info
+[22.723s] -- Detecting C compiler ABI info - done
+[22.723s] -- Detecting C compile features
+[22.723s] -- Detecting C compile features - done
+[22.723s] -- Check for working CXX compiler: /usr/bin/c++
+[22.723s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[22.723s] -- Detecting CXX compiler ABI info
+[22.724s] -- Detecting CXX compiler ABI info - done
+[22.724s] -- Detecting CXX compile features
+[22.724s] -- Detecting CXX compile features - done
+[22.724s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[22.724s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[22.724s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[22.724s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.724s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.725s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[22.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[22.725s] -- Found FastRTPS: /opt/ros/galactic/include  
+[22.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.725s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[22.725s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[22.725s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[22.725s] -- Looking for pthread.h
+[22.725s] -- Looking for pthread.h - found
+[22.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[22.726s] -- Looking for pthread_create in pthreads
+[22.726s] -- Looking for pthread_create in pthreads - not found
+[22.727s] -- Looking for pthread_create in pthread
+[22.727s] -- Looking for pthread_create in pthread - found
+[22.727s] -- Found Threads: TRUE  
+[22.727s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[22.727s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[22.727s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[22.727s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[22.727s] -- Check if compiler accepts -pthread
+[22.727s] -- Check if compiler accepts -pthread - yes
+[22.728s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.728s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.728s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/interpolation/include
+[22.728s] -- Configured cppcheck exclude dirs and/or files: 
+[22.728s] -- Added test 'lint_cmake' to check CMake code style
+[22.728s] -- Added test 'xmllint' to check XML markup files
+[22.728s] -- Configuring done
+[22.728s] -- Generating done
+[22.728s] -- Build files have been written to: /home/cityu/autoware/build/interpolation
+[22.841s] Invoked command in '/home/cityu/autoware/build/interpolation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/interpolation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/interpolation
+[22.849s] Invoking command in '/home/cityu/autoware/build/interpolation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/interpolation -- -j16 -l16
+[29.543s] [35m[1mScanning dependencies of target gtest[0m
+[29.547s] [35m[1mScanning dependencies of target gtest_main[0m
+[29.548s] [35m[1mScanning dependencies of target interpolation[0m
+[29.548s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[29.548s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[29.548s] [ 18%] [32mBuilding CXX object CMakeFiles/interpolation.dir/src/linear_interpolation.cpp.o[0m
+[29.549s] [ 25%] [32mBuilding CXX object CMakeFiles/interpolation.dir/src/spline_interpolation.cpp.o[0m
+[29.549s] [ 31%] [32mBuilding CXX object CMakeFiles/interpolation.dir/src/spline_interpolation_points_2d.cpp.o[0m
+[29.549s] [ 37%] [32mBuilding CXX object CMakeFiles/interpolation.dir/src/spherical_linear_interpolation.cpp.o[0m
+[29.549s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[29.549s] [ 43%] Built target gtest_main
+[37.563s] [ 50%] [32m[1mLinking CXX shared library libinterpolation.so[0m
+[38.762s] [ 50%] Built target interpolation
+[41.320s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[41.386s] [ 56%] Built target gtest
+[41.410s] [35m[1mScanning dependencies of target test_interpolation[0m
+[41.549s] [ 62%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_interpolation.cpp.o[0m
+[43.513s] [ 68%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_zero_order_hold.cpp.o[0m
+[46.998s] [ 75%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_spline_interpolation.cpp.o[0m
+[58.498s] [ 81%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_spherical_linear_interpolation.cpp.o[0m
+[64.217s] [ 87%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_linear_interpolation.cpp.o[0m
+[65.890s] [ 93%] [32mBuilding CXX object CMakeFiles/test_interpolation.dir/test/src/test_interpolation_utils.cpp.o[0m
+[68.801s] [100%] [32m[1mLinking CXX executable test_interpolation[0m
+[69.151s] [100%] Built target test_interpolation
+[69.172s] Invoked command in '/home/cityu/autoware/build/interpolation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/interpolation -- -j16 -l16
+[69.245s] Invoking command in '/home/cityu/autoware/build/interpolation': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/interpolation
+[95.906s] -- Install configuration: "Release"
+[95.906s] -- Execute custom install script
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/interpolation_utils.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/linear_interpolation.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/spherical_linear_interpolation.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/spline_interpolation.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/spline_interpolation_points_2d.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/include/interpolation/zero_order_hold.hpp
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/library_path.sh
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/library_path.dsv
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/lib/libinterpolation.so
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/ament_index/resource_index/package_run_dependencies/interpolation
+[95.907s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/ament_index/resource_index/parent_prefix_path/interpolation
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/ament_prefix_path.sh
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/ament_prefix_path.dsv
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/path.sh
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/environment/path.dsv
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/local_setup.bash
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/local_setup.sh
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/local_setup.zsh
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/local_setup.dsv
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/package.dsv
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/ament_index/resource_index/packages/interpolation
+[95.908s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/cmake/ament_cmake_export_dependencies-extras.cmake
+[95.909s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/cmake/ament_cmake_export_include_directories-extras.cmake
+[95.909s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/cmake/ament_cmake_export_libraries-extras.cmake
+[95.909s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/cmake/interpolationConfig.cmake
+[95.909s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/cmake/interpolationConfig-version.cmake
+[95.909s] -- Symlinking: /home/cityu/autoware/install/interpolation/share/interpolation/package.xml
+[95.947s] Invoked command in '/home/cityu/autoware/build/interpolation' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/interpolation

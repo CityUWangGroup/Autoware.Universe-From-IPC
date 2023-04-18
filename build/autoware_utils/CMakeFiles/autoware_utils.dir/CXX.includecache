@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/autoware_utils.hpp
+autoware_utils/math/constants.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/autoware_utils/math/constants.hpp
+autoware_utils/math/normalization.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/autoware_utils/math/normalization.hpp
+autoware_utils/math/range.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/autoware_utils/math/range.hpp
+autoware_utils/math/unit_conversion.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/autoware_utils/math/unit_conversion.hpp
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/constants.hpp
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/normalization.hpp
+autoware_utils/math/constants.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/autoware_utils/math/constants.hpp
+cmath
+-
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/range.hpp
+cmath
+-
+limits
+-
+stdexcept
+-
+vector
+-
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/unit_conversion.hpp
+autoware_utils/math/constants.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/include/autoware_utils/math/autoware_utils/math/constants.hpp
+
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/src/autoware_utils.cpp
+autoware_utils/autoware_utils.hpp
+/home/cityu/autoware/src/core/autoware_common/autoware_utils/src/autoware_utils/autoware_utils.hpp
+

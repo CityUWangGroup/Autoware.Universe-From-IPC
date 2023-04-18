@@ -1,0 +1,42 @@
+[0.219s] Invoking command in '/home/cityu/autoware/build/vls_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/vls_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/vls_description
+[0.256s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.287s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.387s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Configuring done
+[0.514s] -- Generating done
+[0.515s] CMake Warning:
+[0.515s]   Manually-specified variables were not used by the project:
+[0.516s] 
+[0.517s]     DOWNLOAD_ARTIFACTS
+[0.517s] 
+[0.517s] 
+[0.517s] -- Build files have been written to: /home/cityu/autoware/build/vls_description
+[0.602s] Invoked command in '/home/cityu/autoware/build/vls_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/vls_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/vls_description
+[0.603s] Invoking command in '/home/cityu/autoware/build/vls_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/vls_description -- -j16 -l16
+[0.833s] Invoked command in '/home/cityu/autoware/build/vls_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/vls_description -- -j16 -l16
+[0.869s] Invoking command in '/home/cityu/autoware/build/vls_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/vls_description
+[1.358s] -- Install configuration: "Release"
+[1.358s] -- Execute custom install script
+[1.359s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/urdf/VLS-128.urdf.xacro
+[1.360s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_1.dae
+[1.360s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_1.stl
+[1.361s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_2.dae
+[1.361s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_2.stl
+[1.362s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_scan.dae
+[1.366s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/meshes/VLS128_scan.stl
+[1.367s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/ament_index/resource_index/package_run_dependencies/vls_description
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/ament_index/resource_index/parent_prefix_path/vls_description
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/environment/ament_prefix_path.sh
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/environment/ament_prefix_path.dsv
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/environment/path.sh
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/environment/path.dsv
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/local_setup.bash
+[1.368s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/local_setup.sh
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/local_setup.zsh
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/local_setup.dsv
+[1.369s] -- Symlinking: /home/cityu/autoware/install/vls_description/share/vls_description/package.dsv
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/ament_index/resource_index/packages/vls_description
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/cmake/vls_descriptionConfig.cmake
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/cmake/vls_descriptionConfig-version.cmake
+[1.369s] -- Up-to-date symlink: /home/cityu/autoware/install/vls_description/share/vls_description/package.xml
+[1.382s] Invoked command in '/home/cityu/autoware/build/vls_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/vls_description

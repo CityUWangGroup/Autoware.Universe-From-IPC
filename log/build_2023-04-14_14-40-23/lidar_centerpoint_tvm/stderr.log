@@ -1,0 +1,18 @@
+CMake Warning at /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake:58 (message):
+  Skipped download for centerpoint_encoder (enable by setting
+  DOWNLOAD_ARTIFACTS)
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (get_neural_network)
+
+
+CMake Warning at /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake:58 (message):
+  Skipped download for centerpoint_backbone (enable by setting
+  DOWNLOAD_ARTIFACTS)
+Call Stack (most recent call first):
+  CMakeLists.txt:22 (get_neural_network)
+
+
+CMake Warning at CMakeLists.txt:76 (message):
+  Neural network not found, skipping package.
+
+

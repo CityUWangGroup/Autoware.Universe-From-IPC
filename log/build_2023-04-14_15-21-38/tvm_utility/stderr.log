@@ -1,0 +1,8 @@
+CMake Warning at CMakeLists.txt:58 (message):
+  Missing image artifact for yolo_v2_tiny, skipping test
+
+
+CMake Warning at /home/cityu/autoware/build/tvm_utility/yolo_v2_tiny_llvm-prefix/src/yolo_v2_tiny_llvm-stamp/verify-yolo_v2_tiny_llvm.cmake:15 (message):
+  File will not be verified since no URL_HASH specified
+
+

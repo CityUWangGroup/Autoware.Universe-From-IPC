@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_adapi_version_msgs/rosidl_cmake/srv/InterfaceVersion_Response.msg

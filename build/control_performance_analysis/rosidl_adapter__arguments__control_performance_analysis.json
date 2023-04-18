@@ -1,0 +1,9 @@
+{
+  "package_name": "control_performance_analysis",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/Error.msg",
+    "/home/cityu/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/ErrorStamped.msg",
+    "/home/cityu/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/DrivingMonitorStamped.msg",
+    "/home/cityu/autoware/src/universe/autoware.universe/control/control_performance_analysis:msg/FloatStamped.msg"
+  ]
+}

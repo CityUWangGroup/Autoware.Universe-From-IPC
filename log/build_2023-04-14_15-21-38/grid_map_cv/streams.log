@@ -1,0 +1,81 @@
+[0.070s] Invoking command in '/home/cityu/autoware/build/grid_map_cv': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_cv -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_cv
+[1.083s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.084s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.085s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[1.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.090s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found filters: 2.1.0 (/opt/ros/galactic/share/filters/cmake)
+[1.090s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/cityu/autoware/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.090s] -- Found grid_map_core: 2.0.0 (/home/cityu/autoware/install/grid_map_core/share/grid_map_core/cmake)
+[1.090s] -- Found pluginlib: 5.0.1 (/opt/ros/galactic/share/pluginlib/cmake)
+[1.091s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.091s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.091s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.127s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.252s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.354s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.355s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.372s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/external/grid_map/grid_map_cv/include
+[1.372s] -- Configured cppcheck exclude dirs and/or files: 
+[1.372s] -- Added test 'lint_cmake' to check CMake code style
+[1.372s] -- Added test 'uncrustify' to check C / C++ code style
+[1.372s] -- Configured uncrustify additional arguments: 
+[1.375s] -- Added test 'xmllint' to check XML markup files
+[1.383s] -- Configuring done
+[1.427s] -- Generating done
+[1.438s] CMake Warning:
+[1.438s]   Manually-specified variables were not used by the project:
+[1.439s] 
+[1.439s]     DOWNLOAD_ARTIFACTS
+[1.439s] 
+[1.439s] 
+[1.439s] -- Build files have been written to: /home/cityu/autoware/build/grid_map_cv
+[1.504s] Invoked command in '/home/cityu/autoware/build/grid_map_cv' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/grid_map/grid_map_cv -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/grid_map_cv
+[1.506s] Invoking command in '/home/cityu/autoware/build/grid_map_cv': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_cv -- -j16 -l16
+[2.568s] [ 18%] Built target gtest
+[2.568s] [ 36%] Built target gtest_main
+[2.568s] [ 45%] [32m[1mLinking CXX shared library libgrid_map_cv.so[0m
+[2.568s] [ 63%] Built target grid_map_cv
+[2.568s] [ 72%] [32mBuilding CXX object CMakeFiles/grid_map_cv-test.dir/test/test_grid_map_cv.cpp.o[0m
+[4.068s] [ 81%] [32mBuilding CXX object CMakeFiles/grid_map_cv-test.dir/test/GridMapCvProcessingTest.cpp.o[0m
+[9.295s] [ 90%] [32mBuilding CXX object CMakeFiles/grid_map_cv-test.dir/test/GridMapCvTest.cpp.o[0m
+[15.370s] [100%] [32m[1mLinking CXX executable grid_map_cv-test[0m
+[15.655s] [100%] Built target grid_map_cv-test
+[15.771s] Invoked command in '/home/cityu/autoware/build/grid_map_cv' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/grid_map_cv -- -j16 -l16
+[16.043s] Invoking command in '/home/cityu/autoware/build/grid_map_cv': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_cv
+[16.070s] -- Install configuration: "Release"
+[16.072s] -- Execute custom install script
+[16.072s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/lib/libgrid_map_cv.so
+[16.072s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/filter_plugins.xml
+[16.072s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/library_path.sh
+[16.072s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/library_path.dsv
+[16.072s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv//filter_plugins.xml
+[16.073s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/ament_index/resource_index/package_run_dependencies/grid_map_cv
+[16.073s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/ament_index/resource_index/parent_prefix_path/grid_map_cv
+[16.073s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/ament_prefix_path.sh
+[16.074s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/ament_prefix_path.dsv
+[16.074s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/path.sh
+[16.075s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/environment/path.dsv
+[16.075s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/local_setup.bash
+[16.076s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/local_setup.sh
+[16.076s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/local_setup.zsh
+[16.076s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/local_setup.dsv
+[16.077s] -- Symlinking: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/package.dsv
+[16.081s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/ament_index/resource_index/packages/grid_map_cv
+[16.081s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/ament_index/resource_index/filters__pluginlib__plugin/grid_map_cv
+[16.081s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.081s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/cmake/ament_cmake_export_libraries-extras.cmake
+[16.081s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.082s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/cmake/grid_map_cvConfig.cmake
+[16.082s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/cmake/grid_map_cvConfig-version.cmake
+[16.082s] -- Up-to-date symlink: /home/cityu/autoware/install/grid_map_cv/share/grid_map_cv/package.xml
+[16.083s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv
+[16.083s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv/InpaintFilter.hpp
+[16.092s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv/GridMapCvConverter.hpp
+[16.093s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv/grid_map_cv.hpp
+[16.093s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv/utilities.hpp
+[16.093s] -- Up-to-date: /home/cityu/autoware/install/grid_map_cv/include/grid_map_cv/GridMapCvProcessing.hpp
+[16.247s] Invoked command in '/home/cityu/autoware/build/grid_map_cv' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/grid_map_core:/home/cityu/autoware/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/grid_map_cv

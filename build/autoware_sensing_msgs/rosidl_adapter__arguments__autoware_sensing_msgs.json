@@ -1,0 +1,7 @@
+{
+  "package_name": "autoware_sensing_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientation.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientationStamped.msg"
+  ]
+}

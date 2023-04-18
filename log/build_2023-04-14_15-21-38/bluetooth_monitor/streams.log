@@ -1,0 +1,67 @@
+[0.054s] Invoking command in '/home/cityu/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/bluetooth_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/bluetooth_monitor
+[1.581s] CMake Warning:
+[1.583s]   Manually-specified variables were not used by the project:
+[1.583s] 
+[1.584s]     DOWNLOAD_ARTIFACTS
+[1.584s] 
+[1.584s] 
+[1.584s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.585s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.585s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.585s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.589s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.590s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.590s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.590s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.590s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.590s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.590s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/system/bluetooth_monitor/include
+[1.591s] -- Configured cppcheck exclude dirs and/or files: 
+[1.591s] -- Added test 'lint_cmake' to check CMake code style
+[1.591s] -- Added test 'xmllint' to check XML markup files
+[1.591s] -- Configuring done
+[1.591s] -- Generating done
+[1.591s] -- Build files have been written to: /home/cityu/autoware/build/bluetooth_monitor
+[1.603s] Invoked command in '/home/cityu/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/system/bluetooth_monitor -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/bluetooth_monitor
+[1.609s] Invoking command in '/home/cityu/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/bluetooth_monitor -- -j16 -l16
+[2.592s] [ 25%] Built target bluetooth_monitor
+[2.592s] [ 50%] Built target bluetooth_monitor_lib
+[2.592s] [100%] Built target l2ping_service
+[2.605s] Invoked command in '/home/cityu/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/bluetooth_monitor -- -j16 -l16
+[2.640s] Invoking command in '/home/cityu/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/bluetooth_monitor
+[3.026s] -- Install configuration: "Release"
+[3.026s] -- Execute custom install script
+[3.026s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/lib/bluetooth_monitor/bluetooth_monitor
+[3.026s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/include/bluetooth_monitor/bluetooth_monitor.hpp
+[3.026s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping.hpp
+[3.026s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping_interface.hpp
+[3.027s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping_service.hpp
+[3.027s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/library_path.sh
+[3.027s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/library_path.dsv
+[3.027s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/lib/libbluetooth_monitor_lib.so
+[3.032s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/lib/bluetooth_monitor/l2ping_service
+[3.033s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/config/bluetooth_monitor.param.yaml
+[3.033s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/launch/bluetooth_monitor.launch.xml
+[3.033s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/ament_index/resource_index/package_run_dependencies/bluetooth_monitor
+[3.034s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/ament_index/resource_index/parent_prefix_path/bluetooth_monitor
+[3.034s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/ament_prefix_path.sh
+[3.034s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/ament_prefix_path.dsv
+[3.034s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/path.sh
+[3.035s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/path.dsv
+[3.035s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.bash
+[3.035s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.sh
+[3.035s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.zsh
+[3.036s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.dsv
+[3.036s] -- Symlinking: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/package.dsv
+[3.036s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/ament_index/resource_index/packages/bluetooth_monitor
+[3.036s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/ament_index/resource_index/rclcpp_components/bluetooth_monitor
+[3.036s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.036s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.037s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[3.037s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/bluetooth_monitorConfig.cmake
+[3.037s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/bluetooth_monitorConfig-version.cmake
+[3.037s] -- Up-to-date symlink: /home/cityu/autoware/install/bluetooth_monitor/share/bluetooth_monitor/package.xml
+[3.130s] Invoked command in '/home/cityu/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/bluetooth_monitor

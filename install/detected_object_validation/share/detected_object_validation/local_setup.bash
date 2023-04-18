@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/detected_object_validation/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_planning_msgs/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/lanelet_segment__rosidl_typesupport_introspection_cpp.hpp

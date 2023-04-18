@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/CMakeFiles/baidu_cnn_llvm-complete.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-install.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-mkdir.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-download.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-update.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-patch.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-configure.rule"
+		},
+		{
+			"file" : "/home/cityu/autoware/build/lidar_apollo_segmentation_tvm/baidu_cnn_llvm-prefix/src/baidu_cnn_llvm-stamp/baidu_cnn_llvm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"baidu_cnn_llvm"
+		],
+		"name" : "baidu_cnn_llvm"
+	}
+}

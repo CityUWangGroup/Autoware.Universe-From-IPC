@@ -1,0 +1,31 @@
+[ 15%] Built target gtest
+[ 30%] Built target gtest_main
+[ 46%] Built target vehicle_cmd_gate
+[ 76%] Built target vehicle_cmd_gate_node
+[100%] Built target test_vehicle_cmd_gate
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/lib/vehicle_cmd_gate/vehicle_cmd_gate
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/lib/libvehicle_cmd_gate_node.so
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/launch/vehicle_cmd_gate.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/config/vehicle_cmd_gate.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/ament_index/resource_index/package_run_dependencies/vehicle_cmd_gate
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/ament_index/resource_index/parent_prefix_path/vehicle_cmd_gate
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/ament_index/resource_index/packages/vehicle_cmd_gate
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/ament_index/resource_index/rclcpp_components/vehicle_cmd_gate
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/cmake/vehicle_cmd_gateConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/cmake/vehicle_cmd_gateConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/vehicle_cmd_gate/share/vehicle_cmd_gate/package.xml

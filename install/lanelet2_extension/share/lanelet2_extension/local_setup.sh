@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/lanelet2_extension/ament_cmake_environment_hooks/local_setup.sh

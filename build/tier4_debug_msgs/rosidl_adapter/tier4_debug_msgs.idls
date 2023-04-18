@@ -1,0 +1,12 @@
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/MultiArrayDimension.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/MultiArrayLayout.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/BoolStamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Float32Stamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Float32MultiArrayStamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Float64Stamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Float64MultiArrayStamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Int32Stamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Int32MultiArrayStamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Int64Stamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/Int64MultiArrayStamped.idl
+/home/cityu/autoware/build/tier4_debug_msgs/rosidl_adapter/tier4_debug_msgs:msg/StringStamped.idl

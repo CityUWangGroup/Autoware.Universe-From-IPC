@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tier4_control_launch
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/common/nearest_search.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/obstacle_collision_checker/obstacle_collision_checker.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/operation_mode_transition_manager/operation_mode_transition_manager.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/shift_decider/shift_decider.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/trajectory_follower/lateral_controller.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/trajectory_follower/longitudinal_controller.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/config/vehicle_cmd_gate/vehicle_cmd_gate.param.yaml
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/launch/control.launch.py
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/ament_index/resource_index/package_run_dependencies/tier4_control_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/ament_index/resource_index/parent_prefix_path/tier4_control_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/package.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/ament_index/resource_index/packages/tier4_control_launch
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/cmake/tier4_control_launchConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/cmake/tier4_control_launchConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_control_launch/share/tier4_control_launch/package.xml

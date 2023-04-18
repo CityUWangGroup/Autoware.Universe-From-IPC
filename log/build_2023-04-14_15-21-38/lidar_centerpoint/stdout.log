@@ -1,0 +1,170 @@
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- start to download
+-- Checking and downloading pts_voxel_encoder_centerpoint.onnx 
+-- start pts_voxel_encoder_centerpoint.onnx
+-- found pts_voxel_encoder_centerpoint.onnx
+-- same pts_voxel_encoder_centerpoint.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading pts_backbone_neck_head_centerpoint.onnx 
+-- start pts_backbone_neck_head_centerpoint.onnx
+-- found pts_backbone_neck_head_centerpoint.onnx
+-- same pts_backbone_neck_head_centerpoint.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading pts_voxel_encoder_centerpoint_tiny.onnx 
+-- start pts_voxel_encoder_centerpoint_tiny.onnx
+-- found pts_voxel_encoder_centerpoint_tiny.onnx
+-- same pts_voxel_encoder_centerpoint_tiny.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Checking and downloading pts_backbone_neck_head_centerpoint_tiny.onnx 
+-- start pts_backbone_neck_head_centerpoint_tiny.onnx
+-- found pts_backbone_neck_head_centerpoint_tiny.onnx
+-- same pts_backbone_neck_head_centerpoint_tiny.onnx
+-- File already exists.
+-- Download completed successfully!
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include;$<BUILD_INTERFACE:/home/cityu/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/lidar_centerpoint
+[ 21%] Built target centerpoint_cuda_lib
+[ 30%] Built target lidar_centerpoint_node
+[ 34%] [32m[1mLinking CXX shared library libcenterpoint_lib.so[0m
+[ 73%] Built target centerpoint_lib
+[ 82%] Built target single_inference_lidar_centerpoint_node
+[ 86%] [32m[1mLinking CXX shared library liblidar_centerpoint_component.so[0m
+[ 91%] Built target lidar_centerpoint_component
+[ 95%] [32m[1mLinking CXX shared library libsingle_inference_lidar_centerpoint_component.so[0m
+[100%] Built target single_inference_lidar_centerpoint_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_node
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/single_inference_lidar_centerpoint_node
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_visualizer.py
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_config.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_trt.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/cuda_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/detection_class_remapper.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/network_trt.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/scatter_kernel.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/tensorrt_wrapper.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/node.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/circle_nms_kernel.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/non_maximum_suppression.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/postprocess_kernel.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/pointcloud_densification.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/preprocess_kernel.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/voxel_generator.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/ros_utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/single_inference_node.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/include/lidar_centerpoint/utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libcenterpoint_lib.so
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/liblidar_centerpoint_component.so
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libsingle_inference_lidar_centerpoint_component.so
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/lidar_centerpoint.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/single_inference_lidar_centerpoint.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint_tiny.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint_tiny.onnx
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint_tiny.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/detection_class_remapper.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/package_run_dependencies/lidar_centerpoint
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/parent_prefix_path/lidar_centerpoint
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/packages/lidar_centerpoint
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/ament_index/resource_index/rclcpp_components/lidar_centerpoint
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/lidar_centerpoint/lib/libcenterpoint_cuda_lib.so

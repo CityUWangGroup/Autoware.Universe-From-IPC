@@ -1,0 +1,149 @@
+[  1%] Built target static_centerline_optimizer__cpp
+[ 11%] Built target static_centerline_optimizer__rosidl_generator_c
+[ 21%] Built target static_centerline_optimizer__rosidl_typesupport_introspection_cpp
+[ 31%] Built target static_centerline_optimizer__rosidl_typesupport_c
+[ 61%] Built target static_centerline_optimizer__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target static_centerline_optimizer__rosidl_typesupport_cpp
+[ 61%] Built target static_centerline_optimizer__rosidl_typesupport_introspection_c
+[ 71%] Built target static_centerline_optimizer__rosidl_typesupport_fastrtps_c
+[ 71%] Built target static_centerline_optimizer
+[ 73%] Built target static_centerline_optimizer__py
+[ 81%] Built target static_centerline_optimizer__python
+[ 90%] Built target main
+[ 96%] Built target static_centerline_optimizer__rosidl_typesupport_c__pyext
+[ 96%] Built target static_centerline_optimizer__rosidl_typesupport_introspection_c__pyext
+[100%] Built target static_centerline_optimizer__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/ament_index/resource_index/rosidl_interfaces/static_centerline_optimizer
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__functions.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__struct.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__type_support.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/points_with_lane_id.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__functions.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__struct.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__type_support.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__functions.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__struct.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__type_support.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__functions.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__struct.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__type_support.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/load_map.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/plan_path.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/plan_route.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__builder.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__struct.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__traits.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/points_with_lane_id.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__builder.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__struct.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__traits.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__builder.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__struct.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__traits.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__builder.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__struct.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__traits.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/load_map.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/plan_path.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/plan_route.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/msg/detail/points_with_lane_id__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_path__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/srv/detail/plan_route__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/pythonpath.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/__init__.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/srv/__init__.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/srv/_load_map.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/srv/_plan_path.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/srv/_plan_route.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/msg/__init__.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/msg/_points_with_lane_id.py
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/static_centerline_optimizer_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/static_centerline_optimizer_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/python3.8/site-packages/static_centerline_optimizer/static_centerline_optimizer_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__python.so
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/LoadMap.idl
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanRoute.idl
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanPath.idl
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/msg/PointsWithLaneId.idl
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/LoadMap.srv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/LoadMap_Request.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/LoadMap_Response.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanRoute.srv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanRoute_Request.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanRoute_Response.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanPath.srv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanPath_Request.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/srv/PlanPath_Response.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/msg/PointsWithLaneId.msg
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/collision_free_optimizer_node.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/static_centerline_optimizer_node.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/type_alias.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/include/static_centerline_optimizer/utils.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/static_centerline_optimizer/main
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/launch/run_planning_server.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/launch/static_centerline_optimizer.launch.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/config/static_centerline_optimizer.param.yaml
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/rviz/static_centerline_optimizer.rviz
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/ament_index/resource_index/package_run_dependencies/static_centerline_optimizer
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/ament_index/resource_index/parent_prefix_path/static_centerline_optimizer
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/ament_index/resource_index/packages/static_centerline_optimizer
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizerConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizerConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/package.xml
+-- Up-to-date symlink: /home/cityu/autoware/install/static_centerline_optimizer/lib/static_centerline_optimizer/app.py
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_generator_c.so
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_c.so
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/lib/libstatic_centerline_optimizer__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/cityu/autoware/install/static_centerline_optimizer/share/static_centerline_optimizer/cmake/static_centerline_optimizer__rosidl_typesupport_cppExport-release.cmake

@@ -1,0 +1,10 @@
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/install/strip.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/install/local.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/install.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/list_install_components.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/rebuild_cache.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/edit_cache.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/test.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/autoware_auto_perception_rviz_plugin.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/autoware_auto_perception_rviz_plugin_uninstall.dir
+/home/cityu/autoware/build/autoware_auto_perception_rviz_plugin/CMakeFiles/uninstall.dir

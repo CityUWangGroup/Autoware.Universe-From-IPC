@@ -1,0 +1,4 @@
+CMake Warning at CMakeLists.txt:58 (message):
+  Missing image artifact for yolo_v2_tiny, skipping test
+
+

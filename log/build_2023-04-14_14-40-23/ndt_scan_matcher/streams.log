@@ -1,0 +1,171 @@
+[0.390s] Invoking command in '/home/cityu/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/ndt_scan_matcher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_scan_matcher
+[8.529s] -- The C compiler identification is GNU 9.4.0
+[8.529s] -- The CXX compiler identification is GNU 9.4.0
+[8.529s] -- Check for working C compiler: /usr/bin/cc
+[8.529s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.529s] -- Detecting C compiler ABI info
+[8.530s] -- Detecting C compiler ABI info - done
+[8.530s] -- Detecting C compile features
+[8.530s] -- Detecting C compile features - done
+[8.530s] -- Check for working CXX compiler: /usr/bin/c++
+[8.530s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.530s] -- Detecting CXX compiler ABI info
+[8.530s] -- Detecting CXX compiler ABI info - done
+[8.530s] -- Detecting CXX compile features
+[8.530s] -- Detecting CXX compile features - done
+[8.531s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[8.531s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[8.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.531s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.531s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[8.531s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.531s] -- Found FastRTPS: /opt/ros/galactic/include  
+[8.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.532s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[8.532s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[8.532s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.532s] -- Looking for pthread.h
+[8.532s] -- Looking for pthread.h - found
+[8.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.532s] -- Looking for pthread_create in pthreads
+[8.532s] -- Looking for pthread_create in pthreads - not found
+[8.532s] -- Looking for pthread_create in pthread
+[8.532s] -- Looking for pthread_create in pthread - found
+[8.533s] -- Found Threads: TRUE  
+[8.533s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[11.738s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[11.801s] -- Checking for module 'eigen3'
+[11.899s] --   Found eigen3, version 3.3.7
+[12.168s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[12.169s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[12.328s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[12.362s] -- Checking for module 'libusb-1.0'
+[12.370s] --   No package 'libusb-1.0' found
+[12.378s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[12.378s] -- OpenNI disabled because libusb-1.0 not found.
+[12.379s] ** WARNING ** io features related to openni will be disabled
+[12.398s] -- Checking for module 'libusb-1.0'
+[12.410s] --   No package 'libusb-1.0' found
+[12.414s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[12.414s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[12.414s] ** WARNING ** io features related to openni2 will be disabled
+[12.414s] ** WARNING ** io features related to pcap will be disabled
+[12.414s] ** WARNING ** io features related to png will be disabled
+[12.527s] -- The imported target "vtkParseOGLExt" references the file
+[12.527s]    "/usr/bin/vtkParseOGLExt-7.1"
+[12.527s] but this file does not exist.  Possible reasons include:
+[12.527s] * The file was deleted, renamed, or moved to another location.
+[12.527s] * An install or uninstall procedure did not complete successfully.
+[12.527s] * The installation package was faulty and contained
+[12.528s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[12.528s] but not all the files it references.
+[12.528s] 
+[12.528s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[12.528s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[12.529s] but this file does not exist.  Possible reasons include:
+[12.529s] * The file was deleted, renamed, or moved to another location.
+[12.529s] * An install or uninstall procedure did not complete successfully.
+[12.529s] * The installation package was faulty and contained
+[12.529s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[12.529s] but not all the files it references.
+[12.529s] 
+[12.529s] -- The imported target "vtk" references the file
+[12.530s]    "/usr/bin/vtk"
+[12.530s] but this file does not exist.  Possible reasons include:
+[12.530s] * The file was deleted, renamed, or moved to another location.
+[12.530s] * An install or uninstall procedure did not complete successfully.
+[12.530s] * The installation package was faulty and contained
+[12.530s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[12.530s] but not all the files it references.
+[12.531s] 
+[12.531s] -- The imported target "pvtk" references the file
+[12.531s]    "/usr/bin/pvtk"
+[12.531s] but this file does not exist.  Possible reasons include:
+[12.531s] * The file was deleted, renamed, or moved to another location.
+[12.531s] * An install or uninstall procedure did not complete successfully.
+[12.531s] * The installation package was faulty and contained
+[12.531s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[12.532s] but not all the files it references.
+[12.532s] 
+[12.564s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[12.565s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[12.592s] -- Checking for module 'flann'
+[12.682s] --   Found flann, version 1.9.1
+[13.053s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[13.122s] -- looking for PCL_COMMON
+[13.124s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.125s] -- looking for PCL_OCTREE
+[13.127s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.127s] -- looking for PCL_IO
+[13.130s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.130s] -- looking for PCL_KDTREE
+[13.149s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.150s] -- looking for PCL_SEARCH
+[13.152s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.153s] -- looking for PCL_SAMPLE_CONSENSUS
+[13.155s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.155s] -- looking for PCL_FILTERS
+[13.157s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.158s] -- looking for PCL_2D
+[13.159s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[13.160s] -- looking for PCL_FEATURES
+[13.162s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.163s] -- looking for PCL_REGISTRATION
+[13.165s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.167s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_registration;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[14.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.807s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/localization/ndt_scan_matcher/include
+[14.807s] -- Configured cppcheck exclude dirs and/or files: 
+[14.816s] -- Configuring done
+[14.994s] -- Generating done
+[14.998s] -- Build files have been written to: /home/cityu/autoware/build/ndt_scan_matcher
+[15.055s] Invoked command in '/home/cityu/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/ndt_scan_matcher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/ndt_scan_matcher
+[15.057s] Invoking command in '/home/cityu/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ndt_scan_matcher -- -j16 -l16
+[15.329s] [35m[1mScanning dependencies of target ndt_scan_matcher[0m
+[15.759s] [ 11%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/debug.cpp.o[0m
+[28.599s] [ 22%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/pose_initialization_module.cpp.o[0m
+[64.550s] [ 33%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/map_module.cpp.o[0m
+[98.063s] [ 44%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/tf2_listener_module.cpp.o[0m
+[98.075s] [ 55%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/pose_array_interpolator.cpp.o[0m
+[108.467s] [ 66%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/util_func.cpp.o[0m
+[118.186s] [ 88%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/ndt_scan_matcher_core.cpp.o[0m
+[118.187s] [ 88%] [32mBuilding CXX object CMakeFiles/ndt_scan_matcher.dir/src/ndt_scan_matcher_node.cpp.o[0m
+[178.463s] [100%] [32m[1mLinking CXX executable ndt_scan_matcher[0m
+[180.478s] [100%] Built target ndt_scan_matcher
+[180.505s] Invoked command in '/home/cityu/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/ndt_scan_matcher -- -j16 -l16
+[180.747s] Invoking command in '/home/cityu/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ndt_scan_matcher
+[180.898s] -- Install configuration: "Release"
+[180.898s] -- Execute custom install script
+[180.898s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/debug.hpp
+[180.898s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/map_module.hpp
+[180.898s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/matrix_type.hpp
+[180.898s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/ndt_scan_matcher_core.hpp
+[180.899s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/particle.hpp
+[180.931s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/pose_array_interpolator.hpp
+[180.955s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/pose_initialization_module.hpp
+[180.981s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/tf2_listener_module.hpp
+[181.003s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/util_func.hpp
+[181.023s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher
+[181.046s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/launch/ndt_scan_matcher.launch.xml
+[181.062s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/config/ndt_scan_matcher.param.yaml
+[181.080s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ndt_scan_matcher
+[181.104s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ndt_scan_matcher
+[181.133s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/ament_prefix_path.sh
+[181.163s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/ament_prefix_path.dsv
+[181.218s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/path.sh
+[181.260s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/path.dsv
+[181.303s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.bash
+[181.317s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.sh
+[181.339s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.zsh
+[181.359s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.dsv
+[181.382s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/package.dsv
+[181.419s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ament_index/resource_index/packages/ndt_scan_matcher
+[181.440s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ament_cmake_export_dependencies-extras.cmake
+[181.492s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ament_cmake_export_include_directories-extras.cmake
+[181.534s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ndt_scan_matcherConfig.cmake
+[181.552s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ndt_scan_matcherConfig-version.cmake
+[181.592s] -- Symlinking: /home/cityu/autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/package.xml
+[181.631s] Invoked command in '/home/cityu/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_localization_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/ndt_omp:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_localization_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/ndt_omp/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_localization_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/ndt_scan_matcher

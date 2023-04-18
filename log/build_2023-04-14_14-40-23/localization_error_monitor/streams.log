@@ -1,0 +1,81 @@
+[0.028s] Invoking command in '/home/cityu/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/localization_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/localization_error_monitor
+[21.336s] -- The C compiler identification is GNU 9.4.0
+[21.336s] -- The CXX compiler identification is GNU 9.4.0
+[21.336s] -- Check for working C compiler: /usr/bin/cc
+[21.337s] -- Check for working C compiler: /usr/bin/cc -- works
+[21.337s] -- Detecting C compiler ABI info
+[21.337s] -- Detecting C compiler ABI info - done
+[21.337s] -- Detecting C compile features
+[21.337s] -- Detecting C compile features - done
+[21.337s] -- Check for working CXX compiler: /usr/bin/c++
+[21.337s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[21.337s] -- Detecting CXX compiler ABI info
+[21.337s] -- Detecting CXX compiler ABI info - done
+[21.338s] -- Detecting CXX compile features
+[21.338s] -- Detecting CXX compile features - done
+[21.338s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[21.338s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[21.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[21.338s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.338s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[21.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.338s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[21.339s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[21.339s] -- Found FastRTPS: /opt/ros/galactic/include  
+[21.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.339s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[21.339s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[21.339s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[21.355s] -- Looking for pthread.h
+[21.356s] -- Looking for pthread.h - found
+[21.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[21.357s] -- Looking for pthread_create in pthreads
+[21.357s] -- Looking for pthread_create in pthreads - not found
+[21.357s] -- Looking for pthread_create in pthread
+[21.357s] -- Looking for pthread_create in pthread - found
+[21.357s] -- Found Threads: TRUE  
+[21.357s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[21.357s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[21.358s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[21.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.358s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.358s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/localization/localization_error_monitor/include
+[21.358s] -- Configured cppcheck exclude dirs and/or files: 
+[21.358s] -- Added test 'lint_cmake' to check CMake code style
+[21.358s] -- Added test 'xmllint' to check XML markup files
+[21.358s] -- Configuring done
+[21.358s] -- Generating done
+[21.359s] -- Build files have been written to: /home/cityu/autoware/build/localization_error_monitor
+[21.579s] Invoked command in '/home/cityu/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/localization/localization_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/localization_error_monitor
+[21.585s] Invoking command in '/home/cityu/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/localization_error_monitor -- -j16 -l16
+[54.514s] [35m[1mScanning dependencies of target localization_error_monitor[0m
+[54.514s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_error_monitor.dir/src/main.cpp.o[0m
+[54.514s] [ 66%] [32mBuilding CXX object CMakeFiles/localization_error_monitor.dir/src/node.cpp.o[0m
+[67.163s] [100%] [32m[1mLinking CXX executable localization_error_monitor[0m
+[67.614s] [100%] Built target localization_error_monitor
+[67.638s] Invoked command in '/home/cityu/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/localization_error_monitor -- -j16 -l16
+[67.701s] Invoking command in '/home/cityu/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/localization_error_monitor
+[71.548s] -- Install configuration: "Release"
+[71.549s] -- Execute custom install script
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/include/localization_error_monitor/node.hpp
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/lib/localization_error_monitor/localization_error_monitor
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/launch/localization_error_monitor.launch.xml
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/ament_index/resource_index/package_run_dependencies/localization_error_monitor
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/ament_index/resource_index/parent_prefix_path/localization_error_monitor
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/ament_prefix_path.sh
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/ament_prefix_path.dsv
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/path.sh
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/path.dsv
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.bash
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.sh
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.zsh
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.dsv
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/package.dsv
+[71.549s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/ament_index/resource_index/packages/localization_error_monitor
+[71.550s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.550s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.550s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/localization_error_monitorConfig.cmake
+[71.550s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/localization_error_monitorConfig-version.cmake
+[71.550s] -- Symlinking: /home/cityu/autoware/install/localization_error_monitor/share/localization_error_monitor/package.xml
+[71.565s] Invoked command in '/home/cityu/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/localization_error_monitor

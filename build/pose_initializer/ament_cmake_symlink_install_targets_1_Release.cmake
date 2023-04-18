@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/pose_initializer/pose_initializer_node" "/home/cityu/autoware/build/pose_initializer/map_height_fitter" "TARGETS" "pose_initializer_node" "map_height_fitter" "DESTINATION" "lib/pose_initializer")

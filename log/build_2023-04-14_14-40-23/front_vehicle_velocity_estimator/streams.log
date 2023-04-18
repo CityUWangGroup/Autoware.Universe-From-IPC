@@ -1,0 +1,181 @@
+[0.054s] Invoking command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/front_vehicle_velocity_estimator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/front_vehicle_velocity_estimator
+[2.530s] -- The C compiler identification is GNU 9.4.0
+[2.531s] -- The CXX compiler identification is GNU 9.4.0
+[2.531s] -- Check for working C compiler: /usr/bin/cc
+[2.531s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.531s] -- Detecting C compiler ABI info
+[2.531s] -- Detecting C compiler ABI info - done
+[2.531s] -- Detecting C compile features
+[2.531s] -- Detecting C compile features - done
+[2.531s] -- Check for working CXX compiler: /usr/bin/c++
+[2.531s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.532s] -- Detecting CXX compiler ABI info
+[2.532s] -- Detecting CXX compiler ABI info - done
+[2.532s] -- Detecting CXX compile features
+[2.532s] -- Detecting CXX compile features - done
+[2.532s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[2.532s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[2.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.532s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.533s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.533s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.533s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.533s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.533s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.533s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.533s] -- Looking for pthread.h
+[2.534s] -- Looking for pthread.h - found
+[2.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.537s] -- Looking for pthread_create in pthreads
+[2.631s] -- Looking for pthread_create in pthreads - not found
+[2.631s] -- Looking for pthread_create in pthread
+[2.778s] -- Looking for pthread_create in pthread - found
+[2.778s] -- Found Threads: TRUE  
+[3.738s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.743s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.552s] -- Checking for module 'eigen3'
+[4.588s] --   Found eigen3, version 3.3.7
+[4.707s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.707s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.832s] -- Checking for module 'flann'
+[4.870s] --   Found flann, version 1.9.1
+[4.983s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.087s] -- The imported target "vtkParseOGLExt" references the file
+[5.087s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.087s] but this file does not exist.  Possible reasons include:
+[5.087s] * The file was deleted, renamed, or moved to another location.
+[5.087s] * An install or uninstall procedure did not complete successfully.
+[5.088s] * The installation package was faulty and contained
+[5.088s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.088s] but not all the files it references.
+[5.088s] 
+[5.088s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.088s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.088s] but this file does not exist.  Possible reasons include:
+[5.088s] * The file was deleted, renamed, or moved to another location.
+[5.089s] * An install or uninstall procedure did not complete successfully.
+[5.089s] * The installation package was faulty and contained
+[5.089s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.089s] but not all the files it references.
+[5.089s] 
+[5.089s] -- The imported target "vtk" references the file
+[5.089s]    "/usr/bin/vtk"
+[5.089s] but this file does not exist.  Possible reasons include:
+[5.090s] * The file was deleted, renamed, or moved to another location.
+[5.090s] * An install or uninstall procedure did not complete successfully.
+[5.090s] * The installation package was faulty and contained
+[5.090s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.090s] but not all the files it references.
+[5.090s] 
+[5.090s] -- The imported target "pvtk" references the file
+[5.090s]    "/usr/bin/pvtk"
+[5.090s] but this file does not exist.  Possible reasons include:
+[5.091s] * The file was deleted, renamed, or moved to another location.
+[5.091s] * An install or uninstall procedure did not complete successfully.
+[5.091s] * The installation package was faulty and contained
+[5.091s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.091s] but not all the files it references.
+[5.091s] 
+[5.122s] -- Checking for module 'libusb-1.0'
+[5.129s] --   No package 'libusb-1.0' found
+[5.136s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.136s] -- OpenNI disabled because libusb-1.0 not found.
+[5.153s] -- Checking for module 'libusb-1.0'
+[5.160s] --   No package 'libusb-1.0' found
+[5.162s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.163s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.188s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[5.205s] -- Checking for module 'libusb-1.0'
+[5.208s] --   No package 'libusb-1.0' found
+[5.219s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.219s] -- OpenNI disabled because libusb-1.0 not found.
+[5.223s] -- Checking for module 'libusb-1.0'
+[5.231s] --   No package 'libusb-1.0' found
+[5.237s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.238s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.315s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[5.316s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[5.328s] -- Checking for module 'libusb-1.0'
+[5.337s] --   No package 'libusb-1.0' found
+[5.345s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.345s] -- OpenNI disabled because libusb-1.0 not found.
+[5.385s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.391s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.395s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.400s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.404s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.408s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.409s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[5.411s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[5.415s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.419s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.426s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.431s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.436s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.441s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.448s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.454s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.459s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.465s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.469s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.474s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.477s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[5.478s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[5.484s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.488s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[8.258s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[8.804s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.812s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/front_vehicle_velocity_estimator/include
+[8.812s] -- Configured cppcheck exclude dirs and/or files: 
+[8.814s] -- Added test 'lint_cmake' to check CMake code style
+[8.815s] -- Added test 'xmllint' to check XML markup files
+[8.827s] -- Configuring done
+[8.953s] -- Generating done
+[8.958s] -- Build files have been written to: /home/cityu/autoware/build/front_vehicle_velocity_estimator
+[9.002s] Invoked command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/perception/front_vehicle_velocity_estimator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/front_vehicle_velocity_estimator
+[9.010s] Invoking command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/front_vehicle_velocity_estimator -- -j16 -l16
+[12.452s] [35m[1mScanning dependencies of target front_vehicle_velocity_estimator_node[0m
+[12.453s] [ 20%] [32mBuilding CXX object CMakeFiles/front_vehicle_velocity_estimator_node.dir/rclcpp_components/node_main_front_vehicle_velocity_estimator_node.cpp.o[0m
+[15.082s] [ 40%] [32m[1mLinking CXX executable front_vehicle_velocity_estimator_node[0m
+[15.383s] [ 40%] Built target front_vehicle_velocity_estimator_node
+[15.404s] [35m[1mScanning dependencies of target front_vehicle_velocity_estimator_node_component[0m
+[15.610s] [ 60%] [32mBuilding CXX object CMakeFiles/front_vehicle_velocity_estimator_node_component.dir/src/front_vehicle_velocity_estimator_node/front_vehicle_velocity_estimator_node.cpp.o[0m
+[75.220s] [ 80%] [32mBuilding CXX object CMakeFiles/front_vehicle_velocity_estimator_node_component.dir/src/front_vehicle_velocity_estimator_node/front_vehicle_velocity_estimator.cpp.o[0m
+[97.992s] [100%] [32m[1mLinking CXX shared library libfront_vehicle_velocity_estimator_node_component.so[0m
+[100.080s] [100%] Built target front_vehicle_velocity_estimator_node_component
+[100.112s] Invoked command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/front_vehicle_velocity_estimator -- -j16 -l16
+[100.527s] Invoking command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/front_vehicle_velocity_estimator
+[103.368s] -- Install configuration: "Release"
+[103.368s] -- Execute custom install script
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/lib/front_vehicle_velocity_estimator/front_vehicle_velocity_estimator_node
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/include/front_vehicle_velocity_estimator/front_vehicle_velocity_estimator.hpp
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/include/front_vehicle_velocity_estimator/front_vehicle_velocity_estimator_node.hpp
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/library_path.sh
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/library_path.dsv
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/lib/libfront_vehicle_velocity_estimator_node_component.so
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/launch/front_vehicle_velocity_estimator.launch.xml
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/ament_index/resource_index/package_run_dependencies/front_vehicle_velocity_estimator
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/ament_index/resource_index/parent_prefix_path/front_vehicle_velocity_estimator
+[103.368s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/ament_prefix_path.sh
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/ament_prefix_path.dsv
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/path.sh
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/environment/path.dsv
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/local_setup.bash
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/local_setup.sh
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/local_setup.zsh
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/local_setup.dsv
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/package.dsv
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/ament_index/resource_index/packages/front_vehicle_velocity_estimator
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/ament_index/resource_index/rclcpp_components/front_vehicle_velocity_estimator
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.369s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/cmake/ament_cmake_export_libraries-extras.cmake
+[103.384s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/cmake/front_vehicle_velocity_estimatorConfig.cmake
+[103.385s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/cmake/front_vehicle_velocity_estimatorConfig-version.cmake
+[103.385s] -- Symlinking: /home/cityu/autoware/install/front_vehicle_velocity_estimator/share/front_vehicle_velocity_estimator/package.xml
+[103.701s] Invoked command in '/home/cityu/autoware/build/front_vehicle_velocity_estimator' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/front_vehicle_velocity_estimator

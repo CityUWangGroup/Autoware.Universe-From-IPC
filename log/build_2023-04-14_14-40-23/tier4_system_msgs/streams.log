@@ -1,0 +1,421 @@
+[0.212s] Invoking command in '/home/cityu/autoware/build/tier4_system_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_system_msgs
+[1.592s] -- The C compiler identification is GNU 9.4.0
+[1.593s] -- The CXX compiler identification is GNU 9.4.0
+[1.593s] -- Check for working C compiler: /usr/bin/cc
+[1.593s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.593s] -- Detecting C compiler ABI info
+[1.593s] -- Detecting C compiler ABI info - done
+[1.593s] -- Detecting C compile features
+[1.593s] -- Detecting C compile features - done
+[1.593s] -- Check for working CXX compiler: /usr/bin/c++
+[1.593s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.593s] -- Detecting CXX compiler ABI info
+[1.594s] -- Detecting CXX compiler ABI info - done
+[1.594s] -- Detecting CXX compile features
+[1.594s] -- Detecting CXX compile features - done
+[1.594s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.594s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.594s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.594s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.746s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.155s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.455s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.982s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.984s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.034s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.035s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.035s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.089s] -- Found PythonExtra: .so  
+[3.449s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.487s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.491s] -- Added test 'lint_cmake' to check CMake code style
+[3.493s] -- Added test 'xmllint' to check XML markup files
+[3.504s] -- Configuring done
+[3.653s] -- Generating done
+[3.658s] -- Build files have been written to: /home/cityu/autoware/build/tier4_system_msgs
+[3.694s] Invoked command in '/home/cityu/autoware/build/tier4_system_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_system_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_system_msgs
+[3.696s] Invoking command in '/home/cityu/autoware/build/tier4_system_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_system_msgs -- -j16 -l16
+[6.116s] [35m[1mScanning dependencies of target tier4_system_msgs__cpp[0m
+[6.116s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.116s] [  0%] Built target tier4_system_msgs__cpp
+[6.116s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.162s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_generator_c[0m
+[8.188s] [  2%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/autoware_state__functions.c.o[0m
+[8.312s] [  3%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/srv/detail/change_autoware_control__functions.c.o[0m
+[8.501s] [  4%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/srv/detail/change_operation_mode__functions.c.o[0m
+[8.657s] [  5%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/srv/detail/operate_mrm__functions.c.o[0m
+[8.812s] [  6%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/mrm_behavior_status__functions.c.o[0m
+[8.934s] [  7%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/mode_change_available__functions.c.o[0m
+[9.062s] [  7%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/service_log__functions.c.o[0m
+[9.196s] [  8%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/hazard_status_stamped__functions.c.o[0m
+[9.330s] [  9%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/hazard_status__functions.c.o[0m
+[9.444s] [ 10%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/emergency_state_stamped__functions.c.o[0m
+[9.569s] [ 11%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_system_msgs/msg/detail/emergency_state__functions.c.o[0m
+[9.683s] [ 12%] [32m[1mLinking C shared library libtier4_system_msgs__rosidl_generator_c.so[0m
+[9.751s] [ 12%] Built target tier4_system_msgs__rosidl_generator_c
+[9.768s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.731s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_cpp[0m
+[10.753s] [ 14%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/autoware_state__type_support.cpp.o[0m
+[11.203s] [ 15%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/srv/change_autoware_control__type_support.cpp.o[0m
+[11.635s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/srv/change_operation_mode__type_support.cpp.o[0m
+[12.023s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/srv/operate_mrm__type_support.cpp.o[0m
+[12.499s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/mrm_behavior_status__type_support.cpp.o[0m
+[12.978s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/mode_change_available__type_support.cpp.o[0m
+[13.390s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/service_log__type_support.cpp.o[0m
+[13.867s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/hazard_status_stamped__type_support.cpp.o[0m
+[14.284s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/hazard_status__type_support.cpp.o[0m
+[14.655s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/emergency_state_stamped__type_support.cpp.o[0m
+[15.029s] [ 23%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_system_msgs/msg/emergency_state__type_support.cpp.o[0m
+[15.482s] [ 24%] [32m[1mLinking CXX shared library libtier4_system_msgs__rosidl_typesupport_cpp.so[0m
+[15.541s] [ 24%] Built target tier4_system_msgs__rosidl_typesupport_cpp
+[15.558s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.589s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_c[0m
+[16.611s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/autoware_state__type_support.cpp.o[0m
+[16.657s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/srv/change_autoware_control__type_support.cpp.o[0m
+[16.706s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/srv/change_operation_mode__type_support.cpp.o[0m
+[16.743s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/srv/operate_mrm__type_support.cpp.o[0m
+[16.791s] [ 30%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/mrm_behavior_status__type_support.cpp.o[0m
+[16.833s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/mode_change_available__type_support.cpp.o[0m
+[16.863s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/service_log__type_support.cpp.o[0m
+[16.907s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/hazard_status_stamped__type_support.cpp.o[0m
+[16.953s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/hazard_status__type_support.cpp.o[0m
+[16.999s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/emergency_state_stamped__type_support.cpp.o[0m
+[17.043s] [ 35%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_system_msgs/msg/emergency_state__type_support.cpp.o[0m
+[17.086s] [ 36%] [32m[1mLinking CXX shared library libtier4_system_msgs__rosidl_typesupport_c.so[0m
+[17.149s] [ 36%] Built target tier4_system_msgs__rosidl_typesupport_c
+[17.164s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.528s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_introspection_c[0m
+[18.555s] [ 38%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/autoware_state__type_support.c.o[0m
+[18.608s] [ 39%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/srv/detail/change_autoware_control__type_support.c.o[0m
+[18.653s] [ 40%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/srv/detail/change_operation_mode__type_support.c.o[0m
+[18.703s] [ 41%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/srv/detail/operate_mrm__type_support.c.o[0m
+[18.769s] [ 42%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/mrm_behavior_status__type_support.c.o[0m
+[18.817s] [ 42%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/mode_change_available__type_support.c.o[0m
+[18.870s] [ 43%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/service_log__type_support.c.o[0m
+[18.918s] [ 44%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/hazard_status_stamped__type_support.c.o[0m
+[18.956s] [ 45%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/hazard_status__type_support.c.o[0m
+[19.019s] [ 46%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/emergency_state_stamped__type_support.c.o[0m
+[19.058s] [ 47%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_system_msgs/msg/detail/emergency_state__type_support.c.o[0m
+[19.094s] [ 48%] [32m[1mLinking C shared library libtier4_system_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.130s] [ 48%] Built target tier4_system_msgs__rosidl_typesupport_introspection_c
+[19.142s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.316s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[20.352s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/autoware_state__type_support.cpp.o[0m
+[21.037s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/srv/detail/dds_fastrtps/change_autoware_control__type_support.cpp.o[0m
+[21.731s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/srv/detail/dds_fastrtps/change_operation_mode__type_support.cpp.o[0m
+[22.381s] [ 51%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/srv/detail/dds_fastrtps/operate_mrm__type_support.cpp.o[0m
+[23.095s] [ 52%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/mrm_behavior_status__type_support.cpp.o[0m
+[23.808s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/mode_change_available__type_support.cpp.o[0m
+[24.455s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/service_log__type_support.cpp.o[0m
+[25.083s] [ 55%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/hazard_status_stamped__type_support.cpp.o[0m
+[25.788s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/hazard_status__type_support.cpp.o[0m
+[26.703s] [ 57%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/emergency_state_stamped__type_support.cpp.o[0m
+[27.384s] [ 58%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_system_msgs/msg/detail/dds_fastrtps/emergency_state__type_support.cpp.o[0m
+[28.062s] [ 59%] [32m[1mLinking CXX shared library libtier4_system_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.202s] [ 59%] Built target tier4_system_msgs__rosidl_typesupport_fastrtps_cpp
+[28.219s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.590s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_introspection_cpp[0m
+[29.621s] [ 61%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/autoware_state__type_support.cpp.o[0m
+[30.143s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/srv/detail/change_autoware_control__type_support.cpp.o[0m
+[30.699s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/srv/detail/change_operation_mode__type_support.cpp.o[0m
+[31.192s] [ 64%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/srv/detail/operate_mrm__type_support.cpp.o[0m
+[31.647s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/mrm_behavior_status__type_support.cpp.o[0m
+[32.106s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/mode_change_available__type_support.cpp.o[0m
+[32.474s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/service_log__type_support.cpp.o[0m
+[32.977s] [ 68%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/hazard_status_stamped__type_support.cpp.o[0m
+[33.566s] [ 69%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/hazard_status__type_support.cpp.o[0m
+[34.359s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/emergency_state_stamped__type_support.cpp.o[0m
+[34.771s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_system_msgs/msg/detail/emergency_state__type_support.cpp.o[0m
+[35.273s] [ 71%] [32m[1mLinking CXX shared library libtier4_system_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[35.433s] [ 71%] Built target tier4_system_msgs__rosidl_typesupport_introspection_cpp
+[35.452s] [ 72%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.025s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_fastrtps_c[0m
+[37.076s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/autoware_state__type_support_c.cpp.o[0m
+[37.775s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/srv/detail/change_autoware_control__type_support_c.cpp.o[0m
+[38.437s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/srv/detail/change_operation_mode__type_support_c.cpp.o[0m
+[39.048s] [ 76%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/srv/detail/operate_mrm__type_support_c.cpp.o[0m
+[39.647s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/mrm_behavior_status__type_support_c.cpp.o[0m
+[40.230s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/mode_change_available__type_support_c.cpp.o[0m
+[40.807s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/service_log__type_support_c.cpp.o[0m
+[41.503s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/hazard_status_stamped__type_support_c.cpp.o[0m
+[42.119s] [ 80%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/hazard_status__type_support_c.cpp.o[0m
+[42.814s] [ 81%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/emergency_state_stamped__type_support_c.cpp.o[0m
+[43.429s] [ 82%] [32mBuilding CXX object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_system_msgs/msg/detail/emergency_state__type_support_c.cpp.o[0m
+[44.057s] [ 83%] [32m[1mLinking CXX shared library libtier4_system_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[44.321s] [ 83%] Built target tier4_system_msgs__rosidl_typesupport_fastrtps_c
+[44.339s] [35m[1mScanning dependencies of target tier4_system_msgs[0m
+[44.357s] [ 83%] Built target tier4_system_msgs
+[44.373s] [35m[1mScanning dependencies of target tier4_system_msgs__py[0m
+[44.394s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[47.797s] [ 84%] Built target tier4_system_msgs__py
+[47.815s] [35m[1mScanning dependencies of target tier4_system_msgs__python[0m
+[47.872s] [ 85%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_autoware_state_s.c.o[0m
+[48.065s] [ 86%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/srv/_change_autoware_control_s.c.o[0m
+[48.276s] [ 87%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/srv/_change_operation_mode_s.c.o[0m
+[48.483s] [ 87%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/srv/_operate_mrm_s.c.o[0m
+[48.698s] [ 88%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_mrm_behavior_status_s.c.o[0m
+[48.879s] [ 89%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_mode_change_available_s.c.o[0m
+[49.052s] [ 90%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_service_log_s.c.o[0m
+[49.264s] [ 91%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_hazard_status_stamped_s.c.o[0m
+[49.465s] [ 92%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_hazard_status_s.c.o[0m
+[49.756s] [ 93%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_emergency_state_stamped_s.c.o[0m
+[49.938s] [ 94%] [32mBuilding C object CMakeFiles/tier4_system_msgs__python.dir/rosidl_generator_py/tier4_system_msgs/msg/_emergency_state_s.c.o[0m
+[50.123s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_system_msgs/libtier4_system_msgs__python.so[0m
+[50.218s] [ 95%] Built target tier4_system_msgs__python
+[50.239s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[50.270s] [ 96%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_system_msgs/_tier4_system_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[50.695s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[50.757s] [ 97%] Built target tier4_system_msgs__rosidl_typesupport_introspection_c__pyext
+[50.774s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_c__pyext[0m
+[50.774s] [35m[1mScanning dependencies of target tier4_system_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[50.820s] [ 98%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_system_msgs/_tier4_system_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[50.825s] [ 98%] [32mBuilding C object CMakeFiles/tier4_system_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_system_msgs/_tier4_system_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[51.306s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[51.357s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[51.497s] [100%] Built target tier4_system_msgs__rosidl_typesupport_fastrtps_c__pyext
+[51.514s] [100%] Built target tier4_system_msgs__rosidl_typesupport_c__pyext
+[51.550s] Invoked command in '/home/cityu/autoware/build/tier4_system_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_system_msgs -- -j16 -l16
+[52.137s] Invoking command in '/home/cityu/autoware/build/tier4_system_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_system_msgs
+[61.650s] -- Install configuration: "Release"
+[61.651s] -- Execute custom install script
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_system_msgs
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/autoware_state.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__functions.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__struct.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__type_support.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__functions.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__struct.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__type_support.h
+[61.651s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__functions.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__struct.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__type_support.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__functions.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__struct.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__type_support.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__functions.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__struct.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__type_support.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__functions.h
+[61.652s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__struct.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__type_support.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__functions.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__struct.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__type_support.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__functions.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__struct.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__type_support.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/emergency_state.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/emergency_state_stamped.h
+[61.653s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/hazard_status.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/hazard_status_stamped.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/mode_change_available.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/mrm_behavior_status.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/rosidl_generator_c__visibility_control.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/service_log.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/change_autoware_control.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/change_operation_mode.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__functions.h
+[61.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__struct.h
+[61.655s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__type_support.h
+[61.655s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__functions.h
+[61.655s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__struct.h
+[61.655s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__type_support.h
+[61.656s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__functions.h
+[61.656s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__struct.h
+[61.656s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__type_support.h
+[61.656s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/operate_mrm.h
+[61.657s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/library_path.sh
+[61.662s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/library_path.dsv
+[61.664s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_c.h
+[61.665s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__rosidl_typesupport_fastrtps_c.h
+[61.665s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__rosidl_typesupport_fastrtps_c.h
+[61.666s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_c.h
+[61.666s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_c.h
+[61.666s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__rosidl_typesupport_fastrtps_c.h
+[61.666s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__rosidl_typesupport_fastrtps_c.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__rosidl_typesupport_fastrtps_c.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__rosidl_typesupport_fastrtps_c.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__rosidl_typesupport_fastrtps_c.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__rosidl_typesupport_fastrtps_c.h
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_fastrtps_c.so
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__rosidl_typesupport_fastrtps_cpp.hpp
+[61.667s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__rosidl_typesupport_fastrtps_cpp.hpp
+[61.668s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_fastrtps_cpp.so
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__rosidl_typesupport_introspection_c.h
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/autoware_state.hpp
+[61.669s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__builder.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__struct.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__traits.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__builder.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__struct.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__traits.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__builder.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__struct.hpp
+[61.670s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__traits.hpp
+[61.671s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__builder.hpp
+[61.671s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__struct.hpp
+[61.677s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__traits.hpp
+[61.679s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__builder.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__struct.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__traits.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__builder.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__struct.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__traits.hpp
+[61.680s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__builder.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__struct.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__traits.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__builder.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__struct.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__traits.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/emergency_state.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/emergency_state_stamped.hpp
+[61.681s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/hazard_status.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/hazard_status_stamped.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/mode_change_available.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/mrm_behavior_status.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/service_log.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/change_autoware_control.hpp
+[61.682s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/change_operation_mode.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__builder.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__struct.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__traits.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__builder.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__struct.hpp
+[61.683s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__traits.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__builder.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__struct.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__traits.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/operate_mrm.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/autoware_state__rosidl_typesupport_introspection_cpp.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state__rosidl_typesupport_introspection_cpp.hpp
+[61.684s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/emergency_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[61.686s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status__rosidl_typesupport_introspection_cpp.hpp
+[61.686s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/hazard_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[61.687s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mode_change_available__rosidl_typesupport_introspection_cpp.hpp
+[61.687s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/mrm_behavior_status__rosidl_typesupport_introspection_cpp.hpp
+[61.708s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/msg/detail/service_log__rosidl_typesupport_introspection_cpp.hpp
+[61.716s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_autoware_control__rosidl_typesupport_introspection_cpp.hpp
+[61.727s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/change_operation_mode__rosidl_typesupport_introspection_cpp.hpp
+[61.762s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/include/tier4_system_msgs/srv/detail/operate_mrm__rosidl_typesupport_introspection_cpp.hpp
+[61.762s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/pythonpath.sh
+[61.762s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/pythonpath.dsv
+[61.770s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/__init__.py
+[61.779s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/__init__.py
+[61.803s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_autoware_state.py
+[61.809s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_emergency_state.py
+[61.818s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_emergency_state_stamped.py
+[61.834s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_hazard_status.py
+[61.845s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_hazard_status_stamped.py
+[61.856s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_mode_change_available.py
+[61.874s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_mrm_behavior_status.py
+[61.883s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/msg/_service_log.py
+[61.911s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/srv/__init__.py
+[61.916s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/srv/_change_autoware_control.py
+[61.925s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/srv/_change_operation_mode.py
+[61.939s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/srv/_operate_mrm.py
+[61.964s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[61.965s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[61.980s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/tier4_system_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[61.996s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__python.so
+[62.000s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/AutowareState.idl
+[62.020s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/EmergencyState.idl
+[62.033s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/EmergencyStateStamped.idl
+[62.044s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/HazardStatus.idl
+[62.059s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/HazardStatusStamped.idl
+[62.073s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/ServiceLog.idl
+[62.086s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/ModeChangeAvailable.idl
+[62.103s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/MrmBehaviorStatus.idl
+[62.119s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/OperateMrm.idl
+[62.134s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeOperationMode.idl
+[62.150s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeAutowareControl.idl
+[62.164s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/AutowareState.msg
+[62.179s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/EmergencyState.msg
+[62.198s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/EmergencyStateStamped.msg
+[62.215s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/HazardStatus.msg
+[62.232s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/HazardStatusStamped.msg
+[62.248s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/ServiceLog.msg
+[62.260s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/ModeChangeAvailable.msg
+[62.276s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/msg/MrmBehaviorStatus.msg
+[62.294s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/OperateMrm.srv
+[62.308s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/OperateMrm_Request.msg
+[62.319s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/OperateMrm_Response.msg
+[62.332s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeOperationMode.srv
+[62.345s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeOperationMode_Request.msg
+[62.358s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeOperationMode_Response.msg
+[62.372s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeAutowareControl.srv
+[62.386s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeAutowareControl_Request.msg
+[62.400s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/srv/ChangeAutowareControl_Response.msg
+[62.411s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_system_msgs
+[62.426s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_system_msgs
+[62.441s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/ament_prefix_path.sh
+[62.452s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/ament_prefix_path.dsv
+[62.465s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/path.sh
+[62.477s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/environment/path.dsv
+[62.487s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/local_setup.bash
+[62.498s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/local_setup.sh
+[62.513s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/local_setup.zsh
+[62.528s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/local_setup.dsv
+[62.542s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/package.dsv
+[62.556s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/ament_index/resource_index/packages/tier4_system_msgs
+[62.572s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/rosidl_cmake-extras.cmake
+[62.586s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.599s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[62.613s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[62.627s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.640s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[62.654s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[62.666s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgsConfig.cmake
+[62.677s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgsConfig-version.cmake
+[62.688s] -- Symlinking: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/package.xml
+[62.701s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_generator_c.so
+[62.701s] -- Set runtime path of "/home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_generator_c.so" to ""
+[62.701s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_introspection_c.so
+[62.702s] -- Set runtime path of "/home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_introspection_c.so" to ""
+[62.702s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_c.so
+[62.702s] -- Set runtime path of "/home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_c.so" to ""
+[62.703s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_introspection_cpp.so
+[62.703s] -- Set runtime path of "/home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[62.703s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_cpp.so
+[62.704s] -- Set runtime path of "/home/cityu/autoware/install/tier4_system_msgs/lib/libtier4_system_msgs__rosidl_typesupport_cpp.so" to ""
+[62.751s] Compiling '/home/cityu/autoware/install/tier4_system_msgs/lib/python3.8/site-packages/tier4_system_msgs/__init__.py'...
+[62.762s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_generator_cExport.cmake
+[62.762s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_generator_cExport-release.cmake
+[62.763s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_introspection_cExport.cmake
+[62.763s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[62.763s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_cExport.cmake
+[62.763s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_cExport-release.cmake
+[62.764s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_generator_cppExport.cmake
+[62.764s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[62.764s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[62.764s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_cppExport.cmake
+[62.764s] -- Installing: /home/cityu/autoware/install/tier4_system_msgs/share/tier4_system_msgs/cmake/tier4_system_msgs__rosidl_typesupport_cppExport-release.cmake
+[62.778s] Invoked command in '/home/cityu/autoware/build/tier4_system_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_system_msgs

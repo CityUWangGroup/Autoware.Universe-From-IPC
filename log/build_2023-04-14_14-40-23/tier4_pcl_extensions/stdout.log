@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/tier4_pcl_extensions
+[35m[1mScanning dependencies of target tier4_pcl_extensions[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tier4_pcl_extensions.dir/src/voxel_grid_nearest_centroid.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtier4_pcl_extensions.so[0m
+[100%] Built target tier4_pcl_extensions
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid_impl.hpp
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/lib/libtier4_pcl_extensions.so
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/package_run_dependencies/tier4_pcl_extensions
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/parent_prefix_path/tier4_pcl_extensions
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.dsv
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/packages/tier4_pcl_extensions
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.xml

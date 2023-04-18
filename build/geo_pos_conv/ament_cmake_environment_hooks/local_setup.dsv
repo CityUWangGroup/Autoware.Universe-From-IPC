@@ -1,0 +1,3 @@
+source;share/geo_pos_conv/environment/ament_prefix_path.sh
+source;share/geo_pos_conv/environment/library_path.sh
+source;share/geo_pos_conv/environment/path.sh

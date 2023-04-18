@@ -1,0 +1,4 @@
+source;share/planning_error_monitor/local_setup.bash
+source;share/planning_error_monitor/local_setup.dsv
+source;share/planning_error_monitor/local_setup.sh
+source;share/planning_error_monitor/local_setup.zsh

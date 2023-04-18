@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/planning_error_monitor/planning_error_monitor" "TARGETS" "planning_error_monitor" "DESTINATION" "lib/planning_error_monitor")

@@ -1,0 +1,40 @@
+[0.216s] Invoking command in '/home/cityu/autoware/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/awsim_sensor_kit_description
+[0.222s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.254s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.518s] -- Configuring done
+[0.522s] -- Generating done
+[0.523s] CMake Warning:
+[0.524s]   Manually-specified variables were not used by the project:
+[0.524s] 
+[0.525s]     DOWNLOAD_ARTIFACTS
+[0.525s] 
+[0.525s] 
+[0.525s] -- Build files have been written to: /home/cityu/autoware/build/awsim_sensor_kit_description
+[0.557s] Invoked command in '/home/cityu/autoware/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/awsim_sensor_kit_description
+[0.558s] Invoking command in '/home/cityu/autoware/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/awsim_sensor_kit_description -- -j16 -l16
+[1.121s] Invoked command in '/home/cityu/autoware/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/awsim_sensor_kit_description -- -j16 -l16
+[1.246s] Invoking command in '/home/cityu/autoware/build/awsim_sensor_kit_description': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/awsim_sensor_kit_description
+[2.503s] -- Install configuration: "Release"
+[2.504s] -- Execute custom install script
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensor_kit.xacro
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensors.xacro
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensor_kit_calibration.yaml
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensors_calibration.yaml
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/awsim_sensor_kit_description
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/awsim_sensor_kit_description
+[2.504s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.sh
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.dsv
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.sh
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.dsv
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.bash
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.sh
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.zsh
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.dsv
+[2.505s] -- Symlinking: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.dsv
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/packages/awsim_sensor_kit_description
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.505s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig.cmake
+[2.506s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig-version.cmake
+[2.506s] -- Up-to-date symlink: /home/cityu/autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.xml
+[2.555s] Invoked command in '/home/cityu/autoware/build/awsim_sensor_kit_description' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/velodyne_description:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/awsim_sensor_kit_description

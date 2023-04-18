@@ -1,0 +1,121 @@
+[0.357s] Invoking command in '/home/cityu/autoware/build/planning_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/planning_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/planning_error_monitor
+[15.010s] -- The C compiler identification is GNU 9.4.0
+[15.011s] -- The CXX compiler identification is GNU 9.4.0
+[15.011s] -- Check for working C compiler: /usr/bin/cc
+[15.011s] -- Check for working C compiler: /usr/bin/cc -- works
+[15.011s] -- Detecting C compiler ABI info
+[15.011s] -- Detecting C compiler ABI info - done
+[15.011s] -- Detecting C compile features
+[15.011s] -- Detecting C compile features - done
+[15.012s] -- Check for working CXX compiler: /usr/bin/c++
+[15.012s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[15.012s] -- Detecting CXX compiler ABI info
+[15.012s] -- Detecting CXX compiler ABI info - done
+[15.012s] -- Detecting CXX compile features
+[15.012s] -- Detecting CXX compile features - done
+[15.012s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[15.012s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[15.012s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[15.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.013s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.013s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[15.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.013s] -- Found FastRTPS: /opt/ros/galactic/include  
+[15.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.013s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[15.014s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[15.014s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[15.014s] -- Looking for pthread.h
+[15.014s] -- Looking for pthread.h - found
+[15.014s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.014s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.014s] -- Looking for pthread_create in pthreads
+[15.014s] -- Looking for pthread_create in pthreads - not found
+[15.015s] -- Looking for pthread_create in pthread
+[15.015s] -- Looking for pthread_create in pthread - found
+[15.015s] -- Found Threads: TRUE  
+[15.015s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[15.015s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[15.015s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[15.015s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.015s] -- Check if compiler accepts -pthread
+[15.015s] -- Check if compiler accepts -pthread - yes
+[15.016s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.016s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.016s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/planning_error_monitor/include
+[15.016s] -- Configured cppcheck exclude dirs and/or files: 
+[15.016s] -- Added test 'lint_cmake' to check CMake code style
+[15.016s] -- Added test 'xmllint' to check XML markup files
+[15.016s] -- Configuring done
+[15.016s] -- Generating done
+[15.016s] -- Build files have been written to: /home/cityu/autoware/build/planning_error_monitor
+[15.030s] Invoked command in '/home/cityu/autoware/build/planning_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/planning_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/planning_error_monitor
+[15.033s] Invoking command in '/home/cityu/autoware/build/planning_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/planning_error_monitor -- -j16 -l16
+[18.482s] [35m[1mScanning dependencies of target planning_error_monitor[0m
+[18.482s] [  5%] [32mBuilding CXX object CMakeFiles/planning_error_monitor.dir/rclcpp_components/node_main_planning_error_monitor.cpp.o[0m
+[22.409s] [ 11%] [32m[1mLinking CXX executable planning_error_monitor[0m
+[22.790s] [ 11%] Built target planning_error_monitor
+[22.871s] [35m[1mScanning dependencies of target gtest_main[0m
+[22.942s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[25.536s] [ 23%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[25.731s] [ 23%] Built target gtest_main
+[25.793s] [35m[1mScanning dependencies of target gtest[0m
+[25.859s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[40.703s] [ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.779s] [ 35%] Built target gtest
+[40.811s] [35m[1mScanning dependencies of target invalid_trajectory_publisher[0m
+[40.876s] [ 41%] [32mBuilding CXX object CMakeFiles/invalid_trajectory_publisher.dir/rclcpp_components/node_main_invalid_trajectory_publisher.cpp.o[0m
+[47.038s] [ 47%] [32m[1mLinking CXX executable invalid_trajectory_publisher[0m
+[47.374s] [ 47%] Built target invalid_trajectory_publisher
+[47.396s] [35m[1mScanning dependencies of target planning_error_monitor_node[0m
+[47.564s] [ 52%] [32mBuilding CXX object CMakeFiles/planning_error_monitor_node.dir/src/planning_error_monitor_node.cpp.o[0m
+[76.737s] [ 58%] [32mBuilding CXX object CMakeFiles/planning_error_monitor_node.dir/src/debug_marker.cpp.o[0m
+[94.802s] [ 64%] [32m[1mLinking CXX shared library libplanning_error_monitor_node.so[0m
+[95.286s] [ 64%] Built target planning_error_monitor_node
+[95.304s] [35m[1mScanning dependencies of target invalid_trajectory_publisher_node[0m
+[95.305s] [35m[1mScanning dependencies of target test_planning_error_monitor[0m
+[95.389s] [ 70%] [32mBuilding CXX object CMakeFiles/invalid_trajectory_publisher_node.dir/src/invalid_trajectory_publisher.cpp.o[0m
+[95.415s] [ 76%] [32mBuilding CXX object CMakeFiles/test_planning_error_monitor.dir/test/src/test_main.cpp.o[0m
+[95.433s] [ 82%] [32mBuilding CXX object CMakeFiles/test_planning_error_monitor.dir/test/src/test_planning_error_monitor_functions.cpp.o[0m
+[105.322s] [ 88%] [32mBuilding CXX object CMakeFiles/test_planning_error_monitor.dir/test/src/test_planning_error_monitor_pubsub.cpp.o[0m
+[113.720s] [ 94%] [32m[1mLinking CXX shared library libinvalid_trajectory_publisher_node.so[0m
+[114.178s] [ 94%] Built target invalid_trajectory_publisher_node
+[122.761s] [100%] [32m[1mLinking CXX executable test_planning_error_monitor[0m
+[123.453s] [100%] Built target test_planning_error_monitor
+[123.479s] Invoked command in '/home/cityu/autoware/build/planning_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/planning_error_monitor -- -j16 -l16
+[123.800s] Invoking command in '/home/cityu/autoware/build/planning_error_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/planning_error_monitor
+[131.335s] -- Install configuration: "Release"
+[131.341s] -- Execute custom install script
+[131.341s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/lib/planning_error_monitor/planning_error_monitor
+[131.341s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/lib/planning_error_monitor/invalid_trajectory_publisher
+[131.341s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/include/planning_error_monitor/debug_marker.hpp
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/include/planning_error_monitor/invalid_trajectory_publisher.hpp
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/include/planning_error_monitor/planning_error_monitor_node.hpp
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/library_path.sh
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/library_path.dsv
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/lib/libplanning_error_monitor_node.so
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/lib/libinvalid_trajectory_publisher_node.so
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/config/planning_error_monitor.param.yaml
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/launch/invalid_trajectory_publisher.launch.xml
+[131.342s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/launch/planning_error_monitor.launch.xml
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/ament_index/resource_index/package_run_dependencies/planning_error_monitor
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/ament_index/resource_index/parent_prefix_path/planning_error_monitor
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/ament_prefix_path.sh
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/ament_prefix_path.dsv
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/path.sh
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/environment/path.dsv
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/local_setup.bash
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/local_setup.sh
+[131.343s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/local_setup.zsh
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/local_setup.dsv
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/package.dsv
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/ament_index/resource_index/packages/planning_error_monitor
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/ament_index/resource_index/rclcpp_components/planning_error_monitor
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[131.344s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/cmake/planning_error_monitorConfig.cmake
+[131.345s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/cmake/planning_error_monitorConfig-version.cmake
+[131.345s] -- Symlinking: /home/cityu/autoware/install/planning_error_monitor/share/planning_error_monitor/package.xml
+[131.375s] Invoked command in '/home/cityu/autoware/build/planning_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/planning_error_monitor

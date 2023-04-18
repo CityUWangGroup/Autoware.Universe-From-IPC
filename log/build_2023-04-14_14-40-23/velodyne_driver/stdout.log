@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/velodyne_driver
+[35m[1mScanning dependencies of target velodyne_driver_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/rclcpp_components/node_main_velodyne_driver_node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[ 28%] Built target velodyne_driver_node
+[35m[1mScanning dependencies of target velodyne_input[0m
+[ 42%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_input.dir/input.cc.o[0m
+[ 57%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[ 57%] Built target velodyne_input
+[35m[1mScanning dependencies of target velodyne_driver[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/nodelet.cc.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[100%] Built target velodyne_driver
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/lib/libvelodyne_input.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/input.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/ring_sequence.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/lib/libvelodyne_driver.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/launch/nodelet_manager.launch.xml
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/package.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_driver/share/velodyne_driver/package.xml

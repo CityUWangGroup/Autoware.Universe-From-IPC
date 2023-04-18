@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/grid_map_msgs/rosidl_generator_py/grid_map_msgs/libgrid_map_msgs__python.so" "TARGETS" "grid_map_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

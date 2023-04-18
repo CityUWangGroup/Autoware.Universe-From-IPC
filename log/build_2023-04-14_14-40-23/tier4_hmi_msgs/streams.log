@@ -1,0 +1,186 @@
+[0.041s] Invoking command in '/home/cityu/autoware/build/tier4_hmi_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_hmi_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_hmi_msgs
+[37.729s] -- The C compiler identification is GNU 9.4.0
+[37.730s] -- The CXX compiler identification is GNU 9.4.0
+[37.730s] -- Check for working C compiler: /usr/bin/cc
+[37.730s] -- Check for working C compiler: /usr/bin/cc -- works
+[37.730s] -- Detecting C compiler ABI info
+[37.730s] -- Detecting C compiler ABI info - done
+[37.730s] -- Detecting C compile features
+[37.730s] -- Detecting C compile features - done
+[37.730s] -- Check for working CXX compiler: /usr/bin/c++
+[37.731s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[37.731s] -- Detecting CXX compiler ABI info
+[37.731s] -- Detecting CXX compiler ABI info - done
+[37.731s] -- Detecting CXX compile features
+[37.731s] -- Detecting CXX compile features - done
+[37.731s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[37.731s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[37.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[37.731s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[37.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.732s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[37.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[37.732s] -- Found FastRTPS: /opt/ros/galactic/include  
+[37.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.732s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[37.732s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[37.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.733s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[37.733s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[37.733s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[37.733s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[37.733s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[37.733s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[37.733s] -- Found PythonExtra: .so  
+[37.733s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[37.733s] -- Added test 'copyright' to check source files copyright and LICENSE
+[37.734s] -- Added test 'lint_cmake' to check CMake code style
+[37.734s] -- Added test 'xmllint' to check XML markup files
+[37.734s] -- Configuring done
+[37.734s] -- Generating done
+[37.734s] -- Build files have been written to: /home/cityu/autoware/build/tier4_hmi_msgs
+[37.775s] Invoked command in '/home/cityu/autoware/build/tier4_hmi_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_hmi_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_hmi_msgs
+[37.786s] Invoking command in '/home/cityu/autoware/build/tier4_hmi_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_hmi_msgs -- -j16 -l16
+[37.956s] [35m[1mScanning dependencies of target tier4_hmi_msgs__cpp[0m
+[37.957s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[38.568s] [  3%] Built target tier4_hmi_msgs__cpp
+[38.611s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[39.273s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_generator_c[0m
+[39.298s] [  9%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_hmi_msgs/srv/detail/announce__functions.c.o[0m
+[39.515s] [ 12%] [32m[1mLinking C shared library libtier4_hmi_msgs__rosidl_generator_c.so[0m
+[39.631s] [ 12%] Built target tier4_hmi_msgs__rosidl_generator_c
+[39.658s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[40.131s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_introspection_cpp[0m
+[40.177s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_hmi_msgs/srv/detail/announce__type_support.cpp.o[0m
+[40.701s] [ 22%] [32m[1mLinking CXX shared library libtier4_hmi_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[40.890s] [ 22%] Built target tier4_hmi_msgs__rosidl_typesupport_introspection_cpp
+[40.917s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[41.330s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_c[0m
+[41.357s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_hmi_msgs/srv/announce__type_support.cpp.o[0m
+[41.414s] [ 32%] [32m[1mLinking CXX shared library libtier4_hmi_msgs__rosidl_typesupport_c.so[0m
+[41.482s] [ 32%] Built target tier4_hmi_msgs__rosidl_typesupport_c
+[41.500s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[41.898s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_introspection_c[0m
+[41.920s] [ 38%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_hmi_msgs/srv/detail/announce__type_support.c.o[0m
+[41.982s] [ 41%] [32m[1mLinking C shared library libtier4_hmi_msgs__rosidl_typesupport_introspection_c.so[0m
+[42.037s] [ 41%] Built target tier4_hmi_msgs__rosidl_typesupport_introspection_c
+[42.056s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[42.538s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[42.571s] [ 48%] [32mBuilding CXX object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_hmi_msgs/srv/detail/dds_fastrtps/announce__type_support.cpp.o[0m
+[43.332s] [ 51%] [32m[1mLinking CXX shared library libtier4_hmi_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.571s] [ 51%] Built target tier4_hmi_msgs__rosidl_typesupport_fastrtps_cpp
+[43.594s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[44.057s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_cpp[0m
+[44.082s] [ 58%] [32mBuilding CXX object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_hmi_msgs/srv/announce__type_support.cpp.o[0m
+[44.562s] [ 61%] [32m[1mLinking CXX shared library libtier4_hmi_msgs__rosidl_typesupport_cpp.so[0m
+[44.612s] [ 61%] Built target tier4_hmi_msgs__rosidl_typesupport_cpp
+[44.626s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[44.907s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_fastrtps_c[0m
+[44.936s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_hmi_msgs/srv/detail/announce__type_support_c.cpp.o[0m
+[45.464s] [ 70%] [32m[1mLinking CXX shared library libtier4_hmi_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[45.620s] [ 70%] Built target tier4_hmi_msgs__rosidl_typesupport_fastrtps_c
+[45.632s] [35m[1mScanning dependencies of target tier4_hmi_msgs[0m
+[45.652s] [ 70%] Built target tier4_hmi_msgs
+[45.659s] [35m[1mScanning dependencies of target tier4_hmi_msgs__py[0m
+[45.671s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[46.401s] [ 74%] Built target tier4_hmi_msgs__py
+[46.413s] [35m[1mScanning dependencies of target tier4_hmi_msgs__python[0m
+[46.434s] [ 77%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__python.dir/rosidl_generator_py/tier4_hmi_msgs/srv/_announce_s.c.o[0m
+[46.618s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tier4_hmi_msgs/libtier4_hmi_msgs__python.so[0m
+[46.678s] [ 80%] Built target tier4_hmi_msgs__python
+[46.690s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_c__pyext[0m
+[46.710s] [ 83%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_hmi_msgs/_tier4_hmi_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[46.842s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[46.891s] [ 87%] Built target tier4_hmi_msgs__rosidl_typesupport_c__pyext
+[46.904s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[46.928s] [ 90%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_hmi_msgs/_tier4_hmi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[47.053s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[47.139s] [ 93%] Built target tier4_hmi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[47.152s] [35m[1mScanning dependencies of target tier4_hmi_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[47.174s] [ 96%] [32mBuilding C object CMakeFiles/tier4_hmi_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_hmi_msgs/_tier4_hmi_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[47.293s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[47.342s] [100%] Built target tier4_hmi_msgs__rosidl_typesupport_introspection_c__pyext
+[47.380s] Invoked command in '/home/cityu/autoware/build/tier4_hmi_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_hmi_msgs -- -j16 -l16
+[47.452s] Invoking command in '/home/cityu/autoware/build/tier4_hmi_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_hmi_msgs
+[86.817s] -- Install configuration: "Release"
+[86.817s] -- Execute custom install script
+[86.817s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_hmi_msgs
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/msg/rosidl_generator_c__visibility_control.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/announce.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__functions.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__struct.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__type_support.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/library_path.sh
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/library_path.dsv
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[86.818s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__rosidl_typesupport_fastrtps_c.h
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_fastrtps_c.so
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__rosidl_typesupport_fastrtps_cpp.hpp
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__rosidl_typesupport_introspection_c.h
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/announce.hpp
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__builder.hpp
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__struct.hpp
+[86.819s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__traits.hpp
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/include/tier4_hmi_msgs/srv/detail/announce__rosidl_typesupport_introspection_cpp.hpp
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/pythonpath.sh
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/pythonpath.dsv
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/__init__.py
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/srv/__init__.py
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/srv/_announce.py
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[86.820s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/tier4_hmi_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__python.so
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/srv/Announce.idl
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/srv/Announce.srv
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/srv/Announce_Request.msg
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/srv/Announce_Response.msg
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_hmi_msgs
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_hmi_msgs
+[86.821s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/ament_prefix_path.sh
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/ament_prefix_path.dsv
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/path.sh
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/environment/path.dsv
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/local_setup.bash
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/local_setup.sh
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/local_setup.zsh
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/local_setup.dsv
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/package.dsv
+[86.822s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/ament_index/resource_index/packages/tier4_hmi_msgs
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/rosidl_cmake-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgsConfig.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgsConfig-version.cmake
+[86.823s] -- Symlinking: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/package.xml
+[86.824s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_generator_c.so
+[86.824s] -- Set runtime path of "/home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_generator_c.so" to ""
+[86.824s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_introspection_c.so
+[86.824s] -- Set runtime path of "/home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_introspection_c.so" to ""
+[86.824s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_c.so
+[86.824s] -- Set runtime path of "/home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_c.so" to ""
+[86.824s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_introspection_cpp.so
+[86.836s] -- Set runtime path of "/home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[86.836s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_cpp.so
+[86.837s] -- Set runtime path of "/home/cityu/autoware/install/tier4_hmi_msgs/lib/libtier4_hmi_msgs__rosidl_typesupport_cpp.so" to ""
+[86.837s] Compiling '/home/cityu/autoware/install/tier4_hmi_msgs/lib/python3.8/site-packages/tier4_hmi_msgs/__init__.py'...
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_generator_cExport.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_generator_cExport-release.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_introspection_cExport.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_cExport.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_cExport-release.cmake
+[86.837s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_generator_cppExport.cmake
+[86.838s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[86.838s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[86.838s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_cppExport.cmake
+[86.838s] -- Installing: /home/cityu/autoware/install/tier4_hmi_msgs/share/tier4_hmi_msgs/cmake/tier4_hmi_msgs__rosidl_typesupport_cppExport-release.cmake
+[86.889s] Invoked command in '/home/cityu/autoware/build/tier4_hmi_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_external_api_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_hmi_msgs

@@ -1,0 +1,7 @@
+{
+  "package_name": "velodyne_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_msgs:msg/VelodynePacket.msg",
+    "/home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_msgs:msg/VelodyneScan.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/ndt_omp/ament_cmake_core/ndt_ompConfig.cmake

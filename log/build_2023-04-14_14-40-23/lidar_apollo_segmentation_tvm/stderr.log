@@ -1,0 +1,18 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+CMake Warning at /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake:58 (message):
+  Skipped download for baidu_cnn (enable by setting DOWNLOAD_ARTIFACTS)
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (get_neural_network)
+
+
+CMake Warning at CMakeLists.txt:83 (message):
+  Neural network not found, skipping package.
+
+

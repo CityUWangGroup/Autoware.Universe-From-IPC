@@ -1,0 +1,138 @@
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+** WARNING ** io features related to openni will be disabled
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+** WARNING ** visualization features related to openni will be disabled
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+** WARNING ** visualization features related to openni2 will be disabled
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+** WARNING ** apps features related to openni will be disabled
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- PCL_INCLUDE_DIRS:/usr/include/pcl-1.10/usr/include/eigen3/usr/include/usr/include/vtk-7.1/usr/include/freetype2/usr/include/x86_64-linux-gnu
+-- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+-- PCL_DEFINITIONS:-DDISABLE_OPENNI-DDISABLE_OPENNI2-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DOWNLOAD_ARTIFACTS
+
+
+-- Build files have been written to: /home/cityu/autoware/build/ndt_omp
+[100%] Built target ndt_omp
+-- Install configuration: "RELEASE"
+-- Execute custom install script
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp.h
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp.h
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/lib/libndt_omp.so
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/environment/path.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.bash
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.sh
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.zsh
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.dsv
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+-- Up-to-date symlink: /home/cityu/autoware/install/ndt_omp/share/ndt_omp/package.xml

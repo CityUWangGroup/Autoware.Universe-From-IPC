@@ -1,0 +1,119 @@
+[0.152s] Invoking command in '/home/cityu/autoware/build/freespace_planning_algorithms': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/freespace_planning_algorithms -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/freespace_planning_algorithms
+[21.225s] -- The C compiler identification is GNU 9.4.0
+[21.227s] -- The CXX compiler identification is GNU 9.4.0
+[21.227s] -- Check for working C compiler: /usr/bin/cc
+[21.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[21.227s] -- Detecting C compiler ABI info
+[21.232s] -- Detecting C compiler ABI info - done
+[21.233s] -- Detecting C compile features
+[21.234s] -- Detecting C compile features - done
+[21.235s] -- Check for working CXX compiler: /usr/bin/c++
+[21.235s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[21.236s] -- Detecting CXX compiler ABI info
+[21.236s] -- Detecting CXX compiler ABI info - done
+[21.236s] -- Detecting CXX compile features
+[21.236s] -- Detecting CXX compile features - done
+[21.236s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[21.236s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[21.237s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[21.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[21.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.237s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[21.238s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[21.238s] -- Found FastRTPS: /opt/ros/galactic/include  
+[21.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.238s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[21.239s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[21.239s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[21.239s] -- Looking for pthread.h
+[21.239s] -- Looking for pthread.h - found
+[21.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[21.239s] -- Looking for pthread_create in pthreads
+[21.239s] -- Looking for pthread_create in pthreads - not found
+[21.243s] -- Looking for pthread_create in pthread
+[21.244s] -- Looking for pthread_create in pthread - found
+[21.244s] -- Found Threads: TRUE  
+[21.244s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[21.244s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[21.245s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[21.245s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.245s] -- Check if compiler accepts -pthread
+[21.245s] -- Check if compiler accepts -pthread - yes
+[21.245s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.245s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.245s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/planning/freespace_planning_algorithms/include
+[21.246s] -- Configured cppcheck exclude dirs and/or files: 
+[21.246s] -- Added test 'lint_cmake' to check CMake code style
+[21.247s] -- Added test 'xmllint' to check XML markup files
+[21.247s] -- Configuring done
+[21.247s] -- Generating done
+[21.247s] -- Build files have been written to: /home/cityu/autoware/build/freespace_planning_algorithms
+[21.380s] Invoked command in '/home/cityu/autoware/build/freespace_planning_algorithms' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/planning/freespace_planning_algorithms -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/freespace_planning_algorithms
+[21.382s] Invoking command in '/home/cityu/autoware/build/freespace_planning_algorithms': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/freespace_planning_algorithms -- -j16 -l16
+[24.497s] [35m[1mScanning dependencies of target gtest[0m
+[24.497s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[34.049s] [ 12%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.131s] [ 12%] Built target gtest
+[34.155s] [35m[1mScanning dependencies of target gtest_main[0m
+[34.181s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[35.470s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[35.512s] [ 25%] Built target gtest_main
+[35.526s] [35m[1mScanning dependencies of target reeds_shepp[0m
+[35.546s] [ 31%] [32mBuilding CXX object CMakeFiles/reeds_shepp.dir/src/reeds_shepp.cpp.o[0m
+[36.853s] [ 37%] [32m[1mLinking CXX shared library libreeds_shepp.so[0m
+[37.239s] [ 37%] Built target reeds_shepp
+[37.260s] [35m[1mScanning dependencies of target rrtstar_core[0m
+[37.335s] [ 43%] [32mBuilding CXX object CMakeFiles/rrtstar_core.dir/src/rrtstar_core.cpp.o[0m
+[49.757s] [ 50%] [32m[1mLinking CXX shared library librrtstar_core.so[0m
+[50.877s] [ 50%] Built target rrtstar_core
+[50.907s] [35m[1mScanning dependencies of target freespace_planning_algorithms[0m
+[51.086s] [ 56%] [32mBuilding CXX object CMakeFiles/freespace_planning_algorithms.dir/src/abstract_algorithm.cpp.o[0m
+[65.842s] [ 62%] [32mBuilding CXX object CMakeFiles/freespace_planning_algorithms.dir/src/rrtstar.cpp.o[0m
+[75.493s] [ 68%] [32mBuilding CXX object CMakeFiles/freespace_planning_algorithms.dir/src/astar_search.cpp.o[0m
+[92.048s] [ 75%] [32m[1mLinking CXX shared library libfreespace_planning_algorithms.so[0m
+[92.636s] [ 75%] Built target freespace_planning_algorithms
+[92.654s] [35m[1mScanning dependencies of target freespace_planning_algorithms-test[0m
+[92.803s] [ 81%] [32mBuilding CXX object CMakeFiles/freespace_planning_algorithms-test.dir/test/src/test_freespace_planning_algorithms.cpp.o[0m
+[106.731s] [ 87%] [32m[1mLinking CXX executable freespace_planning_algorithms-test[0m
+[107.546s] [ 87%] Built target freespace_planning_algorithms-test
+[107.632s] [35m[1mScanning dependencies of target rrtstar_core_informed-test[0m
+[107.763s] [ 93%] [32mBuilding CXX object CMakeFiles/rrtstar_core_informed-test.dir/test/src/test_rrtstar_core_informed.cpp.o[0m
+[115.499s] [100%] [32m[1mLinking CXX executable rrtstar_core_informed-test[0m
+[115.821s] [100%] Built target rrtstar_core_informed-test
+[115.845s] Invoked command in '/home/cityu/autoware/build/freespace_planning_algorithms' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/freespace_planning_algorithms -- -j16 -l16
+[115.937s] Invoking command in '/home/cityu/autoware/build/freespace_planning_algorithms': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/freespace_planning_algorithms
+[136.255s] -- Install configuration: "Release"
+[136.256s] -- Execute custom install script
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/include/freespace_planning_algorithms/abstract_algorithm.hpp
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/include/freespace_planning_algorithms/astar_search.hpp
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/include/freespace_planning_algorithms/reeds_shepp.hpp
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/include/freespace_planning_algorithms/rrtstar.hpp
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/include/freespace_planning_algorithms/rrtstar_core.hpp
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/library_path.sh
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/library_path.dsv
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/lib/libreeds_shepp.so
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/lib/librrtstar_core.so
+[136.256s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/lib/libfreespace_planning_algorithms.so
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/ament_index/resource_index/package_run_dependencies/freespace_planning_algorithms
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/ament_index/resource_index/parent_prefix_path/freespace_planning_algorithms
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/ament_prefix_path.sh
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/ament_prefix_path.dsv
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/path.sh
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/environment/path.dsv
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/local_setup.bash
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/local_setup.sh
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/local_setup.zsh
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/local_setup.dsv
+[136.257s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/package.dsv
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/ament_index/resource_index/packages/freespace_planning_algorithms
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/cmake/ament_cmake_export_dependencies-extras.cmake
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/cmake/ament_cmake_export_include_directories-extras.cmake
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/cmake/ament_cmake_export_libraries-extras.cmake
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/cmake/freespace_planning_algorithmsConfig.cmake
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/cmake/freespace_planning_algorithmsConfig-version.cmake
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/share/freespace_planning_algorithms/package.xml
+[136.258s] -- Symlinking: /home/cityu/autoware/install/freespace_planning_algorithms/lib/freespace_planning_algorithms/debug_plot.py
+[136.358s] Invoked command in '/home/cityu/autoware/build/freespace_planning_algorithms' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/freespace_planning_algorithms

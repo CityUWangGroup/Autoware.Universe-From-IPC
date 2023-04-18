@@ -1,0 +1,49 @@
+[0.033s] Invoking command in '/home/cityu/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_testing
+[0.539s] CMake Warning:
+[0.542s]   Manually-specified variables were not used by the project:
+[0.543s] 
+[0.543s]     DOWNLOAD_ARTIFACTS
+[0.543s] 
+[0.543s] 
+[0.543s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.543s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.543s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.544s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.544s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.544s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.544s] -- Found launch_testing_ament_cmake: 0.17.2 (/opt/ros/galactic/share/launch_testing_ament_cmake/cmake)
+[0.544s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[0.544s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.545s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.545s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.545s] -- Added test 'lint_cmake' to check CMake code style
+[0.545s] -- Configuring done
+[0.545s] -- Generating done
+[0.545s] -- Build files have been written to: /home/cityu/autoware/build/autoware_testing
+[0.595s] Invoked command in '/home/cityu/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_testing
+[0.596s] Invoking command in '/home/cityu/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_testing -- -j16 -l16
+[1.018s] Invoked command in '/home/cityu/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_testing -- -j16 -l16
+[1.065s] Invoking command in '/home/cityu/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_testing
+[1.418s] -- Install configuration: "Release"
+[1.419s] -- Execute custom install script
+[1.419s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/add_smoke_test.cmake
+[1.419s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/__init__.py
+[1.419s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/smoke_test.py
+[1.422s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/package_run_dependencies/autoware_testing
+[1.422s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/parent_prefix_path/autoware_testing
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.sh
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.dsv
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/path.sh
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/path.dsv
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.bash
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.sh
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.zsh
+[1.423s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.dsv
+[1.423s] -- Symlinking: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/package.dsv
+[1.424s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/packages/autoware_testing
+[1.424s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testing-extras.cmake
+[1.424s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig.cmake
+[1.424s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig-version.cmake
+[1.424s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/package.xml
+[1.445s] Invoked command in '/home/cityu/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_testing

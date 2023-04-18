@@ -1,0 +1,230 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Could NOT find Boost (missing: signals) (found version "1.71.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.6.2
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/velodyne_pointcloud
+[35m[1mScanning dependencies of target velodyne_rawdata[0m
+[  4%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/calibration.cc.o[0m
+[ 13%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[ 13%] Built target velodyne_rawdata
+[35m[1mScanning dependencies of target interpolate_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/interpolate_node.dir/rclcpp_components/node_main_interpolate_node.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable interpolate_node[0m
+[ 22%] Built target interpolate_node
+[35m[1mScanning dependencies of target cloud_nodelet[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/convert.cc.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/func.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/pointcloudXYZIRADT.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[ 45%] [32m[1mLinking CXX shared library libcloud_nodelet.so[0m
+[ 45%] Built target cloud_nodelet
+[35m[1mScanning dependencies of target cloud_node[0m
+[35m[1mScanning dependencies of target interpolate_nodelet[0m
+[35m[1mScanning dependencies of target transform_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cloud_node.dir/rclcpp_components/node_main_cloud_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/transform_node.dir/rclcpp_components/node_main_transform_node.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/interpolate.cc.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/pointcloudXYZIRADT.cc.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[ 72%] [32m[1mLinking CXX executable cloud_node[0m
+[ 72%] Built target cloud_node
+[ 77%] [32m[1mLinking CXX executable transform_node[0m
+[ 77%] Built target transform_node
+[ 81%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/func.cc.o[0m
+[ 86%] [32m[1mLinking CXX shared library libinterpolate_nodelet.so[0m
+[ 86%] Built target interpolate_nodelet
+[35m[1mScanning dependencies of target transform_nodelet[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/transform_nodelet.dir/src/conversions/transform.cc.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/transform_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libtransform_nodelet.so[0m
+[100%] Built target transform_nodelet
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/cloud_node
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/interpolate_node
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/transform_node
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/colors.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/func.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/interpolate.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/point_types.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIR.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRADT.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.h
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libcloud_nodelet.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libinterpolate_nodelet.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libtransform_nodelet.so
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/32e_points.launch
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/64e_S3.launch
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-16_points.launch.xml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-32C_points.launch.xml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLS-128_points.launch.xml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/cloud_nodelet.launch.xml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/interpolate_nodelet.launch
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/laserscan_nodelet.launch
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/transform_nodelet.launch
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS-128_FS1.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml

@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_adapi_v1_msgs/rosidl_cmake/operation_mode/srv/ChangeOperationMode_Request.msg

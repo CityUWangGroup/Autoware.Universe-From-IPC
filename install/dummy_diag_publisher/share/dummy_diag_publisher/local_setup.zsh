@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/dummy_diag_publisher/ament_cmake_environment_hooks/local_setup.zsh

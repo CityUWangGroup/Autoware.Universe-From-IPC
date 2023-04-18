@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/obstacle_stop_planner/ament_cmake_core/obstacle_stop_plannerConfig-version.cmake

@@ -1,0 +1,30 @@
+[0.199s] Invoking command in '/home/cityu/autoware/build/time_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/time_utils -- -j16 -l16
+[0.246s] [100%] Built target time_utils
+[0.393s] Invoked command in '/home/cityu/autoware/build/time_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/time_utils -- -j16 -l16
+[0.590s] Invoking command in '/home/cityu/autoware/build/time_utils': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/time_utils
+[0.730s] -- Install configuration: "Release"
+[0.730s] -- Execute custom install script
+[0.730s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/include/time_utils/stopwatch.hpp
+[0.730s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/include/time_utils/time_utils.hpp
+[0.730s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/include/time_utils/visibility_control.hpp
+[0.730s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/library_path.sh
+[0.730s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/library_path.dsv
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/lib/libtime_utils.so
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/ament_index/resource_index/package_run_dependencies/time_utils
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/ament_index/resource_index/parent_prefix_path/time_utils
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/ament_prefix_path.sh
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/ament_prefix_path.dsv
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/path.sh
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/environment/path.dsv
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/local_setup.bash
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/local_setup.sh
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/local_setup.zsh
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/local_setup.dsv
+[0.731s] -- Symlinking: /home/cityu/autoware/install/time_utils/share/time_utils/package.dsv
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/ament_index/resource_index/packages/time_utils
+[0.731s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.732s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.732s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/cmake/time_utilsConfig.cmake
+[0.732s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/cmake/time_utilsConfig-version.cmake
+[0.732s] -- Up-to-date symlink: /home/cityu/autoware/install/time_utils/share/time_utils/package.xml
+[0.823s] Invoked command in '/home/cityu/autoware/build/time_utils' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/time_utils

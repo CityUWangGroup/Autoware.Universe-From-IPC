@@ -1,0 +1,23 @@
+[0.221s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_launch -- -j16 -l16
+[0.448s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_launch -- -j16 -l16
+[0.681s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_launch
+[0.736s] -- Install configuration: "Release"
+[0.737s] -- Execute custom install script
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/launch/vehicle.launch.xml
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/urdf/vehicle.xacro
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/tier4_vehicle_launch
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/tier4_vehicle_launch
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.sh
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/environment/path.dsv
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.bash
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.sh
+[0.737s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.zsh
+[0.738s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/local_setup.dsv
+[0.738s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.dsv
+[0.738s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/ament_index/resource_index/packages/tier4_vehicle_launch
+[0.738s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig.cmake
+[0.738s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/cmake/tier4_vehicle_launchConfig-version.cmake
+[0.738s] -- Up-to-date symlink: /home/cityu/autoware/install/tier4_vehicle_launch/share/tier4_vehicle_launch/package.xml
+[0.829s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_launch

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="tvm_utility.lint_cmake"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.003"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="tvm_utility.lint_cmake"/>
+  <testcase
+    name="tvm_utility-extras.cmake"
+    classname="tvm_utility.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* tvm_utility-extras.cmake</system-out>
+</testsuite>

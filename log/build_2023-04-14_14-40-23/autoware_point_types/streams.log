@@ -1,0 +1,179 @@
+[0.021s] Invoking command in '/home/cityu/autoware/build/autoware_point_types': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_point_types -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_point_types
+[6.072s] -- The C compiler identification is GNU 9.4.0
+[6.072s] -- The CXX compiler identification is GNU 9.4.0
+[6.072s] -- Check for working C compiler: /usr/bin/cc
+[6.072s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.072s] -- Detecting C compiler ABI info
+[6.072s] -- Detecting C compiler ABI info - done
+[6.072s] -- Detecting C compile features
+[6.072s] -- Detecting C compile features - done
+[6.073s] -- Check for working CXX compiler: /usr/bin/c++
+[6.073s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.073s] -- Detecting CXX compiler ABI info
+[6.073s] -- Detecting CXX compiler ABI info - done
+[6.073s] -- Detecting CXX compile features
+[6.073s] -- Detecting CXX compile features - done
+[6.073s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[6.073s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[6.074s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.074s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[6.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.074s] -- Found FastRTPS: /opt/ros/galactic/include  
+[6.074s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.074s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.075s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.075s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.075s] -- Looking for pthread.h
+[6.075s] -- Looking for pthread.h - found
+[6.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.075s] -- Looking for pthread_create in pthreads
+[6.075s] -- Looking for pthread_create in pthreads - not found
+[6.087s] -- Looking for pthread_create in pthread
+[6.088s] -- Looking for pthread_create in pthread - found
+[6.088s] -- Found Threads: TRUE  
+[6.088s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.089s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.089s] -- Checking for module 'eigen3'
+[6.089s] --   Found eigen3, version 3.3.7
+[6.089s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.090s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[6.090s] -- Checking for module 'flann'
+[6.090s] --   Found flann, version 1.9.1
+[6.090s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.090s] -- The imported target "vtkParseOGLExt" references the file
+[6.090s]    "/usr/bin/vtkParseOGLExt-7.1"
+[6.090s] but this file does not exist.  Possible reasons include:
+[6.090s] * The file was deleted, renamed, or moved to another location.
+[6.090s] * An install or uninstall procedure did not complete successfully.
+[6.091s] * The installation package was faulty and contained
+[6.091s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.091s] but not all the files it references.
+[6.091s] 
+[6.091s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[6.091s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[6.091s] but this file does not exist.  Possible reasons include:
+[6.091s] * The file was deleted, renamed, or moved to another location.
+[6.092s] * An install or uninstall procedure did not complete successfully.
+[6.092s] * The installation package was faulty and contained
+[6.092s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.092s] but not all the files it references.
+[6.092s] 
+[6.092s] -- The imported target "vtk" references the file
+[6.092s]    "/usr/bin/vtk"
+[6.092s] but this file does not exist.  Possible reasons include:
+[6.092s] * The file was deleted, renamed, or moved to another location.
+[6.093s] * An install or uninstall procedure did not complete successfully.
+[6.093s] * The installation package was faulty and contained
+[6.093s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.093s] but not all the files it references.
+[6.093s] 
+[6.093s] -- The imported target "pvtk" references the file
+[6.093s]    "/usr/bin/pvtk"
+[6.093s] but this file does not exist.  Possible reasons include:
+[6.093s] * The file was deleted, renamed, or moved to another location.
+[6.094s] * An install or uninstall procedure did not complete successfully.
+[6.094s] * The installation package was faulty and contained
+[6.094s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.094s] but not all the files it references.
+[6.094s] 
+[6.094s] -- Checking for module 'libusb-1.0'
+[6.094s] --   No package 'libusb-1.0' found
+[6.094s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.095s] -- OpenNI disabled because libusb-1.0 not found.
+[6.095s] -- Checking for module 'libusb-1.0'
+[6.095s] --   No package 'libusb-1.0' found
+[6.095s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.095s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[6.095s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[6.095s] -- Checking for module 'libusb-1.0'
+[6.095s] --   No package 'libusb-1.0' found
+[6.095s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.096s] -- OpenNI disabled because libusb-1.0 not found.
+[6.096s] -- Checking for module 'libusb-1.0'
+[6.096s] --   No package 'libusb-1.0' found
+[6.096s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.096s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[6.096s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[6.096s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[6.096s] -- Checking for module 'libusb-1.0'
+[6.096s] --   No package 'libusb-1.0' found
+[6.096s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.097s] -- OpenNI disabled because libusb-1.0 not found.
+[6.097s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.097s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.097s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.097s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.097s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.097s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.097s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[6.097s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[6.097s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.097s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.097s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.102s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.103s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.103s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.103s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.103s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.103s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.103s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.103s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.103s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.103s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[6.104s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[6.104s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.104s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.104s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[6.104s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.113s] -- Check if compiler accepts -pthread
+[6.113s] -- Check if compiler accepts -pthread - yes
+[6.113s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.113s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.114s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/autoware_point_types/include
+[6.114s] -- Configured cppcheck exclude dirs and/or files: 
+[6.114s] -- Added test 'lint_cmake' to check CMake code style
+[6.114s] -- Added test 'xmllint' to check XML markup files
+[6.114s] -- Configuring done
+[6.114s] -- Generating done
+[6.114s] -- Build files have been written to: /home/cityu/autoware/build/autoware_point_types
+[6.188s] Invoked command in '/home/cityu/autoware/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/autoware_point_types -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/autoware_point_types
+[6.190s] Invoking command in '/home/cityu/autoware/build/autoware_point_types': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_point_types -- -j16 -l16
+[7.639s] [35m[1mScanning dependencies of target gtest[0m
+[7.640s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[18.761s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.818s] [ 33%] Built target gtest
+[18.837s] [35m[1mScanning dependencies of target gtest_main[0m
+[18.864s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[20.899s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.012s] [ 66%] Built target gtest_main
+[21.053s] [35m[1mScanning dependencies of target test_autoware_point_types[0m
+[21.171s] [ 83%] [32mBuilding CXX object CMakeFiles/test_autoware_point_types.dir/test/test_point_types.cpp.o[0m
+[26.573s] [100%] [32m[1mLinking CXX executable test_autoware_point_types[0m
+[26.775s] [100%] Built target test_autoware_point_types
+[26.805s] Invoked command in '/home/cityu/autoware/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_point_types -- -j16 -l16
+[26.847s] Invoking command in '/home/cityu/autoware/build/autoware_point_types': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_point_types
+[37.792s] -- Install configuration: "Release"
+[37.796s] -- Execute custom install script
+[37.798s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/include/autoware_point_types/types.hpp
+[37.808s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/package_run_dependencies/autoware_point_types
+[37.808s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/parent_prefix_path/autoware_point_types
+[37.808s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.sh
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/ament_prefix_path.dsv
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/path.sh
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/environment/path.dsv
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.bash
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.sh
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.zsh
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/local_setup.dsv
+[37.809s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/package.dsv
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/ament_index/resource_index/packages/autoware_point_types
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig.cmake
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/cmake/autoware_point_typesConfig-version.cmake
+[37.810s] -- Symlinking: /home/cityu/autoware/install/autoware_point_types/share/autoware_point_types/package.xml
+[37.848s] Invoked command in '/home/cityu/autoware/build/autoware_point_types' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_point_types

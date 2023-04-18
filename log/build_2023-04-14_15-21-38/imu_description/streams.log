@@ -1,0 +1,36 @@
+[0.100s] Invoking command in '/home/cityu/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/imu_description
+[0.143s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.150s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.252s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Configuring done
+[0.375s] -- Generating done
+[0.376s] CMake Warning:
+[0.376s]   Manually-specified variables were not used by the project:
+[0.376s] 
+[0.377s]     DOWNLOAD_ARTIFACTS
+[0.377s] 
+[0.377s] 
+[0.377s] -- Build files have been written to: /home/cityu/autoware/build/imu_description
+[0.428s] Invoked command in '/home/cityu/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/imu_description
+[0.433s] Invoking command in '/home/cityu/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/imu_description -- -j16 -l16
+[0.770s] Invoked command in '/home/cityu/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/imu_description -- -j16 -l16
+[0.830s] Invoking command in '/home/cityu/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/imu_description
+[1.145s] -- Install configuration: "Release"
+[1.145s] -- Execute custom install script
+[1.150s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/urdf/imu.xacro
+[1.151s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/ament_index/resource_index/package_run_dependencies/imu_description
+[1.152s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/ament_index/resource_index/parent_prefix_path/imu_description
+[1.152s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/environment/ament_prefix_path.sh
+[1.152s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/environment/ament_prefix_path.dsv
+[1.153s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/environment/path.sh
+[1.153s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/environment/path.dsv
+[1.154s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/local_setup.bash
+[1.154s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/local_setup.sh
+[1.155s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/local_setup.zsh
+[1.155s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/local_setup.dsv
+[1.155s] -- Symlinking: /home/cityu/autoware/install/imu_description/share/imu_description/package.dsv
+[1.155s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/ament_index/resource_index/packages/imu_description
+[1.161s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/cmake/imu_descriptionConfig.cmake
+[1.162s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/cmake/imu_descriptionConfig-version.cmake
+[1.162s] -- Up-to-date symlink: /home/cityu/autoware/install/imu_description/share/imu_description/package.xml
+[1.241s] Invoked command in '/home/cityu/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/imu_description

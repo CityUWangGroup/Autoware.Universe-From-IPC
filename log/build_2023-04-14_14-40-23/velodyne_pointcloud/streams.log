@@ -1,0 +1,248 @@
+[0.053s] Invoking command in '/home/cityu/autoware/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_pointcloud -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_pointcloud
+[5.570s] -- The C compiler identification is GNU 9.4.0
+[5.570s] -- The CXX compiler identification is GNU 9.4.0
+[5.570s] -- Check for working C compiler: /usr/bin/cc
+[5.570s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.570s] -- Detecting C compiler ABI info
+[5.571s] -- Detecting C compiler ABI info - done
+[5.571s] -- Detecting C compile features
+[5.571s] -- Detecting C compile features - done
+[5.571s] -- Check for working CXX compiler: /usr/bin/c++
+[5.571s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.571s] -- Detecting CXX compiler ABI info
+[5.571s] -- Detecting CXX compiler ABI info - done
+[5.571s] -- Detecting CXX compile features
+[5.571s] -- Detecting CXX compile features - done
+[5.571s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[5.571s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.572s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.572s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.572s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.572s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.572s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.572s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[5.573s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.573s] -- Looking for pthread.h
+[5.573s] -- Looking for pthread.h - found
+[5.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.573s] -- Looking for pthread_create in pthreads
+[5.573s] -- Looking for pthread_create in pthreads - not found
+[5.573s] -- Looking for pthread_create in pthread
+[5.573s] -- Looking for pthread_create in pthread - found
+[5.573s] -- Found Threads: TRUE  
+[6.172s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.178s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.875s] -- Checking for module 'eigen3'
+[6.904s] --   Found eigen3, version 3.3.7
+[6.972s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.092s] -- Checking for module 'flann'
+[7.128s] --   Found flann, version 1.9.1
+[7.203s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.262s] -- The imported target "vtkParseOGLExt" references the file
+[7.263s]    "/usr/bin/vtkParseOGLExt-7.1"
+[7.263s] but this file does not exist.  Possible reasons include:
+[7.263s] * The file was deleted, renamed, or moved to another location.
+[7.263s] * An install or uninstall procedure did not complete successfully.
+[7.263s] * The installation package was faulty and contained
+[7.263s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.263s] but not all the files it references.
+[7.263s] 
+[7.264s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[7.264s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[7.264s] but this file does not exist.  Possible reasons include:
+[7.264s] * The file was deleted, renamed, or moved to another location.
+[7.264s] * An install or uninstall procedure did not complete successfully.
+[7.264s] * The installation package was faulty and contained
+[7.264s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.265s] but not all the files it references.
+[7.265s] 
+[7.265s] -- The imported target "vtk" references the file
+[7.265s]    "/usr/bin/vtk"
+[7.265s] but this file does not exist.  Possible reasons include:
+[7.265s] * The file was deleted, renamed, or moved to another location.
+[7.265s] * An install or uninstall procedure did not complete successfully.
+[7.265s] * The installation package was faulty and contained
+[7.265s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.266s] but not all the files it references.
+[7.266s] 
+[7.266s] -- The imported target "pvtk" references the file
+[7.266s]    "/usr/bin/pvtk"
+[7.266s] but this file does not exist.  Possible reasons include:
+[7.266s] * The file was deleted, renamed, or moved to another location.
+[7.266s] * An install or uninstall procedure did not complete successfully.
+[7.266s] * The installation package was faulty and contained
+[7.267s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.267s] but not all the files it references.
+[7.267s] 
+[7.288s] -- Checking for module 'libusb-1.0'
+[7.293s] --   No package 'libusb-1.0' found
+[7.299s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.299s] -- OpenNI disabled because libusb-1.0 not found.
+[7.307s] -- Checking for module 'libusb-1.0'
+[7.312s] --   No package 'libusb-1.0' found
+[7.316s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.316s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.331s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[7.337s] -- Checking for module 'libusb-1.0'
+[7.341s] --   No package 'libusb-1.0' found
+[7.345s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.345s] -- OpenNI disabled because libusb-1.0 not found.
+[7.351s] -- Checking for module 'libusb-1.0'
+[7.355s] --   No package 'libusb-1.0' found
+[7.359s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.359s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.415s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[7.415s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[7.422s] -- Checking for module 'libusb-1.0'
+[7.426s] --   No package 'libusb-1.0' found
+[7.430s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.430s] -- OpenNI disabled because libusb-1.0 not found.
+[7.445s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[7.447s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.449s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.450s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.452s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.454s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.455s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[7.455s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[7.457s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.459s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.461s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.463s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.465s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.467s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.469s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.470s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.472s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.474s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.477s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.478s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.480s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[7.481s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[7.484s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.487s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.942s] -- Could NOT find Boost (missing: signals) (found version "1.71.0")
+[7.943s] CMake Warning (dev) at CMakeLists.txt:24 (find_package):
+[7.943s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[7.943s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[7.943s]   command to set the policy and suppress this warning.
+[7.943s] 
+[7.943s]   CMake variable PCL_ROOT is set to:
+[7.943s] 
+[7.943s]     /usr
+[7.944s] 
+[7.944s]   For compatibility, CMake is ignoring the variable.
+[7.944s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.944s] 
+[7.962s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[7.965s] -- Checking for module 'yaml-cpp'
+[7.995s] --   Found yaml-cpp, version 0.6.2
+[8.082s] -- Found OpenCV: /usr (found version "4.2.0") 
+[9.299s] -- Configuring done
+[9.742s] -- Generating done
+[9.742s] -- Build files have been written to: /home/cityu/autoware/build/velodyne_pointcloud
+[9.777s] Invoked command in '/home/cityu/autoware/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/velodyne_vls/velodyne_pointcloud -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/velodyne_pointcloud
+[9.802s] Invoking command in '/home/cityu/autoware/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_pointcloud -- -j16 -l16
+[12.122s] [35m[1mScanning dependencies of target velodyne_rawdata[0m
+[12.122s] [  4%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cc.o[0m
+[19.335s] [  9%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/calibration.cc.o[0m
+[23.976s] [ 13%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[24.520s] [ 13%] Built target velodyne_rawdata
+[24.532s] [35m[1mScanning dependencies of target interpolate_node[0m
+[24.576s] [ 18%] [32mBuilding CXX object CMakeFiles/interpolate_node.dir/rclcpp_components/node_main_interpolate_node.cpp.o[0m
+[28.574s] [ 22%] [32m[1mLinking CXX executable interpolate_node[0m
+[28.750s] [ 22%] Built target interpolate_node
+[28.763s] [35m[1mScanning dependencies of target cloud_nodelet[0m
+[28.887s] [ 27%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/convert.cc.o[0m
+[64.519s] [ 31%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/func.cc.o[0m
+[72.458s] [ 36%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/pointcloudXYZIRADT.cc.o[0m
+[79.648s] [ 40%] [32mBuilding CXX object CMakeFiles/cloud_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[85.585s] [ 45%] [32m[1mLinking CXX shared library libcloud_nodelet.so[0m
+[87.271s] [ 45%] Built target cloud_nodelet
+[87.332s] [35m[1mScanning dependencies of target cloud_node[0m
+[87.354s] [35m[1mScanning dependencies of target interpolate_nodelet[0m
+[87.364s] [35m[1mScanning dependencies of target transform_node[0m
+[87.479s] [ 50%] [32mBuilding CXX object CMakeFiles/cloud_node.dir/rclcpp_components/node_main_cloud_node.cpp.o[0m
+[87.535s] [ 54%] [32mBuilding CXX object CMakeFiles/transform_node.dir/rclcpp_components/node_main_transform_node.cpp.o[0m
+[87.777s] [ 59%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/interpolate.cc.o[0m
+[87.822s] [ 63%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/pointcloudXYZIRADT.cc.o[0m
+[87.827s] [ 68%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[95.870s] [ 72%] [32m[1mLinking CXX executable cloud_node[0m
+[96.373s] [ 72%] Built target cloud_node
+[96.798s] [ 77%] [32m[1mLinking CXX executable transform_node[0m
+[97.270s] [ 77%] Built target transform_node
+[122.075s] [ 81%] [32mBuilding CXX object CMakeFiles/interpolate_nodelet.dir/src/conversions/func.cc.o[0m
+[134.560s] [ 86%] [32m[1mLinking CXX shared library libinterpolate_nodelet.so[0m
+[135.713s] [ 86%] Built target interpolate_nodelet
+[135.728s] [35m[1mScanning dependencies of target transform_nodelet[0m
+[135.827s] [ 90%] [32mBuilding CXX object CMakeFiles/transform_nodelet.dir/src/conversions/transform.cc.o[0m
+[177.706s] [ 95%] [32mBuilding CXX object CMakeFiles/transform_nodelet.dir/src/conversions/pointcloudXYZIR.cc.o[0m
+[183.144s] [100%] [32m[1mLinking CXX shared library libtransform_nodelet.so[0m
+[183.948s] [100%] Built target transform_nodelet
+[183.987s] Invoked command in '/home/cityu/autoware/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/velodyne_pointcloud -- -j16 -l16
+[184.127s] Invoking command in '/home/cityu/autoware/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_pointcloud
+[213.977s] -- Install configuration: "Release"
+[213.978s] -- Execute custom install script
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/cloud_node
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/interpolate_node
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/velodyne_pointcloud/transform_node
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/colors.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/func.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/interpolate.h
+[213.978s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/point_types.h
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIR.h
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRADT.h
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.h
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.h
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libcloud_nodelet.so
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libinterpolate_nodelet.so
+[213.979s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/lib/libtransform_nodelet.so
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/32e_points.launch
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/64e_S3.launch
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-16_points.launch.xml
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLP-32C_points.launch.xml
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/VLS-128_points.launch.xml
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/cloud_nodelet.launch.xml
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/interpolate_nodelet.launch
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/laserscan_nodelet.launch
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/transform_nodelet.launch
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[213.980s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS-128_FS1.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[213.981s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[213.982s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[213.983s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+[213.983s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[213.983s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[213.983s] -- Symlinking: /home/cityu/autoware/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[214.310s] Invoked command in '/home/cityu/autoware/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/velodyne_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/velodyne_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/velodyne_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/velodyne_pointcloud

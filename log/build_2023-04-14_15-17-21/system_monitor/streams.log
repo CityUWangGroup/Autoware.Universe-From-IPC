@@ -1,0 +1,97 @@
+[0.212s] Invoking command in '/home/cityu/autoware/build/system_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_external_api_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/system_monitor -- -j16 -l16
+[0.272s] [  4%] Built target gpu_monitor
+[0.272s] [ 19%] Built target net_monitor
+[0.273s] [ 19%] Built target voltage_monitor
+[0.273s] [ 19%] Built target cpu_monitor
+[0.273s] [ 24%] Built target mem_monitor
+[0.273s] [ 29%] Built target process_monitor
+[0.277s] [ 34%] Built target hdd_monitor
+[0.277s] [ 39%] Built target ntp_monitor
+[0.286s] [ 46%] Built target cpu_monitor_lib
+[0.343s] [ 51%] Built target hdd_monitor_lib
+[0.356s] [ 56%] Built target mem_monitor_lib
+[0.390s] [ 63%] Built target net_monitor_lib
+[0.416s] [ 68%] Built target ntp_monitor_lib
+[0.447s] [ 73%] Built target process_monitor_lib
+[0.479s] [ 80%] Built target gpu_monitor_lib
+[0.511s] [ 85%] Built target voltage_monitor_lib
+[0.540s] [ 95%] Built target hdd_reader
+[0.540s] [ 95%] Built target msr_reader
+[0.540s] [100%] Built target traffic_reader
+[0.661s] Invoked command in '/home/cityu/autoware/build/system_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_external_api_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/system_monitor -- -j16 -l16
+[0.954s] Invoking command in '/home/cityu/autoware/build/system_monitor': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_external_api_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/system_monitor
+[0.974s] -- Install configuration: "Release"
+[0.974s] -- Execute custom install script
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/cpu_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/hdd_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/mem_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/net_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/ntp_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/process_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/gpu_monitor
+[0.975s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/voltage_monitor
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/hdd_reader/hdd_reader.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/msr_reader/msr_reader.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/arm_cpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/cpu_monitor_base.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/intel_cpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/raspi_cpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/tegra_cpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/cpu_monitor/unknown_cpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/gpu_monitor/gpu_monitor_base.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/gpu_monitor/nvml_gpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/gpu_monitor/tegra_gpu_monitor.hpp
+[0.976s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/gpu_monitor/unknown_gpu_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/hdd_monitor/hdd_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/mem_monitor/mem_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/net_monitor/net_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/net_monitor/nl80211.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/ntp_monitor/ntp_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/process_monitor/diag_task.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/process_monitor/process_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/system_monitor_utility.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/system_monitor/voltage_monitor/voltage_monitor.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/include/traffic_reader/traffic_reader.hpp
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/library_path.sh
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/library_path.dsv
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libcpu_monitor_lib.so
+[0.977s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libhdd_monitor_lib.so
+[0.978s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libmem_monitor_lib.so
+[0.978s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libnet_monitor_lib.so
+[0.978s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libntp_monitor_lib.so
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libprocess_monitor_lib.so
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libgpu_monitor_lib.so
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/libvoltage_monitor_lib.so
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/msr_reader
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/hdd_reader
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/lib/system_monitor/traffic_reader
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/launch/system_monitor.launch.py
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/launch/system_monitor.launch.xml
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/cpu_monitor.param.yaml
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/gpu_monitor.param.yaml
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/hdd_monitor.param.yaml
+[0.981s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/mem_monitor.param.yaml
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/net_monitor.param.yaml
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/ntp_monitor.param.yaml
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/process_monitor.param.yaml
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/config/voltage_monitor.param.yaml
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/ament_index/resource_index/package_run_dependencies/system_monitor
+[0.982s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/ament_index/resource_index/parent_prefix_path/system_monitor
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/ament_prefix_path.sh
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/ament_prefix_path.dsv
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/path.sh
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/environment/path.dsv
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/local_setup.bash
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/local_setup.sh
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/local_setup.zsh
+[0.983s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/local_setup.dsv
+[0.983s] -- Symlinking: /home/cityu/autoware/install/system_monitor/share/system_monitor/package.dsv
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/ament_index/resource_index/packages/system_monitor
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/ament_index/resource_index/rclcpp_components/system_monitor
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/cmake/system_monitorConfig.cmake
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/cmake/system_monitorConfig-version.cmake
+[0.988s] -- Up-to-date symlink: /home/cityu/autoware/install/system_monitor/share/system_monitor/package.xml
+[1.188s] Invoked command in '/home/cityu/autoware/build/system_monitor' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_external_api_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_external_api_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_external_api_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/system_monitor

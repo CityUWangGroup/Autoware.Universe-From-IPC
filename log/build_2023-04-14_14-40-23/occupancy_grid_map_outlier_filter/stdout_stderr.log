@@ -1,0 +1,184 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/perception/occupancy_grid_map_outlier_filter/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cityu/autoware/build/occupancy_grid_map_outlier_filter
+[35m[1mScanning dependencies of target occupancy_grid_map_outlier_filter[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/occupancy_grid_map_outlier_filter.dir/src/occupancy_grid_map_outlier_filter_nodelet.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library liboccupancy_grid_map_outlier_filter.so[0m
+[ 50%] Built target occupancy_grid_map_outlier_filter
+[35m[1mScanning dependencies of target occupancy_grid_map_outlier_filter_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/occupancy_grid_map_outlier_filter_node.dir/rclcpp_components/node_main_occupancy_grid_map_outlier_filter_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable occupancy_grid_map_outlier_filter_node[0m
+[100%] Built target occupancy_grid_map_outlier_filter_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/lib/occupancy_grid_map_outlier_filter/occupancy_grid_map_outlier_filter_node
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/include/occupancy_grid_map_outlier_filter/occupancy_grid_map_outlier_filter_nodelet.hpp
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/library_path.sh
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/library_path.dsv
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/lib/liboccupancy_grid_map_outlier_filter.so
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/ament_index/resource_index/package_run_dependencies/occupancy_grid_map_outlier_filter
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/ament_index/resource_index/parent_prefix_path/occupancy_grid_map_outlier_filter
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/ament_prefix_path.sh
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/path.sh
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/environment/path.dsv
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/local_setup.bash
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/local_setup.sh
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/local_setup.zsh
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/local_setup.dsv
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/package.dsv
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/ament_index/resource_index/packages/occupancy_grid_map_outlier_filter
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/ament_index/resource_index/rclcpp_components/occupancy_grid_map_outlier_filter
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/cmake/occupancy_grid_map_outlier_filterConfig.cmake
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/cmake/occupancy_grid_map_outlier_filterConfig-version.cmake
+-- Symlinking: /home/cityu/autoware/install/occupancy_grid_map_outlier_filter/share/occupancy_grid_map_outlier_filter/package.xml

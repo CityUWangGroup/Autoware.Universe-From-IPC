@@ -1,0 +1,184 @@
+[0.008s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility -DDOWNLOAD_ARTIFACTS=ON -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tvm_utility
+[0.020s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.020s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.315s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.321s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[0.332s] -- Downloading yolo_v2_tiny-x86_64-llvm-2.1.0-20221102.tar.gz ...
+[0.356s] CMake Warning at CMakeLists.txt:58 (message):
+[0.356s]   Missing image artifact for yolo_v2_tiny, skipping test
+[0.356s] 
+[0.356s] 
+[0.362s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.363s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.363s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include
+[0.363s] -- Configured cppcheck exclude dirs and/or files: 
+[0.364s] -- Added test 'lint_cmake' to check CMake code style
+[0.364s] -- Added test 'xmllint' to check XML markup files
+[0.368s] -- Configuring done
+[0.373s] -- Generating done
+[0.374s] -- Build files have been written to: /home/cityu/autoware/build/tvm_utility
+[0.378s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility -DDOWNLOAD_ARTIFACTS=ON -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tvm_utility
+[0.381s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tvm_utility -- -j16 -l16
+[0.411s] [35m[1mScanning dependencies of target yolo_v2_tiny_llvm[0m
+[0.419s] [ 11%] [34m[1mCreating directories for 'yolo_v2_tiny_llvm'[0m
+[0.419s] [ 22%] Built target tvm_utility
+[0.471s] [ 33%] [34m[1mPerforming download step (download, verify and extract) for 'yolo_v2_tiny_llvm'[0m
+[0.480s] -- Downloading...
+[0.480s]    dst='/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/data/downloads/yolo_v2_tiny-x86_64-llvm-2.1.0-20221102.tar.gz'
+[0.480s]    timeout='none'
+[0.480s] -- Using src='https://autoware-modelzoo.s3.us-east-2.amazonaws.com/models/2.1.0-20221102/yolo_v2_tiny-x86_64-llvm-2.1.0-20221102.tar.gz'
+[1.776s] -- [download 0% complete]
+[2.419s] -- [download 1% complete]
+[2.800s] -- [download 2% complete]
+[2.865s] -- [download 3% complete]
+[3.005s] -- [download 4% complete]
+[3.093s] -- [download 5% complete]
+[3.181s] -- [download 6% complete]
+[3.253s] -- [download 7% complete]
+[3.322s] -- [download 8% complete]
+[3.393s] -- [download 9% complete]
+[3.595s] -- [download 10% complete]
+[3.876s] -- [download 11% complete]
+[3.981s] -- [download 12% complete]
+[4.079s] -- [download 13% complete]
+[4.182s] -- [download 14% complete]
+[4.296s] -- [download 15% complete]
+[4.414s] -- [download 16% complete]
+[4.486s] -- [download 17% complete]
+[4.670s] -- [download 18% complete]
+[4.735s] -- [download 19% complete]
+[4.819s] -- [download 20% complete]
+[4.906s] -- [download 21% complete]
+[5.023s] -- [download 22% complete]
+[5.094s] -- [download 23% complete]
+[5.238s] -- [download 24% complete]
+[5.337s] -- [download 25% complete]
+[5.416s] -- [download 26% complete]
+[5.494s] -- [download 27% complete]
+[5.634s] -- [download 28% complete]
+[5.712s] -- [download 29% complete]
+[5.858s] -- [download 30% complete]
+[6.065s] -- [download 31% complete]
+[6.145s] -- [download 32% complete]
+[6.218s] -- [download 33% complete]
+[6.286s] -- [download 34% complete]
+[6.569s] -- [download 35% complete]
+[6.649s] -- [download 36% complete]
+[6.734s] -- [download 37% complete]
+[6.812s] -- [download 38% complete]
+[6.889s] -- [download 39% complete]
+[6.972s] -- [download 40% complete]
+[7.077s] -- [download 41% complete]
+[7.160s] -- [download 42% complete]
+[7.277s] -- [download 43% complete]
+[7.337s] -- [download 44% complete]
+[7.420s] -- [download 45% complete]
+[7.623s] -- [download 46% complete]
+[7.764s] -- [download 47% complete]
+[7.855s] -- [download 48% complete]
+[8.095s] -- [download 49% complete]
+[8.193s] -- [download 50% complete]
+[8.433s] -- [download 51% complete]
+[8.530s] -- [download 52% complete]
+[8.600s] -- [download 53% complete]
+[8.672s] -- [download 54% complete]
+[9.159s] -- [download 55% complete]
+[9.537s] -- [download 56% complete]
+[9.767s] -- [download 57% complete]
+[10.140s] -- [download 58% complete]
+[10.491s] -- [download 59% complete]
+[10.745s] -- [download 60% complete]
+[11.112s] -- [download 61% complete]
+[11.507s] -- [download 62% complete]
+[11.901s] -- [download 63% complete]
+[12.310s] -- [download 64% complete]
+[12.678s] -- [download 65% complete]
+[12.927s] -- [download 66% complete]
+[13.316s] -- [download 67% complete]
+[13.713s] -- [download 68% complete]
+[14.143s] -- [download 69% complete]
+[14.682s] -- [download 70% complete]
+[15.081s] -- [download 71% complete]
+[15.744s] -- [download 72% complete]
+[15.926s] -- [download 73% complete]
+[16.457s] -- [download 74% complete]
+[16.858s] -- [download 75% complete]
+[17.261s] -- [download 76% complete]
+[17.649s] -- [download 77% complete]
+[18.146s] -- [download 78% complete]
+[18.458s] -- [download 79% complete]
+[18.898s] -- [download 80% complete]
+[19.400s] -- [download 81% complete]
+[19.787s] -- [download 82% complete]
+[20.208s] -- [download 83% complete]
+[20.604s] -- [download 84% complete]
+[20.983s] -- [download 85% complete]
+[21.394s] -- [download 86% complete]
+[21.673s] -- [download 87% complete]
+[22.029s] -- [download 88% complete]
+[22.401s] -- [download 89% complete]
+[22.760s] -- [download 90% complete]
+[23.010s] -- [download 91% complete]
+[23.373s] -- [download 92% complete]
+[23.650s] -- [download 93% complete]
+[23.837s] -- [download 94% complete]
+[24.169s] -- [download 95% complete]
+[24.385s] -- [download 96% complete]
+[24.606s] -- [download 97% complete]
+[24.809s] -- [download 98% complete]
+[25.010s] -- [download 99% complete]
+[25.224s] -- [download 100% complete]
+[25.356s] -- Downloading... done
+[25.379s] -- extracting...
+[25.379s]      src='/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/data/downloads/yolo_v2_tiny-x86_64-llvm-2.1.0-20221102.tar.gz'
+[25.380s]      dst='/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/data/models/yolo_v2_tiny'
+[25.380s] -- extracting... [tar xfz]
+[25.592s] -- extracting... [analysis]
+[25.592s] -- extracting... [rename]
+[25.593s] -- extracting... [clean up]
+[25.593s] -- extracting... done
+[25.607s] [ 44%] [34m[1mNo patch step for 'yolo_v2_tiny_llvm'[0m
+[25.607s] [ 55%] [34m[1mNo update step for 'yolo_v2_tiny_llvm'[0m
+[25.625s] [ 66%] [34m[1mNo configure step for 'yolo_v2_tiny_llvm'[0m
+[25.645s] [ 77%] [34m[1mNo build step for 'yolo_v2_tiny_llvm'[0m
+[25.664s] [ 88%] [34m[1mNo install step for 'yolo_v2_tiny_llvm'[0m
+[25.683s] [100%] [34m[1mCompleted 'yolo_v2_tiny_llvm'[0m
+[25.708s] [100%] Built target yolo_v2_tiny_llvm
+[25.716s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tvm_utility -- -j16 -l16
+[25.734s] Invoking command in '/home/cityu/autoware/build/tvm_utility': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tvm_utility
+[25.741s] -- Install configuration: "Release"
+[25.741s] -- Execute custom install script
+[25.741s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/include/tvm_utility/pipeline.hpp
+[25.742s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.sh
+[25.742s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/library_path.dsv
+[25.742s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/lib/libtvm_utility.so
+[25.743s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/package_run_dependencies/tvm_utility
+[25.743s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/parent_prefix_path/tvm_utility
+[25.743s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.sh
+[25.743s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/ament_prefix_path.dsv
+[25.743s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.sh
+[25.744s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/environment/path.dsv
+[25.744s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.bash
+[25.744s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.sh
+[25.744s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.zsh
+[25.744s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/local_setup.dsv
+[25.745s] -- Symlinking: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.dsv
+[25.752s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/ament_index/resource_index/packages/tvm_utility
+[25.752s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake
+[25.752s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.752s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.752s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/ament_cmake_export_libraries-extras.cmake
+[25.753s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig.cmake
+[25.753s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utilityConfig-version.cmake
+[25.753s] -- Up-to-date symlink: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/package.xml
+[25.753s] -- Installing: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny
+[25.753s] -- Installing: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_graph.json
+[25.753s] -- Installing: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_lib.so
+[25.753s] -- Installing: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/deploy_param.params
+[25.784s] -- Installing: /home/cityu/autoware/install/tvm_utility/share/tvm_utility/models//yolo_v2_tiny/inference_engine_tvm_config.hpp
+[25.790s] Invoked command in '/home/cityu/autoware/build/tvm_utility' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_auto_common:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tvm_utility

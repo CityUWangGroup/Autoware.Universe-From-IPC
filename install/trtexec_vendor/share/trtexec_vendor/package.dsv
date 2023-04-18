@@ -1,0 +1,14 @@
+source;share/trtexec_vendor/hook/cmake_prefix_path.ps1
+source;share/trtexec_vendor/hook/cmake_prefix_path.dsv
+source;share/trtexec_vendor/hook/cmake_prefix_path.sh
+source;share/trtexec_vendor/hook/path.ps1
+source;share/trtexec_vendor/hook/path.dsv
+source;share/trtexec_vendor/hook/path.sh
+source;share/trtexec_vendor/hook/pythonscriptspath.ps1
+source;share/trtexec_vendor/hook/pythonscriptspath.dsv
+source;share/trtexec_vendor/hook/pythonscriptspath.sh
+source;share/trtexec_vendor/local_setup.bash
+source;share/trtexec_vendor/local_setup.dsv
+source;share/trtexec_vendor/local_setup.ps1
+source;share/trtexec_vendor/local_setup.sh
+source;share/trtexec_vendor/local_setup.zsh

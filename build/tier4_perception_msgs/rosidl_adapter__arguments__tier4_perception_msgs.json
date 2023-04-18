@@ -1,0 +1,14 @@
+{
+  "package_name": "tier4_perception_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/DetectedObjectWithFeature.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/DetectedObjectsWithFeature.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/DynamicObject.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/DynamicObjectArray.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/Feature.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/PredictedPath.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/Semantic.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/Shape.msg",
+    "/home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_perception_msgs:msg/object_recognition/State.msg"
+  ]
+}

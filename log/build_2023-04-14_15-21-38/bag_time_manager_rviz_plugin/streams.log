@@ -1,0 +1,84 @@
+[0.093s] Invoking command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/bag_time_manager_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/bag_time_manager_rviz_plugin
+[1.201s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.201s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.202s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.202s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.202s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.203s] -- Found OGRE
+[1.203s] --   static     : OFF
+[1.203s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.203s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.203s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.203s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.203s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[1.204s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.204s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[1.204s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.204s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.204s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.204s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.205s] -- Could not find freeimage library
+[1.206s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[1.206s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[1.206s] -- library: libassimp.so.5
+[1.216s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.300s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.307s] CMake Warning (dev) at CMakeLists.txt:7 (find_package):
+[2.307s]   Ignoring EXACT since no version is requested.
+[2.307s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.307s] 
+[2.323s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.325s] -- Configured cppcheck include dirs: 
+[2.325s] -- Configured cppcheck exclude dirs and/or files: 
+[2.326s] -- Added test 'lint_cmake' to check CMake code style
+[2.326s] -- Added test 'xmllint' to check XML markup files
+[2.333s] -- Configuring done
+[2.392s] -- Generating done
+[2.395s] CMake Warning:
+[2.395s]   Manually-specified variables were not used by the project:
+[2.395s] 
+[2.395s]     DOWNLOAD_ARTIFACTS
+[2.396s] 
+[2.396s] 
+[2.396s] -- Build files have been written to: /home/cityu/autoware/build/bag_time_manager_rviz_plugin
+[2.417s] Invoked command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/common/bag_time_manager_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/bag_time_manager_rviz_plugin
+[2.419s] Invoking command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/bag_time_manager_rviz_plugin -- -j16 -l16
+[3.077s] [ 25%] [34m[1mAutomatic MOC for target bag_time_manager_rviz_plugin[0m
+[3.077s] [ 25%] Built target bag_time_manager_rviz_plugin_autogen
+[3.077s] [100%] Built target bag_time_manager_rviz_plugin
+[3.151s] Invoked command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/bag_time_manager_rviz_plugin -- -j16 -l16
+[3.324s] Invoking command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/bag_time_manager_rviz_plugin
+[3.705s] -- Install configuration: "Release"
+[3.706s] -- Execute custom install script
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/plugins/plugin_description.xml
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/library_path.sh
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/library_path.dsv
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/lib/libbag_time_manager_rviz_plugin.so
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/icons/classes/BagTimeManagerPanel.png
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/plugins/plugin_description.xml
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/bag_time_manager_rviz_plugin
+[3.706s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/bag_time_manager_rviz_plugin
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/ament_prefix_path.sh
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/ament_prefix_path.dsv
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/path.sh
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/environment/path.dsv
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/local_setup.bash
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/local_setup.sh
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/local_setup.zsh
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/local_setup.dsv
+[3.707s] -- Symlinking: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/package.dsv
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/ament_index/resource_index/packages/bag_time_manager_rviz_plugin
+[3.707s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/bag_time_manager_rviz_plugin
+[3.708s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.708s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[3.708s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/cmake/bag_time_manager_rviz_pluginConfig.cmake
+[3.708s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/cmake/bag_time_manager_rviz_pluginConfig-version.cmake
+[3.708s] -- Up-to-date symlink: /home/cityu/autoware/install/bag_time_manager_rviz_plugin/share/bag_time_manager_rviz_plugin/package.xml
+[3.726s] Invoked command in '/home/cityu/autoware/build/bag_time_manager_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/bag_time_manager_rviz_plugin

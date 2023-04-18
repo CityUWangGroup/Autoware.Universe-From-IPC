@@ -1,0 +1,19 @@
+{
+  "package_name": "autoware_common_msgs",
+  "output_dir": "/home/cityu/autoware/build/autoware_common_msgs/rosidl_typesupport_fastrtps_c/autoware_common_msgs",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/cityu/autoware/build/autoware_common_msgs/rosidl_adapter/autoware_common_msgs:msg/ResponseStatus.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/cityu/autoware/build/autoware_common_msgs/rosidl_adapter/autoware_common_msgs/msg/ResponseStatus.idl"
+  ]
+}

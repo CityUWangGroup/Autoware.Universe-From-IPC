@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cityu/autoware/build/external_velocity_limit_selector/external_velocity_limit_selector" "TARGETS" "external_velocity_limit_selector" "DESTINATION" "lib/external_velocity_limit_selector")

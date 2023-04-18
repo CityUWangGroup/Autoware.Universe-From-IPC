@@ -1,0 +1,1 @@
+Invoking command in '/home/cityu/autoware/build/tier4_planning_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs -DCMAKE_BUILD_TYPE=Release--cmake-args -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_planning_msgs

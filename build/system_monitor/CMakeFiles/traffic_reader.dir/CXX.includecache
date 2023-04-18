@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cityu/autoware/src/universe/autoware.universe/system/system_monitor/include/traffic_reader/traffic_reader.hpp
+boost/serialization/serialization.hpp
+-
+boost/serialization/string.hpp
+-
+string
+-
+
+/home/cityu/autoware/src/universe/autoware.universe/system/system_monitor/reader/traffic_reader/traffic_reader.cpp
+traffic_reader/traffic_reader.hpp
+-
+boost/algorithm/string.hpp
+-
+boost/archive/text_oarchive.hpp
+-
+boost/lexical_cast.hpp
+-
+boost/process.hpp
+-
+getopt.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+syslog.h
+-
+chrono
+-
+cstdio
+-
+string
+-
+thread
+-
+

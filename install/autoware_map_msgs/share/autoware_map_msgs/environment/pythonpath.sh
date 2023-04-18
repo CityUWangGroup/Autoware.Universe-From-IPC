@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/autoware_map_msgs/ament_cmake_environment_hooks/pythonpath.sh

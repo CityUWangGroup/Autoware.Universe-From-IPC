@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/msg/detail/object_status__builder.hpp

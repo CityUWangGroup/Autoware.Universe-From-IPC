@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_copyright --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml
+
+No problems found, checked 4 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/copyright.xunit.xml'

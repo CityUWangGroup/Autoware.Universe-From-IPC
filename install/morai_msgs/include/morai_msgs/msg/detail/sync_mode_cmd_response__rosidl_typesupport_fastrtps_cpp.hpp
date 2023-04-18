@@ -1,0 +1,1 @@
+/home/cityu/autoware/build/morai_msgs/rosidl_typesupport_fastrtps_cpp/morai_msgs/msg/detail/sync_mode_cmd_response__rosidl_typesupport_fastrtps_cpp.hpp

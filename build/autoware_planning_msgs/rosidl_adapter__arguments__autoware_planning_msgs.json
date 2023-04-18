@@ -1,0 +1,10 @@
+{
+  "package_name": "autoware_planning_msgs",
+  "non_idl_tuples": [
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletPrimitive.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletRoute.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/LaneletSegment.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_planning_msgs:msg/PoseWithUuid.msg",
+    "/home/cityu/autoware/src/core/autoware_msgs/autoware_planning_msgs:srv/SetRoute.srv"
+  ]
+}

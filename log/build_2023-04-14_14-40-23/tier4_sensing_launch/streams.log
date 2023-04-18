@@ -1,0 +1,50 @@
+[0.154s] Invoking command in '/home/cityu/autoware/build/tier4_sensing_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/launch/tier4_sensing_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_sensing_launch
+[4.689s] -- The C compiler identification is GNU 9.4.0
+[4.690s] -- The CXX compiler identification is GNU 9.4.0
+[4.690s] -- Check for working C compiler: /usr/bin/cc
+[4.690s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.690s] -- Detecting C compiler ABI info
+[4.690s] -- Detecting C compiler ABI info - done
+[4.690s] -- Detecting C compile features
+[4.690s] -- Detecting C compile features - done
+[4.690s] -- Check for working CXX compiler: /usr/bin/c++
+[4.690s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.691s] -- Detecting CXX compiler ABI info
+[4.691s] -- Detecting CXX compiler ABI info - done
+[4.691s] -- Detecting CXX compile features
+[4.691s] -- Detecting CXX compile features - done
+[4.691s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[4.691s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[4.691s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.691s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.691s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.692s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.692s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.692s] -- Added test 'lint_cmake' to check CMake code style
+[4.692s] -- Added test 'xmllint' to check XML markup files
+[4.692s] -- Configuring done
+[4.692s] -- Generating done
+[4.692s] -- Build files have been written to: /home/cityu/autoware/build/tier4_sensing_launch
+[4.867s] Invoked command in '/home/cityu/autoware/build/tier4_sensing_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/launch/tier4_sensing_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_sensing_launch
+[4.869s] Invoking command in '/home/cityu/autoware/build/tier4_sensing_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_sensing_launch -- -j16 -l16
+[5.983s] Invoked command in '/home/cityu/autoware/build/tier4_sensing_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_sensing_launch -- -j16 -l16
+[6.230s] Invoking command in '/home/cityu/autoware/build/tier4_sensing_launch': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_sensing_launch
+[7.634s] -- Install configuration: "Release"
+[7.634s] -- Execute custom install script
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/launch/sensing.launch.xml
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/ament_index/resource_index/package_run_dependencies/tier4_sensing_launch
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/ament_index/resource_index/parent_prefix_path/tier4_sensing_launch
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/environment/ament_prefix_path.sh
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/environment/ament_prefix_path.dsv
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/environment/path.sh
+[7.634s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/environment/path.dsv
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/local_setup.bash
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/local_setup.sh
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/local_setup.zsh
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/local_setup.dsv
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/package.dsv
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/ament_index/resource_index/packages/tier4_sensing_launch
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/cmake/tier4_sensing_launchConfig.cmake
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/cmake/tier4_sensing_launchConfig-version.cmake
+[7.635s] -- Symlinking: /home/cityu/autoware/install/tier4_sensing_launch/share/tier4_sensing_launch/package.xml
+[7.772s] Invoked command in '/home/cityu/autoware/build/tier4_sensing_launch' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/vehicle_info_util:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/vehicle_info_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_sensing_launch

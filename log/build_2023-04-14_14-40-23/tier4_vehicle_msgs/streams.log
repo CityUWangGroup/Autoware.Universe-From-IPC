@@ -1,0 +1,440 @@
+[0.064s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_vehicle_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_vehicle_msgs
+[3.092s] -- The C compiler identification is GNU 9.4.0
+[3.092s] -- The CXX compiler identification is GNU 9.4.0
+[3.092s] -- Check for working C compiler: /usr/bin/cc
+[3.092s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.092s] -- Detecting C compiler ABI info
+[3.092s] -- Detecting C compiler ABI info - done
+[3.092s] -- Detecting C compile features
+[3.092s] -- Detecting C compile features - done
+[3.093s] -- Check for working CXX compiler: /usr/bin/c++
+[3.093s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.093s] -- Detecting CXX compiler ABI info
+[3.093s] -- Detecting CXX compiler ABI info - done
+[3.093s] -- Detecting CXX compile features
+[3.093s] -- Detecting CXX compile features - done
+[3.093s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.093s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.094s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.094s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.094s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.094s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.094s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.094s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.095s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.095s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.095s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.095s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.095s] -- Found PythonExtra: .so  
+[3.096s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.104s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.104s] -- Added test 'lint_cmake' to check CMake code style
+[3.105s] -- Added test 'xmllint' to check XML markup files
+[3.113s] -- Configuring done
+[3.267s] -- Generating done
+[3.268s] -- Build files have been written to: /home/cityu/autoware/build/tier4_vehicle_msgs
+[3.302s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/external/tier4_autoware_msgs/tier4_vehicle_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_vehicle_msgs
+[3.307s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_msgs -- -j16 -l16
+[28.704s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__cpp[0m
+[28.704s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[28.704s] [  0%] Built target tier4_vehicle_msgs__cpp
+[28.704s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[28.704s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_generator_c[0m
+[28.705s] [  2%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/actuation_command__functions.c.o[0m
+[28.705s] [  3%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__functions.c.o[0m
+[28.705s] [  4%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__functions.c.o[0m
+[28.705s] [  4%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__functions.c.o[0m
+[28.705s] [  5%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/steering__functions.c.o[0m
+[28.705s] [  6%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/turn_signal__functions.c.o[0m
+[28.705s] [  7%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/shift_stamped__functions.c.o[0m
+[28.705s] [  8%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/shift__functions.c.o[0m
+[28.705s] [  9%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/battery_status__functions.c.o[0m
+[28.705s] [ 10%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__functions.c.o[0m
+[28.706s] [ 10%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/actuation_status__functions.c.o[0m
+[28.706s] [ 11%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__functions.c.o[0m
+[28.706s] [ 12%] [32m[1mLinking C shared library libtier4_vehicle_msgs__rosidl_generator_c.so[0m
+[28.706s] [ 12%] Built target tier4_vehicle_msgs__rosidl_generator_c
+[28.706s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[28.706s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_cpp[0m
+[28.706s] [ 14%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/actuation_command_stamped__type_support.cpp.o[0m
+[28.706s] [ 15%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/actuation_command__type_support.cpp.o[0m
+[28.706s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/srv/update_accel_brake_map__type_support.cpp.o[0m
+[28.706s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/vehicle_emergency_stamped__type_support.cpp.o[0m
+[28.707s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/steering_wheel_status_stamped__type_support.cpp.o[0m
+[28.707s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/steering__type_support.cpp.o[0m
+[28.707s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/turn_signal__type_support.cpp.o[0m
+[28.707s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/shift_stamped__type_support.cpp.o[0m
+[28.707s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/shift__type_support.cpp.o[0m
+[28.707s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/battery_status__type_support.cpp.o[0m
+[28.707s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/actuation_status_stamped__type_support.cpp.o[0m
+[28.707s] [ 23%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_vehicle_msgs/msg/actuation_status__type_support.cpp.o[0m
+[28.707s] [ 24%] [32m[1mLinking CXX shared library libtier4_vehicle_msgs__rosidl_typesupport_cpp.so[0m
+[28.707s] [ 24%] Built target tier4_vehicle_msgs__rosidl_typesupport_cpp
+[28.708s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.708s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[28.708s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_c[0m
+[28.708s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/actuation_command__type_support.cpp.o[0m
+[28.708s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/actuation_command_stamped__type_support.cpp.o[0m
+[28.708s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/srv/update_accel_brake_map__type_support.cpp.o[0m
+[28.708s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/vehicle_emergency_stamped__type_support.cpp.o[0m
+[28.708s] [ 30%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/steering_wheel_status_stamped__type_support.cpp.o[0m
+[28.708s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/steering__type_support.cpp.o[0m
+[28.708s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/turn_signal__type_support.cpp.o[0m
+[28.709s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/shift_stamped__type_support.cpp.o[0m
+[28.709s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/shift__type_support.cpp.o[0m
+[28.709s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[28.709s] [ 35%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/actuation_command__type_support.c.o[0m
+[28.709s] [ 35%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/battery_status__type_support.cpp.o[0m
+[28.709s] [ 36%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__type_support.c.o[0m
+[28.709s] [ 37%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/actuation_status_stamped__type_support.cpp.o[0m
+[28.709s] [ 38%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_vehicle_msgs/msg/actuation_status__type_support.cpp.o[0m
+[28.709s] [ 39%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__type_support.c.o[0m
+[28.709s] [ 39%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__type_support.c.o[0m
+[28.710s] [ 40%] [32m[1mLinking CXX shared library libtier4_vehicle_msgs__rosidl_typesupport_c.so[0m
+[28.710s] [ 41%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/steering__type_support.c.o[0m
+[28.710s] [ 42%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__type_support.c.o[0m
+[28.710s] [ 42%] Built target tier4_vehicle_msgs__rosidl_typesupport_c
+[28.710s] [ 42%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.710s] [ 43%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/turn_signal__type_support.c.o[0m
+[28.710s] [ 44%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/shift_stamped__type_support.c.o[0m
+[28.710s] [ 45%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/shift__type_support.c.o[0m
+[28.710s] [ 46%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/battery_status__type_support.c.o[0m
+[28.710s] [ 46%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__type_support.c.o[0m
+[28.711s] [ 47%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_vehicle_msgs/msg/detail/actuation_status__type_support.c.o[0m
+[28.711s] [ 48%] [32m[1mLinking C shared library libtier4_vehicle_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.711s] [ 48%] Built target tier4_vehicle_msgs__rosidl_typesupport_introspection_c
+[28.711s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[28.711s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/actuation_command__type_support.cpp.o[0m
+[28.711s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/srv/detail/dds_fastrtps/update_accel_brake_map__type_support.cpp.o[0m
+[28.711s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/vehicle_emergency_stamped__type_support.cpp.o[0m
+[28.711s] [ 51%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/steering_wheel_status_stamped__type_support.cpp.o[0m
+[28.711s] [ 52%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/steering__type_support.cpp.o[0m
+[28.712s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/turn_signal__type_support.cpp.o[0m
+[28.712s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/shift__type_support.cpp.o[0m
+[28.712s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/shift_stamped__type_support.cpp.o[0m
+[28.712s] [ 55%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[28.712s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/actuation_status_stamped__type_support.cpp.o[0m
+[28.712s] [ 57%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/actuation_status__type_support.cpp.o[0m
+[28.712s] [ 58%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_vehicle_msgs/msg/detail/dds_fastrtps/actuation_command_stamped__type_support.cpp.o[0m
+[28.712s] [ 59%] [32m[1mLinking CXX shared library libtier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.712s] [ 59%] Built target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[28.712s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[28.712s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.713s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp[0m
+[28.713s] [ 61%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/actuation_command__type_support.cpp.o[0m
+[28.713s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[28.713s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/actuation_command__type_support_c.cpp.o[0m
+[28.713s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__type_support.cpp.o[0m
+[28.713s] [ 64%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/battery_status__type_support_c.cpp.o[0m
+[28.713s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__type_support.cpp.o[0m
+[28.713s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/shift_stamped__type_support_c.cpp.o[0m
+[28.713s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__type_support.cpp.o[0m
+[28.713s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/steering__type_support_c.cpp.o[0m
+[28.713s] [ 68%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/steering__type_support.cpp.o[0m
+[28.713s] [ 69%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__type_support_c.cpp.o[0m
+[28.713s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/turn_signal__type_support.cpp.o[0m
+[28.713s] [ 71%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__type_support_c.cpp.o[0m
+[28.713s] [ 71%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/shift_stamped__type_support.cpp.o[0m
+[29.132s] [ 72%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/shift__type_support.cpp.o[0m
+[29.174s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__type_support_c.cpp.o[0m
+[29.605s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/battery_status__type_support.cpp.o[0m
+[29.699s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/turn_signal__type_support_c.cpp.o[0m
+[30.072s] [ 76%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__type_support.cpp.o[0m
+[30.196s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/shift__type_support_c.cpp.o[0m
+[30.405s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/actuation_status__type_support.cpp.o[0m
+[30.650s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__type_support_c.cpp.o[0m
+[30.731s] [ 80%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__type_support.cpp.o[0m
+[31.095s] [ 81%] [32m[1mLinking CXX shared library libtier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[31.216s] [ 81%] Built target tier4_vehicle_msgs__rosidl_typesupport_introspection_cpp
+[31.304s] [ 81%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/actuation_status__type_support_c.cpp.o[0m
+[31.850s] [ 82%] [32mBuilding CXX object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__type_support_c.cpp.o[0m
+[32.518s] [ 83%] [32m[1mLinking CXX shared library libtier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[32.772s] [ 83%] Built target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[32.783s] [35m[1mScanning dependencies of target tier4_vehicle_msgs[0m
+[32.802s] [ 83%] Built target tier4_vehicle_msgs
+[32.825s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__py[0m
+[32.844s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.723s] [ 84%] Built target tier4_vehicle_msgs__py
+[35.742s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__python[0m
+[35.807s] [ 85%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_actuation_command_s.c.o[0m
+[35.973s] [ 86%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/srv/_update_accel_brake_map_s.c.o[0m
+[36.191s] [ 86%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_vehicle_emergency_stamped_s.c.o[0m
+[36.373s] [ 87%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_steering_wheel_status_stamped_s.c.o[0m
+[36.558s] [ 88%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_steering_s.c.o[0m
+[36.757s] [ 89%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_turn_signal_s.c.o[0m
+[36.937s] [ 90%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_shift_stamped_s.c.o[0m
+[37.132s] [ 91%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_shift_s.c.o[0m
+[37.313s] [ 91%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_battery_status_s.c.o[0m
+[37.499s] [ 92%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_actuation_status_stamped_s.c.o[0m
+[37.680s] [ 93%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_actuation_status_s.c.o[0m
+[37.862s] [ 94%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__python.dir/rosidl_generator_py/tier4_vehicle_msgs/msg/_actuation_command_stamped_s.c.o[0m
+[38.043s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_vehicle_msgs/libtier4_vehicle_msgs__python.so[0m
+[38.119s] [ 95%] Built target tier4_vehicle_msgs__python
+[38.135s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[38.172s] [ 96%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_vehicle_msgs/_tier4_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.587s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[38.683s] [ 97%] Built target tier4_vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+[38.699s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[38.741s] [ 98%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_vehicle_msgs/_tier4_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.169s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[39.371s] [ 99%] Built target tier4_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.392s] [35m[1mScanning dependencies of target tier4_vehicle_msgs__rosidl_typesupport_c__pyext[0m
+[39.424s] [ 99%] [32mBuilding C object CMakeFiles/tier4_vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_vehicle_msgs/_tier4_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.778s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[39.847s] [100%] Built target tier4_vehicle_msgs__rosidl_typesupport_c__pyext
+[39.869s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/tier4_vehicle_msgs -- -j16 -l16
+[40.129s] Invoking command in '/home/cityu/autoware/build/tier4_vehicle_msgs': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_msgs
+[49.982s] -- Install configuration: "Release"
+[49.983s] -- Execute custom install script
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_vehicle_msgs
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_command.h
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_command_stamped.h
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_status.h
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_status_stamped.h
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/battery_status.h
+[49.983s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__functions.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__struct.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__type_support.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__functions.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__struct.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__type_support.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__functions.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__struct.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__type_support.h
+[49.984s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__functions.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__struct.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__type_support.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__functions.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__struct.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__type_support.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__functions.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__struct.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__type_support.h
+[49.985s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__functions.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__struct.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__type_support.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__functions.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__struct.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__type_support.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__functions.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__struct.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__type_support.h
+[49.986s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__functions.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__struct.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__type_support.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__functions.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__struct.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__type_support.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/rosidl_generator_c__visibility_control.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/shift.h
+[49.987s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/shift_stamped.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/steering.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/steering_wheel_status_stamped.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/turn_signal.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/vehicle_emergency_stamped.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__functions.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__struct.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__type_support.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/update_accel_brake_map.h
+[49.988s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/library_path.sh
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/library_path.dsv
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__rosidl_typesupport_fastrtps_c.h
+[49.989s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__rosidl_typesupport_fastrtps_c.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__rosidl_typesupport_fastrtps_c.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_c.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__rosidl_typesupport_fastrtps_c.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__rosidl_typesupport_fastrtps_c.h
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_fastrtps_c.so
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__rosidl_typesupport_fastrtps_cpp.hpp
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[49.990s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[49.991s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__rosidl_typesupport_fastrtps_cpp.hpp
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__rosidl_typesupport_introspection_c.h
+[49.992s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__rosidl_typesupport_introspection_c.h
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_command.hpp
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_command_stamped.hpp
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_status.hpp
+[49.993s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/actuation_status_stamped.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/battery_status.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__builder.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__struct.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__traits.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__builder.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__struct.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__traits.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__builder.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__struct.hpp
+[49.994s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__traits.hpp
+[49.995s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__builder.hpp
+[49.995s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__struct.hpp
+[49.995s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__traits.hpp
+[49.995s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__builder.hpp
+[50.007s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__struct.hpp
+[50.007s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__traits.hpp
+[50.007s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__builder.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__struct.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__traits.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__builder.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__struct.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__traits.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__builder.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__struct.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__traits.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__builder.hpp
+[50.008s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__struct.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__traits.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__builder.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__struct.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__traits.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__builder.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__struct.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__traits.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/shift.hpp
+[50.009s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/shift_stamped.hpp
+[50.037s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/steering.hpp
+[50.064s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/steering_wheel_status_stamped.hpp
+[50.096s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/turn_signal.hpp
+[50.103s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/vehicle_emergency_stamped.hpp
+[50.124s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__builder.hpp
+[50.161s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__struct.hpp
+[50.202s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__traits.hpp
+[50.202s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/update_accel_brake_map.hpp
+[50.242s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command__rosidl_typesupport_introspection_cpp.hpp
+[50.264s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_command_stamped__rosidl_typesupport_introspection_cpp.hpp
+[50.286s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status__rosidl_typesupport_introspection_cpp.hpp
+[50.303s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/actuation_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[50.333s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[50.350s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift__rosidl_typesupport_introspection_cpp.hpp
+[50.364s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/shift_stamped__rosidl_typesupport_introspection_cpp.hpp
+[50.380s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering__rosidl_typesupport_introspection_cpp.hpp
+[50.396s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/steering_wheel_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[50.410s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_cpp.hpp
+[50.426s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/msg/detail/vehicle_emergency_stamped__rosidl_typesupport_introspection_cpp.hpp
+[50.442s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/include/tier4_vehicle_msgs/srv/detail/update_accel_brake_map__rosidl_typesupport_introspection_cpp.hpp
+[50.457s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/pythonpath.sh
+[50.472s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/pythonpath.dsv
+[50.489s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/__init__.py
+[50.507s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/__init__.py
+[50.524s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_actuation_command.py
+[50.554s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_actuation_command_stamped.py
+[50.569s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_actuation_status.py
+[50.585s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_actuation_status_stamped.py
+[50.600s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_battery_status.py
+[50.617s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_shift.py
+[50.636s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_shift_stamped.py
+[50.657s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_steering.py
+[50.677s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_steering_wheel_status_stamped.py
+[50.693s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_turn_signal.py
+[50.710s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/msg/_vehicle_emergency_stamped.py
+[50.727s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/srv/__init__.py
+[50.745s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/srv/_update_accel_brake_map.py
+[50.764s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[50.783s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[50.802s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/tier4_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[50.819s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__python.so
+[50.834s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationCommand.idl
+[50.850s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationCommandStamped.idl
+[50.865s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationStatus.idl
+[50.880s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationStatusStamped.idl
+[50.896s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/BatteryStatus.idl
+[50.911s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/Shift.idl
+[50.927s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ShiftStamped.idl
+[50.945s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/TurnSignal.idl
+[50.962s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/Steering.idl
+[50.979s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/SteeringWheelStatusStamped.idl
+[50.997s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/VehicleEmergencyStamped.idl
+[51.015s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/srv/UpdateAccelBrakeMap.idl
+[51.032s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationCommand.msg
+[51.052s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationCommandStamped.msg
+[51.072s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationStatus.msg
+[51.093s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ActuationStatusStamped.msg
+[51.110s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/BatteryStatus.msg
+[51.127s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/Shift.msg
+[51.144s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/ShiftStamped.msg
+[51.161s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/TurnSignal.msg
+[51.175s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/Steering.msg
+[51.191s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/SteeringWheelStatusStamped.msg
+[51.210s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/msg/VehicleEmergencyStamped.msg
+[51.229s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/srv/UpdateAccelBrakeMap.srv
+[51.249s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/srv/UpdateAccelBrakeMap_Request.msg
+[51.267s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/srv/UpdateAccelBrakeMap_Response.msg
+[51.284s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_vehicle_msgs
+[51.302s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_vehicle_msgs
+[51.319s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/ament_prefix_path.sh
+[51.338s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/ament_prefix_path.dsv
+[51.357s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/path.sh
+[51.373s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/environment/path.dsv
+[51.391s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/local_setup.bash
+[51.407s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/local_setup.sh
+[51.422s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/local_setup.zsh
+[51.438s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/local_setup.dsv
+[51.453s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/package.dsv
+[51.471s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/ament_index/resource_index/packages/tier4_vehicle_msgs
+[51.491s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/rosidl_cmake-extras.cmake
+[51.510s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.528s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[51.546s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[51.564s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.581s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[51.594s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[51.604s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgsConfig.cmake
+[51.618s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgsConfig-version.cmake
+[51.633s] -- Symlinking: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/package.xml
+[51.647s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_generator_c.so
+[51.648s] -- Set runtime path of "/home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_generator_c.so" to ""
+[51.648s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_introspection_c.so
+[51.648s] -- Set runtime path of "/home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[51.648s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_c.so
+[51.649s] -- Set runtime path of "/home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_c.so" to ""
+[51.649s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
+[51.649s] -- Set runtime path of "/home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[51.650s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_cpp.so
+[51.650s] -- Set runtime path of "/home/cityu/autoware/install/tier4_vehicle_msgs/lib/libtier4_vehicle_msgs__rosidl_typesupport_cpp.so" to ""
+[51.705s] Compiling '/home/cityu/autoware/install/tier4_vehicle_msgs/lib/python3.8/site-packages/tier4_vehicle_msgs/__init__.py'...
+[51.719s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_generator_cExport.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_generator_cExport-release.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_cExport.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_cExport-release.cmake
+[51.720s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_generator_cppExport.cmake
+[51.721s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[51.721s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[51.721s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_cppExport.cmake
+[51.721s] -- Installing: /home/cityu/autoware/install/tier4_vehicle_msgs/share/tier4_vehicle_msgs/cmake/tier4_vehicle_msgs__rosidl_typesupport_cppExport-release.cmake
+[51.733s] Invoked command in '/home/cityu/autoware/build/tier4_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_control_msgs:/home/cityu/autoware/install/autoware_common_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_control_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/tier4_control_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/tier4_vehicle_msgs

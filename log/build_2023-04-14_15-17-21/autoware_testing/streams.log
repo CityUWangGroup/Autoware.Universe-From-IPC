@@ -1,0 +1,25 @@
+[0.226s] Invoking command in '/home/cityu/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_testing -- -j16 -l16
+[0.352s] Invoked command in '/home/cityu/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/autoware_testing -- -j16 -l16
+[0.600s] Invoking command in '/home/cityu/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_testing
+[0.624s] -- Install configuration: "Release"
+[0.624s] -- Execute custom install script
+[0.624s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/add_smoke_test.cmake
+[0.624s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/__init__.py
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/smoke_test.py
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/package_run_dependencies/autoware_testing
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/parent_prefix_path/autoware_testing
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.dsv
+[0.625s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/path.sh
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/environment/path.dsv
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.bash
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.sh
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.zsh
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/local_setup.dsv
+[0.630s] -- Symlinking: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/package.dsv
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/ament_index/resource_index/packages/autoware_testing
+[0.630s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testing-extras.cmake
+[0.631s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig.cmake
+[0.631s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig-version.cmake
+[0.631s] -- Up-to-date symlink: /home/cityu/autoware/install/autoware_testing/share/autoware_testing/package.xml
+[0.780s] Invoked command in '/home/cityu/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/autoware_testing

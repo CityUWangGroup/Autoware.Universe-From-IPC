@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility':
+ - /opt/ros/galactic/bin/ament_cppcheck --xunit-file /home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml --include_dirs /home/cityu/autoware/src/universe/autoware.universe/common/tvm_utility/include
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/cityu/autoware/build/tvm_utility/test_results/tvm_utility/cppcheck.xunit.xml'

@@ -1,0 +1,73 @@
+[0.219s] Invoking command in '/home/cityu/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_pcl_extensions
+[3.329s] -- The C compiler identification is GNU 9.4.0
+[3.334s] -- The CXX compiler identification is GNU 9.4.0
+[3.335s] -- Check for working C compiler: /usr/bin/cc
+[3.335s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.336s] -- Detecting C compiler ABI info
+[3.346s] -- Detecting C compiler ABI info - done
+[3.346s] -- Detecting C compile features
+[3.347s] -- Detecting C compile features - done
+[3.347s] -- Check for working CXX compiler: /usr/bin/c++
+[3.347s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.347s] -- Detecting CXX compiler ABI info
+[3.347s] -- Detecting CXX compiler ABI info - done
+[3.347s] -- Detecting CXX compile features
+[3.347s] -- Detecting CXX compile features - done
+[3.347s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[3.348s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.348s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.348s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.348s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.348s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.348s] -- Checking for module 'eigen3'
+[3.348s] --   Found eigen3, version 3.3.7
+[3.348s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.348s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.349s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.349s] -- looking for PCL_COMMON
+[3.349s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.349s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[3.349s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.349s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.349s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.349s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions/include
+[3.349s] -- Configured cppcheck exclude dirs and/or files: 
+[3.350s] -- Added test 'lint_cmake' to check CMake code style
+[3.350s] -- Added test 'xmllint' to check XML markup files
+[3.350s] -- Configuring done
+[3.350s] -- Generating done
+[3.350s] -- Build files have been written to: /home/cityu/autoware/build/tier4_pcl_extensions
+[3.402s] Invoked command in '/home/cityu/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tier4_pcl_extensions
+[3.408s] Invoking command in '/home/cityu/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_pcl_extensions -- -j16 -l16
+[20.521s] [35m[1mScanning dependencies of target tier4_pcl_extensions[0m
+[20.522s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_pcl_extensions.dir/src/voxel_grid_nearest_centroid.cpp.o[0m
+[72.428s] [100%] [32m[1mLinking CXX shared library libtier4_pcl_extensions.so[0m
+[72.726s] [100%] Built target tier4_pcl_extensions
+[72.760s] Invoked command in '/home/cityu/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tier4_pcl_extensions -- -j16 -l16
+[72.934s] Invoking command in '/home/cityu/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_pcl_extensions
+[77.448s] -- Install configuration: "Release"
+[77.448s] -- Execute custom install script
+[77.448s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid.hpp
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid_impl.hpp
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.sh
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.dsv
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/lib/libtier4_pcl_extensions.so
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/package_run_dependencies/tier4_pcl_extensions
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/parent_prefix_path/tier4_pcl_extensions
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.sh
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.dsv
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.sh
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.dsv
+[77.449s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.bash
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.sh
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.zsh
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.dsv
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.dsv
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/packages/tier4_pcl_extensions
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_libraries-extras.cmake
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig.cmake
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig-version.cmake
+[77.450s] -- Symlinking: /home/cityu/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.xml
+[77.594s] Invoked command in '/home/cityu/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tier4_pcl_extensions

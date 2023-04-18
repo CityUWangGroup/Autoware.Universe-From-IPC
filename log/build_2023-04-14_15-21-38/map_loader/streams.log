@@ -1,0 +1,156 @@
+[0.129s] Invoking command in '/home/cityu/autoware/build/map_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/map/map_loader -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/map_loader
+[0.201s] -- Found autoware_cmake: 0.1.0 (/home/cityu/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.202s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.303s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.097s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.101s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.133s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.430s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/galactic/share/mrt_cmake_modules/cmake)
+[3.502s] -- Found OpenMP_C: -fopenmp  
+[3.502s] -- Found OpenMP_CXX: -fopenmp  
+[3.503s] -- Found OpenMP: TRUE   
+[3.652s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[5.018s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.166s] -- The imported target "vtkParseOGLExt" references the file
+[5.166s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.166s] but this file does not exist.  Possible reasons include:
+[5.166s] * The file was deleted, renamed, or moved to another location.
+[5.167s] * An install or uninstall procedure did not complete successfully.
+[5.167s] * The installation package was faulty and contained
+[5.167s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.167s] but not all the files it references.
+[5.167s] 
+[5.167s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.167s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.168s] but this file does not exist.  Possible reasons include:
+[5.168s] * The file was deleted, renamed, or moved to another location.
+[5.168s] * An install or uninstall procedure did not complete successfully.
+[5.168s] * The installation package was faulty and contained
+[5.168s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.168s] but not all the files it references.
+[5.168s] 
+[5.168s] -- The imported target "vtk" references the file
+[5.168s]    "/usr/bin/vtk"
+[5.169s] but this file does not exist.  Possible reasons include:
+[5.169s] * The file was deleted, renamed, or moved to another location.
+[5.169s] * An install or uninstall procedure did not complete successfully.
+[5.169s] * The installation package was faulty and contained
+[5.169s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.169s] but not all the files it references.
+[5.169s] 
+[5.169s] -- The imported target "pvtk" references the file
+[5.170s]    "/usr/bin/pvtk"
+[5.170s] but this file does not exist.  Possible reasons include:
+[5.170s] * The file was deleted, renamed, or moved to another location.
+[5.170s] * An install or uninstall procedure did not complete successfully.
+[5.170s] * The installation package was faulty and contained
+[5.170s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.170s] but not all the files it references.
+[5.170s] 
+[5.203s] -- Checking for module 'libusb-1.0'
+[5.208s] --   No package 'libusb-1.0' found
+[5.213s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.213s] -- OpenNI disabled because libusb-1.0 not found.
+[5.220s] -- Checking for module 'libusb-1.0'
+[5.225s] --   No package 'libusb-1.0' found
+[5.231s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.231s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.258s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[5.267s] -- Checking for module 'libusb-1.0'
+[5.274s] --   No package 'libusb-1.0' found
+[5.281s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.282s] -- OpenNI disabled because libusb-1.0 not found.
+[5.291s] -- Checking for module 'libusb-1.0'
+[5.299s] --   No package 'libusb-1.0' found
+[5.307s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.307s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.333s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[5.342s] -- Checking for module 'libusb-1.0'
+[5.347s] --   No package 'libusb-1.0' found
+[5.352s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.352s] -- OpenNI disabled because libusb-1.0 not found.
+[7.095s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.101s] -- Found launch_testing_ament_cmake: 0.17.2 (/opt/ros/galactic/share/launch_testing_ament_cmake/cmake)
+[7.101s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[7.143s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.146s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.146s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[16.149s] -- Found gmock sources under '/opt/ros/galactic/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.158s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[16.161s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.670s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.674s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.677s] -- Configured cppcheck include dirs: /home/cityu/autoware/src/universe/autoware.universe/map/map_loader/include
+[18.677s] -- Configured cppcheck exclude dirs and/or files: 
+[18.678s] -- Added test 'lint_cmake' to check CMake code style
+[18.679s] -- Added test 'xmllint' to check XML markup files
+[18.695s] -- Configuring done
+[19.529s] -- Generating done
+[19.534s] CMake Warning:
+[19.534s]   Manually-specified variables were not used by the project:
+[19.534s] 
+[19.534s]     DOWNLOAD_ARTIFACTS
+[19.534s] 
+[19.534s] 
+[19.536s] -- Build files have been written to: /home/cityu/autoware/build/map_loader
+[19.668s] Invoked command in '/home/cityu/autoware/build/map_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cityu/autoware/src/universe/autoware.universe/map/map_loader -DCMAKE_BUILD_TYPE=Release -DDOWNLOAD_ARTIFACTS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/map_loader
+[19.672s] Invoking command in '/home/cityu/autoware/build/map_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/map_loader -- -j16 -l16
+[19.854s] [  4%] [32m[1mLinking CXX shared library libpointcloud_map_loader_node.so[0m
+[20.891s] [ 22%] Built target pointcloud_map_loader_node
+[20.930s] [ 31%] Built target gmock_main
+[20.987s] [ 36%] [32m[1mLinking CXX shared library liblanelet2_map_loader_node.so[0m
+[22.364s] [ 40%] Built target lanelet2_map_loader_node
+[22.391s] [ 54%] Built target gmock
+[22.461s] [ 59%] [32m[1mLinking CXX shared library liblanelet2_map_visualization_node.so[0m
+[23.730s] [ 63%] Built target lanelet2_map_visualization_node
+[23.766s] [ 72%] Built target lanelet2_map_visualization
+[23.811s] [ 77%] [32m[1mLinking CXX executable test_sphere_box_overlap[0m
+[24.679s] [ 81%] Built target test_sphere_box_overlap
+[24.715s] [ 90%] Built target lanelet2_map_loader
+[24.755s] [100%] Built target pointcloud_map_loader
+[24.776s] Invoked command in '/home/cityu/autoware/build/map_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cityu/autoware/build/map_loader -- -j16 -l16
+[24.830s] Invoking command in '/home/cityu/autoware/build/map_loader': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/map_loader
+[24.846s] -- Install configuration: "Release"
+[24.846s] -- Execute custom install script
+[24.846s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/map_loader/pointcloud_map_loader
+[24.846s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/map_loader/lanelet2_map_loader
+[24.847s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/map_loader/lanelet2_map_visualization
+[24.847s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/test/data//test_map.osm
+[24.847s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/map_loader/map_hash_generator
+[24.848s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/include/map_loader/lanelet2_map_loader_node.hpp
+[24.848s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/include/map_loader/lanelet2_map_visualization_node.hpp
+[24.848s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/library_path.sh
+[24.849s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/library_path.dsv
+[24.849s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/libpointcloud_map_loader_node.so
+[24.849s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/liblanelet2_map_loader_node.so
+[24.850s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/lib/liblanelet2_map_visualization_node.so
+[24.850s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/launch/lanelet2_map_loader.launch.xml
+[24.850s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/launch/pointcloud_map_loader.launch.xml
+[24.851s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/config/lanelet2_map_loader.param.yaml
+[24.851s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/config/pointcloud_map_loader.param.yaml
+[24.852s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/ament_index/resource_index/package_run_dependencies/map_loader
+[24.852s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/ament_index/resource_index/parent_prefix_path/map_loader
+[24.852s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/ament_prefix_path.sh
+[24.852s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/ament_prefix_path.dsv
+[24.853s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/path.sh
+[24.853s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/environment/path.dsv
+[24.853s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/local_setup.bash
+[24.854s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/local_setup.sh
+[24.854s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/local_setup.zsh
+[24.854s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/local_setup.dsv
+[24.854s] -- Symlinking: /home/cityu/autoware/install/map_loader/share/map_loader/package.dsv
+[24.870s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/ament_index/resource_index/packages/map_loader
+[24.870s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/ament_index/resource_index/rclcpp_components/map_loader
+[24.870s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.870s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.871s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/cmake/ament_cmake_export_libraries-extras.cmake
+[24.871s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/cmake/map_loaderConfig.cmake
+[24.871s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/cmake/map_loaderConfig-version.cmake
+[24.871s] -- Up-to-date symlink: /home/cityu/autoware/install/map_loader/share/map_loader/package.xml
+[24.885s] Invoked command in '/home/cityu/autoware/build/map_loader' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/tier4_autoware_utils:/home/cityu/autoware/install/lanelet2_extension:/home/cityu/autoware/install/autoware_utils:/home/cityu/autoware/install/autoware_auto_vehicle_msgs:/home/cityu/autoware/install/autoware_planning_msgs:/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_auto_planning_msgs:/home/cityu/autoware/install/autoware_auto_perception_msgs:/home/cityu/autoware/install/tier4_debug_msgs:/home/cityu/autoware/install/autoware_map_msgs:/home/cityu/autoware/install/autoware_lint_common:/home/cityu/autoware/install/autoware_common_msgs:/home/cityu/autoware/install/autoware_auto_mapping_msgs:/home/cityu/autoware/install/autoware_auto_geometry_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/cityu/autoware/install/tier4_autoware_utils/lib:/home/cityu/autoware/install/lanelet2_extension/lib:/home/cityu/autoware/install/autoware_utils/lib:/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib:/home/cityu/autoware/install/autoware_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib:/home/cityu/autoware/install/tier4_debug_msgs/lib:/home/cityu/autoware/install/autoware_map_msgs/lib:/home/cityu/autoware/install/autoware_common_msgs/lib:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cityu/autoware/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_planning_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_perception_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/tier4_debug_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_map_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_common_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_mapping_msgs/lib/python3.8/site-packages:/home/cityu/autoware/install/autoware_auto_geometry_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cityu/autoware/build/map_loader

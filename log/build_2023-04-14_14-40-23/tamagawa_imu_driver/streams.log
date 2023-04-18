@@ -1,0 +1,88 @@
+[0.101s] Invoking command in '/home/cityu/autoware/build/tamagawa_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/tamagawa_imu_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tamagawa_imu_driver
+[3.066s] -- The C compiler identification is GNU 9.4.0
+[3.066s] -- The CXX compiler identification is GNU 9.4.0
+[3.066s] -- Check for working C compiler: /usr/bin/cc
+[3.066s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.066s] -- Detecting C compiler ABI info
+[3.066s] -- Detecting C compiler ABI info - done
+[3.066s] -- Detecting C compile features
+[3.066s] -- Detecting C compile features - done
+[3.066s] -- Check for working CXX compiler: /usr/bin/c++
+[3.066s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.067s] -- Detecting CXX compiler ABI info
+[3.067s] -- Detecting CXX compiler ABI info - done
+[3.067s] -- Detecting CXX compile features
+[3.067s] -- Detecting CXX compile features - done
+[3.067s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.067s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.068s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.068s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.068s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.068s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.068s] -- Looking for pthread.h
+[3.068s] -- Looking for pthread.h - found
+[3.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.069s] -- Looking for pthread_create in pthreads
+[3.069s] -- Looking for pthread_create in pthreads - not found
+[3.069s] -- Looking for pthread_create in pthread
+[3.069s] -- Looking for pthread_create in pthread - found
+[3.069s] -- Found Threads: TRUE  
+[3.238s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.269s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.278s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.278s] -- Configured cppcheck include dirs: 
+[3.278s] -- Configured cppcheck exclude dirs and/or files: 
+[3.282s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.282s] -- Configured cpplint exclude dirs and/or files: 
+[3.284s] -- Added test 'lint_cmake' to check CMake code style
+[3.289s] -- Added test 'uncrustify' to check C / C++ code style
+[3.289s] -- Configured uncrustify additional arguments: 
+[3.290s] -- Added test 'xmllint' to check XML markup files
+[3.296s] -- Configuring done
+[3.321s] -- Generating done
+[3.337s] -- Build files have been written to: /home/cityu/autoware/build/tamagawa_imu_driver
+[3.366s] Invoked command in '/home/cityu/autoware/build/tamagawa_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cityu/autoware/src/sensor_component/external/tamagawa_imu_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cityu/autoware/install/tamagawa_imu_driver
+[3.368s] Invoking command in '/home/cityu/autoware/build/tamagawa_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tamagawa_imu_driver -- -j16 -l16
+[7.920s] [35m[1mScanning dependencies of target tag_can_driver[0m
+[7.924s] [ 25%] [32mBuilding CXX object CMakeFiles/tag_can_driver.dir/src/tag_can_driver.cpp.o[0m
+[21.512s] [ 50%] [32m[1mLinking CXX executable tag_can_driver[0m
+[21.968s] [ 50%] Built target tag_can_driver
+[22.030s] [35m[1mScanning dependencies of target tag_serial_driver[0m
+[22.175s] [ 75%] [32mBuilding CXX object CMakeFiles/tag_serial_driver.dir/src/tag_serial_driver.cpp.o[0m
+[45.190s] [100%] [32m[1mLinking CXX executable tag_serial_driver[0m
+[45.514s] [100%] Built target tag_serial_driver
+[45.533s] Invoked command in '/home/cityu/autoware/build/tamagawa_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/tamagawa_imu_driver -- -j16 -l16
+[45.583s] Invoking command in '/home/cityu/autoware/build/tamagawa_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tamagawa_imu_driver
+[60.842s] -- Install configuration: "Release"
+[60.842s] -- Execute custom install script
+[60.842s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/lib/tamagawa_imu_driver/tag_serial_driver
+[60.842s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/lib/tamagawa_imu_driver/tag_can_driver
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/can.launch.xml
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_AU7554N.launch.xml
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG250_Nxx00.launch.xml
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG250_Nxx40.launch.xml
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/launch/serial_TAG264.launch.xml
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/ament_index/resource_index/package_run_dependencies/tamagawa_imu_driver
+[60.843s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/ament_index/resource_index/parent_prefix_path/tamagawa_imu_driver
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/ament_prefix_path.sh
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/ament_prefix_path.dsv
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/path.sh
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/environment/path.dsv
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.bash
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.sh
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.zsh
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/local_setup.dsv
+[60.844s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/package.dsv
+[60.845s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/ament_index/resource_index/packages/tamagawa_imu_driver
+[60.845s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.845s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/tamagawa_imu_driverConfig.cmake
+[60.845s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/cmake/tamagawa_imu_driverConfig-version.cmake
+[60.845s] -- Symlinking: /home/cityu/autoware/install/tamagawa_imu_driver/share/tamagawa_imu_driver/package.xml
+[61.117s] Invoked command in '/home/cityu/autoware/build/tamagawa_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/tamagawa_imu_driver

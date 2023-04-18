@@ -1,0 +1,29 @@
+[0.266s] Invoking command in '/home/cityu/autoware/build/geo_pos_conv': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/geo_pos_conv -- -j16 -l16
+[0.332s] [100%] Built target geo_pos_conv
+[0.537s] Invoked command in '/home/cityu/autoware/build/geo_pos_conv' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --build /home/cityu/autoware/build/geo_pos_conv -- -j16 -l16
+[0.701s] Invoking command in '/home/cityu/autoware/build/geo_pos_conv': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/geo_pos_conv
+[0.739s] -- Install configuration: "Release"
+[0.739s] -- Execute custom install script
+[0.739s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/include/geo_pos_conv/geo_pos_conv.hpp
+[0.739s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/library_path.sh
+[0.739s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/library_path.dsv
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/lib/libgeo_pos_conv.so
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/ament_index/resource_index/package_run_dependencies/geo_pos_conv
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/ament_index/resource_index/parent_prefix_path/geo_pos_conv
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/ament_prefix_path.sh
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/ament_prefix_path.dsv
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/path.sh
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/environment/path.dsv
+[0.740s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.bash
+[0.742s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.sh
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.zsh
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.dsv
+[0.743s] -- Symlinking: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/package.dsv
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/ament_index/resource_index/packages/geo_pos_conv
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_libraries-extras.cmake
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/geo_pos_convConfig.cmake
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/geo_pos_convConfig-version.cmake
+[0.743s] -- Up-to-date symlink: /home/cityu/autoware/install/geo_pos_conv/share/geo_pos_conv/package.xml
+[0.863s] Invoked command in '/home/cityu/autoware/build/geo_pos_conv' returned '0': AMENT_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cityu/autoware/install/autoware_cmake:/home/cityu/autoware/install/autoware_lint_common:/opt/ros/galactic /usr/bin/cmake --install /home/cityu/autoware/build/geo_pos_conv
