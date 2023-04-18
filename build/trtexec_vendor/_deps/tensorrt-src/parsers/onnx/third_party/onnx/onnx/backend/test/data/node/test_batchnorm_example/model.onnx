@@ -1,35 +1,3 @@
-backend-test:Î
-.
-x
-s
-bias
-mean
-vary"BatchNormalizationtest_batchnorm_exampleZ
-x
-
-
-
-
-Z
-s
-
-
-Z
-bias
-
-
-Z
-mean
-
-
-Z
-var
-
-
-b
-y
-
-
-
-
-B
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cd8f87a621e82a028c998930c84d534c645c800eb583eb9cef35aa706271d32
+size 229

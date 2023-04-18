@@ -1,43 +1,3 @@
-:¼
-à
-initial
-xyz"Scan*­
-body2¡
-
-sum_in
-nextsum_out"Add
-
-sum_outscan_out"Identity	scan_bodyZ
-sum_in
-
-
-Z
-next
-
-
-b
-sum_out
-
-
-b
-scan_out
-
-
- *
-num_scan_inputs graphZ
-initial
-
-
-Z
-x
-
-
-b
-y
-
-
-b
-z
-
-
-B
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a5b86eed873a7af2109121a565091980c36f093a7326077a22d29f3683c7dc2
+size 325
